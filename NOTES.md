@@ -7,7 +7,7 @@ Dernière mise à jour : 13 novembre 2026 (Fable). Cahier des charges : https://
 | Étape | État |
 | --- | --- |
 | (a) Points « À vérifier » | **Fait** (détail plus bas, preuves dans `verif/`) |
-| (b) Collecteur + base de données | **Fait et en service** : il tourne tout seul sur GitHub, premiers vrais relevés le 20 novembre (fin de la trêve) |
+| (b) Collecteur + base de données | **Fait.** Testé en vrai sur GitHub (passage lancé par une modification du code : OK, `data/etat.json` écrit). Le réveil programmé toutes les 5 min, lui, n'avait pas encore été observé le 13/11 à 0 h 50 (voir point 3). Premiers vrais relevés attendus le 20 novembre |
 | Import de l'historique Football-Data | **Fait** : 25 720 matchs dans `data/historique/` |
 | Écrans (matchs du jour, statistiques) | **À faire** (autre modèle) |
 | Statistiques calculées | **À faire** (autre modèle) |
@@ -28,7 +28,8 @@ Rien n'a été commencé côté page web : il n'y a pas encore d'`index.html`.
    Réglage : `H12_GROUPE` dans `collecteur/config.py` (mettre `False` pour revenir au H-12 exact ; le garde-fou sacrifiera alors
    des H-3 les gros mois). Gérard n'a pas encore validé ce choix.
 3. **Ponctualité des tâches programmées GitHub** : pas fiable à la minute (retards de 5 à 30 min documentés, parfois plus sur un
-   dépôt neuf ; la 1re tâche programmée n'était toujours pas partie 15 min après sa création). Le collecteur est donc bâti pour
+   dépôt neuf ; la 1re tâche programmée n'était toujours pas partie 17 min après sa création : mesure en cours dans
+   `verif/ticks.json`, écrit par `.github/workflows/mesure.yml`, à supprimer une fois la mesure lue). Le collecteur est donc bâti pour
    s'en moquer : réveil toutes les 5 min, chaque réveil rattrape tout ce qui est dû, un relevé en retard reste accepté
    (H-45 jusqu'à 3 min du coup d'envoi) et son retard réel est noté (`retard_min`). **À contrôler après le week-end du 21-22
    novembre** : si des H-45 ont plus de 20 min de retard ou l'état `manque`, brancher le réveil Cloudflare (voir plus bas).
