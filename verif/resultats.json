@@ -1,0 +1,1287 @@
+{
+ "fait_le": "2026-11-12T23:34:58+00:00",
+ "odds_api": {
+  "cle_presente": true,
+  "sports_code": 200,
+  "sports": {
+   "L1": {
+    "existe": true,
+    "actif": true
+   },
+   "SA": {
+    "existe": true,
+    "actif": true
+   },
+   "LIGA": {
+    "existe": true,
+    "actif": true
+   },
+   "PL": {
+    "existe": true,
+    "actif": true
+   },
+   "BL": {
+    "existe": true,
+    "actif": true
+   },
+   "LDC": {
+    "existe": true,
+    "actif": true
+   },
+   "EL": {
+    "existe": true,
+    "actif": true
+   },
+   "ECL": {
+    "existe": true,
+    "actif": true
+   }
+  },
+  "competitions": {
+   "L1": {
+    "events_code": 200,
+    "nb_matchs_annonces": 18,
+    "prochains": [
+     "2026-11-20T19:45:00Z Troyes - Le Havre",
+     "2026-11-21T16:15:00Z Nice - Paris Saint Germain",
+     "2026-11-21T19:45:00Z AS Monaco - Auxerre",
+     "2026-11-21T19:45:00Z Strasbourg - Brest",
+     "2026-11-21T19:45:00Z Lille - Lyon",
+     "2026-11-21T19:45:00Z RC Lens - Toulouse",
+     "2026-11-22T14:00:00Z Paris FC - Angers",
+     "2026-11-22T16:15:00Z Lorient - Rennes",
+     "2026-11-22T19:45:00Z Marseille - Le Mans FC",
+     "2026-11-27T19:45:00Z Brest - Paris FC",
+     "2026-11-28T16:15:00Z Angers - RC Lens",
+     "2026-11-28T19:45:00Z Le Havre - Strasbourg"
+    ],
+    "equipes": [
+     "AS Monaco",
+     "Angers",
+     "Auxerre",
+     "Brest",
+     "Le Havre",
+     "Le Mans FC",
+     "Lille",
+     "Lorient",
+     "Lyon",
+     "Marseille",
+     "Nice",
+     "Paris FC",
+     "Paris Saint Germain",
+     "RC Lens",
+     "Rennes",
+     "Strasbourg",
+     "Toulouse",
+     "Troyes"
+    ],
+    "odds_code": 200,
+    "quota": {
+     "x-requests-remaining": "499",
+     "x-requests-used": "1",
+     "x-requests-last": "1"
+    },
+    "nb_matchs_avec_cotes": 18,
+    "bookmakers_eu": {
+     "sport888": 9,
+     "williamhill": 9,
+     "unibet_fr": 18,
+     "unibet_se": 9,
+     "tipico_de": 18,
+     "marathonbet": 18,
+     "onexbet": 18,
+     "leovegas_se": 9,
+     "winamax_de": 18,
+     "unibet_nl": 9,
+     "winamax_fr": 18,
+     "nordicbet": 9,
+     "betsson": 9,
+     "pinnacle": 18,
+     "betfair_ex_eu": 9,
+     "everygame": 9,
+     "codere_it": 9,
+     "coolbet": 9,
+     "pmu_fr": 8,
+     "betclic_fr": 11
+    },
+    "pinnacle": 18,
+    "winamax_fr": 18,
+    "exemple": {
+     "match": "Troyes - Le Havre",
+     "coup_envoi": "2026-11-20T19:45:00Z",
+     "pinnacle": {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "last_update": "2026-11-12T23:34:41Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:41Z",
+        "outcomes": [
+         {
+          "name": "Le Havre",
+          "price": 3.66
+         },
+         {
+          "name": "Troyes",
+          "price": 2.05
+         },
+         {
+          "name": "Draw",
+          "price": 3.62
+         }
+        ]
+       }
+      ]
+     },
+     "winamax_fr": {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "last_update": "2026-11-12T23:34:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:27Z",
+        "outcomes": [
+         {
+          "name": "Le Havre",
+          "price": 3.3
+         },
+         {
+          "name": "Troyes",
+          "price": 1.92
+         },
+         {
+          "name": "Draw",
+          "price": 3.4
+         }
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "SA": {
+    "events_code": 200,
+    "nb_matchs_annonces": 20,
+    "prochains": [
+     "2026-11-21T14:00:00Z Como - Cagliari",
+     "2026-11-21T14:00:00Z Lazio - Lecce",
+     "2026-11-21T17:00:00Z Parma - AS Roma",
+     "2026-11-21T19:45:00Z Napoli - Torino",
+     "2026-11-22T11:30:00Z Juventus - Venezia",
+     "2026-11-22T14:00:00Z Bologna - Udinese",
+     "2026-11-22T14:00:00Z Sassuolo - Genoa",
+     "2026-11-22T17:00:00Z AC Milan - Frosinone",
+     "2026-11-22T19:45:00Z Atalanta BC - Inter Milan",
+     "2026-11-23T19:45:00Z Monza - Fiorentina",
+     "2026-11-27T19:45:00Z Venezia - Bologna",
+     "2026-11-28T14:00:00Z Frosinone - Parma"
+    ],
+    "equipes": [
+     "AC Milan",
+     "AS Roma",
+     "Atalanta BC",
+     "Bologna",
+     "Cagliari",
+     "Como",
+     "Fiorentina",
+     "Frosinone",
+     "Genoa",
+     "Inter Milan",
+     "Juventus",
+     "Lazio",
+     "Lecce",
+     "Monza",
+     "Napoli",
+     "Parma",
+     "Sassuolo",
+     "Torino",
+     "Udinese",
+     "Venezia"
+    ],
+    "odds_code": 200,
+    "quota": {
+     "x-requests-remaining": "498",
+     "x-requests-used": "2",
+     "x-requests-last": "1"
+    },
+    "nb_matchs_avec_cotes": 20,
+    "bookmakers_eu": {
+     "pinnacle": 20,
+     "unibet_fr": 20,
+     "winamax_fr": 20,
+     "winamax_de": 20,
+     "onexbet": 20,
+     "betsson": 10,
+     "tipico_de": 20,
+     "marathonbet": 20,
+     "williamhill": 10,
+     "sport888": 10,
+     "nordicbet": 10,
+     "betfair_ex_eu": 10,
+     "everygame": 10,
+     "codere_it": 10,
+     "unibet_se": 10,
+     "pmu_fr": 10,
+     "leovegas_se": 10,
+     "unibet_nl": 10,
+     "coolbet": 10
+    },
+    "pinnacle": 20,
+    "winamax_fr": 20,
+    "exemple": {
+     "match": "Como - Cagliari",
+     "coup_envoi": "2026-11-21T14:00:00Z",
+     "pinnacle": {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "last_update": "2026-11-12T23:34:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:27Z",
+        "outcomes": [
+         {
+          "name": "Cagliari",
+          "price": 9.37
+         },
+         {
+          "name": "Como",
+          "price": 1.31
+         },
+         {
+          "name": "Draw",
+          "price": 5.83
+         }
+        ]
+       }
+      ]
+     },
+     "winamax_fr": {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "last_update": "2026-11-12T23:34:42Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:42Z",
+        "outcomes": [
+         {
+          "name": "Cagliari",
+          "price": 8.0
+         },
+         {
+          "name": "Como",
+          "price": 1.2
+         },
+         {
+          "name": "Draw",
+          "price": 5.75
+         }
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "LIGA": {
+    "events_code": 200,
+    "nb_matchs_annonces": 20,
+    "prochains": [
+     "2026-11-20T20:00:00Z Athletic Bilbao - Espanyol",
+     "2026-11-21T13:00:00Z Alavés - Deportivo La Coruña",
+     "2026-11-21T15:15:00Z Rayo Vallecano - Valencia",
+     "2026-11-21T17:30:00Z Sevilla - Real Betis",
+     "2026-11-21T20:00:00Z Real Madrid - Celta Vigo",
+     "2026-11-22T13:00:00Z Barcelona - Villarreal",
+     "2026-11-22T15:15:00Z Real Racing Club de Santander - Real Sociedad",
+     "2026-11-22T17:30:00Z CA Osasuna - Málaga",
+     "2026-11-22T20:00:00Z Getafe - Atlético Madrid",
+     "2026-11-23T20:00:00Z Levante - Elche CF",
+     "2026-11-27T20:00:00Z Levante - Real Racing Club de Santander",
+     "2026-11-28T13:00:00Z Real Betis - Rayo Vallecano"
+    ],
+    "equipes": [
+     "Alavés",
+     "Athletic Bilbao",
+     "Atlético Madrid",
+     "Barcelona",
+     "CA Osasuna",
+     "Celta Vigo",
+     "Deportivo La Coruña",
+     "Elche CF",
+     "Espanyol",
+     "Getafe",
+     "Levante",
+     "Málaga",
+     "Rayo Vallecano",
+     "Real Betis",
+     "Real Madrid",
+     "Real Racing Club de Santander",
+     "Real Sociedad",
+     "Sevilla",
+     "Valencia",
+     "Villarreal"
+    ],
+    "odds_code": 200,
+    "quota": {
+     "x-requests-remaining": "497",
+     "x-requests-used": "3",
+     "x-requests-last": "1"
+    },
+    "nb_matchs_avec_cotes": 20,
+    "bookmakers_eu": {
+     "pinnacle": 20,
+     "winamax_fr": 20,
+     "betsson": 10,
+     "onexbet": 20,
+     "marathonbet": 20,
+     "williamhill": 20,
+     "nordicbet": 10,
+     "tipico_de": 20,
+     "unibet_fr": 18,
+     "winamax_de": 20,
+     "betfair_ex_eu": 10,
+     "everygame": 10,
+     "codere_it": 10,
+     "unibet_nl": 10,
+     "leovegas_se": 10,
+     "unibet_se": 10,
+     "coolbet": 10,
+     "pmu_fr": 9
+    },
+    "pinnacle": 20,
+    "winamax_fr": 20,
+    "exemple": {
+     "match": "Athletic Bilbao - Espanyol",
+     "coup_envoi": "2026-11-20T20:00:00Z",
+     "pinnacle": {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "last_update": "2026-11-12T23:34:22Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:22Z",
+        "outcomes": [
+         {
+          "name": "Athletic Bilbao",
+          "price": 1.49
+         },
+         {
+          "name": "Espanyol",
+          "price": 6.78
+         },
+         {
+          "name": "Draw",
+          "price": 4.53
+         }
+        ]
+       }
+      ]
+     },
+     "winamax_fr": {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "last_update": "2026-11-12T23:34:44Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:43Z",
+        "outcomes": [
+         {
+          "name": "Athletic Bilbao",
+          "price": 1.41
+         },
+         {
+          "name": "Espanyol",
+          "price": 5.5
+         },
+         {
+          "name": "Draw",
+          "price": 4.2
+         }
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "PL": {
+    "events_code": 200,
+    "nb_matchs_annonces": 20,
+    "prochains": [
+     "2026-11-21T12:30:00Z Manchester City - Fulham",
+     "2026-11-21T15:00:00Z Aston Villa - Sunderland",
+     "2026-11-21T15:00:00Z Bournemouth - Nottingham Forest",
+     "2026-11-21T15:00:00Z Chelsea - Leeds United",
+     "2026-11-21T15:00:00Z Coventry City - Crystal Palace",
+     "2026-11-21T15:00:00Z Tottenham Hotspur - Ipswich Town",
+     "2026-11-21T17:30:00Z Newcastle United - Arsenal",
+     "2026-11-22T14:00:00Z Hull City - Brighton and Hove Albion",
+     "2026-11-22T16:30:00Z Liverpool - Manchester United",
+     "2026-11-23T20:00:00Z Brentford - Everton",
+     "2026-11-27T20:00:00Z Nottingham Forest - Chelsea",
+     "2026-11-28T15:00:00Z Manchester United - Brentford"
+    ],
+    "equipes": [
+     "Arsenal",
+     "Aston Villa",
+     "Bournemouth",
+     "Brentford",
+     "Brighton and Hove Albion",
+     "Chelsea",
+     "Coventry City",
+     "Crystal Palace",
+     "Everton",
+     "Fulham",
+     "Hull City",
+     "Ipswich Town",
+     "Leeds United",
+     "Liverpool",
+     "Manchester City",
+     "Manchester United",
+     "Newcastle United",
+     "Nottingham Forest",
+     "Sunderland",
+     "Tottenham Hotspur"
+    ],
+    "odds_code": 200,
+    "quota": {
+     "x-requests-remaining": "496",
+     "x-requests-used": "4",
+     "x-requests-last": "1"
+    },
+    "nb_matchs_avec_cotes": 20,
+    "bookmakers_eu": {
+     "unibet_fr": 20,
+     "onexbet": 20,
+     "unibet_se": 10,
+     "tipico_de": 20,
+     "leovegas_se": 10,
+     "williamhill": 10,
+     "sport888": 10,
+     "winamax_fr": 20,
+     "winamax_de": 20,
+     "pmu_fr": 10,
+     "unibet_nl": 10,
+     "marathonbet": 20,
+     "betclic_fr": 20,
+     "betsson": 9,
+     "nordicbet": 9,
+     "pinnacle": 20,
+     "mybookieag": 11,
+     "betfair_ex_eu": 10,
+     "everygame": 10,
+     "codere_it": 10,
+     "coolbet": 10,
+     "betonlineag": 10
+    },
+    "pinnacle": 20,
+    "winamax_fr": 20,
+    "exemple": {
+     "match": "Manchester City - Fulham",
+     "coup_envoi": "2026-11-21T12:30:00Z",
+     "pinnacle": {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "last_update": "2026-11-12T23:34:19Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:19Z",
+        "outcomes": [
+         {
+          "name": "Fulham",
+          "price": 6.62
+         },
+         {
+          "name": "Manchester City",
+          "price": 1.43
+         },
+         {
+          "name": "Draw",
+          "price": 5.18
+         }
+        ]
+       }
+      ]
+     },
+     "winamax_fr": {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "last_update": "2026-11-12T23:34:20Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:20Z",
+        "outcomes": [
+         {
+          "name": "Fulham",
+          "price": 6.0
+         },
+         {
+          "name": "Manchester City",
+          "price": 1.3
+         },
+         {
+          "name": "Draw",
+          "price": 5.1
+         }
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "BL": {
+    "events_code": 200,
+    "nb_matchs_annonces": 18,
+    "prochains": [
+     "2026-11-20T19:30:00Z Bayern Munich - 1. FC Köln",
+     "2026-11-21T14:30:00Z Bayer Leverkusen - SC Paderborn",
+     "2026-11-21T14:30:00Z Borussia Monchengladbach - Borussia Dortmund",
+     "2026-11-21T14:30:00Z Eintracht Frankfurt - TSG Hoffenheim",
+     "2026-11-21T14:30:00Z Elversberg - SC Freiburg",
+     "2026-11-21T14:30:00Z Union Berlin - RB Leipzig",
+     "2026-11-21T17:30:00Z FC Schalke 04 - VfB Stuttgart",
+     "2026-11-22T14:30:00Z Augsburg - FSV Mainz 05",
+     "2026-11-22T16:30:00Z Werder Bremen - Hamburger SV",
+     "2026-11-27T19:30:00Z Werder Bremen - Borussia Monchengladbach",
+     "2026-11-28T14:30:00Z 1. FC Köln - Elversberg",
+     "2026-11-28T14:30:00Z Hamburger SV - Bayern Munich"
+    ],
+    "equipes": [
+     "1. FC Köln",
+     "Augsburg",
+     "Bayer Leverkusen",
+     "Bayern Munich",
+     "Borussia Dortmund",
+     "Borussia Monchengladbach",
+     "Eintracht Frankfurt",
+     "Elversberg",
+     "FC Schalke 04",
+     "FSV Mainz 05",
+     "Hamburger SV",
+     "RB Leipzig",
+     "SC Freiburg",
+     "SC Paderborn",
+     "TSG Hoffenheim",
+     "Union Berlin",
+     "VfB Stuttgart",
+     "Werder Bremen"
+    ],
+    "odds_code": 200,
+    "quota": {
+     "x-requests-remaining": "495",
+     "x-requests-used": "5",
+     "x-requests-last": "1"
+    },
+    "nb_matchs_avec_cotes": 18,
+    "bookmakers_eu": {
+     "pinnacle": 18,
+     "sport888": 9,
+     "tipico_de": 18,
+     "winamax_fr": 18,
+     "nordicbet": 9,
+     "marathonbet": 18,
+     "winamax_de": 18,
+     "onexbet": 18,
+     "unibet_fr": 18,
+     "williamhill": 9,
+     "betsson": 9,
+     "betclic_fr": 18,
+     "betfair_ex_eu": 9,
+     "everygame": 9,
+     "codere_it": 9,
+     "coolbet": 9,
+     "pmu_fr": 9,
+     "leovegas_se": 9,
+     "unibet_se": 9,
+     "unibet_nl": 9
+    },
+    "pinnacle": 18,
+    "winamax_fr": 18,
+    "exemple": {
+     "match": "Bayern Munich - 1. FC Köln",
+     "coup_envoi": "2026-11-20T19:30:00Z",
+     "pinnacle": {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "last_update": "2026-11-12T23:34:37Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:37Z",
+        "outcomes": [
+         {
+          "name": "1. FC Köln",
+          "price": 19.9
+         },
+         {
+          "name": "Bayern Munich",
+          "price": 1.09
+         },
+         {
+          "name": "Draw",
+          "price": 13.67
+         }
+        ]
+       }
+      ]
+     },
+     "winamax_fr": {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "last_update": "2026-11-12T23:34:03Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:03Z",
+        "outcomes": [
+         {
+          "name": "1. FC Köln",
+          "price": 15.0
+         },
+         {
+          "name": "Bayern Munich",
+          "price": 1.05
+         },
+         {
+          "name": "Draw",
+          "price": 11.0
+         }
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "LDC": {
+    "events_code": 200,
+    "nb_matchs_annonces": 18,
+    "prochains": [
+     "2026-11-24T17:45:00Z Galatasaray - Aston Villa",
+     "2026-11-24T17:45:00Z Bodø/Glimt - LASK",
+     "2026-11-24T20:00:00Z Como - AEK Athens",
+     "2026-11-24T20:00:00Z Arsenal - Borussia Dortmund",
+     "2026-11-24T20:00:00Z Feyenoord - Porto",
+     "2026-11-24T20:00:00Z Manchester City - Napoli",
+     "2026-11-24T20:00:00Z Real Madrid - PSV Eindhoven",
+     "2026-11-24T20:00:00Z RB Leipzig - RC Lens",
+     "2026-11-24T20:00:00Z ŠK Slovan Bratislava - Real Betis",
+     "2026-11-25T17:45:00Z Sabah FK - Barcelona",
+     "2026-11-25T17:45:00Z Slavia Praha - Villarreal",
+     "2026-11-25T20:00:00Z Paris Saint Germain - AS Roma"
+    ],
+    "equipes": [
+     "AEK Athens",
+     "AS Roma",
+     "Arsenal",
+     "Aston Villa",
+     "Atlético Madrid",
+     "Barcelona",
+     "Bayern Munich",
+     "Bodø/Glimt",
+     "Borussia Dortmund",
+     "Club Brugge",
+     "Como",
+     "Fenerbahce",
+     "Feyenoord",
+     "Galatasaray",
+     "Inter Milan",
+     "LASK",
+     "Lille",
+     "Liverpool",
+     "Manchester City",
+     "Manchester United",
+     "Napoli",
+     "PSV Eindhoven",
+     "Paris Saint Germain",
+     "Porto",
+     "RB Leipzig",
+     "RC Lens",
+     "Real Betis",
+     "Real Madrid",
+     "Sabah FK",
+     "Shakhtar Donetsk",
+     "Slavia Praha",
+     "Sporting Lisbon",
+     "VfB Stuttgart",
+     "Viking FK",
+     "Villarreal",
+     "ŠK Slovan Bratislava"
+    ],
+    "odds_code": 200,
+    "quota": {
+     "x-requests-remaining": "494",
+     "x-requests-used": "6",
+     "x-requests-last": "1"
+    },
+    "nb_matchs_avec_cotes": 18,
+    "bookmakers_eu": {
+     "gtbets": 18,
+     "unibet_se": 18,
+     "unibet_fr": 18,
+     "betsson": 18,
+     "pinnacle": 18,
+     "winamax_fr": 18,
+     "nordicbet": 18,
+     "marathonbet": 18,
+     "leovegas_se": 18,
+     "onexbet": 18,
+     "pmu_fr": 18,
+     "unibet_nl": 18,
+     "winamax_de": 18,
+     "betclic_fr": 17,
+     "coolbet": 18,
+     "betfair_ex_eu": 17,
+     "williamhill": 18,
+     "sport888": 18,
+     "codere_it": 18
+    },
+    "pinnacle": 18,
+    "winamax_fr": 18,
+    "exemple": {
+     "match": "Galatasaray - Aston Villa",
+     "coup_envoi": "2026-11-24T17:45:00Z",
+     "pinnacle": {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "last_update": "2026-11-12T23:34:40Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:40Z",
+        "outcomes": [
+         {
+          "name": "Aston Villa",
+          "price": 2.46
+         },
+         {
+          "name": "Galatasaray",
+          "price": 2.62
+         },
+         {
+          "name": "Draw",
+          "price": 3.85
+         }
+        ]
+       }
+      ]
+     },
+     "winamax_fr": {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "last_update": "2026-11-12T23:35:01Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:35:00Z",
+        "outcomes": [
+         {
+          "name": "Aston Villa",
+          "price": 2.25
+         },
+         {
+          "name": "Galatasaray",
+          "price": 2.35
+         },
+         {
+          "name": "Draw",
+          "price": 3.65
+         }
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "EL": {
+    "events_code": 200,
+    "nb_matchs_annonces": 18,
+    "prochains": [
+     "2026-11-26T17:45:00Z Olympiakos Piraeus - AC Milan",
+     "2026-11-26T17:45:00Z Dinamo Zagreb - Bayer Leverkusen",
+     "2026-11-26T17:45:00Z Viktoria Plzeň - Benfica",
+     "2026-11-26T17:45:00Z Besiktas JK - Hapoel Be'er Sheva",
+     "2026-11-26T17:45:00Z Celta Vigo - Bournemouth",
+     "2026-11-26T17:45:00Z Salzburg - FC Ararat-Armenia",
+     "2026-11-26T17:45:00Z Union Saint-Gilloise - Lech Poznań",
+     "2026-11-26T17:45:00Z Marseille - PFC Levski Sofia",
+     "2026-11-26T20:00:00Z Sparta Prague - AZ Alkmaar",
+     "2026-11-26T20:00:00Z OFI Crete - Anderlecht",
+     "2026-11-26T20:00:00Z Torreense - Celtic",
+     "2026-11-26T20:00:00Z Crystal Palace - Real Sociedad"
+    ],
+    "equipes": [
+     "AC Milan",
+     "AZ Alkmaar",
+     "Anderlecht",
+     "Bayer Leverkusen",
+     "Benfica",
+     "Besiktas JK",
+     "Bournemouth",
+     "Celta Vigo",
+     "Celtic",
+     "Crystal Palace",
+     "Dinamo Zagreb",
+     "FC Ararat-Armenia",
+     "Ferencváros TC",
+     "Hapoel Be'er Sheva",
+     "Jagiellonia Białystok",
+     "Juventus",
+     "Lech Poznań",
+     "Lillestrom",
+     "Lyon",
+     "Marseille",
+     "NEC Nijmegen",
+     "NK Celje",
+     "OFI Crete",
+     "Olympiakos Piraeus",
+     "Omonoia FC",
+     "PFC Levski Sofia",
+     "Real Sociedad",
+     "Rennes",
+     "SK Sturm Graz",
+     "Salzburg",
+     "Sparta Prague",
+     "Sunderland",
+     "TSG Hoffenheim",
+     "Torreense",
+     "Union Saint-Gilloise",
+     "Viktoria Plzeň"
+    ],
+    "odds_code": 200,
+    "quota": {
+     "x-requests-remaining": "493",
+     "x-requests-used": "7",
+     "x-requests-last": "1"
+    },
+    "nb_matchs_avec_cotes": 18,
+    "bookmakers_eu": {
+     "pinnacle": 18,
+     "winamax_fr": 18,
+     "marathonbet": 18,
+     "unibet_fr": 18,
+     "winamax_de": 18,
+     "onexbet": 18,
+     "betclic_fr": 16,
+     "sport888": 18,
+     "williamhill": 18,
+     "betsson": 18,
+     "nordicbet": 18,
+     "codere_it": 18,
+     "coolbet": 18
+    },
+    "pinnacle": 18,
+    "winamax_fr": 18,
+    "exemple": {
+     "match": "Olympiakos Piraeus - AC Milan",
+     "coup_envoi": "2026-11-26T17:45:00Z",
+     "pinnacle": {
+      "key": "pinnacle",
+      "title": "Pinnacle",
+      "last_update": "2026-11-12T23:34:39Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:39Z",
+        "outcomes": [
+         {
+          "name": "AC Milan",
+          "price": 2.97
+         },
+         {
+          "name": "Olympiakos Piraeus",
+          "price": 2.42
+         },
+         {
+          "name": "Draw",
+          "price": 3.38
+         }
+        ]
+       }
+      ]
+     },
+     "winamax_fr": {
+      "key": "winamax_fr",
+      "title": "Winamax (FR)",
+      "last_update": "2026-11-12T23:34:06Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-12T23:34:06Z",
+        "outcomes": [
+         {
+          "name": "AC Milan",
+          "price": 2.55
+         },
+         {
+          "name": "Olympiakos Piraeus",
+          "price": 2.25
+         },
+         {
+          "name": "Draw",
+          "price": 3.2
+         }
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "ECL": {
+    "events_code": 200,
+    "nb_matchs_annonces": 8,
+    "prochains": [
+     "2026-11-26T15:30:00Z FC Kairat - Mjällby AIF",
+     "2026-11-26T17:45:00Z SK Brann - AGF Aarhus",
+     "2026-11-26T17:45:00Z Hearts - AS Monaco",
+     "2026-11-26T17:45:00Z FC Iberia 1999 - Getafe",
+     "2026-11-26T17:45:00Z FK Jablonec - FC Lugano",
+     "2026-11-26T17:45:00Z Pafos FC - FC Midtjylland",
+     "2026-11-26T17:45:00Z FK Kauno Žalgiris - Riga FC",
+     "2026-11-26T17:45:00Z KF Egnatia - Lincoln Red Imps FC"
+    ],
+    "equipes": [
+     "AGF Aarhus",
+     "AS Monaco",
+     "FC Iberia 1999",
+     "FC Kairat",
+     "FC Lugano",
+     "FC Midtjylland",
+     "FK Jablonec",
+     "FK Kauno Žalgiris",
+     "Getafe",
+     "Hearts",
+     "KF Egnatia",
+     "Lincoln Red Imps FC",
+     "Mjällby AIF",
+     "Pafos FC",
+     "Riga FC",
+     "SK Brann"
+    ],
+    "odds_code": 200,
+    "quota": {
+     "x-requests-remaining": "492",
+     "x-requests-used": "8",
+     "x-requests-last": "1"
+    },
+    "nb_matchs_avec_cotes": 8,
+    "bookmakers_eu": {
+     "onexbet": 8,
+     "unibet_fr": 8,
+     "nordicbet": 8,
+     "betclic_fr": 8,
+     "betsson": 8,
+     "marathonbet": 8,
+     "betfair_ex_eu": 8,
+     "pinnacle": 1
+    },
+    "pinnacle": 1,
+    "winamax_fr": 0
+   }
+  }
+ },
+ "api_football": {
+  "cle_presente": true,
+  "tests": {
+   "statut": {
+    "chemin": "status",
+    "code": 200,
+    "reste_jour": "100",
+    "erreurs": [],
+    "nb": 0,
+    "extrait": {
+     "formule": "Free",
+     "fin": "2027-11-12T00:00:00+00:00",
+     "requetes": {
+      "current": 0,
+      "limit_day": 100
+     }
+    }
+   },
+   "matchs_hier": {
+    "chemin": "fixtures?date=2026-11-11",
+    "code": 200,
+    "reste_jour": "98",
+    "erreurs": [],
+    "nb": 197,
+    "extrait": []
+   },
+   "matchs_aujourdhui": {
+    "chemin": "fixtures?date=2026-11-12",
+    "code": 200,
+    "reste_jour": "97",
+    "erreurs": [],
+    "nb": 117,
+    "extrait": []
+   },
+   "matchs_demain": {
+    "chemin": "fixtures?date=2026-11-13",
+    "code": 200,
+    "reste_jour": "96",
+    "erreurs": [],
+    "nb": 224,
+    "extrait": []
+   },
+   "matchs_dans_8_jours": {
+    "chemin": "fixtures?date=2026-11-20",
+    "code": 200,
+    "reste_jour": null,
+    "erreurs": {
+     "plan": "Free plans do not have access to this date, try from 2026-11-11 to 2026-11-13."
+    },
+    "nb": 0,
+    "extrait": []
+   },
+   "ligue1_saison_2026": {
+    "chemin": "fixtures?league=61&season=2026&from=2026-11-20&to=2026-11-23",
+    "code": 200,
+    "reste_jour": null,
+    "erreurs": {
+     "plan": "Free plans do not have access to this season, try from 2022 to 2024."
+    },
+    "nb": 0,
+    "extrait": []
+   },
+   "ligue1_equipes_2026": {
+    "chemin": "teams?league=61&season=2026",
+    "code": 200,
+    "reste_jour": null,
+    "erreurs": {
+     "plan": "Free plans do not have access to this season, try from 2022 to 2024."
+    },
+    "nb": 0,
+    "extrait": []
+   },
+   "ligue1_buteurs_2026": {
+    "chemin": "players/topscorers?league=61&season=2026",
+    "code": 200,
+    "reste_jour": null,
+    "erreurs": {
+     "plan": "Free plans do not have access to this season, try from 2022 to 2024."
+    },
+    "nb": 0,
+    "extrait": []
+   },
+   "ligue1_blesses_2026": {
+    "chemin": "injuries?league=61&season=2026&date=2026-11-20",
+    "code": 200,
+    "reste_jour": null,
+    "erreurs": {
+     "plan": "Free plans do not have access to this season, try from 2022 to 2024."
+    },
+    "nb": 0,
+    "extrait": 0
+   },
+   "compos_match_fini": {
+    "chemin": "fixtures/lineups?fixture=1649540",
+    "code": 200,
+    "reste_jour": "95",
+    "erreurs": [],
+    "nb": 2,
+    "extrait": "illisible (KeyError)"
+   },
+   "blesses_match_fini": {
+    "chemin": "injuries?fixture=1649540",
+    "code": 200,
+    "reste_jour": "94",
+    "erreurs": [],
+    "nb": 0,
+    "extrait": []
+   }
+  },
+  "match_test": "Friendlies : Sint Maarten - Anguilla"
+ },
+ "football_data": {
+  "2627/F1": {
+   "matchs": 90,
+   "avec_heure": 90,
+   "pinnacle_ouverture": 0,
+   "pinnacle_cloture": 0,
+   "dernier": "08/11/2026",
+   "colonnes": [
+    "PPH",
+    "PPD",
+    "PPA",
+    "MaxH",
+    "MaxD",
+    "MaxA",
+    "AvgH",
+    "AvgD",
+    "AvgA",
+    "Max>2.5",
+    "Max<2.5",
+    "Avg>2.5",
+    "Avg<2.5",
+    "MaxAHH",
+    "MaxAHA",
+    "AvgAHH",
+    "AvgAHA",
+    "PPCH",
+    "PPCD",
+    "PPCA",
+    "MaxCH",
+    "MaxCD",
+    "MaxCA",
+    "AvgCH",
+    "AvgCD",
+    "AvgCA",
+    "MaxC>2.5",
+    "MaxC<2.5",
+    "AvgC>2.5",
+    "AvgC<2.5"
+   ]
+  },
+  "2627/I1": {
+   "matchs": 110,
+   "avec_heure": 110,
+   "pinnacle_ouverture": 0,
+   "pinnacle_cloture": 0,
+   "dernier": "08/11/2026",
+   "colonnes": [
+    "PPH",
+    "PPD",
+    "PPA",
+    "MaxH",
+    "MaxD",
+    "MaxA",
+    "AvgH",
+    "AvgD",
+    "AvgA",
+    "Max>2.5",
+    "Max<2.5",
+    "Avg>2.5",
+    "Avg<2.5",
+    "MaxAHH",
+    "MaxAHA",
+    "AvgAHH",
+    "AvgAHA",
+    "PPCH",
+    "PPCD",
+    "PPCA",
+    "MaxCH",
+    "MaxCD",
+    "MaxCA",
+    "AvgCH",
+    "AvgCD",
+    "AvgCA",
+    "MaxC>2.5",
+    "MaxC<2.5",
+    "AvgC>2.5",
+    "AvgC<2.5"
+   ]
+  },
+  "2526/F1": {
+   "matchs": 306,
+   "avec_heure": 306,
+   "pinnacle_ouverture": 153,
+   "pinnacle_cloture": 153,
+   "dernier": "17/05/2026",
+   "colonnes": [
+    "PSH",
+    "PSD",
+    "PSA",
+    "MaxH",
+    "MaxD",
+    "MaxA",
+    "AvgH",
+    "AvgD",
+    "AvgA",
+    "P>2.5",
+    "P<2.5",
+    "Max>2.5",
+    "Max<2.5",
+    "Avg>2.5",
+    "Avg<2.5",
+    "PAHH",
+    "PAHA",
+    "MaxAHH",
+    "MaxAHA",
+    "AvgAHH",
+    "AvgAHA",
+    "PSCH",
+    "PSCD",
+    "PSCA",
+    "MaxCH",
+    "MaxCD",
+    "MaxCA",
+    "AvgCH",
+    "AvgCD",
+    "AvgCA"
+   ]
+  },
+  "2526/I1": {
+   "matchs": 380,
+   "avec_heure": 380,
+   "pinnacle_ouverture": 200,
+   "pinnacle_cloture": 198,
+   "dernier": "24/05/2026",
+   "colonnes": [
+    "PSH",
+    "PSD",
+    "PSA",
+    "MaxH",
+    "MaxD",
+    "MaxA",
+    "AvgH",
+    "AvgD",
+    "AvgA",
+    "P>2.5",
+    "P<2.5",
+    "Max>2.5",
+    "Max<2.5",
+    "Avg>2.5",
+    "Avg<2.5",
+    "PAHH",
+    "PAHA",
+    "MaxAHH",
+    "MaxAHA",
+    "AvgAHH",
+    "AvgAHA",
+    "PSCH",
+    "PSCD",
+    "PSCA",
+    "MaxCH",
+    "MaxCD",
+    "MaxCA",
+    "AvgCH",
+    "AvgCD",
+    "AvgCA"
+   ]
+  },
+  "1213/F1": {
+   "matchs": 380,
+   "avec_heure": 0,
+   "pinnacle_ouverture": 379,
+   "pinnacle_cloture": 380,
+   "dernier": "26/05/13",
+   "colonnes": [
+    "PSH",
+    "PSD",
+    "PSA",
+    "PSCH",
+    "PSCD",
+    "PSCA"
+   ]
+  },
+  "1213/I1": {
+   "matchs": 380,
+   "avec_heure": 0,
+   "pinnacle_ouverture": 377,
+   "pinnacle_cloture": 378,
+   "dernier": "19/05/13",
+   "colonnes": [
+    "PSH",
+    "PSD",
+    "PSA",
+    "PSCH",
+    "PSCD",
+    "PSCA"
+   ]
+  }
+ }
+}
