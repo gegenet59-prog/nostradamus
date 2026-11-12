@@ -2,7 +2,7 @@
 name: Vérifications
 on:
   push:
-    paths: ["verif/verifier.py"]
+    paths: ["verif/verifier2.py"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - run: python3 verif/verifier.py
+      - run: python3 verif/verifier2.py
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
@@ -20,6 +20,6 @@ jobs:
         run: |
           git config user.name "Nostradamus (robot)"
           git config user.email "actions@users.noreply.github.com"
-          git add verif/resultats.json
+          git add verif/
           git commit -m "Vérifications : résultats" || exit 0
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
