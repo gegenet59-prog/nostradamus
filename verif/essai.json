@@ -1,0 +1,182 @@
+{
+ "fait_le": "2026-11-12T23:44:44Z",
+ "calendrier": {
+  "L1": {
+   "matchs": 9,
+   "creneaux": 6
+  },
+  "SA": {
+   "matchs": 10,
+   "creneaux": 8
+  },
+  "LIGA": {
+   "matchs": 10,
+   "creneaux": 10
+  },
+  "PL": {
+   "matchs": 10,
+   "creneaux": 6
+  },
+  "BL": {
+   "matchs": 9,
+   "creneaux": 5
+  },
+  "LDC": {
+   "matchs": 9,
+   "creneaux": 2
+  },
+  "EL": {
+   "matchs": 0,
+   "creneaux": 0
+  },
+  "ECL": {
+   "matchs": 0,
+   "creneaux": 0
+  }
+ },
+ "releve_L1": {
+  "matchs": 18,
+  "pinnacle_lu": 18,
+  "winamax_lu": 18,
+  "detail": [
+   {
+    "match": "Troyes - Le Havre",
+    "coup_envoi": "2026-11-20T19:45:00Z",
+    "pinnacle": {
+     "1": 2.05,
+     "N": 3.62,
+     "2": 3.66
+    },
+    "winamax": {
+     "1": 1.92,
+     "N": 3.4,
+     "2": 3.3
+    },
+    "maj_pinnacle": "2026-11-12T23:44:22Z"
+   },
+   {
+    "match": "Nice - Paris Saint Germain",
+    "coup_envoi": "2026-11-21T16:15:00Z",
+    "pinnacle": {
+     "1": 6.06,
+     "N": 5.19,
+     "2": 1.46
+    },
+    "winamax": {
+     "1": 5.5,
+     "N": 5.1,
+     "2": 1.35
+    },
+    "maj_pinnacle": "2026-11-12T23:44:22Z"
+   },
+   {
+    "match": "AS Monaco - Auxerre",
+    "coup_envoi": "2026-11-21T19:45:00Z",
+    "pinnacle": {
+     "1": 1.4,
+     "N": 5.24,
+     "2": 7.27
+    },
+    "winamax": {
+     "1": 1.3,
+     "N": 5.0,
+     "2": 6.75
+    },
+    "maj_pinnacle": "2026-11-12T23:44:22Z"
+   },
+   {
+    "match": "Strasbourg - Brest",
+    "coup_envoi": "2026-11-21T19:45:00Z",
+    "pinnacle": {
+     "1": 2.21,
+     "N": 3.8,
+     "2": 3.11
+    },
+    "winamax": {
+     "1": 2.05,
+     "N": 3.6,
+     "2": 2.8
+    },
+    "maj_pinnacle": "2026-11-12T23:44:22Z"
+   }
+  ]
+ },
+ "credits_restants": 491,
+ "demonstration_variation_inventee": {
+  "feux": {
+   "issues": {
+    "1": {
+     "feu": "orange",
+     "fleche": "baisse",
+     "pct": -5.9,
+     "ampleur": 6.0,
+     "raisons": []
+    },
+    "N": {
+     "feu": "vert",
+     "fleche": "hausse",
+     "pct": 1.1,
+     "ampleur": 0.8,
+     "raisons": []
+    },
+    "2": {
+     "feu": "violet",
+     "fleche": "hausse",
+     "pct": 16.9,
+     "ampleur": 10.9,
+     "raisons": []
+    }
+   },
+   "base": "H12-H45",
+   "provisoire": false
+  },
+  "marche": {
+   "pari": "1N",
+   "phrase": "Le marché annonce : Le Havre ne gagne pas (1N)",
+   "incoherent": false,
+   "deplacement": {
+    "1": 3.52,
+    "N": 0.02,
+    "2": -3.55
+   },
+   "marge": [
+    3.73,
+    2.5
+   ]
+  }
+ },
+ "passage_a_blanc": {
+  "journal": [
+   "calendrier L1 : 200",
+   "calendrier SA : 200",
+   "calendrier LIGA : 200",
+   "calendrier PL : 200",
+   "calendrier BL : 200",
+   "calendrier LDC : 200",
+   "calendrier EL : 200",
+   "calendrier ECL : 200"
+  ],
+  "etat": {
+   "odds": {},
+   "foot": {
+    "jour": "2026-11-12",
+    "reste": null
+   },
+   "jours_foot": {},
+   "alertes": [],
+   "planning_fait_a": "2026-11-12T23:44:44Z",
+   "dernier_passage_utile": "2026-11-12T23:44:44Z"
+  }
+ },
+ "journal": [
+  "calendrier L1 : 200",
+  "calendrier SA : 200",
+  "calendrier LIGA : 200",
+  "calendrier PL : 200",
+  "calendrier BL : 200",
+  "calendrier LDC : 200",
+  "calendrier EL : 200",
+  "calendrier ECL : 200",
+  "cotes L1 : 200, reste 491 crédits"
+ ]
+}
