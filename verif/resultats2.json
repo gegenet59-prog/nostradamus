@@ -1,0 +1,145 @@
+{
+ "fait_le": "2026-11-12T23:37:00+00:00",
+ "ligues_hier": {
+  "893 UEFA U19 Championship - Qualification (World)": 24,
+  "886 UEFA U17 Championship - Qualification (World)": 17,
+  "1012 AFC U17 Asian Cup (World)": 14,
+  "552 3. Lig - Group 1 (Turkey)": 9,
+  "553 3. Lig - Group 2 (Turkey)": 9,
+  "554 3. Lig - Group 3 (Turkey)": 8,
+  "1015 CAF U23 Cup of Nations (World)": 7,
+  "906 Reserve League (Argentina)": 7,
+  "1191 UEFA Europa Cup - Women (World)": 6,
+  "10 Friendlies (World)": 5,
+  "69 National 2 - Group C (France)": 5,
+  "697 WSL Cup (England)": 5,
+  "101 J-League Cup (Japan)": 4,
+  "424 Ligue 1 (Congo-DR)": 4,
+  "877 Segunda División RFEF - Group 3 (Spain)": 4,
+  "622 Pernambucano - 1 (Brazil)": 3,
+  "370 Primera Division (El-Salvador)": 2,
+  "673 Liga MX Femenil (Mexico)": 2,
+  "28 SAFF Championship (World)": 2,
+  "178 Third League - Southwest (Bulgaria)": 2,
+  "680 Cup (Slovakia)": 2,
+  "1164 CAF Women's Champions League (World)": 2,
+  "449 Tercera División RFEF - Group 11 (Spain)": 2,
+  "525 UEFA Champions League Women (World)": 2,
+  "46 EFL Trophy (England)": 2,
+  "67 National 2 - Group A (France)": 2,
+  "1039 Premier League International Cup (World)": 2,
+  "269 Segunda División (Uruguay)": 2,
+  "241 Copa Colombia (Colombia)": 1,
+  "636 Ýokary Liga (Turkmenistan)": 1,
+  "1065 U19 League (Ukraine)": 1,
+  "317 1st League - RS (Bosnia)": 1,
+  "365 Virsliga (Latvia)": 1,
+  "487 First Amateur Division (Belgium)": 1,
+  "432 Serie D - Girone G (Italy)": 1,
+  "782 III Liga - Group 3 (Poland)": 1,
+  "64 Feminine Division 1 (France)": 1,
+  "872 Liga Premier Serie B (Mexico)": 1,
+  "598 Première Division (Mali)": 1,
+  "733 I Liga - Women (Slovakia)": 1
+ },
+ "forme_match": {
+  "fixture": {
+   "id": 1649540,
+   "referee": null,
+   "timezone": "UTC",
+   "date": "2026-11-11T00:30:00+00:00",
+   "timestamp": 1794357000,
+   "periods": {
+    "first": 1794357000,
+    "second": 1794360600
+   },
+   "venue": {
+    "id": null,
+    "name": null,
+    "city": null
+   },
+   "status": {
+    "long": "Match Finished",
+    "short": "FT",
+    "elapsed": 90,
+    "extra": null
+   }
+  },
+  "league": {
+   "id": 10,
+   "name": "Friendlies",
+   "country": "World",
+   "logo": "https://media.api-sports.io/football/leagues/10.png",
+   "flag": null,
+   "season": 2026,
+   "round": "Friendly International",
+   "standings": false
+  },
+  "teams": {
+   "home": {
+    "id": 10985,
+    "name": "Sint Maarten",
+    "logo": "https://media.api-sports.io/football/teams/10985.png",
+    "winner": true
+   },
+   "away": {
+    "id": 8150,
+    "name": "Anguilla",
+    "logo": "https://media.api-sports.io/football/teams/8150.png",
+    "winner": false
+   }
+  },
+  "goals": {
+   "home": 5,
+   "away": 1
+  },
+  "score": {
+   "halftime": {
+    "home": 2,
+    "away": 0
+   },
+   "fulltime": {
+    "home": 5,
+    "away": 1
+   },
+   "extratime": {
+    "home": null,
+    "away": null
+   },
+   "penalty": {
+    "home": null,
+    "away": null
+   }
+  }
+ },
+ "ids_testes": [
+  "Friendlies : Sint Maarten - Anguilla",
+  "Primera Division : Isidro Metapán - Platense",
+  "Liga MX Femenil : Pumas UNAM W - Tigres UANL W"
+ ],
+ "groupe": {
+  "erreurs": {
+   "plan": "Free plans do not have access to the Ids parameter."
+  },
+  "nb": 0,
+  "reste_jour": null,
+  "cles": null,
+  "compos": [],
+  "joueurs_extrait": null,
+  "buts_extrait": []
+ },
+ "compos_seul": {
+  "erreurs": [],
+  "nb": 2,
+  "brut": "[{\"team\": {\"id\": 10985, \"name\": \"Sint Maarten\", \"logo\": \"https://media.api-sports.io/football/teams/10985.png\", \"colors\": null}, \"coach\": {\"id\": 19538, \"name\": \"P. de Jong\", \"photo\": \"https://media.api-sports.io/football/coachs/19538.png\"}, \"formation\": null}, {\"team\": {\"id\": 8150, \"name\": \"Anguilla\", \"logo\": \"https://media.api-sports.io/football/teams/8150.png\", \"colors\": null}, \"coach\": {\"id\": 29892, \"name\": \"Ewan Gunter\", \"photo\": \"https://media.api-sports.io/football/coachs/29892.png\"}, \"formation\": null}]"
+ },
+ "blesses_groupe": {
+  "erreurs": {
+   "plan": "Free plans do not have access to the Ids parameter."
+  },
+  "nb": 0,
+  "extrait": [],
+  "reste_jour": null,
+  "limite_minute": null
+ }
+}
