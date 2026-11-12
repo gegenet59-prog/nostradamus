@@ -1,86 +1,168 @@
 {
  "saison": "2526",
- "explication": "crédits par mois pour les 5 championnats (3 relevés par créneau horaire) ; les coupes d'Europe s'ajoutent",
- "par_mois": {
+ "explication": "crédits par mois pour les 5 championnats seuls ; les coupes d'Europe ajoutent environ 40 à 60 crédits les mois où elles se jouent",
+ "h12_exact_par_match": {
   "2025-08": {
-   "L1": 60,
+   "L1": 57,
    "SA": 30,
    "LIGA": 87,
    "PL": 60,
    "BL": 33,
-   "total": 270
+   "total": 267
   },
   "2025-09": {
-   "L1": 57,
+   "L1": 55,
    "SA": 79,
    "LIGA": 93,
    "PL": 57,
    "BL": 51,
-   "total": 337
+   "total": 335
   },
   "2025-10": {
-   "L1": 66,
+   "L1": 62,
    "SA": 87,
    "LIGA": 78,
    "PL": 54,
    "BL": 51,
-   "total": 336
+   "total": 332
   },
   "2025-11": {
-   "L1": 77,
+   "L1": 73,
    "SA": 100,
    "LIGA": 95,
-   "PL": 72,
+   "PL": 70,
    "BL": 63,
-   "total": 407
+   "total": 401
   },
   "2025-12": {
-   "L1": 43,
+   "L1": 41,
    "SA": 105,
    "LIGA": 85,
    "PL": 93,
    "BL": 48,
-   "total": 374
+   "total": 372
   },
   "2026-01": {
-   "L1": 75,
+   "L1": 71,
    "SA": 151,
    "LIGA": 109,
    "PL": 83,
    "BL": 72,
-   "total": 490
+   "total": 486
   },
   "2026-02": {
-   "L1": 83,
+   "L1": 78,
    "SA": 115,
    "LIGA": 103,
    "PL": 75,
    "BL": 63,
-   "total": 439
+   "total": 434
   },
   "2026-03": {
-   "L1": 68,
+   "L1": 65,
    "SA": 96,
    "LIGA": 91,
    "PL": 59,
    "BL": 63,
-   "total": 377
+   "total": 374
   },
   "2026-04": {
-   "L1": 81,
+   "L1": 76,
    "SA": 115,
    "LIGA": 102,
    "PL": 63,
    "BL": 63,
-   "total": 424
+   "total": 419
   },
   "2026-05": {
-   "L1": 35,
+   "L1": 34,
    "SA": 86,
    "LIGA": 87,
    "PL": 69,
    "BL": 36,
-   "total": 313
+   "total": 312
+  }
+ },
+ "h12_groupe_par_jour": {
+  "2025-08": {
+   "L1": 45,
+   "SA": 24,
+   "LIGA": 71,
+   "PL": 50,
+   "BL": 28,
+   "total": 218
+  },
+  "2025-09": {
+   "L1": 45,
+   "SA": 62,
+   "LIGA": 72,
+   "PL": 45,
+   "BL": 43,
+   "total": 267
+  },
+  "2025-10": {
+   "L1": 49,
+   "SA": 69,
+   "LIGA": 60,
+   "PL": 45,
+   "BL": 44,
+   "total": 267
+  },
+  "2025-11": {
+   "L1": 57,
+   "SA": 78,
+   "LIGA": 71,
+   "PL": 56,
+   "BL": 53,
+   "total": 315
+  },
+  "2025-12": {
+   "L1": 32,
+   "SA": 83,
+   "LIGA": 68,
+   "PL": 78,
+   "BL": 41,
+   "total": 302
+  },
+  "2026-01": {
+   "L1": 56,
+   "SA": 120,
+   "LIGA": 84,
+   "PL": 68,
+   "BL": 63,
+   "total": 391
+  },
+  "2026-02": {
+   "L1": 61,
+   "SA": 94,
+   "LIGA": 81,
+   "PL": 64,
+   "BL": 54,
+   "total": 354
+  },
+  "2026-03": {
+   "L1": 51,
+   "SA": 76,
+   "LIGA": 70,
+   "PL": 49,
+   "BL": 53,
+   "total": 299
+  },
+  "2026-04": {
+   "L1": 61,
+   "SA": 91,
+   "LIGA": 79,
+   "PL": 54,
+   "BL": 53,
+   "total": 338
+  },
+  "2026-05": {
+   "L1": 28,
+   "SA": 69,
+   "LIGA": 69,
+   "PL": 59,
+   "BL": 30,
+   "total": 255
   }
  }
 }
