@@ -5,6 +5,8 @@ name: Collecteur
 on:
   schedule:
     - cron: "1-59/5 * * * *"
+  push:                     # un passage aussi à chaque modification du collecteur, pour vérifier tout de suite qu'il tourne
+    paths: ["collecteur/**", ".github/workflows/collecteur.yml"]
   workflow_dispatch:
   repository_dispatch:      # permet un réveil venant d'ailleurs (ex. Cloudflare) si GitHub se montre trop en retard
     types: [tick]

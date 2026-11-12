@@ -2,7 +2,7 @@
 name: Vérifications
 on:
   push:
-    paths: ["verif/verifier3.py"]
+    paths: ["verif/essai.py"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - run: python3 verif/verifier3.py
+      - run: python3 verif/essai.py
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
