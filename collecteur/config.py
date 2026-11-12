@@ -25,11 +25,11 @@ AVANCE_TOLEREE = 12   # si un appel part de toute façon pour la compétition, u
 SEUIL_ORANGE, SEUIL_ROUGE, SEUIL_VIOLET = 3.0, 7.0, 15.0
 SEUIL_H3_H45 = 4.0        # plus de 4 % rien qu'entre H-3 et H-45 -> au moins Rouge
 SEUIL_DESACCORD = 1.0     # Pinnacle et Winamax en sens opposé, d'au moins 1 % chacun -> au moins Orange
-COTE_REFERENCE = 3.0      # cote pour laquelle « ampleur » = % classique (voir calculs.ampleur)
+COTE_REFERENCE = 2.0      # cote pour laquelle « ampleur » = % classique ; en dessous, le mouvement est amplifié (voir calculs.ampleur)
 # ---- Phrase « Le marché annonce » (en points de probabilité) ----
 SEUIL_MOUVEMENT = 1.0     # en dessous, « pas de mouvement net »
 SEUIL_PERTE = 0.5         # une issue qui perd plus que ça est « quittée » par le marché
-SEUIL_MARGE = 1.0         # marge du bookmaker qui bouge de plus d'1 point -> « Mouvement incohérent »
+SEUIL_MARGE = 1.5         # marge du bookmaker qui bouge de plus d'1,5 point -> « Mouvement incohérent »
 # ---- Titulaires (calculé sur notre propre base de compos) ----
 TITULAIRE_MATCHS = 5      # on regarde les 5 derniers matchs enregistrés de l'équipe
 TITULAIRE_MINI = 3        # il en faut au moins 3 pour juger
@@ -40,4 +40,4 @@ ARRET_TOTAL = 20          # plus aucun relevé à 20 crédits restants
 RYTHME_COMPLET = 13.0     # crédits par jour (en moyenne jusqu'à la fin du mois) en dessous desquels on sacrifie les H-3
 # ---- Garde-fou API-Football (100 requêtes par jour, remises à zéro à minuit UTC) ----
 FOOT_RESERVE = 6          # on garde toujours 6 requêtes (calendrier et scores du lendemain)
-COMPOS_ESSAIS = [45, 30, 15, -5]   # minutes avant le coup d'envoi où l'on (re)demande les compos tant qu'elles manquent
+COMPOS_ESSAIS = [35, 20, -5]       # minutes avant le coup d'envoi où l'on (re)demande les compos tant qu'elles manquent (-5 = 5 min après)

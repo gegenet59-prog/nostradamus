@@ -1,0 +1,28 @@
+# Import de l'historique gratuit Football-Data.co.uk (résultats + cotes d'ouverture et de clôture des 5 championnats).
+# Refait chaque mardi matin pour ajouter les matchs du week-end, et à chaque modification du script ou des seuils.
+name: Historique
+on:
+  schedule:
+    - cron: "23 4 * * 2"
+  push:
+    paths: ["collecteur/historique.py", "collecteur/config.py", "collecteur/calculs.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  importer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest discover tests
+      - run: python3 -m collecteur.historique
+      - name: Ranger l'historique dans le dépôt
+        run: |
+          git add data/historique verif/budget.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Nostradamus (robot)"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Historique Football-Data mis à jour"
+          for i in 1 2 3 4; do git pull --rebase -q && git push -q && exit 0; sleep 4; done
+          exit 1

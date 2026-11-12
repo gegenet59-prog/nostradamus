@@ -1,0 +1,35 @@
+# Le collecteur de Nostradamus : réveillé toutes les 5 minutes, il fait les relevés de cotes dus (H-12, H-3, H-45),
+# récupère compos, absents et scores, calcule les feux, puis range le tout dans data/ (la base lue par la page web).
+# La plupart des réveils ne trouvent rien à faire et s'arrêtent en quelques secondes.
+name: Collecteur
+on:
+  schedule:
+    - cron: "1-59/5 * * * *"
+  workflow_dispatch:
+  repository_dispatch:      # permet un réveil venant d'ailleurs (ex. Cloudflare) si GitHub se montre trop en retard
+    types: [tick]
+permissions:
+  contents: write
+concurrency:
+  group: collecteur
+  cancel-in-progress: false
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Passage du collecteur
+        run: python3 -m collecteur.tick
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      - name: Ranger les nouveautés dans le dépôt
+        run: |
+          git add data
+          git diff --cached --quiet && exit 0
+          git config user.name "Nostradamus (robot)"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Relevé automatique"
+          for i in 1 2 3 4; do git pull --rebase -q && git push -q && exit 0; sleep 4; done
+          exit 1

@@ -18,8 +18,8 @@ class Calculs(unittest.TestCase):
         p, marge = K.probabilites({"1": 2.0, "N": 4.0, "2": 4.0})
         self.assertAlmostEqual(sum(p.values()), 1); self.assertAlmostEqual(p["1"], 0.5); self.assertAlmostEqual(marge, 0)
 
-    def test_ampleur_egale_pct_classique_a_cote_3(self):
-        self.assertAlmostEqual(K.ampleur(1 / 3, 1 / 3.09), 3.0, delta=0.15)
+    def test_ampleur_egale_pct_classique_a_cote_2(self):
+        self.assertAlmostEqual(K.ampleur(1 / 2, 1 / 2.06), 3.0, delta=0.15)
 
     def test_petite_cote_pese_autant(self):
         # 1,30 -> 1,25 (4 % à l'écran) doit peser à peu près comme 6,00 -> 7,00 (17 % à l'écran)
@@ -27,7 +27,7 @@ class Calculs(unittest.TestCase):
         self.assertGreater(petit, 7); self.assertLess(abs(petit - gros), 3)
 
     def test_exemple_du_cahier_des_charges(self):
-        m = match({"1": 2.10, "N": 3.40, "2": 3.60}, {"1": 1.974, "N": 3.434, "2": 4.212})
+        m = match({"1": 1.85, "N": 3.60, "2": 4.40}, {"1": 1.739, "N": 3.636, "2": 5.148})
         f = m["feux"]["issues"]
         self.assertEqual((f["1"]["fleche"], f["1"]["pct"]), ("baisse", -6.0))
         self.assertEqual((f["N"]["feu"], f["N"]["fleche"]), ("vert", "hausse"))

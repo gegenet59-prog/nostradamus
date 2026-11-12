@@ -26,7 +26,7 @@ def ampleur(p_avant, p_apres):
 
     On mesure le déplacement de la probabilité sur une échelle « logit » (celle où 1,30 -> 1,25 pèse autant
     que 6,00 -> 7,00), puis on le ramène à un pourcentage qui vaut exactement le % classique pour une cote
-    de 3,00. Résultat : pour une petite cote l'ampleur est plus forte que le % affiché, pour une grosse
+    de 2,00. Résultat : pour une petite cote l'ampleur est plus forte que le % affiché, pour une grosse
     cote elle est un peu plus faible. Le feu retenu est le plus sévère des deux lectures (voir calculer) :
     le tableau du cahier des charges reste donc toujours vrai avec le % affiché, et les petites cotes
     ne passent plus sous le radar."""
@@ -83,13 +83,15 @@ def calculer(match):
         match["feux"], match["marche"] = None, None
         return match
     depart, arrivee = pin("H12"), pin(dernier)
-    p0, _ = probabilites(depart)
-    p1, _ = probabilites(arrivee)
+    # Probabilité d'une issue, marge retirée. On retire aux deux relevés la marge constatée à H-12 : ainsi une cote
+    # qui n'a pas bougé a une ampleur de 0, même si le bookmaker a changé sa marge entre-temps.
+    total = sum(1.0 / depart[i] for i in ISSUES)
+    proba = lambda cotes, i: min(1.0 / cotes[i] / total, 0.995)
     absents = match.get("absents") or {}
     feux = {}
     for i in ISSUES:
         pct = variation_classique(depart[i], arrivee[i])
-        a = ampleur(p0[i], p1[i])
+        a = ampleur(proba(depart, i), proba(arrivee, i))
         # le feu suit le tableau avec le % affiché ; le calcul en coulisse ne peut que le monter (petites cotes)
         niveau, raisons = niveau_selon_ampleur(abs(pct)), []
         if niveau_selon_ampleur(a) > niveau:
@@ -101,8 +103,8 @@ def calculer(match):
                 niveau = max(niveau, 1); raisons.append("Pinnacle et Winamax en sens opposé")
         # plus de 4 % rien qu'entre H-3 et H-45 -> au moins Rouge
         if dernier == "H45" and cotes_valides(pin("H3")):
-            p3, _ = probabilites(pin("H3"))
-            if ampleur(p3[i], p1[i]) > C.SEUIL_H3_H45:
+            derniere_heure = max(abs(variation_classique(pin("H3")[i], arrivee[i])), ampleur(proba(pin("H3"), i), proba(arrivee, i)))
+            if derniere_heure > C.SEUIL_H3_H45:
                 niveau = max(niveau, 2); raisons.append("plus de 4 % entre H-3 et H-45")
         # absences : elles touchent l'issue « victoire » de l'équipe concernée (1 = domicile, 2 = extérieur)
         cote = {"1": "domicile", "2": "exterieur"}.get(i)
