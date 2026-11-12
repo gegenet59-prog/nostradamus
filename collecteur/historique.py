@@ -66,21 +66,26 @@ def convertir(ligne, saison):
 
 
 def simuler_budget(par_comp):
-    """Sur la dernière saison complète : combien de crédits par mois pour 3 relevés par créneau et par championnat ?"""
+    """Sur la dernière saison complète : crédits par mois pour les 5 championnats, selon la façon de faire le H-12.
+    Un appel sert tous les relevés de la compétition dus au même moment (ou dans les AVANCE_TOLEREE minutes)."""
     saison = saisons()[-2]
-    mois = {}
+    modes = {"h12_exact_par_match": {}, "h12_groupe_par_jour": {}}
     for comp, lignes in par_comp.items():
-        instants = set()
-        for l in lignes:
-            if l[0] != saison or not l[2]: continue
-            ko = datetime.strptime(f"{l[1]} {l[2]}", "%Y-%m-%d %H:%M")
-            for r in C.RELEVES.values():
-                t = ko - timedelta(minutes=r["avant"])
-                instants.add((t.strftime("%Y-%m"), t))          # deux relevés au même instant = un seul appel
-        for cle, _ in instants:
-            mois.setdefault(cle, {}).setdefault(comp, 0); mois[cle][comp] += 1
-    return {"saison": saison, "explication": "crédits par mois pour les 5 championnats (3 relevés par créneau horaire) ; les coupes d'Europe s'ajoutent",
-            "par_mois": {k: {**v, "total": sum(v.values())} for k, v in sorted(mois.items())}}
+        kos = sorted({datetime.strptime(f"{l[1]} {l[2]}", "%Y-%m-%d %H:%M") for l in lignes if l[0] == saison and l[2]})
+        par_jour = {}
+        for k in kos: par_jour.setdefault(k.date(), []).append(k)
+        avant = lambda nom: timedelta(minutes=C.RELEVES[nom]["avant"])
+        suite = [k - avant(n) for k in kos for n in ("H3", "H45")]
+        for mode, h12 in (("h12_exact_par_match", [k - avant("H12") for k in kos]),
+                          ("h12_groupe_par_jour", [min(v) - avant("H12") for v in par_jour.values()])):
+            dernier = None
+            for t in sorted(suite + h12):
+                if dernier and t - dernier <= timedelta(minutes=C.AVANCE_TOLEREE): continue
+                dernier = t
+                modes[mode].setdefault(t.strftime("%Y-%m"), {}).setdefault(comp, 0)
+                modes[mode][t.strftime("%Y-%m")][comp] += 1
+    return {"saison": saison, "explication": "crédits par mois pour les 5 championnats seuls ; les coupes d'Europe ajoutent environ 40 à 60 crédits les mois où elles se jouent",
+            **{mode: {k: {**v, "total": sum(v.values())} for k, v in sorted(mois.items())} for mode, mois in modes.items()}}
 
 
 def importer():

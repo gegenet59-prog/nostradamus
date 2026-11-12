@@ -53,6 +53,16 @@ def planifier(base, src, maintenant):
                     and instant(m["coup_envoi"]) > maintenant and not any(r.get("etat") == "fait" for r in m["releves"].values()):
                 base.jour(jour_paris(instant(m["coup_envoi"])))["matchs"].remove(m); base.toucher(m); del connus[m["id"]]
                 base.alerte(maintenant, f"Match retiré du calendrier : {m['domicile']} - {m['exterieur']}")
+    if C.H12_GROUPE:      # un seul H-12 par compétition et par jour : 12 h avant le premier match du jour
+        groupes = {}
+        for m in connus.values():
+            groupes.setdefault((m["competition"], jour_paris(instant(m["coup_envoi"]))), []).append(m)
+        for groupe in groupes.values():
+            prevu = iso(min(instant(m["coup_envoi"]) for m in groupe) - timedelta(minutes=C.RELEVES["H12"]["avant"]))
+            for m in groupe:
+                r = m["releves"].get("H12")
+                if r and r["etat"] == "attente" and r["prevu"] != prevu:
+                    r["prevu"] = prevu; base.toucher(m)
     base.etat["planning_fait_a"] = iso(maintenant); base.etat_modifie = True
 
 

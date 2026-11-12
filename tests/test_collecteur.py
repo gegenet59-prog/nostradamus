@@ -77,12 +77,14 @@ class Collecteur(unittest.TestCase):
     def test_journee_complete(self):
         src = FaussesSources()
         m = self.dérouler(src, J - timedelta(hours=10), J + timedelta(days=1, hours=7))
-        # 3 créneaux (L1 16:15, L1 19:45, SA 19:45) x 3 relevés = 9 crédits, pas un de plus
-        self.assertEqual(len(src.appels_cotes), 9); self.assertEqual(src.odds_reste, 491)
+        # L1 : 1 H-12 groupé + 2 H-3 + 2 H-45 ; Serie A : 3 relevés -> 8 crédits, pas un de plus
+        self.assertEqual(len(src.appels_cotes), 8); self.assertEqual(src.odds_reste, 492)
         for x in m.values():
             for nom in ("H12", "H3", "H45"):
                 r = x["releves"][nom]
                 self.assertEqual(r["etat"], "fait"); self.assertLessEqual(abs(r["retard_min"]), 5)
+                self.assertEqual(r["prevu"][11:16], {"H12": {"a": "04:15", "b": "04:15", "c": "04:15", "d": "07:45"}[x["id"]],
+                                                     "H3": "13:15" if x["id"] == "a" else "16:45", "H45": "15:30" if x["id"] == "a" else "19:00"}[nom])
                 self.assertEqual(set(r["pinnacle"]), {"1", "N", "2"}); self.assertTrue(r["winamax"])
             self.assertEqual(x["score"], {"domicile": 2, "exterieur": 1, "issue": "1", "statut": "FT"})
             self.assertTrue(x["compos"]); self.assertEqual(len(x["compos"]["domicile"]["titulaires"]), 11)
@@ -98,12 +100,12 @@ class Collecteur(unittest.TestCase):
         # API-Football : très loin des 100 requêtes
         self.assertLess(len(src.appels_foot), 20)
         self.assertEqual(B.lire("index.json")["jours"], {"2026-11-21": 4})
-        self.assertEqual(B.lire("etat.json")["odds"]["reste"], 491)
+        self.assertEqual(B.lire("etat.json")["odds"]["reste"], 492)
 
     def test_relance_sans_double_depense(self):
         src = FaussesSources()
         self.dérouler(src, J - timedelta(hours=10), J + timedelta(hours=8), pas=1)     # un passage par minute
-        self.assertEqual(len(src.appels_cotes), 3)                                      # les 3 H-12 de la matinée, une seule fois chacun
+        self.assertEqual(len(src.appels_cotes), 2)                                      # les 2 H-12 de la matinée (L1 groupé, Serie A), une seule fois chacun
 
     def test_reveils_en_retard(self):
         src = FaussesSources()
@@ -112,11 +114,11 @@ class Collecteur(unittest.TestCase):
         self.assertLessEqual(max(x["releves"]["H45"]["retard_min"] for x in m.values()), 25)
 
     def test_h3_sacrifies_quand_le_stock_baisse(self):
-        src = FaussesSources(odds_reste=120)        # 100 crédits utiles pour 10 jours : 10 par jour, sous le rythme complet
+        src = FaussesSources(odds_reste=100)        # 80 crédits utiles pour 10 jours : 8 par jour, sous le rythme complet
         m = self.dérouler(src, J - timedelta(hours=10), J + timedelta(hours=20))
         self.assertTrue(all(x["releves"]["H3"]["etat"] == "sacrifie" for x in m.values()))
         self.assertTrue(all(x["releves"][n]["etat"] == "fait" for x in m.values() for n in ("H12", "H45")))
-        self.assertEqual(len(src.appels_cotes), 6); self.assertFalse(m["a"]["feux"]["provisoire"])
+        self.assertEqual(len(src.appels_cotes), 5); self.assertFalse(m["a"]["feux"]["provisoire"])
         self.assertEqual(B.lire("etat.json")["odds"]["mode"], "sans_H3")
 
     def test_arret_total_a_20_credits(self):
@@ -124,6 +126,15 @@ class Collecteur(unittest.TestCase):
         m = self.dérouler(src, J - timedelta(hours=10), J + timedelta(hours=20))
         self.assertEqual(src.odds_reste, 20)                                            # jamais en dessous de 20
         self.assertEqual(B.lire("etat.json")["odds"]["mode"], "arret")
+
+    def test_h12_exact_si_on_coupe_le_groupage(self):
+        C.H12_GROUPE = False
+        try:
+            src = FaussesSources()
+            m = self.dérouler(src, J - timedelta(hours=10), J + timedelta(hours=20))
+            self.assertEqual(len(src.appels_cotes), 9); self.assertEqual(m["b"]["releves"]["H12"]["prevu"], "2026-11-21T07:45:00Z")
+        finally:
+            C.H12_GROUPE = True
 
     def test_changement_d_horaire(self):
         src = FaussesSources()

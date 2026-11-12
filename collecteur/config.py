@@ -19,6 +19,10 @@ RELEVES = {
     "H3":  {"avant": 180, "limite": 100},   # visé à H-3,  accepté jusqu'à H-1h40
     "H45": {"avant": 45,  "limite": 3},     # visé à H-45, accepté jusqu'à 3 min avant le coup d'envoi
 }
+# H-12 groupé : un seul relevé H-12 par compétition et par jour, pris 12 h avant le PREMIER match du jour ; il sert de
+# point de départ à tous les matchs de ce jour-là (pour les matchs du soir il est donc pris un peu plus tôt que H-12).
+# Sans ça le budget réel dépasse les 500 crédits certains mois (voir NOTES.md). Mettre False pour un H-12 exact par match.
+H12_GROUPE = True
 AVANCE_TOLEREE = 12   # si un appel part de toute façon pour la compétition, un relevé dû dans les 12 min en profite
 
 # ---- Feux (cahier des charges) : ampleur de la variation entre H-12 et H-45, hausse ou baisse ----
@@ -37,7 +41,7 @@ TITULAIRE_PART = 0.6      # titulaire régulier = titulaire dans au moins 60 % d
 
 # ---- Garde-fou The Odds API (500 crédits par mois, remis à zéro le 1er) ----
 ARRET_TOTAL = 20          # plus aucun relevé à 20 crédits restants
-RYTHME_COMPLET = 13.0     # crédits par jour (en moyenne jusqu'à la fin du mois) en dessous desquels on sacrifie les H-3
+RYTHME_COMPLET = 10.0     # s'il reste moins de 10 crédits par jour jusqu'à la fin du mois, on sacrifie les H-3
 # ---- Garde-fou API-Football (100 requêtes par jour, remises à zéro à minuit UTC) ----
 FOOT_RESERVE = 6          # on garde toujours 6 requêtes (calendrier et scores du lendemain)
 COMPOS_ESSAIS = [35, 20, -5]       # minutes avant le coup d'envoi où l'on (re)demande les compos tant qu'elles manquent (-5 = 5 min après)
