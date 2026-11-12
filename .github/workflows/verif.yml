@@ -1,0 +1,25 @@
+# Vérifications avant construction : interroge les 3 sources et range le résultat dans verif/resultats.json
+name: Vérifications
+on:
+  push:
+    paths: ["verif/verifier.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 verif/verifier.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      - name: Ranger le résultat dans le dépôt
+        run: |
+          git config user.name "Nostradamus (robot)"
+          git config user.email "actions@users.noreply.github.com"
+          git add verif/resultats.json
+          git commit -m "Vérifications : résultats" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
