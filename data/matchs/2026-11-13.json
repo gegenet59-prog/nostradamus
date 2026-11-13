@@ -38,11 +38,26 @@
     },
     "H45": {
      "prevu": "2026-11-13T16:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T16:28:46Z",
+     "retard_min": 14,
+     "pinnacle": {
+      "1": 2.4,
+      "N": 3.08,
+      "2": 3.4
+     },
+     "winamax": {
+      "1": 2.2,
+      "N": 3.0,
+      "2": 3.0
+     },
+     "maj_pinnacle": "2026-11-13T16:28:32Z"
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-13T16:28:46Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -395,5 +410,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-13T14:48:34Z"
+ "maj": "2026-11-13T16:28:46Z"
 }
