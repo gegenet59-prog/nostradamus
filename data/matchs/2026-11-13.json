@@ -54,9 +54,258 @@
      "maj_pinnacle": "2026-11-13T16:28:32Z"
     }
    },
-   "compos": null,
+   "compos": {
+    "recue_a": "2026-11-13T17:26:11Z",
+    "minutes_avant": -26,
+    "domicile": {
+     "formation": "5-3-2",
+     "titulaires": [
+      {
+       "id": 56058,
+       "nom": "D. Celeadnic",
+       "poste": "G"
+      },
+      {
+       "id": 92107,
+       "nom": "I. Revenco",
+       "poste": "D"
+      },
+      {
+       "id": 63376,
+       "nom": "V. Baboglo",
+       "poste": "D"
+      },
+      {
+       "id": 331912,
+       "nom": "I. Iovu",
+       "poste": "D"
+      },
+      {
+       "id": 374157,
+       "nom": "M. Gherasimencov",
+       "poste": "D"
+      },
+      {
+       "id": 41724,
+       "nom": "O. Reabciuk",
+       "poste": "D"
+      },
+      {
+       "id": 684072,
+       "nom": "Vladimir Fratea",
+       "poste": "M"
+      },
+      {
+       "id": 42524,
+       "nom": "V. Raţă",
+       "poste": "M"
+      },
+      {
+       "id": 452430,
+       "nom": "S. Perciun",
+       "poste": "M"
+      },
+      {
+       "id": 142204,
+       "nom": "N. Cleșcenco",
+       "poste": "F"
+      },
+      {
+       "id": 276435,
+       "nom": "Petru Popescu",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 112891,
+       "nom": "V. Bogaciuc",
+       "poste": "M"
+      },
+      {
+       "id": 602730,
+       "nom": "A. Betivu",
+       "poste": "F"
+      },
+      {
+       "id": 554371,
+       "nom": "O. David",
+       "poste": "M"
+      },
+      {
+       "id": 112945,
+       "nom": "D. Dumbrăvanu",
+       "poste": "D"
+      },
+      {
+       "id": 336694,
+       "nom": "D. Forov",
+       "poste": "F"
+      },
+      {
+       "id": 63592,
+       "nom": "A. Kozhukhar",
+       "poste": "G"
+      },
+      {
+       "id": 119438,
+       "nom": "D. Marandici",
+       "poste": "D"
+      },
+      {
+       "id": 318532,
+       "nom": "N. Moțpan",
+       "poste": "M"
+      },
+      {
+       "id": 310457,
+       "nom": "S. Negru",
+       "poste": "D"
+      },
+      {
+       "id": 106984,
+       "nom": "V. Stînă",
+       "poste": "M"
+      },
+      {
+       "id": 7855,
+       "nom": "E. Tîmbur",
+       "poste": "G"
+      },
+      {
+       "id": 215922,
+       "nom": "M. Ștefan",
+       "poste": "D"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "5-3-2",
+     "titulaires": [
+      {
+       "id": 56074,
+       "nom": "S. Pokatilov",
+       "poste": "G"
+      },
+      {
+       "id": 323820,
+       "nom": "A. Mrynskiy",
+       "poste": "D"
+      },
+      {
+       "id": 111789,
+       "nom": "A. Kassym",
+       "poste": "D"
+      },
+      {
+       "id": 56077,
+       "nom": "T. Erlanov",
+       "poste": "D"
+      },
+      {
+       "id": 56080,
+       "nom": "N. Alip",
+       "poste": "D"
+      },
+      {
+       "id": 111761,
+       "nom": "N. Zhagorov",
+       "poste": "D"
+      },
+      {
+       "id": 111495,
+       "nom": "R. Orazov",
+       "poste": "M"
+      },
+      {
+       "id": 111503,
+       "nom": "D. Karaman",
+       "poste": "M"
+      },
+      {
+       "id": 544819,
+       "nom": "Z. Amir",
+       "poste": "M"
+      },
+      {
+       "id": 191889,
+       "nom": "M. Samorodov",
+       "poste": "F"
+      },
+      {
+       "id": 311508,
+       "nom": "I. Chesnokov",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 683486,
+       "nom": "Bekkhan Shayzada",
+       "poste": "G"
+      },
+      {
+       "id": 123432,
+       "nom": "A. Zhumakhanov",
+       "poste": "D"
+      },
+      {
+       "id": 56084,
+       "nom": "Y. Vorogovskiy",
+       "poste": "D"
+      },
+      {
+       "id": 111532,
+       "nom": "E. Tapalov",
+       "poste": "D"
+      },
+      {
+       "id": 466618,
+       "nom": "A. Ashirbek",
+       "poste": "M"
+      },
+      {
+       "id": 56083,
+       "nom": "I. Kuat",
+       "poste": "M"
+      },
+      {
+       "id": 293264,
+       "nom": "G. Kenzhebek",
+       "poste": "M"
+      },
+      {
+       "id": 490788,
+       "nom": "A. Tuyakbayev",
+       "poste": "M"
+      },
+      {
+       "id": 111458,
+       "nom": "A. Zhaksylykov",
+       "poste": "F"
+      },
+      {
+       "id": 105843,
+       "nom": "Aybol Abiken",
+       "poste": "M"
+      },
+      {
+       "id": 56082,
+       "nom": "B. Islamkhan",
+       "poste": "M"
+      },
+      {
+       "id": 111587,
+       "nom": "A. Zarutskiy",
+       "poste": "G"
+      }
+     ]
+    }
+   },
    "compos_essais": [
-    "2026-11-13T16:28:46Z"
+    "2026-11-13T16:28:46Z",
+    "2026-11-13T17:26:11Z",
+    "2026-11-13T17:26:11Z"
    ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
@@ -87,7 +336,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 1.64,
+      "N": 3.29,
+      "2": 7.23
+     },
+     "winamax": {
+      "1": 1.58,
+      "N": 3.1,
+      "2": 6.0
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -125,7 +387,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 4.84,
+      "N": 3.69,
+      "2": 1.78
+     },
+     "winamax": {
+      "1": 4.2,
+      "N": 3.5,
+      "2": 1.66
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -163,7 +438,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 19.8,
+      "N": 5.86,
+      "2": 1.2
+     },
+     "winamax": {
+      "1": 15.0,
+      "N": 5.4,
+      "2": 1.14
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -201,7 +489,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 2.51,
+      "N": 3.11,
+      "2": 3.16
+     },
+     "winamax": {
+      "1": 2.3,
+      "N": 2.95,
+      "2": 2.85
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -239,7 +540,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 1.54,
+      "N": 4.65,
+      "2": 5.7
+     },
+     "winamax": {
+      "1": 1.45,
+      "N": 4.65,
+      "2": 5.0
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -277,7 +591,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 1.17,
+      "N": 7.75,
+      "2": 18.6
+     },
+     "winamax": {
+      "1": 1.11,
+      "N": 7.75,
+      "2": 14.0
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -315,7 +642,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 9.64,
+      "N": 6.38,
+      "2": 1.28
+     },
+     "winamax": {
+      "1": 9.0,
+      "N": 6.25,
+      "2": 1.2
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -353,7 +693,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 1.34,
+      "N": 5.26,
+      "2": 9.58
+     },
+     "winamax": {
+      "1": 1.25,
+      "N": 5.0,
+      "2": 8.5
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -391,7 +744,20 @@
     },
     "H3": {
      "prevu": "2026-11-13T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T17:26:11Z",
+     "retard_min": 41,
+     "pinnacle": {
+      "1": 5.96,
+      "N": 3.3,
+      "2": 1.78
+     },
+     "winamax": {
+      "1": 5.5,
+      "N": 3.25,
+      "2": 1.6
+     },
+     "maj_pinnacle": "2026-11-13T17:26:06Z"
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
@@ -410,5 +776,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-13T16:28:46Z"
+ "maj": "2026-11-13T17:26:11Z"
 }

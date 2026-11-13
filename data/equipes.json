@@ -1,0 +1,98 @@
+{
+ "1114": {
+  "nom": "Moldova",
+  "matchs": [
+   {
+    "match": 1528968,
+    "date": "2026-11-13",
+    "onze": [
+     56058,
+     92107,
+     63376,
+     331912,
+     374157,
+     41724,
+     684072,
+     42524,
+     452430,
+     142204,
+     276435
+    ],
+    "gardien": 56058
+   }
+  ],
+  "joueurs": {
+   "56058": "D. Celeadnic",
+   "92107": "I. Revenco",
+   "63376": "V. Baboglo",
+   "331912": "I. Iovu",
+   "374157": "M. Gherasimencov",
+   "41724": "O. Reabciuk",
+   "684072": "Vladimir Fratea",
+   "42524": "V. Raţă",
+   "452430": "S. Perciun",
+   "142204": "N. Cleșcenco",
+   "276435": "Petru Popescu",
+   "112891": "V. Bogaciuc",
+   "602730": "A. Betivu",
+   "554371": "O. David",
+   "112945": "D. Dumbrăvanu",
+   "336694": "D. Forov",
+   "63592": "A. Kozhukhar",
+   "119438": "D. Marandici",
+   "318532": "N. Moțpan",
+   "310457": "S. Negru",
+   "106984": "V. Stînă",
+   "7855": "E. Tîmbur",
+   "215922": "M. Ștefan"
+  }
+ },
+ "1095": {
+  "nom": "Kazakhstan",
+  "matchs": [
+   {
+    "match": 1528968,
+    "date": "2026-11-13",
+    "onze": [
+     56074,
+     323820,
+     111789,
+     56077,
+     56080,
+     111761,
+     111495,
+     111503,
+     544819,
+     191889,
+     311508
+    ],
+    "gardien": 56074
+   }
+  ],
+  "joueurs": {
+   "56074": "S. Pokatilov",
+   "323820": "A. Mrynskiy",
+   "111789": "A. Kassym",
+   "56077": "T. Erlanov",
+   "56080": "N. Alip",
+   "111761": "N. Zhagorov",
+   "111495": "R. Orazov",
+   "111503": "D. Karaman",
+   "544819": "Z. Amir",
+   "191889": "M. Samorodov",
+   "311508": "I. Chesnokov",
+   "683486": "Bekkhan Shayzada",
+   "123432": "A. Zhumakhanov",
+   "56084": "Y. Vorogovskiy",
+   "111532": "E. Tapalov",
+   "466618": "A. Ashirbek",
+   "56083": "I. Kuat",
+   "293264": "G. Kenzhebek",
+   "490788": "A. Tuyakbayev",
+   "111458": "A. Zhaksylykov",
+   "105843": "Aybol Abiken",
+   "56082": "B. Islamkhan",
+   "111587": "A. Zarutskiy"
+  }
+ }
+}
