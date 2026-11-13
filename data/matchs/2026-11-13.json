@@ -353,11 +353,273 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 1.61,
+      "N": 3.34,
+      "2": 7.45
+     },
+     "winamax": {
+      "1": 1.56,
+      "N": 3.2,
+      "2": 6.0
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 169256,
+       "nom": "Iker Álvarez",
+       "poste": "G"
+      },
+      {
+       "id": null,
+       "nom": "Biel Borra",
+       "poste": "D"
+      },
+      {
+       "id": 56048,
+       "nom": "Max Llovera",
+       "poste": "D"
+      },
+      {
+       "id": null,
+       "nom": "Ian Olivera",
+       "poste": "D"
+      },
+      {
+       "id": 5059,
+       "nom": "Moisés San Nicolás",
+       "poste": "D"
+      },
+      {
+       "id": null,
+       "nom": "Nil Linares",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Ot Planes",
+       "poste": "M"
+      },
+      {
+       "id": 169214,
+       "nom": "Éric De Las Heras Izquierdo",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Aron Rodrigo",
+       "poste": "M"
+      },
+      {
+       "id": 179438,
+       "nom": "G. López",
+       "poste": "F"
+      },
+      {
+       "id": 169180,
+       "nom": "Albert Rosas",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 169257,
+       "nom": "Christian García",
+       "poste": "D"
+      },
+      {
+       "id": 576993,
+       "nom": "M. Garcia",
+       "poste": "M"
+      },
+      {
+       "id": 169212,
+       "nom": "Joel Guillén",
+       "poste": "D"
+      },
+      {
+       "id": 56051,
+       "nom": "Jordi Aláez",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Kiko Pomares",
+       "poste": "D"
+      },
+      {
+       "id": null,
+       "nom": "Eric Vales",
+       "poste": "M"
+      },
+      {
+       "id": 573711,
+       "nom": "M. De Castro",
+       "poste": "G"
+      },
+      {
+       "id": null,
+       "nom": "Gerard Garcia",
+       "poste": "F"
+      },
+      {
+       "id": 123049,
+       "nom": "Á. Ruíz",
+       "poste": "G"
+      },
+      {
+       "id": 348198,
+       "nom": "Hugo Silva",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Ricard Fernández",
+       "poste": "F"
+      },
+      {
+       "id": 573694,
+       "nom": "A. Cornella",
+       "poste": "D"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 91622,
+       "nom": "J. Hankins",
+       "poste": "G"
+      },
+      {
+       "id": 55929,
+       "nom": "E. Jolley",
+       "poste": "D"
+      },
+      {
+       "id": 321076,
+       "nom": "D. Bent",
+       "poste": "D"
+      },
+      {
+       "id": 91618,
+       "nom": "B. Lopes",
+       "poste": "D"
+      },
+      {
+       "id": 169173,
+       "nom": "J. Valarino",
+       "poste": "D"
+      },
+      {
+       "id": 330447,
+       "nom": "Carlos Peliza Richards",
+       "poste": "M"
+      },
+      {
+       "id": 169201,
+       "nom": "K. Ronan",
+       "poste": "M"
+      },
+      {
+       "id": 340184,
+       "nom": "N. Pozo",
+       "poste": "M"
+      },
+      {
+       "id": 396729,
+       "nom": "J. Scanlon",
+       "poste": "M"
+      },
+      {
+       "id": 55935,
+       "nom": "T. De Barr",
+       "poste": "F"
+      },
+      {
+       "id": 175273,
+       "nom": "D. Borge",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": null,
+       "nom": "Harry Victor",
+       "poste": "G"
+      },
+      {
+       "id": 155011,
+       "nom": "B. Banda",
+       "poste": "G"
+      },
+      {
+       "id": 288130,
+       "nom": "H. Stevens",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "J. Garro",
+       "poste": "D"
+      },
+      {
+       "id": null,
+       "nom": "J. Gomez",
+       "poste": "M"
+      },
+      {
+       "id": 340105,
+       "nom": "L. Jessop",
+       "poste": "F"
+      },
+      {
+       "id": 573699,
+       "nom": "L. Mason",
+       "poste": "F"
+      },
+      {
+       "id": null,
+       "nom": "Luke Schofield",
+       "poste": "M"
+      },
+      {
+       "id": 169279,
+       "nom": "J. Del Rio",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Jeremy Perera",
+       "poste": "M"
+      },
+      {
+       "id": 55925,
+       "nom": "E. Britto",
+       "poste": "D"
+      },
+      {
+       "id": 55923,
+       "nom": "L. Annesley",
+       "poste": "D"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -404,11 +666,273 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 4.85,
+      "N": 3.72,
+      "2": 1.77
+     },
+     "winamax": {
+      "1": 4.2,
+      "N": 3.65,
+      "2": 1.62
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 1056,
+       "nom": "D. Naumov",
+       "poste": "G"
+      },
+      {
+       "id": 293294,
+       "nom": "Y. Stoyanov",
+       "poste": "D"
+      },
+      {
+       "id": 37452,
+       "nom": "S. Velkov",
+       "poste": "D"
+      },
+      {
+       "id": 297523,
+       "nom": "E. Tsenov",
+       "poste": "D"
+      },
+      {
+       "id": 200078,
+       "nom": "H. Petrov",
+       "poste": "D"
+      },
+      {
+       "id": 126711,
+       "nom": "A. Kraev",
+       "poste": "M"
+      },
+      {
+       "id": 129142,
+       "nom": "I. Gruev",
+       "poste": "M"
+      },
+      {
+       "id": 177452,
+       "nom": "L. Petkov",
+       "poste": "M"
+      },
+      {
+       "id": 11317,
+       "nom": "G. Rusev",
+       "poste": "M"
+      },
+      {
+       "id": 394173,
+       "nom": "K. Balov",
+       "poste": "M"
+      },
+      {
+       "id": 10631,
+       "nom": "A. Iliev",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": null,
+       "nom": "Georgi Antoanov Lazarov",
+       "poste": "F"
+      },
+      {
+       "id": 315739,
+       "nom": "A. Bozhev",
+       "poste": "G"
+      },
+      {
+       "id": 561380,
+       "nom": "I. Pankov",
+       "poste": "M"
+      },
+      {
+       "id": 10999,
+       "nom": "I. Turitsov",
+       "poste": "D"
+      },
+      {
+       "id": 31552,
+       "nom": "I. Chochev",
+       "poste": "M"
+      },
+      {
+       "id": 342310,
+       "nom": "R. Bozhinov",
+       "poste": "D"
+      },
+      {
+       "id": null,
+       "nom": "Martin Petkov Petkov",
+       "poste": "M"
+      },
+      {
+       "id": 315880,
+       "nom": "P. Andreev",
+       "poste": "G"
+      },
+      {
+       "id": 11306,
+       "nom": "A. Chandarov",
+       "poste": "M"
+      },
+      {
+       "id": 11335,
+       "nom": "S. Kovachev",
+       "poste": "F"
+      },
+      {
+       "id": 375004,
+       "nom": "T. Ivanov",
+       "poste": "D"
+      },
+      {
+       "id": 11244,
+       "nom": "D. Velkovski",
+       "poste": "D"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 61742,
+       "nom": "H. Valdimarsson",
+       "poste": "G"
+      },
+      {
+       "id": 2793,
+       "nom": "V. Pálsson",
+       "poste": "D"
+      },
+      {
+       "id": 28714,
+       "nom": "S. Þórðarson",
+       "poste": "D"
+      },
+      {
+       "id": 57141,
+       "nom": "D. Grétarsson",
+       "poste": "D"
+      },
+      {
+       "id": 28806,
+       "nom": "L. Tómasson",
+       "poste": "D"
+      },
+      {
+       "id": 67889,
+       "nom": "H. Haraldsson",
+       "poste": "M"
+      },
+      {
+       "id": 48198,
+       "nom": "Í. Bergmann Jóhannesson",
+       "poste": "M"
+      },
+      {
+       "id": 89768,
+       "nom": "K. Ingason",
+       "poste": "M"
+      },
+      {
+       "id": 204109,
+       "nom": "A. Guðjohnsen",
+       "poste": "F"
+      },
+      {
+       "id": 61774,
+       "nom": "O. Óskarsson",
+       "poste": "F"
+      },
+      {
+       "id": 89520,
+       "nom": "M. Ellertsson",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 2792,
+       "nom": "A. Gunnarsson",
+       "poste": "M"
+      },
+      {
+       "id": 28744,
+       "nom": "Þ. Helgason",
+       "poste": "M"
+      },
+      {
+       "id": 191879,
+       "nom": "K. Hlynsson",
+       "poste": "M"
+      },
+      {
+       "id": 824,
+       "nom": "H. Magnússon",
+       "poste": "D"
+      },
+      {
+       "id": 2784,
+       "nom": "R. Rúnarsson",
+       "poste": "G"
+      },
+      {
+       "id": 840,
+       "nom": "A. Sigurðsson",
+       "poste": "M"
+      },
+      {
+       "id": 2795,
+       "nom": "G. Sigurðsson",
+       "poste": "M"
+      },
+      {
+       "id": 15755,
+       "nom": "J. Þorsteinsson",
+       "poste": "F"
+      },
+      {
+       "id": 147833,
+       "nom": "Í. Þorvaldsson",
+       "poste": "F"
+      },
+      {
+       "id": 28733,
+       "nom": "B. Willumsson",
+       "poste": "F"
+      },
+      {
+       "id": 37880,
+       "nom": "M. Anderson",
+       "poste": "M"
+      },
+      {
+       "id": 28844,
+       "nom": "A. Einarsson",
+       "poste": "G"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -455,11 +979,268 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 20.3,
+      "N": 6.03,
+      "2": 1.19
+     },
+     "winamax": {
+      "1": 14.5,
+      "N": 5.4,
+      "2": 1.15
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "3-5-2",
+     "titulaires": [
+      {
+       "id": 48729,
+       "nom": "B. Büchel",
+       "poste": "G"
+      },
+      {
+       "id": 56146,
+       "nom": "L. Meier",
+       "poste": "D"
+      },
+      {
+       "id": 577125,
+       "nom": "J. Hofer",
+       "poste": "D"
+      },
+      {
+       "id": 331911,
+       "nom": "S. Schlegel",
+       "poste": "D"
+      },
+      {
+       "id": 369773,
+       "nom": "E. Zünd",
+       "poste": "M"
+      },
+      {
+       "id": 576523,
+       "nom": "A. Sele",
+       "poste": "M"
+      },
+      {
+       "id": 640985,
+       "nom": "M. Buchel",
+       "poste": "M"
+      },
+      {
+       "id": 342324,
+       "nom": "A. Hasler",
+       "poste": "M"
+      },
+      {
+       "id": 577126,
+       "nom": "M. Goppel",
+       "poste": "M"
+      },
+      {
+       "id": 342327,
+       "nom": "Fabio Luque Notaro",
+       "poste": "F"
+      },
+      {
+       "id": null,
+       "nom": "Alessandro Lo Russo",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 577129,
+       "nom": "N. Beck",
+       "poste": "D"
+      },
+      {
+       "id": 576527,
+       "nom": "L. Kranz",
+       "poste": "M"
+      },
+      {
+       "id": 56140,
+       "nom": "A. Malin",
+       "poste": "D"
+      },
+      {
+       "id": null,
+       "nom": "Manuel Mikus",
+       "poste": "D"
+      },
+      {
+       "id": 169238,
+       "nom": "A. Netzer",
+       "poste": "D"
+      },
+      {
+       "id": 48731,
+       "nom": "J. Ospelt",
+       "poste": "G"
+      },
+      {
+       "id": null,
+       "nom": "Philipp Ospelt",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Bruno Poitner",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "F. Saglam",
+       "poste": "F"
+      },
+      {
+       "id": 291353,
+       "nom": "T. Öehri",
+       "poste": "G"
+      },
+      {
+       "id": null,
+       "nom": "Florian Allgäuer",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Yonas Abidi",
+       "poste": "D"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 55956,
+       "nom": "E. Balayev",
+       "poste": "G"
+      },
+      {
+       "id": 105969,
+       "nom": "Q. Alıyev",
+       "poste": "D"
+      },
+      {
+       "id": 1537,
+       "nom": "R. Məmmədov",
+       "poste": "D"
+      },
+      {
+       "id": 1535,
+       "nom": "B. Hüseynov",
+       "poste": "D"
+      },
+      {
+       "id": 123366,
+       "nom": "R. Daşdəmirov",
+       "poste": "D"
+      },
+      {
+       "id": null,
+       "nom": "Oruc Məmmədov",
+       "poste": "M"
+      },
+      {
+       "id": 271724,
+       "nom": "A. Xaybulayev",
+       "poste": "M"
+      },
+      {
+       "id": 1542,
+       "nom": "T. Bayramov",
+       "poste": "M"
+      },
+      {
+       "id": 55960,
+       "nom": "A. Isaev",
+       "poste": "M"
+      },
+      {
+       "id": 356388,
+       "nom": "R. Abbasov",
+       "poste": "M"
+      },
+      {
+       "id": 1556,
+       "nom": "M. Emreli",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 123347,
+       "nom": "T. Mütəllimov",
+       "poste": "D"
+      },
+      {
+       "id": 134058,
+       "nom": "M. Qurbanlı",
+       "poste": "F"
+      },
+      {
+       "id": 313949,
+       "nom": "E. Mustafaev",
+       "poste": "M"
+      },
+      {
+       "id": 55961,
+       "nom": "E. Mahmudov",
+       "poste": "M"
+      },
+      {
+       "id": 1532,
+       "nom": "Ş. Məhəmmədəliyev",
+       "poste": "G"
+      },
+      {
+       "id": 123394,
+       "nom": "A. Bayramov",
+       "poste": "G"
+      },
+      {
+       "id": 123382,
+       "nom": "E. Bədəlov",
+       "poste": "D"
+      },
+      {
+       "id": 348228,
+       "nom": "A. Salyanskiy",
+       "poste": "F"
+      },
+      {
+       "id": null,
+       "nom": "K. Aliyev",
+       "poste": "M"
+      },
+      {
+       "id": 387510,
+       "nom": "E. Ahmadov",
+       "poste": "D"
+      },
+      {
+       "id": 123410,
+       "nom": "R. Abdullazadə",
+       "poste": "M"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -506,11 +1287,273 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 2.53,
+      "N": 3.06,
+      "2": 3.18
+     },
+     "winamax": {
+      "1": 2.3,
+      "N": 3.05,
+      "2": 2.8
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 55878,
+       "nom": "A. Moris",
+       "poste": "G"
+      },
+      {
+       "id": 20522,
+       "nom": "L. Jans",
+       "poste": "D"
+      },
+      {
+       "id": 1875,
+       "nom": "V. Selimović",
+       "poste": "D"
+      },
+      {
+       "id": 76622,
+       "nom": "T. Hall",
+       "poste": "D"
+      },
+      {
+       "id": 55886,
+       "nom": "F. Bohnert",
+       "poste": "D"
+      },
+      {
+       "id": 23125,
+       "nom": "V. Thill",
+       "poste": "M"
+      },
+      {
+       "id": 140612,
+       "nom": "M. Olesen",
+       "poste": "M"
+      },
+      {
+       "id": 349486,
+       "nom": "J. de Sousa Moreira Cruz",
+       "poste": "M"
+      },
+      {
+       "id": 570807,
+       "nom": "H. Kadamani",
+       "poste": "M"
+      },
+      {
+       "id": 105829,
+       "nom": "S. Thill",
+       "poste": "F"
+      },
+      {
+       "id": 380518,
+       "nom": "Aiman Dardari",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 202694,
+       "nom": "E. Džogović",
+       "poste": "D"
+      },
+      {
+       "id": 568155,
+       "nom": "E. de Pina Duarte dos Santos",
+       "poste": "M"
+      },
+      {
+       "id": 119280,
+       "nom": "L. Fox",
+       "poste": "G"
+      },
+      {
+       "id": 105886,
+       "nom": "F. Ikene",
+       "poste": "M"
+      },
+      {
+       "id": 55882,
+       "nom": "E. Mahmutović",
+       "poste": "D"
+      },
+      {
+       "id": 106875,
+       "nom": "Omar Natami",
+       "poste": "F"
+      },
+      {
+       "id": 340155,
+       "nom": "T. Pereira Cardoso",
+       "poste": "G"
+      },
+      {
+       "id": 280322,
+       "nom": "T. Rupil",
+       "poste": "M"
+      },
+      {
+       "id": 26284,
+       "nom": "E. Veiga",
+       "poste": "D"
+      },
+      {
+       "id": 340087,
+       "nom": "Jayson Videira Pereira",
+       "poste": "F"
+      },
+      {
+       "id": 548506,
+       "nom": "M. Goncalves",
+       "poste": "M"
+      },
+      {
+       "id": 665941,
+       "nom": "P. Macedo",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "5-4-1",
+     "titulaires": [
+      {
+       "id": 169295,
+       "nom": "K. Hein",
+       "poste": "G"
+      },
+      {
+       "id": 60627,
+       "nom": "R. Peetson",
+       "poste": "D"
+      },
+      {
+       "id": 60353,
+       "nom": "M. Paskotši",
+       "poste": "D"
+      },
+      {
+       "id": 208770,
+       "nom": "E. Tõugjas",
+       "poste": "D"
+      },
+      {
+       "id": 48142,
+       "nom": "K. Mets",
+       "poste": "D"
+      },
+      {
+       "id": 60378,
+       "nom": "M. Schjønning-Larsen",
+       "poste": "D"
+      },
+      {
+       "id": 357667,
+       "nom": "P. Kristal",
+       "poste": "M"
+      },
+      {
+       "id": 55911,
+       "nom": "M. Käit",
+       "poste": "M"
+      },
+      {
+       "id": 196901,
+       "nom": "K. Palumets",
+       "poste": "M"
+      },
+      {
+       "id": 60371,
+       "nom": "R. Shein",
+       "poste": "M"
+      },
+      {
+       "id": 60376,
+       "nom": "M. Männilaan",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 39302,
+       "nom": "M. Igonen",
+       "poste": "G"
+      },
+      {
+       "id": 60795,
+       "nom": "K. Vallner",
+       "poste": "G"
+      },
+      {
+       "id": 60486,
+       "nom": "T. Tammik",
+       "poste": "D"
+      },
+      {
+       "id": 410916,
+       "nom": "M. Skvortsov",
+       "poste": "M"
+      },
+      {
+       "id": 60685,
+       "nom": "J. Saliste",
+       "poste": "D"
+      },
+      {
+       "id": 574821,
+       "nom": "Karel Mustmaa",
+       "poste": "F"
+      },
+      {
+       "id": 60613,
+       "nom": "M. Miller",
+       "poste": "M"
+      },
+      {
+       "id": 55915,
+       "nom": "F. Liivak",
+       "poste": "M"
+      },
+      {
+       "id": 60612,
+       "nom": "V. Kreida",
+       "poste": "M"
+      },
+      {
+       "id": 342473,
+       "nom": "M. Kolobov",
+       "poste": "D"
+      },
+      {
+       "id": 60358,
+       "nom": "M. Ainsalu",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "M Paalberg",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -557,11 +1600,273 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 1.52,
+      "N": 4.8,
+      "2": 5.95
+     },
+     "winamax": {
+      "1": 1.45,
+      "N": 4.5,
+      "2": 5.1
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 129058,
+       "nom": "B. Verbruggen",
+       "poste": "G"
+      },
+      {
+       "id": 226,
+       "nom": "D. Dumfries",
+       "poste": "D"
+      },
+      {
+       "id": 38695,
+       "nom": "J. van Hecke",
+       "poste": "D"
+      },
+      {
+       "id": 152849,
+       "nom": "M. van de Ven",
+       "poste": "D"
+      },
+      {
+       "id": 38746,
+       "nom": "J. Timber",
+       "poste": "D"
+      },
+      {
+       "id": 37749,
+       "nom": "J. Veerman",
+       "poste": "M"
+      },
+      {
+       "id": 36902,
+       "nom": "T. Reijnders",
+       "poste": "M"
+      },
+      {
+       "id": 538,
+       "nom": "F. de Jong",
+       "poste": "M"
+      },
+      {
+       "id": 37724,
+       "nom": "C. Summerville",
+       "poste": "F"
+      },
+      {
+       "id": 249,
+       "nom": "D. Malen",
+       "poste": "F"
+      },
+      {
+       "id": 247,
+       "nom": "C. Gakpo",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 37143,
+       "nom": "L. Geertruida",
+       "poste": "D"
+      },
+      {
+       "id": 26232,
+       "nom": "M. Flekken",
+       "poste": "G"
+      },
+      {
+       "id": 792,
+       "nom": "J. Kluivert",
+       "poste": "F"
+      },
+      {
+       "id": 36899,
+       "nom": "T. Koopmeiners",
+       "poste": "M"
+      },
+      {
+       "id": 544,
+       "nom": "N. Lang",
+       "poste": "F"
+      },
+      {
+       "id": 138816,
+       "nom": "I. Maatsen",
+       "poste": "D"
+      },
+      {
+       "id": 342954,
+       "nom": "M. Meerdink",
+       "poste": "F"
+      },
+      {
+       "id": 194536,
+       "nom": "R. Roefs",
+       "poste": "G"
+      },
+      {
+       "id": 36905,
+       "nom": "G. Til",
+       "poste": "M"
+      },
+      {
+       "id": 38747,
+       "nom": "Q. Timber",
+       "poste": "M"
+      },
+      {
+       "id": 425819,
+       "nom": "G. Zechiël",
+       "poste": "M"
+      },
+      {
+       "id": 365018,
+       "nom": "R. van Bommel",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 1591,
+       "nom": "K. Tzolakis",
+       "poste": "G"
+      },
+      {
+       "id": 61257,
+       "nom": "L. Rota",
+       "poste": "D"
+      },
+      {
+       "id": 1445,
+       "nom": "K. Mavropanos",
+       "poste": "D"
+      },
+      {
+       "id": 971,
+       "nom": "P. Retsos",
+       "poste": "D"
+      },
+      {
+       "id": 1600,
+       "nom": "K. Tsimikas",
+       "poste": "D"
+      },
+      {
+       "id": 404891,
+       "nom": "K. Karetsas",
+       "poste": "M"
+      },
+      {
+       "id": 26751,
+       "nom": "D. Kourbelis",
+       "poste": "M"
+      },
+      {
+       "id": 1602,
+       "nom": "T. Androutsos",
+       "poste": "M"
+      },
+      {
+       "id": 161800,
+       "nom": "C. Tzolis",
+       "poste": "M"
+      },
+      {
+       "id": 36798,
+       "nom": "V. Pavlidis",
+       "poste": "F"
+      },
+      {
+       "id": 26965,
+       "nom": "F. Ioannidis",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 162409,
+       "nom": "K. Koulierakis",
+       "poste": "D"
+      },
+      {
+       "id": 26644,
+       "nom": "C. Mandas",
+       "poste": "G"
+      },
+      {
+       "id": 1610,
+       "nom": "G. Masouras",
+       "poste": "F"
+      },
+      {
+       "id": 342918,
+       "nom": "A. Tetteh",
+       "poste": "F"
+      },
+      {
+       "id": 216812,
+       "nom": "N. Triantis",
+       "poste": "D"
+      },
+      {
+       "id": 135839,
+       "nom": "G. Vagiannidis",
+       "poste": "D"
+      },
+      {
+       "id": 557,
+       "nom": "O. Vlachodimos",
+       "poste": "G"
+      },
+      {
+       "id": 607,
+       "nom": "A. Bakasetas",
+       "poste": "M"
+      },
+      {
+       "id": 26845,
+       "nom": "T. Douvikas",
+       "poste": "F"
+      },
+      {
+       "id": 204088,
+       "nom": "I. Koutsoupias",
+       "poste": "M"
+      },
+      {
+       "id": 2360,
+       "nom": "D. Giannoulis",
+       "poste": "D"
+      },
+      {
+       "id": 36885,
+       "nom": "P. Hatzidiakos",
+       "poste": "D"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -608,11 +1913,273 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 1.19,
+      "N": 7.15,
+      "2": 15.34
+     },
+     "winamax": {
+      "1": 1.11,
+      "N": 7.75,
+      "2": 14.0
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "3-4-1-2",
+     "titulaires": [
+      {
+       "id": 18933,
+       "nom": "A. Gunn",
+       "poste": "G"
+      },
+      {
+       "id": 44836,
+       "nom": "R. Porteous",
+       "poste": "D"
+      },
+      {
+       "id": 326968,
+       "nom": "L. Graham",
+       "poste": "D"
+      },
+      {
+       "id": 1117,
+       "nom": "K. Tierney",
+       "poste": "D"
+      },
+      {
+       "id": 343576,
+       "nom": "B. Doak",
+       "poste": "M"
+      },
+      {
+       "id": 44814,
+       "nom": "L. Ferguson",
+       "poste": "M"
+      },
+      {
+       "id": 130423,
+       "nom": "B. Gilmour",
+       "poste": "M"
+      },
+      {
+       "id": 289,
+       "nom": "A. Robertson",
+       "poste": "M"
+      },
+      {
+       "id": 19191,
+       "nom": "J.  McGinn",
+       "poste": "M"
+      },
+      {
+       "id": 903,
+       "nom": "S. McTominay",
+       "poste": "F"
+      },
+      {
+       "id": 19524,
+       "nom": "C. Adams",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 284306,
+       "nom": "Kristi Montgomery",
+       "poste": "M"
+      },
+      {
+       "id": 19337,
+       "nom": "O. McBurnie",
+       "poste": "F"
+      },
+      {
+       "id": 138417,
+       "nom": "N. Patterson",
+       "poste": "D"
+      },
+      {
+       "id": 126690,
+       "nom": "K. Bowie",
+       "poste": "F"
+      },
+      {
+       "id": 44937,
+       "nom": "L. Kelly",
+       "poste": "G"
+      },
+      {
+       "id": 1104,
+       "nom": "S. Bain",
+       "poste": "G"
+      },
+      {
+       "id": 1125,
+       "nom": "R. Christie",
+       "poste": "M"
+      },
+      {
+       "id": 433272,
+       "nom": "Findlay Curtis",
+       "poste": "F"
+      },
+      {
+       "id": 1111,
+       "nom": "J. Hendry",
+       "poste": "D"
+      },
+      {
+       "id": 44871,
+       "nom": "A. Hickey",
+       "poste": "D"
+      },
+      {
+       "id": 45211,
+       "nom": "J. Penrice",
+       "poste": "D"
+      },
+      {
+       "id": 125694,
+       "nom": "J. McPake",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 47527,
+       "nom": "S. Dimitrievski",
+       "poste": "G"
+      },
+      {
+       "id": null,
+       "nom": "Bojan Ilievski",
+       "poste": "D"
+      },
+      {
+       "id": 153594,
+       "nom": "M. Mladenovski",
+       "poste": "D"
+      },
+      {
+       "id": 105474,
+       "nom": "V. Musliu",
+       "poste": "D"
+      },
+      {
+       "id": 19133,
+       "nom": "E. Alioski",
+       "poste": "D"
+      },
+      {
+       "id": 47461,
+       "nom": "E. Bardhi",
+       "poste": "M"
+      },
+      {
+       "id": 491074,
+       "nom": "M. Gashtarov",
+       "poste": "M"
+      },
+      {
+       "id": 1358,
+       "nom": "E. Elmas",
+       "poste": "M"
+      },
+      {
+       "id": 105789,
+       "nom": "D. Churlinov",
+       "poste": "F"
+      },
+      {
+       "id": 277896,
+       "nom": "E. Rastoder",
+       "poste": "F"
+      },
+      {
+       "id": 109544,
+       "nom": "L. Doriev",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 26792,
+       "nom": "D. Taleski",
+       "poste": "G"
+      },
+      {
+       "id": 162317,
+       "nom": "Imran Fetai",
+       "poste": "D"
+      },
+      {
+       "id": 131292,
+       "nom": "M. Gjorgjievski",
+       "poste": "F"
+      },
+      {
+       "id": 109542,
+       "nom": "S. Herrera",
+       "poste": "D"
+      },
+      {
+       "id": 319478,
+       "nom": "H. Maleski",
+       "poste": "F"
+      },
+      {
+       "id": 2346,
+       "nom": "B. Nikolov",
+       "poste": "M"
+      },
+      {
+       "id": 304331,
+       "nom": "A. Omeragikj",
+       "poste": "F"
+      },
+      {
+       "id": 55515,
+       "nom": "D. Shishkovski",
+       "poste": "G"
+      },
+      {
+       "id": 201039,
+       "nom": "L. Stankovski",
+       "poste": "M"
+      },
+      {
+       "id": 146044,
+       "nom": "A. Elezi",
+       "poste": "M"
+      },
+      {
+       "id": 340208,
+       "nom": "Anes Meljichi",
+       "poste": "D"
+      },
+      {
+       "id": 304000,
+       "nom": "S. Despotovski",
+       "poste": "D"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -659,11 +2226,273 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 11.0,
+      "N": 6.9,
+      "2": 1.25
+     },
+     "winamax": {
+      "1": 9.0,
+      "N": 6.25,
+      "2": 1.2
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 31156,
+       "nom": "V. Milinković-Savić",
+       "poste": "G"
+      },
+      {
+       "id": 342320,
+       "nom": "K. Nedeljković",
+       "poste": "D"
+      },
+      {
+       "id": 495936,
+       "nom": "S. Gudelj",
+       "poste": "D"
+      },
+      {
+       "id": 2817,
+       "nom": "N. Milenković",
+       "poste": "D"
+      },
+      {
+       "id": 340,
+       "nom": "S. Babić",
+       "poste": "D"
+      },
+      {
+       "id": 178749,
+       "nom": "L. Samardžić",
+       "poste": "M"
+      },
+      {
+       "id": 342228,
+       "nom": "S. Džodić",
+       "poste": "M"
+      },
+      {
+       "id": 1856,
+       "nom": "S. Milinković-Savić",
+       "poste": "M"
+      },
+      {
+       "id": 456997,
+       "nom": "P. Sukacev",
+       "poste": "M"
+      },
+      {
+       "id": 554,
+       "nom": "D. Tadić",
+       "poste": "F"
+      },
+      {
+       "id": 398190,
+       "nom": "M. CvetkoviÄ",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 579,
+       "nom": "A. Živković",
+       "poste": "F"
+      },
+      {
+       "id": 398206,
+       "nom": "N. Simić",
+       "poste": "D"
+      },
+      {
+       "id": 45846,
+       "nom": "D. Rosić",
+       "poste": "G"
+      },
+      {
+       "id": 118307,
+       "nom": "Đ. Petrović",
+       "poste": "G"
+      },
+      {
+       "id": 2825,
+       "nom": "A. Mitrović",
+       "poste": "F"
+      },
+      {
+       "id": 264495,
+       "nom": "V. Lučić",
+       "poste": "M"
+      },
+      {
+       "id": 375614,
+       "nom": "M. Krpić",
+       "poste": "D"
+      },
+      {
+       "id": 462208,
+       "nom": "V. Kostov",
+       "poste": "M"
+      },
+      {
+       "id": 1828,
+       "nom": "L. Jović",
+       "poste": "F"
+      },
+      {
+       "id": 133391,
+       "nom": "S. Eraković",
+       "poste": "D"
+      },
+      {
+       "id": 443802,
+       "nom": "V. Dragojević",
+       "poste": "M"
+      },
+      {
+       "id": 361396,
+       "nom": "S. Bukinac",
+       "poste": "D"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 127,
+       "nom": "M. ter Stegen",
+       "poste": "G"
+      },
+      {
+       "id": 178769,
+       "nom": "P. Treu",
+       "poste": "D"
+      },
+      {
+       "id": 163189,
+       "nom": "M. Thiaw",
+       "poste": "D"
+      },
+      {
+       "id": 972,
+       "nom": "J. Tah",
+       "poste": "D"
+      },
+      {
+       "id": 25342,
+       "nom": "M. Mittelstädt",
+       "poste": "D"
+      },
+      {
+       "id": 502,
+       "nom": "J. Kimmich",
+       "poste": "M"
+      },
+      {
+       "id": 328033,
+       "nom": "A. Pavlović",
+       "poste": "M"
+      },
+      {
+       "id": 328225,
+       "nom": "B. Gruda",
+       "poste": "M"
+      },
+      {
+       "id": 203224,
+       "nom": "F. Wirtz",
+       "poste": "M"
+      },
+      {
+       "id": 286710,
+       "nom": "D. Scherhant",
+       "poste": "M"
+      },
+      {
+       "id": 978,
+       "nom": "K. Havertz",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 280074,
+       "nom": "N. Brown",
+       "poste": "D"
+      },
+      {
+       "id": 325975,
+       "nom": "T. Bischof",
+       "poste": "M"
+      },
+      {
+       "id": 203376,
+       "nom": "J. Urbig",
+       "poste": "G"
+      },
+      {
+       "id": 409190,
+       "nom": "Y. Ebnoutalib",
+       "poste": "F"
+      },
+      {
+       "id": 432310,
+       "nom": "S. El Mala",
+       "poste": "M"
+      },
+      {
+       "id": 25391,
+       "nom": "N. Füllkrug",
+       "poste": "F"
+      },
+      {
+       "id": 394734,
+       "nom": "Finn Jeltsch",
+       "poste": "D"
+      },
+      {
+       "id": 494131,
+       "nom": "L. Karl",
+       "poste": "M"
+      },
+      {
+       "id": 637,
+       "nom": "F. Nmecha",
+       "poste": "M"
+      },
+      {
+       "id": 399,
+       "nom": "A. Nübel",
+       "poste": "G"
+      },
+      {
+       "id": 26243,
+       "nom": "N. Schlotterbeck",
+       "poste": "D"
+      },
+      {
+       "id": 25917,
+       "nom": "R. Baku",
+       "poste": "D"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -710,11 +2539,273 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 1.37,
+      "N": 4.85,
+      "2": 9.24
+     },
+     "winamax": {
+      "1": 1.3,
+      "N": 4.75,
+      "2": 8.0
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 61142,
+       "nom": "D. Greif",
+       "poste": "G"
+      },
+      {
+       "id": 46738,
+       "nom": "M. Valjent",
+       "poste": "D"
+      },
+      {
+       "id": 55949,
+       "nom": "Ľ. Šatka",
+       "poste": "D"
+      },
+      {
+       "id": 198,
+       "nom": "M. Škriniar",
+       "poste": "D"
+      },
+      {
+       "id": 30399,
+       "nom": "D. Hancko",
+       "poste": "D"
+      },
+      {
+       "id": 38124,
+       "nom": "L. Reis",
+       "poste": "M"
+      },
+      {
+       "id": 51212,
+       "nom": "A. Rusnák",
+       "poste": "M"
+      },
+      {
+       "id": 25349,
+       "nom": "O. Duda",
+       "poste": "M"
+      },
+      {
+       "id": 105726,
+       "nom": "E. Prekop",
+       "poste": "F"
+      },
+      {
+       "id": 61156,
+       "nom": "D. Strelec",
+       "poste": "F"
+      },
+      {
+       "id": 40446,
+       "nom": "L. Haraslín",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 204752,
+       "nom": "A. Kaprálik",
+       "poste": "F"
+      },
+      {
+       "id": 61211,
+       "nom": "T. Bobček",
+       "poste": "F"
+      },
+      {
+       "id": 37122,
+       "nom": "M. Bero",
+       "poste": "M"
+      },
+      {
+       "id": 61245,
+       "nom": "R. Boženík",
+       "poste": "F"
+      },
+      {
+       "id": 1393,
+       "nom": "I. Mesík",
+       "poste": "D"
+      },
+      {
+       "id": 7326,
+       "nom": "P. Pokorný",
+       "poste": "M"
+      },
+      {
+       "id": 290211,
+       "nom": "T. Rigo",
+       "poste": "M"
+      },
+      {
+       "id": 19657,
+       "nom": "M. Rodák",
+       "poste": "G"
+      },
+      {
+       "id": 304140,
+       "nom": "M. Sauer",
+       "poste": "M"
+      },
+      {
+       "id": 161864,
+       "nom": "J. Surovčík",
+       "poste": "G"
+      },
+      {
+       "id": 446255,
+       "nom": "T. Pališčák",
+       "poste": "D"
+      },
+      {
+       "id": 383041,
+       "nom": "N. Marcelli",
+       "poste": "M"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "3-4-3",
+     "titulaires": [
+      {
+       "id": 83043,
+       "nom": "M. Lamhauge",
+       "poste": "G"
+      },
+      {
+       "id": 55993,
+       "nom": "O. Færø",
+       "poste": "D"
+      },
+      {
+       "id": 73007,
+       "nom": "G. Vatnhamar",
+       "poste": "D"
+      },
+      {
+       "id": 169297,
+       "nom": "A. Edmundsson",
+       "poste": "D"
+      },
+      {
+       "id": 72943,
+       "nom": "J. Danielsen",
+       "poste": "M"
+      },
+      {
+       "id": 70357,
+       "nom": "J. Andreasen",
+       "poste": "M"
+      },
+      {
+       "id": 133124,
+       "nom": "G. Turi",
+       "poste": "M"
+      },
+      {
+       "id": 15660,
+       "nom": "V. í Davidsen",
+       "poste": "M"
+      },
+      {
+       "id": 263203,
+       "nom": "Á. Samuelsen",
+       "poste": "F"
+      },
+      {
+       "id": 72965,
+       "nom": "P. Knudsen",
+       "poste": "F"
+      },
+      {
+       "id": 162387,
+       "nom": "H. Sørensen",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 39168,
+       "nom": "M. Olsen",
+       "poste": "M"
+      },
+      {
+       "id": 73012,
+       "nom": "A. Svensson",
+       "poste": "D"
+      },
+      {
+       "id": 544017,
+       "nom": "B. Reynatrod",
+       "poste": "G"
+      },
+      {
+       "id": 72877,
+       "nom": "A. Petersen",
+       "poste": "G"
+      },
+      {
+       "id": 73055,
+       "nom": "P. Kallsberg",
+       "poste": "F"
+      },
+      {
+       "id": 73029,
+       "nom": "A. Justinussen",
+       "poste": "F"
+      },
+      {
+       "id": 380753,
+       "nom": "M. Hellisdal",
+       "poste": "M"
+      },
+      {
+       "id": 216026,
+       "nom": "Á. Dam",
+       "poste": "M"
+      },
+      {
+       "id": 156518,
+       "nom": "S. Chukwudi",
+       "poste": "D"
+      },
+      {
+       "id": 70358,
+       "nom": "J. Bjartalíð",
+       "poste": "F"
+      },
+      {
+       "id": 72962,
+       "nom": "J. Benjaminsen",
+       "poste": "D"
+      },
+      {
+       "id": 400499,
+       "nom": "A. Benjaminsen",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -761,11 +2852,273 @@
     },
     "H45": {
      "prevu": "2026-11-13T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-13T19:21:27Z",
+     "retard_min": 21,
+     "pinnacle": {
+      "1": 5.47,
+      "N": 3.13,
+      "2": 1.88
+     },
+     "winamax": {
+      "1": 5.25,
+      "N": 3.2,
+      "2": 1.7
+     },
+     "maj_pinnacle": "2026-11-13T19:21:10Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-13T19:21:27Z",
+    "minutes_avant": 24,
+    "domicile": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 29,
+       "nom": "J. Oblak",
+       "poste": "G"
+      },
+      {
+       "id": 109684,
+       "nom": "Ž. Zaletel",
+       "poste": "D"
+      },
+      {
+       "id": 36983,
+       "nom": "V. Drkušić",
+       "poste": "D"
+      },
+      {
+       "id": 833,
+       "nom": "J. Bijol",
+       "poste": "D"
+      },
+      {
+       "id": 278556,
+       "nom": "S. Kuzmić",
+       "poste": "D"
+      },
+      {
+       "id": 109724,
+       "nom": "Ž. Karničnik",
+       "poste": "M"
+      },
+      {
+       "id": 56025,
+       "nom": "A. Čerin",
+       "poste": "M"
+      },
+      {
+       "id": 131343,
+       "nom": "M. Zabukovnik",
+       "poste": "M"
+      },
+      {
+       "id": 135273,
+       "nom": "D. Šturm",
+       "poste": "M"
+      },
+      {
+       "id": 111917,
+       "nom": "A. Matko",
+       "poste": "F"
+      },
+      {
+       "id": 162839,
+       "nom": "Z. Vipotnik",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 109887,
+       "nom": "D. Brekalo",
+       "poste": "D"
+      },
+      {
+       "id": 788,
+       "nom": "Ž. Celar",
+       "poste": "F"
+      },
+      {
+       "id": 109740,
+       "nom": "T. Horvat",
+       "poste": "M"
+      },
+      {
+       "id": 7591,
+       "nom": "S. Lovrić",
+       "poste": "M"
+      },
+      {
+       "id": 400530,
+       "nom": "R. ObriÄ",
+       "poste": "D"
+      },
+      {
+       "id": 131324,
+       "nom": "J. Urbančič",
+       "poste": "D"
+      },
+      {
+       "id": 109939,
+       "nom": "I. Vekič",
+       "poste": "G"
+      },
+      {
+       "id": 2183,
+       "nom": "B. Verbič",
+       "poste": "M"
+      },
+      {
+       "id": 56868,
+       "nom": "M. Vidovšek",
+       "poste": "G"
+      },
+      {
+       "id": 290045,
+       "nom": "Adrian Zeljković",
+       "poste": "M"
+      },
+      {
+       "id": 56026,
+       "nom": "A. Šporar",
+       "poste": "F"
+      },
+      {
+       "id": 201466,
+       "nom": "T. Begić",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 25282,
+       "nom": "G. Kobel",
+       "poste": "G"
+      },
+      {
+       "id": 396380,
+       "nom": "Z. Athekame",
+       "poste": "D"
+      },
+      {
+       "id": 2803,
+       "nom": "N. Elvedi",
+       "poste": "D"
+      },
+      {
+       "id": 5,
+       "nom": "M. Akanji",
+       "poste": "D"
+      },
+      {
+       "id": 499380,
+       "nom": "S. Britschgi",
+       "poste": "D"
+      },
+      {
+       "id": 951,
+       "nom": "M. Aebischer",
+       "poste": "M"
+      },
+      {
+       "id": 2810,
+       "nom": "D. Zakaria",
+       "poste": "M"
+      },
+      {
+       "id": 2807,
+       "nom": "R. Freuler",
+       "poste": "M"
+      },
+      {
+       "id": 163032,
+       "nom": "F. Rieder",
+       "poste": "F"
+      },
+      {
+       "id": 421,
+       "nom": "B. Embolo",
+       "poste": "F"
+      },
+      {
+       "id": 48648,
+       "nom": "D. Ndoye",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 180320,
+       "nom": "A. Bajrami",
+       "poste": "D"
+      },
+      {
+       "id": 123469,
+       "nom": "Z. Amdouni",
+       "poste": "F"
+      },
+      {
+       "id": 152609,
+       "nom": "S. Ballet",
+       "poste": "F"
+      },
+      {
+       "id": 48372,
+       "nom": "E. Cömert",
+       "poste": "D"
+      },
+      {
+       "id": 48497,
+       "nom": "C. Itten",
+       "poste": "F"
+      },
+      {
+       "id": 264705,
+       "nom": "A. Jashari",
+       "poste": "M"
+      },
+      {
+       "id": 123468,
+       "nom": "M. Keller",
+       "poste": "G"
+      },
+      {
+       "id": 1142,
+       "nom": "Y. Mvogo",
+       "poste": "G"
+      },
+      {
+       "id": 1631,
+       "nom": "R. Rodríguez",
+       "poste": "D"
+      },
+      {
+       "id": 290646,
+       "nom": "A. Sanches",
+       "poste": "M"
+      },
+      {
+       "id": 265372,
+       "nom": "I. Schmidt",
+       "poste": "D"
+      },
+      {
+       "id": 957,
+       "nom": "D. Sow",
+       "poste": "M"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-13T19:21:27Z"
+   ],
    "absents": {
     "releve_a": "2026-11-13T12:36:26Z",
     "domicile": [],
@@ -776,5 +3129,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-13T17:26:11Z"
+ "maj": "2026-11-13T19:21:27Z"
 }
