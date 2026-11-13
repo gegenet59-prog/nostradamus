@@ -8,11 +8,12 @@ COMPETITIONS = {
     "PL":   {"nom": "Premier League",       "odds": "soccer_epl",                           "foot": 39,  "fd": "E0"},
     "BL":   {"nom": "Bundesliga",           "odds": "soccer_germany_bundesliga",            "foot": 78,  "fd": "D1"},
     "LDC":  {"nom": "Ligue des champions",  "odds": "soccer_uefa_champs_league",            "foot": 2,   "fd": None},
-    "EL":   {"nom": "Europa League",        "odds": "soccer_uefa_europa_league",            "foot": 3,   "fd": None},
-    "ECL":  {"nom": "Conference League",    "odds": "soccer_uefa_europa_conference_league", "foot": 848, "fd": None},
+    "EL":   {"nom": "Europa League",        "odds": "soccer_uefa_europa_league",            "foot": 3,   "fd": None, "heure_min": 18},
+    "ECL":  {"nom": "Conference League",    "odds": "soccer_uefa_europa_conference_league", "foot": 848, "fd": None, "heure_min": 18},
     "NL":   {"nom": "Ligue des nations",    "odds": "soccer_uefa_nations_league",           "foot": 5,   "fd": None},   # test pendant la trêve
 }
 # "jours_du_mois": (premier, dernier) : hors de ces jours du mois, la compétition n'est pas suivie (économie de crédits)
+# "heure_min": heure de Paris avant laquelle les matchs ne sont pas suivis (on garde les gros blocs du soir)
 # "jusqu_au": "AAAA-MM-JJ" : après cette date, la compétition n'est plus suivie du tout
 BOOKMAKERS = {"pinnacle": "pinnacle", "winamax": "winamax_fr"}   # nom dans la base -> clé The Odds API (région eu)
 

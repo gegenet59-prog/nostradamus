@@ -11,6 +11,7 @@ Il peut être relancé sans risque : un relevé déjà fait n'est jamais refait.
 import calendar, sys
 from datetime import datetime, timedelta, timezone
 from . import config as C
+from zoneinfo import ZoneInfo
 from .base import Base, instant, iso, jour_paris
 from .calculs import ISSUES, calculer, cotes_valides
 from .rapprochement import rapprocher, ressemblance
@@ -35,6 +36,9 @@ def planifier(base, src, maintenant):
             fenetre = C.COMPETITIONS[comp].get("jours_du_mois")
             if not m and jour_paris(instant(e["commence_time"])) > C.COMPETITIONS[comp].get("jusqu_au", "9999-12-31"):
                 continue      # compétition arrêtée après cette date
+            hmin = C.COMPETITIONS[comp].get("heure_min")
+            if not m and hmin and instant(e["commence_time"]).astimezone(ZoneInfo("Europe/Paris")).hour < hmin:
+                continue      # match trop tôt dans la journée : non suivi
             if not m and fenetre and not (fenetre[0] <= int(jour_paris(instant(e["commence_time"]))[8:10]) <= fenetre[1]):
                 continue      # hors de la période suivie pour cette compétition
             if m and m["coup_envoi"] == e["commence_time"]:
