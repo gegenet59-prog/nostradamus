@@ -101,7 +101,8 @@ function carte(m){
     let txt="Le premier relevé des cotes (H-12) est prévu à "+(h12.prevu?heure(h12.prevu):"–")+".";
     if(h12.etat==="fait")txt="Premier relevé fait : les variations apparaissent dès le relevé suivant.";
     if(h12.etat==="vide")txt="Pas de cote Pinnacle disponible pour ce match.";
-    if(h12.etat==="manque")txt="Pas de point de départ (H-12 manqué) : les cotes sont affichées, sans variation.";
+    const h3=r.H3||{};
+    if(h12.etat==="manque")txt=L?"H-12 manqué : cotes affichées, sans variation pour ce match.":"H-12 manqué : pas de variation pour ce match. Les cotes arrivent au relevé H-3"+(h3.prevu?" (prévu à "+heure(h3.prevu)+")":"")+".";
     if(!L)return `<div class="card"><div class="top"><div class="ring" style="border-color:var(--line)">…</div><div>${ent}${nom}<div class="lvl" style="color:var(--mute)"><span class="dot"></span>En attente</div></div></div><div class="wait">${txt}</div>${sc}</div>`;
     const w=dernierCotes(m,"winamax")||{}, noms={"1":m.domicile,"N":"Nul","2":m.exterieur};
     const cl=["1","N","2"].map(k=>`<div class="cell"><span class="k">${k} · ${esc(noms[k])}</span>
