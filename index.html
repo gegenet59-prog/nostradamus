@@ -175,6 +175,7 @@ async function init(){
   }catch(e){app.innerHTML=`<div><h1>Nostradamus</h1></div><div class="msg">Aucun relevé n'est encore enregistré. Le collecteur remplit la base automatiquement : reviens dans quelques heures.</div>`}
 }
 for(const [id,o] of [["t-matchs","matchs"],["t-stats","stats"],["t-alertes","alertes"]])$("#"+id).onclick=()=>{onglet=o;document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.id==="t-"+o));dessiner()};
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 init();
 setInterval(()=>{if(onglet==="matchs"&&jour)charger()},120000);
 </script>

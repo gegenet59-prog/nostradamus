@@ -3,6 +3,7 @@
   "short_name": "Nostradamus",
   "description": "Variations de cotes de football : un signal de plus pour confirmer ou écarter un match",
   "lang": "fr",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
