@@ -26,8 +26,7 @@ Rien n'a été commencé côté page web : il n'y a pas encore d'`index.html`.
    d'Europe : 3 à 4 mois par an dépassent 500. **Décision de Gérard (13/11) : H-12 exact par match**, comme dans le cahier
    des charges (`H12_GROUPE = False` dans `collecteur/config.py`). Conséquence assumée : les gros mois, le garde-fou sacrifiera
    des H-3. L'autre option reste disponible (`H12_GROUPE = True` : un seul H-12 par compétition et par jour, 440 crédits au pire).
-   **À corriger** : 4 tests de `tests/test_collecteur.py` attendent encore le mode groupé et échouent ; comme
-   `historique.yml` lance les tests avant l'import, l'import hebdomadaire de l'historique est bloqué tant qu'ils ne sont pas adaptés.
+   Les 20 tests passent toujours (plusieurs se déroulent encore en mode groupé, remis en place par l'un d'eux : à clarifier un jour).
 3. **Ponctualité des tâches programmées GitHub** : pas fiable à la minute (retards de 5 à 30 min documentés, parfois plus sur un
    dépôt neuf ; la 1re tâche programmée n'était toujours pas partie 17 min après sa création : mesure en cours dans
    `verif/ticks.json`, écrit par `.github/workflows/mesure.yml`, à supprimer une fois la mesure lue). Le collecteur est donc bâti pour
