@@ -33,6 +33,8 @@ def planifier(base, src, maintenant):
             vus.add(e["id"])
             m = connus.get(e["id"])
             fenetre = C.COMPETITIONS[comp].get("jours_du_mois")
+            if not m and jour_paris(instant(e["commence_time"])) > C.COMPETITIONS[comp].get("jusqu_au", "9999-12-31"):
+                continue      # compétition arrêtée après cette date
             if not m and fenetre and not (fenetre[0] <= int(jour_paris(instant(e["commence_time"]))[8:10]) <= fenetre[1]):
                 continue      # hors de la période suivie pour cette compétition
             if m and m["coup_envoi"] == e["commence_time"]:
