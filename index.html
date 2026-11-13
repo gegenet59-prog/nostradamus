@@ -74,6 +74,9 @@ const $=s=>document.querySelector(s), app=$("#app");
 let jours=[], jour=null, matchs=[], filtre="Tout", onglet="matchs";
 
 const fr=(x,d=2)=>x==null?"–":Number(x).toFixed(d).replace(".",",");
+const PAYS={"Albania": "Albanie", "Andorra": "Andorre", "Armenia": "Arménie", "Austria": "Autriche", "Azerbaijan": "Azerbaïdjan", "Belarus": "Biélorussie", "Belgium": "Belgique", "Bosnia and Herzegovina": "Bosnie-Herzégovine", "Bosnia & Herzegovina": "Bosnie-Herzégovine", "Bulgaria": "Bulgarie", "Croatia": "Croatie", "Cyprus": "Chypre", "Czech Republic": "Tchéquie", "Czechia": "Tchéquie", "Denmark": "Danemark", "England": "Angleterre", "Estonia": "Estonie", "Faroe Islands": "Îles Féroé", "Finland": "Finlande", "Georgia": "Géorgie", "Germany": "Allemagne", "Gibraltar": "Gibraltar", "Greece": "Grèce", "Hungary": "Hongrie", "Iceland": "Islande", "Ireland": "Irlande", "Republic of Ireland": "Irlande", "Israel": "Israël", "Italy": "Italie", "Kazakhstan": "Kazakhstan", "Kosovo": "Kosovo", "Latvia": "Lettonie", "Liechtenstein": "Liechtenstein", "Lithuania": "Lituanie", "Luxembourg": "Luxembourg", "Malta": "Malte", "Moldova": "Moldavie", "Montenegro": "Monténégro", "Netherlands": "Pays-Bas", "North Macedonia": "Macédoine du Nord", "FYR Macedonia": "Macédoine du Nord", "Northern Ireland": "Irlande du Nord", "Norway": "Norvège", "Poland": "Pologne", "Portugal": "Portugal", "Romania": "Roumanie", "San Marino": "Saint-Marin", "Scotland": "Écosse", "Serbia": "Serbie", "Slovakia": "Slovaquie", "Slovenia": "Slovénie", "Spain": "Espagne", "Sweden": "Suède", "Switzerland": "Suisse", "Turkey": "Turquie", "Türkiye": "Turquie", "Ukraine": "Ukraine", "Wales": "Pays de Galles", "France": "France"};
+const fn=n=>PAYS[n]||n;
+const statut=m=>{const t=Date.now()-new Date(m.coup_envoi).getTime();return t<0?"":t<115*60000?"En cours":"Terminé"};
 const heure=iso=>new Date(iso).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Paris"}).replace(":","h");
 const jourParis=d=>new Date(d).toLocaleDateString("sv-SE",{timeZone:"Europe/Paris"});
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -100,7 +103,7 @@ function lecture(m){
   return {p,t,c}
 }
 function carte(m){
-  const f=m.feux, r=m.releves||{}, ent=`<span class="meta">${esc(COMP[m.competition]||m.competition)} · ${heure(m.coup_envoi)}</span>`;
+  const f=m.feux, r=m.releves||{}, ent=`<span class="meta">${esc(COMP[m.competition]||m.competition)} · ${heure(m.coup_envoi)}${statut(m)?" · "+statut(m):""}</span>`;
   const nom=`<div class="teams">${esc(m.domicile)} – ${esc(m.exterieur)}</div>`;
   const sc=m.score?`<span class="score">${m.score.domicile} – ${m.score.exterieur}</span>`:"";
   if(!f){
@@ -162,7 +165,7 @@ ${liste.length?liste.map(carte).join(""):'<div class="msg">Pas encore de match e
 }
 async function aller(i){if(i<0||i>=jours.length)return;jour=jours[i];await charger()}
 async function charger(){
-  try{const j=await get("data/matchs/"+jour+".json");matchs=Array.isArray(j)?j:(j.matchs||[])}
+  try{const j=await get("data/matchs/"+jour+".json");matchs=(Array.isArray(j)?j:(j.matchs||[])).map(m=>({...m,domicile:fn(m.domicile),exterieur:fn(m.exterieur)}))}
   catch(e){matchs=[]}
   dessiner();
 }
