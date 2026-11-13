@@ -32,6 +32,9 @@ def planifier(base, src, maintenant):
         for e in evenements:
             vus.add(e["id"])
             m = connus.get(e["id"])
+            fenetre = C.COMPETITIONS[comp].get("jours_du_mois")
+            if not m and fenetre and not (fenetre[0] <= int(jour_paris(instant(e["commence_time"]))[8:10]) <= fenetre[1]):
+                continue      # hors de la période suivie pour cette compétition
             if m and m["coup_envoi"] == e["commence_time"]:
                 continue
             if m:      # horaire modifié : on déplace le match et on reprogramme les relevés pas encore faits

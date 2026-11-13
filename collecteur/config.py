@@ -3,7 +3,7 @@
 # code court -> nom affiché, clé The Odds API, numéro API-Football, code Football-Data (championnats seulement)
 COMPETITIONS = {
     "L1":   {"nom": "Ligue 1",              "odds": "soccer_france_ligue_one",              "foot": 61,  "fd": "F1"},
-    "SA":   {"nom": "Serie A",              "odds": "soccer_italy_serie_a",                 "foot": 135, "fd": "I1"},
+    "SA":   {"nom": "Serie A",              "odds": "soccer_italy_serie_a",                 "foot": 135, "fd": "I1", "jours_du_mois": (1, 22)},
     "LIGA": {"nom": "Liga",                 "odds": "soccer_spain_la_liga",                 "foot": 140, "fd": "SP1"},
     "PL":   {"nom": "Premier League",       "odds": "soccer_epl",                           "foot": 39,  "fd": "E0"},
     "BL":   {"nom": "Bundesliga",           "odds": "soccer_germany_bundesliga",            "foot": 78,  "fd": "D1"},
@@ -12,6 +12,7 @@ COMPETITIONS = {
     "ECL":  {"nom": "Conference League",    "odds": "soccer_uefa_europa_conference_league", "foot": 848, "fd": None},
     "NL":   {"nom": "Ligue des nations",    "odds": "soccer_uefa_nations_league",           "foot": 5,   "fd": None},   # test pendant la trêve
 }
+# "jours_du_mois": (premier, dernier) : hors de cette période, les matchs de la compétition ne sont pas suivis (économie de crédits)
 BOOKMAKERS = {"pinnacle": "pinnacle", "winamax": "winamax_fr"}   # nom dans la base -> clé The Odds API (région eu)
 
 # ---- Relevés : minutes avant le coup d'envoi, et jusqu'à quand un relevé en retard reste acceptable ----
