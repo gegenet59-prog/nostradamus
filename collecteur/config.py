@@ -22,7 +22,7 @@ RELEVES = {
 # H-12 groupé : un seul relevé H-12 par compétition et par jour, pris 12 h avant le PREMIER match du jour ; il sert de
 # point de départ à tous les matchs de ce jour-là (pour les matchs du soir il est donc pris un peu plus tôt que H-12).
 # Sans ça le budget réel dépasse les 500 crédits certains mois (voir NOTES.md). Mettre False pour un H-12 exact par match.
-H12_GROUPE = True
+H12_GROUPE = False
 AVANCE_TOLEREE = 12   # si un appel part de toute façon pour la compétition, un relevé dû dans les 12 min en profite
 
 # ---- Feux (cahier des charges) : ampleur de la variation entre H-12 et H-45, hausse ou baisse ----

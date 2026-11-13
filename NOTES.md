@@ -23,10 +23,11 @@ Rien n'a été commencé côté page web : il n'y a pas encore d'`index.html`.
 2. **Coût d'un relevé** : 1 crédit par appel, confirmé (en-tête `x-requests-last: 1`). Le calendrier (`/events`) est gratuit.
    **L'estimation de 410 crédits/mois était trop basse.** Simulation sur le vrai calendrier 2025-26 (`verif/budget.json`) :
    avec un H-12 exact par match, les 5 championnats seuls coûtent 270 à 490 crédits par mois, plus 40 à 60 pour les coupes
-   d'Europe : 3 à 4 mois par an dépassent 500. **Décision prise** : H-12 « groupé » (un seul H-12 par compétition et par jour,
-   pris 12 h avant le premier match du jour). Budget : 220 à 390 + Europe, soit 440 au pire. Les 3 relevés tiennent toute l'année.
-   Réglage : `H12_GROUPE` dans `collecteur/config.py` (mettre `False` pour revenir au H-12 exact ; le garde-fou sacrifiera alors
-   des H-3 les gros mois). Gérard n'a pas encore validé ce choix.
+   d'Europe : 3 à 4 mois par an dépassent 500. **Décision de Gérard (13/11) : H-12 exact par match**, comme dans le cahier
+   des charges (`H12_GROUPE = False` dans `collecteur/config.py`). Conséquence assumée : les gros mois, le garde-fou sacrifiera
+   des H-3. L'autre option reste disponible (`H12_GROUPE = True` : un seul H-12 par compétition et par jour, 440 crédits au pire).
+   **À corriger** : 4 tests de `tests/test_collecteur.py` attendent encore le mode groupé et échouent ; comme
+   `historique.yml` lance les tests avant l'import, l'import hebdomadaire de l'historique est bloqué tant qu'ils ne sont pas adaptés.
 3. **Ponctualité des tâches programmées GitHub** : pas fiable à la minute (retards de 5 à 30 min documentés, parfois plus sur un
    dépôt neuf ; la 1re tâche programmée n'était toujours pas partie 17 min après sa création : mesure en cours dans
    `verif/ticks.json`, écrit par `.github/workflows/mesure.yml`, à supprimer une fois la mesure lue). Le collecteur est donc bâti pour
