@@ -2,10 +2,16 @@
  "odds": {},
  "foot": {
   "jour": "2026-11-13",
-  "reste": null
+  "reste": 98
  },
- "jours_foot": {},
+ "jours_foot": {
+  "2026-11-13": {
+   "lien_jour": "2026-11-13",
+   "lien_heure": 12,
+   "absents": "2026-11-13T12:36:26Z"
+  }
+ },
  "alertes": [],
- "planning_fait_a": "2026-11-13T06:31:30Z",
- "dernier_passage_utile": "2026-11-13T06:31:30Z"
+ "planning_fait_a": "2026-11-13T12:36:26Z",
+ "dernier_passage_utile": "2026-11-13T12:36:26Z"
 }

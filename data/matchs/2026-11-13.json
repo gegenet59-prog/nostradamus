@@ -1,0 +1,386 @@
+{
+ "date": "2026-11-13",
+ "matchs": [
+  {
+   "id": "cc1ca0aea8a9aa6ad2e1537834fe0d04",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T17:00:00Z",
+   "domicile": "Moldova",
+   "exterieur": "Kazakhstan",
+   "foot": {
+    "id": 1528968,
+    "domicile": 1114,
+    "exterieur": 1095,
+    "nom_domicile": "Moldova",
+    "nom_exterieur": "Kazakhstan"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T05:00:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T14:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T16:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "6eecb0b534f8cda6254b8a0884289e16",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Andorra",
+   "exterieur": "Gibraltar",
+   "foot": {
+    "id": 1545615,
+    "domicile": 1110,
+    "exterieur": 1093,
+    "nom_domicile": "Andorra",
+    "nom_exterieur": "Gibraltar"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "b53069411f63a0d3aed21fa84d225faf",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Bulgaria",
+   "exterieur": "Iceland",
+   "foot": {
+    "id": 1528969,
+    "domicile": 1103,
+    "exterieur": 18,
+    "nom_domicile": "Bulgaria",
+    "nom_exterieur": "Iceland"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "9529ee7ca79126460eb063f53187f321",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Liechtenstein",
+   "exterieur": "Azerbaijan",
+   "foot": {
+    "id": 1528970,
+    "domicile": 1107,
+    "exterieur": 1096,
+    "nom_domicile": "Liechtenstein",
+    "nom_exterieur": "Azerbaijan"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "eef1c96c424e42b66f49b7ec3bef1a5c",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Luxembourg",
+   "exterieur": "Estonia",
+   "foot": {
+    "id": 1545614,
+    "domicile": 1102,
+    "exterieur": 1101,
+    "nom_domicile": "Luxembourg",
+    "nom_exterieur": "Estonia"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "0010d3b2b15a2b8cb04053b0b1407cc5",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Netherlands",
+   "exterieur": "Greece",
+   "foot": {
+    "id": 1528966,
+    "domicile": 1118,
+    "exterieur": 1117,
+    "nom_domicile": "Netherlands",
+    "nom_exterieur": "Greece"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "199940cd0d3a9c7ad93be4063cb2df93",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Scotland",
+   "exterieur": "North Macedonia",
+   "foot": {
+    "id": 1545659,
+    "domicile": 1108,
+    "exterieur": 1105,
+    "nom_domicile": "Scotland",
+    "nom_exterieur": "FYR Macedonia"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "d0ee3d2f44cf592797f6ecae8de62edd",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Serbia",
+   "exterieur": "Germany",
+   "foot": {
+    "id": 1528965,
+    "domicile": 14,
+    "exterieur": 25,
+    "nom_domicile": "Serbia",
+    "nom_exterieur": "Germany"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "a2b1b42a452df659cc5d0d242d8f98be",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Slovakia",
+   "exterieur": "Faroe Islands",
+   "foot": {
+    "id": 1528967,
+    "domicile": 773,
+    "exterieur": 1098,
+    "nom_domicile": "Slovakia",
+    "nom_exterieur": "Faroe Islands"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "af4d45ae5e37dc2a0e146d2a9e9a926d",
+   "competition": "NL",
+   "coup_envoi": "2026-11-13T19:45:00Z",
+   "domicile": "Slovenia",
+   "exterieur": "Switzerland",
+   "foot": {
+    "id": 1545654,
+    "domicile": 1091,
+    "exterieur": 15,
+    "nom_domicile": "Slovenia",
+    "nom_exterieur": "Switzerland"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-13T07:45:00Z",
+     "etat": "manque"
+    },
+    "H3": {
+     "prevu": "2026-11-13T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-13T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": {
+    "releve_a": "2026-11-13T12:36:26Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": null,
+   "marche": null,
+   "score": null
+  }
+ ],
+ "maj": "2026-11-13T12:36:26Z"
+}
