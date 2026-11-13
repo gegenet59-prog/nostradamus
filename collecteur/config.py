@@ -10,6 +10,7 @@ COMPETITIONS = {
     "LDC":  {"nom": "Ligue des champions",  "odds": "soccer_uefa_champs_league",            "foot": 2,   "fd": None},
     "EL":   {"nom": "Europa League",        "odds": "soccer_uefa_europa_league",            "foot": 3,   "fd": None},
     "ECL":  {"nom": "Conference League",    "odds": "soccer_uefa_europa_conference_league", "foot": 848, "fd": None},
+    "NL":   {"nom": "Ligue des nations",    "odds": "soccer_uefa_nations_league",           "foot": 5,   "fd": None},   # test pendant la trêve
 }
 BOOKMAKERS = {"pinnacle": "pinnacle", "winamax": "winamax_fr"}   # nom dans la base -> clé The Odds API (région eu)
 

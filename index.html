@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B0F17">
+<title>Nostradamus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+:root{--bg:#0B0F17;--card:#131A26;--cell:#0E1420;--line:#1F2937;--txt:#E8ECF4;--soft:#C3CCDB;--mute:#9AA7BC;
+--vert:#34D399;--orange:#FBBF24;--rouge:#F87171;--violet:#C084FC}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--txt);font-family:Inter,system-ui,sans-serif}
+body{min-height:100vh;padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+#app{max-width:520px;margin:0 auto;padding:24px 16px 0;display:flex;flex-direction:column;gap:14px}
+h1{margin:0;font:700 24px 'Space Grotesk',sans-serif;letter-spacing:-.5px}
+.sub{font-size:12px;color:var(--mute);margin-top:2px}
+.row{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.row::-webkit-scrollbar{display:none}
+button{font:inherit;color:inherit;cursor:pointer;border:0}
+.chip{font-size:13px;font-weight:600;color:var(--soft);background:var(--card);border-radius:999px;padding:0 14px;min-height:44px;white-space:nowrap;flex-shrink:0}
+.chip.on{background:var(--txt);color:var(--bg)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px;display:flex;flex-direction:column;gap:12px}
+.top{display:flex;gap:14px;align-items:center}
+.ring{width:76px;height:76px;border-radius:50%;border:6px solid var(--mute);display:flex;align-items:center;justify-content:center;flex-shrink:0;background:var(--cell);font:700 17px 'Space Grotesk',sans-serif;gap:3px}
+.meta{font-size:12px;color:var(--mute);font-weight:500}
+.teams{font:700 20px 'Space Grotesk',sans-serif;letter-spacing:-.3px;line-height:1.15}
+.lvl{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:700;margin-top:3px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--mute)}
+.cells{display:flex;gap:8px}
+.cell{flex:1;min-width:0;background:var(--cell);border-radius:10px;padding:10px 8px;display:flex;flex-direction:column;gap:6px}
+.cell .k{font-size:11px;color:var(--mute);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cell .p{display:flex;align-items:center;gap:5px;font:700 16px 'Space Grotesk',sans-serif}
+.cell .o{font-size:11px;color:var(--mute);font-weight:500;white-space:nowrap}
+.cell .o b{color:var(--txt);font-weight:700}
+.bar{height:4px;border-radius:2px;background:var(--line)}
+.bar i{display:block;height:4px;border-radius:2px}
+.phrase{font-size:13px;color:var(--soft);line-height:1.4}
+.phrase b{color:var(--txt);font-weight:600}
+.flag{align-self:flex-start;font-size:11px;font-weight:600;color:var(--orange);border:1px solid var(--orange);border-radius:6px;padding:2px 6px}
+.tag{align-self:flex-start;font-size:11px;font-weight:600;color:var(--mute);border:1px solid var(--line);border-radius:6px;padding:2px 6px}
+.wait{background:var(--cell);border-radius:12px;padding:12px;font-size:13px;color:var(--soft);line-height:1.45}
+.score{font:700 18px 'Space Grotesk',sans-serif;color:var(--txt)}
+.msg{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;font-size:14px;color:var(--soft);line-height:1.5}
+nav{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:1px solid var(--line);display:flex;padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;background:none;min-height:72px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:12px;font-weight:600;color:var(--mute)}
+nav button i{width:22px;height:3px;border-radius:2px;background:transparent}
+nav button.on{color:var(--txt)}nav button.on i{background:var(--txt)}
+.days button{min-height:44px;min-width:44px;background:var(--card);border-radius:12px;font-size:18px;color:var(--txt)}
+.days{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.days span{font:700 15px 'Space Grotesk',sans-serif;text-align:center;flex:1}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<nav>
+ <button id="t-matchs" class="on"><i></i>Matchs</button>
+ <button id="t-stats"><i></i>Stats</button>
+ <button id="t-alertes"><i></i>Alertes</button>
+</nav>
+<script>
+const COMP={L1:"Ligue 1",SA:"Serie A",LIGA:"Liga",PL:"Premier League",BL:"Bundesliga",LDC:"Ligue des champions",EL:"Europa League",ECL:"Conférence League",NL:"Ligue des nations"};
+const NIV={vert:["Calme","var(--vert)",0],orange:["Attention","var(--orange)",1],rouge:["Fort","var(--rouge)",2],violet:["Extrême","var(--violet)",3]};
+const NOMISS={"1":"Dom.","N":"Nul","2":"Ext."};
+const $=s=>document.querySelector(s), app=$("#app");
+let jours=[], jour=null, matchs=[], filtre="Tout", onglet="matchs";
+
+const fr=(x,d=2)=>x==null?"–":Number(x).toFixed(d).replace(".",",");
+const heure=iso=>new Date(iso).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Paris"}).replace(":","h");
+const jourParis=d=>new Date(d).toLocaleDateString("sv-SE",{timeZone:"Europe/Paris"});
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fleche=(sens,c)=>`<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><polygon points="${sens==="hausse"?"6,2 11,9 1,9":sens==="baisse"?"6,10 11,3 1,3":"1,5 11,5 11,7 1,7"}" fill="${c}"/></svg>`;
+const libJour=j=>{const d=new Date(j+"T12:00:00");const s=d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"});return s.charAt(0).toUpperCase()+s.slice(1)};
+
+async function get(u){const r=await fetch(u+"?t="+Date.now());if(!r.ok)throw new Error(u+" "+r.status);return r.json()}
+
+function dernierCotes(m,bk){const r=m.releves||{};for(const n of["H45","H3","H12"]){const c=r[n]&&r[n][bk];if(c)return c}return null}
+
+function carte(m){
+  const f=m.feux, r=m.releves||{}, ent=`<span class="meta">${esc(COMP[m.competition]||m.competition)} · ${heure(m.coup_envoi)}</span>`;
+  const nom=`<div class="teams">${esc(m.domicile)} – ${esc(m.exterieur)}</div>`;
+  const sc=m.score?`<span class="score">${m.score.domicile} – ${m.score.exterieur}</span>`:"";
+  if(!f){
+    const h12=r.H12||{};
+    let txt="Le premier relevé des cotes (H-12) est prévu à "+(h12.prevu?heure(h12.prevu):"–")+".";
+    if(h12.etat==="fait")txt="Premier relevé fait. Les variations apparaissent dès que le relevé suivant est pris.";
+    if(h12.etat==="vide")txt="Pas de cote Pinnacle disponible pour ce match.";
+    if(h12.etat==="manque")txt="Le relevé H-12 a été manqué : pas de variation calculable.";
+    return `<div class="card"><div class="top"><div class="ring" style="border-color:var(--line)">…</div><div>${ent}${nom}<div class="lvl" style="color:var(--mute)"><span class="dot"></span>En attente</div></div></div><div class="wait">${txt}</div>${sc}</div>`;
+  }
+  const is=["1","N","2"].map(k=>[k,f.issues[k]]);
+  const top=is.reduce((a,b)=>Math.abs(b[1].pct)>Math.abs(a[1].pct)?b:a);
+  const niv=is.reduce((a,b)=>NIV[b[1].feu][2]>NIV[a[1].feu][2]?b:a)[1].feu;
+  const col=NIV[niv][1];
+  const p0=(r.H12||{}).pinnacle||{}, p1=dernierCotes(m,"pinnacle")||{}, w1=dernierCotes(m,"winamax")||{};
+  const noms={"1":m.domicile,"N":"Nul","2":m.exterieur};
+  const cells=is.map(([k,i])=>{
+    const c=NIV[i.feu][1], w=Math.min(100,Math.abs(i.pct)/18*100);
+    const sgn=i.pct>0?"+":i.pct<0?"−":"";
+    return `<div class="cell"><span class="k">${k} · ${esc(noms[k])}</span>
+<span class="p" style="color:${c}">${fleche(i.fleche,c)}${sgn}${fr(Math.abs(i.pct),1)} %</span>
+<span class="o">${fr(p0[k])} → <b>${fr(p1[k])}</b></span>
+${w1[k]?`<span class="o">Winamax <b>${fr(w1[k])}</b></span>`:""}
+<div class="bar"><i style="width:${w.toFixed(0)}%;background:${c}"></i></div></div>`}).join("");
+  const ph=(m.marche&&m.marche.phrase)||"";
+  const [pre,...rest]=ph.split(" : ");
+  return `<div class="card"><div class="top">
+<div class="ring" style="border-color:${col}">${fleche(top[1].fleche,col)}${fr(Math.abs(top[1].pct),1)}%</div>
+<div style="min-width:0">${ent}${nom}<div class="lvl" style="color:${col}"><span class="dot" style="background:${col}"></span>${NIV[niv][0]}${f.provisoire?' · provisoire':''}</div></div></div>
+<div class="cells">${cells}</div>
+${ph?`<div class="phrase">${esc(pre)} : <b>${esc(rest.join(" : "))}</b></div>`:""}
+${m.marche&&m.marche.incoherent?'<span class="flag">Mouvement incohérent</span>':""}${sc}</div>`;
+}
+
+function dessiner(){
+  if(onglet!=="matchs"){
+    const t=onglet==="stats"?"Statistiques":"Alertes";
+    const d=onglet==="stats"?"Cet écran arrive bientôt : les 4 boutons couleur et les pourcentages de résultats, calculés sur la base de Nostradamus.":"Cet écran arrive bientôt : une notification sur ton téléphone dès qu'un match passe en Extrême.";
+    app.innerHTML=`<div><h1>${t}</h1></div><div class="msg">${d}</div>`;return;
+  }
+  const comps=["Tout",...new Set(matchs.map(m=>COMP[m.competition]||m.competition))];
+  if(!comps.includes(filtre))filtre="Tout";
+  const liste=matchs.filter(m=>filtre==="Tout"||(COMP[m.competition]||m.competition)===filtre);
+  const i=jours.indexOf(jour);
+  app.innerHTML=`<div><h1>Nostradamus</h1><div class="sub">Variations de cotes Pinnacle · lecture seule</div></div>
+<div class="days"><button id="prev" aria-label="Jour précédent" ${i<=0?"disabled style='opacity:.35'":""}>‹</button><span>${jour?libJour(jour):"Aucun match"}</span><button id="next" aria-label="Jour suivant" ${i>=jours.length-1?"disabled style='opacity:.35'":""}>›</button></div>
+${comps.length>2?`<div class="row">${comps.map(c=>`<button class="chip ${c===filtre?"on":""}" data-c="${esc(c)}">${esc(c)}</button>`).join("")}</div>`:""}
+${liste.length?liste.map(carte).join(""):'<div class="msg">Pas encore de match enregistré pour ce jour. Le collecteur prépare les 60 prochaines heures.</div>'}`;
+  $("#prev").onclick=()=>aller(i-1);$("#next").onclick=()=>aller(i+1);
+  app.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{filtre=b.dataset.c;dessiner()});
+}
+async function aller(i){if(i<0||i>=jours.length)return;jour=jours[i];await charger()}
+async function charger(){
+  try{const j=await get("data/matchs/"+jour+".json");matchs=Array.isArray(j)?j:(j.matchs||[])}
+  catch(e){matchs=[]}
+  dessiner();
+}
+async function init(){
+  try{
+    const idx=await get("data/index.json");jours=Object.keys(idx.jours||{}).sort();
+    const auj=jourParis(Date.now());
+    jour=jours.includes(auj)?auj:(jours.find(j=>j>auj)||jours[jours.length-1]||null);
+    if(jour)await charger();else dessiner();
+  }catch(e){app.innerHTML=`<div><h1>Nostradamus</h1></div><div class="msg">Aucun relevé n'est encore enregistré. Le collecteur remplit la base automatiquement : reviens dans quelques heures.</div>`}
+}
+for(const [id,o] of [["t-matchs","matchs"],["t-stats","stats"],["t-alertes","alertes"]])$("#"+id).onclick=()=>{onglet=o;document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.id==="t-"+o));dessiner()};
+init();
+setInterval(()=>{if(onglet==="matchs"&&jour)charger()},120000);
+</script>
+</body>
+</html>
