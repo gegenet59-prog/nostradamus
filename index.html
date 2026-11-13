@@ -77,17 +77,38 @@ async function get(u){const r=await fetch(u+"?t="+Date.now());if(!r.ok)throw new
 
 function dernierCotes(m,bk){const r=m.releves||{};for(const n of["H45","H3","H12"]){const c=r[n]&&r[n][bk];if(c)return c}return null}
 
+function probas(c){const t=["1","N","2"].reduce((a,k)=>a+1/c[k],0);return Object.fromEntries(["1","N","2"].map(k=>[k,100/c[k]/t]))}
+function valide(c){return c&&["1","N","2"].every(k=>c[k]>1)}
+function lecture(m){
+  const c=[dernierCotes(m,"pinnacle"),dernierCotes(m,"winamax")].find(valide);
+  if(!c)return null;
+  const p=probas(c), noms={"1":m.domicile,"N":"Nul","2":m.exterieur};
+  const ord=["1","N","2"].sort((a,b)=>p[b]-p[a]);
+  const [a,b]=ord, r=x=>Math.round(x);
+  let t;
+  if(a!=="N"&&p[a]>=50)t=`${noms[a]} favori (${r(p[a])} %)`;
+  else if(a!=="N"&&p[a]-p[b]>=8)t=`${noms[a]} légèrement favori (${r(p[a])} %)`;
+  else if(a==="N")t=`match très fermé, le nul est le plus probable (${r(p.N)} %)`;
+  else t=`match équilibré : ${noms[a]} ${r(p[a])} %, ${noms[b]} ${r(p[b])} %`;
+  return {p,t,c}
+}
 function carte(m){
   const f=m.feux, r=m.releves||{}, ent=`<span class="meta">${esc(COMP[m.competition]||m.competition)} · ${heure(m.coup_envoi)}</span>`;
   const nom=`<div class="teams">${esc(m.domicile)} – ${esc(m.exterieur)}</div>`;
   const sc=m.score?`<span class="score">${m.score.domicile} – ${m.score.exterieur}</span>`:"";
   if(!f){
-    const h12=r.H12||{};
+    const h12=r.H12||{}, L=lecture(m);
     let txt="Le premier relevé des cotes (H-12) est prévu à "+(h12.prevu?heure(h12.prevu):"–")+".";
-    if(h12.etat==="fait")txt="Premier relevé fait. Les variations apparaissent dès que le relevé suivant est pris.";
+    if(h12.etat==="fait")txt="Premier relevé fait : les variations apparaissent dès le relevé suivant.";
     if(h12.etat==="vide")txt="Pas de cote Pinnacle disponible pour ce match.";
-    if(h12.etat==="manque")txt="Le relevé H-12 a été manqué : pas de variation calculable.";
-    return `<div class="card"><div class="top"><div class="ring" style="border-color:var(--line)">…</div><div>${ent}${nom}<div class="lvl" style="color:var(--mute)"><span class="dot"></span>En attente</div></div></div><div class="wait">${txt}</div>${sc}</div>`;
+    if(h12.etat==="manque")txt="Pas de point de départ (H-12 manqué) : les cotes sont affichées, sans variation.";
+    if(!L)return `<div class="card"><div class="top"><div class="ring" style="border-color:var(--line)">…</div><div>${ent}${nom}<div class="lvl" style="color:var(--mute)"><span class="dot"></span>En attente</div></div></div><div class="wait">${txt}</div>${sc}</div>`;
+    const w=dernierCotes(m,"winamax")||{}, noms={"1":m.domicile,"N":"Nul","2":m.exterieur};
+    const cl=["1","N","2"].map(k=>`<div class="cell"><span class="k">${k} · ${esc(noms[k])}</span>
+<span class="p">${fr(L.c[k])}</span><span class="o">${Math.round(L.p[k])} % de chances</span>
+${w[k]?`<span class="o">Winamax <b>${fr(w[k])}</b></span>`:""}</div>`).join("");
+    return `<div class="card"><div>${ent}${nom}<div class="lvl" style="color:var(--mute)"><span class="dot"></span>Pas de variation</div></div>
+<div class="cells">${cl}</div><div class="phrase">Les cotes donnent : <b>${esc(L.t)}</b></div><div class="wait">${txt}</div>${sc}</div>`;
   }
   const is=["1","N","2"].map(k=>[k,f.issues[k]]);
   const top=is.reduce((a,b)=>Math.abs(b[1].pct)>Math.abs(a[1].pct)?b:a);
@@ -110,6 +131,7 @@ ${w1[k]?`<span class="o">Winamax <b>${fr(w1[k])}</b></span>`:""}
 <div style="min-width:0">${ent}${nom}<div class="lvl" style="color:${col}"><span class="dot" style="background:${col}"></span>${NIV[niv][0]}${f.provisoire?' · provisoire':''}</div></div></div>
 <div class="cells">${cells}</div>
 ${ph?`<div class="phrase">${esc(pre)} : <b>${esc(rest.join(" : "))}</b></div>`:""}
+${(()=>{const L=lecture(m);return L?`<div class="phrase">Les cotes donnent : <b>${esc(L.t)}</b></div>`:""})()}
 ${m.marche&&m.marche.incoherent?'<span class="flag">Mouvement incohérent</span>':""}${sc}</div>`;
 }
 
