@@ -126,7 +126,7 @@ ${w[k]?`<span class="o">Winamax <b>${fr(w[k])}</b></span>`:""}</div>`).join("");
   const top=is.reduce((a,b)=>Math.abs(b[1].pct)>Math.abs(a[1].pct)?b:a);
   const niv=is.reduce((a,b)=>NIV[b[1].feu][2]>NIV[a[1].feu][2]?b:a)[1].feu;
   const col=NIV[niv][1];
-  const p0=(r.H12||{}).pinnacle||{}, p1=dernierCotes(m,"pinnacle")||{}, w1=dernierCotes(m,"winamax")||{};
+  const p0=(r[f.partielle?"H3":"H12"]||{}).pinnacle||{}, p1=dernierCotes(m,"pinnacle")||{}, w1=dernierCotes(m,"winamax")||{};
   const noms={"1":m.domicile,"N":"Nul","2":m.exterieur};
   const cells=is.map(([k,i])=>{
     const c=NIV[i.feu][1], w=Math.min(100,Math.abs(i.pct)/18*100);
@@ -140,7 +140,7 @@ ${w1[k]?`<span class="o">Winamax <b>${fr(w1[k])}</b></span>`:""}
   const [pre,...rest]=ph.split(" : ");
   return `<div class="card"><div class="top">
 <div class="ring" style="border-color:${col}">${fleche(top[1].fleche,col)}${fr(Math.abs(top[1].pct),1)}%</div>
-<div style="min-width:0">${ent}${nom}<div class="lvl" style="color:${col}"><span class="dot" style="background:${col}"></span>${NIV[niv][0]}${f.provisoire?' · provisoire':''}</div></div></div>
+<div style="min-width:0">${ent}${nom}<div class="lvl" style="color:${col}"><span class="dot" style="background:${col}"></span>${NIV[niv][0]}${f.provisoire?' · provisoire':''}${f.partielle?' · partielle (H-3 → H-45)':''}</div></div></div>
 <div class="cells">${cells}</div>
 ${ph?`<div class="phrase">${esc(pre)} : <b>${esc(rest.join(" : "))}</b></div>`:""}
 ${(()=>{const L=lecture(m);return L?`<div class="phrase">Les cotes donnent : <b>${esc(L.t)}</b></div>`:""})()}

@@ -312,8 +312,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.6,
+      "ampleur": 1.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.4,
+      "ampleur": 1.7,
+      "raisons": []
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.07,
+     "N": 0.56,
+     "2": -0.63
+    },
+    "marge": [
+     3.74,
+     3.55
+    ]
+   },
    "score": null
   },
   {
@@ -625,8 +665,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.8,
+      "ampleur": 2.2,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.5,
+      "ampleur": 1.1,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.0,
+      "ampleur": 1.7,
+      "raisons": []
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.93,
+     "N": -0.51,
+     "2": -0.42
+    },
+    "marge": [
+     5.2,
+     5.47
+    ]
+   },
    "score": null
   },
   {
@@ -938,8 +1018,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.2,
+      "ampleur": 0.1,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.8,
+      "ampleur": 0.5,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.6,
+      "ampleur": 0.6,
+      "raisons": []
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.05,
+     "N": -0.22,
+     "2": 0.28
+    },
+    "marge": [
+     3.94,
+     4.0
+    ]
+   },
    "score": null
   },
   {
@@ -1246,8 +1366,50 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 2.5,
+      "ampleur": 1.3,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.9,
+      "ampleur": 1.7,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.8,
+      "ampleur": 2.0,
+      "raisons": []
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.12,
+     "N": -0.47,
+     "2": 0.59
+    },
+    "marge": [
+     5.45,
+     5.54
+    ]
+   },
    "score": null
   },
   {
@@ -1559,8 +1721,50 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.8,
+      "ampleur": 0.6,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -1.6,
+      "ampleur": 1.2,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.6,
+      "ampleur": 0.5,
+      "raisons": []
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.31,
+     "N": 0.5,
+     "2": -0.2
+    },
+    "marge": [
+     3.64,
+     3.65
+    ]
+   },
    "score": null
   },
   {
@@ -1872,8 +2076,52 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.3,
+      "ampleur": 1.8,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.2,
+      "ampleur": 2.0,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 4.4,
+      "ampleur": 2.6,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Netherlands gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.16,
+     "N": -0.54,
+     "2": -0.62
+    },
+    "marge": [
+     3.98,
+     3.43
+    ]
+   },
    "score": null
   },
   {
@@ -2185,8 +2433,55 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 1.7,
+      "ampleur": 4.7,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît",
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -7.7,
+      "ampleur": 4.7,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "2": {
+      "feu": "violet",
+      "fleche": "baisse",
+      "pct": -17.5,
+      "ampleur": 10.8,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Scotland ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -2.0,
+     "N": 0.94,
+     "2": 1.05
+    },
+    "marge": [
+     3.75,
+     4.54
+    ]
+   },
    "score": null
   },
   {
@@ -2498,8 +2793,55 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 14.1,
+      "ampleur": 7.5,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 8.2,
+      "ampleur": 4.7,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -2.3,
+      "ampleur": 5.0,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît",
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": "2",
+    "phrase": "Le marché annonce : Germany gagne (2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.18,
+     "N": -1.05,
+     "2": 2.24
+    },
+    "marge": [
+     4.17,
+     3.58
+    ]
+   },
    "score": null
   },
   {
@@ -2811,8 +3153,52 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 2.2,
+      "ampleur": 3.9,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -7.8,
+      "ampleur": 5.1,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -3.5,
+      "ampleur": 2.0,
+      "raisons": []
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Slovakia ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.81,
+     "N": 1.48,
+     "2": 0.33
+    },
+    "marge": [
+     4.08,
+     4.43
+    ]
+   },
    "score": null
   },
   {
@@ -3124,8 +3510,54 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -8.2,
+      "ampleur": 5.3,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -5.2,
+      "ampleur": 3.9,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 5.6,
+      "ampleur": 6.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     }
+    },
+    "base": "H3-H45",
+    "provisoire": false,
+    "partielle": true
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Switzerland ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.43,
+     "N": 1.55,
+     "2": -2.97
+    },
+    "marge": [
+     3.26,
+     3.42
+    ]
+   },
    "score": null
   }
  ],

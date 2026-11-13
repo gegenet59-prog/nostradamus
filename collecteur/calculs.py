@@ -73,16 +73,19 @@ def lecture_marche(depart, arrivee, domicile, exterieur):
 def calculer(match):
     """Calcule feux, flèches, % et lecture du marché d'un match à partir de ses relevés. Modifie et renvoie le match.
 
-    Sans relevé H-12 (ou sans aucun relevé plus récent), rien n'est calculé : feux = None.
+    Sans relevé H-12 : variation « partielle » H-3 -> H-45 si les deux existent, sinon rien (feux = None).
     Tant que H-45 n'est pas fait, le calcul se fait sur le dernier relevé disponible, marqué « provisoire »."""
     r = match.get("releves", {})
     pin = lambda nom: (r.get(nom) or {}).get("pinnacle")
     win = lambda nom: (r.get(nom) or {}).get("winamax")
     dernier = "H45" if cotes_valides(pin("H45")) else "H3" if cotes_valides(pin("H3")) else None
-    if not cotes_valides(pin("H12")) or not dernier:
+    # Point de départ : H-12. S'il manque (match ajouté en retard, relevé raté), on part du H-3 pour mesurer le H-3 -> H-45 :
+    # variation « partielle », signalée comme telle et à ne pas mélanger avec les vraies statistiques.
+    ref = "H12" if cotes_valides(pin("H12")) else "H3" if (dernier == "H45" and cotes_valides(pin("H3"))) else None
+    if not ref or not dernier:
         match["feux"], match["marche"] = None, None
         return match
-    depart, arrivee = pin("H12"), pin(dernier)
+    depart, arrivee = pin(ref), pin(dernier)
     # Probabilité d'une issue, marge retirée. On retire aux deux relevés la marge constatée à H-12 : ainsi une cote
     # qui n'a pas bougé a une ampleur de 0, même si le bookmaker a changé sa marge entre-temps.
     total = sum(1.0 / depart[i] for i in ISSUES)
@@ -97,8 +100,8 @@ def calculer(match):
         if niveau_selon_ampleur(a) > niveau:
             niveau = niveau_selon_ampleur(a); raisons.append("petite cote : mouvement plus fort qu'il n'y paraît")
         # Pinnacle et Winamax bougent en sens opposé -> au moins Orange
-        if cotes_valides(win("H12")) and cotes_valides(win(dernier)):
-            pw = variation_classique(win("H12")[i], win(dernier)[i])
+        if cotes_valides(win(ref)) and cotes_valides(win(dernier)):
+            pw = variation_classique(win(ref)[i], win(dernier)[i])
             if pct * pw < 0 and min(abs(pct), abs(pw)) >= C.SEUIL_DESACCORD:
                 niveau = max(niveau, 1); raisons.append("Pinnacle et Winamax en sens opposé")
         # plus de 4 % rien qu'entre H-3 et H-45 -> au moins Rouge
@@ -116,6 +119,6 @@ def calculer(match):
                 niveau = max(niveau, 1); raisons.append("titulaire régulier absent")
         feux[i] = {"feu": NIVEAUX[niveau], "fleche": "hausse" if pct > 0 else "baisse" if pct < 0 else "stable",
                    "pct": round(pct, 1), "ampleur": round(a, 1), "raisons": raisons}
-    match["feux"] = {"issues": feux, "base": f"H12-{dernier}", "provisoire": dernier != "H45"}
+    match["feux"] = {"issues": feux, "base": f"{ref}-{dernier}", "provisoire": dernier != "H45", "partielle": ref != "H12"}
     match["marche"] = lecture_marche(depart, arrivee, match["domicile"], match["exterieur"])
     return match
