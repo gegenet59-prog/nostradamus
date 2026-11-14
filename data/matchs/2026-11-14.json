@@ -1252,7 +1252,7 @@
     },
     "H45": {
      "prevu": "2026-11-14T19:00:00Z",
-     "etat": "vide",
+     "etat": "vide_definitif",
      "fait_a": "2026-11-14T19:24:46Z",
      "retard_min": 25,
      "pinnacle": null,
@@ -2999,5 +2999,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-14T19:24:46Z"
+ "maj": "2026-11-14T20:05:35Z"
 }
