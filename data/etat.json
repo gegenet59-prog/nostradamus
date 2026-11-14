@@ -5,17 +5,27 @@
   "maj": "2026-11-13T19:21:27Z"
  },
  "foot": {
-  "jour": "2026-11-13",
-  "reste": 85
+  "jour": "2026-11-14",
+  "reste": 98
  },
  "jours_foot": {
   "2026-11-13": {
    "lien_jour": "2026-11-13",
    "lien_heure": 12,
    "absents": "2026-11-13T19:21:27Z"
+  },
+  "2026-11-14": {
+   "lien_jour": "2026-11-14",
+   "lien_heure": 0,
+   "absents": "2026-11-14T00:04:20Z"
   }
  },
- "alertes": [],
+ "alertes": [
+  {
+   "quand": "2026-11-14T00:04:20Z",
+   "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
+  }
+ ],
  "planning_fait_a": "2026-11-13T19:21:27Z",
- "dernier_passage_utile": "2026-11-13T19:21:27Z"
+ "dernier_passage_utile": "2026-11-14T00:04:20Z"
 }
