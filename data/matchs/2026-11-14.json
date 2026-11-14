@@ -405,7 +405,20 @@
     },
     "H3": {
      "prevu": "2026-11-14T14:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T14:28:53Z",
+     "retard_min": 29,
+     "pinnacle": {
+      "1": 3.41,
+      "N": 3.19,
+      "2": 2.36
+     },
+     "winamax": {
+      "1": 3.0,
+      "N": 2.95,
+      "2": 2.2
+     },
+     "maj_pinnacle": "2026-11-14T14:28:23Z"
     },
     "H45": {
      "prevu": "2026-11-14T16:15:00Z",
@@ -419,8 +432,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 12.9,
+      "ampleur": 9.1,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.8,
+      "ampleur": 1.3,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -7.5,
+      "ampleur": 6.6,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Georgia ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -3.66,
+     "N": 0.58,
+     "2": 3.08
+    },
+    "marge": [
+     3.1,
+     3.05
+    ]
+   },
    "score": null
   },
   {
@@ -456,7 +509,20 @@
     },
     "H3": {
      "prevu": "2026-11-14T14:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T14:28:53Z",
+     "retard_min": 29,
+     "pinnacle": {
+      "1": 1.27,
+      "N": 6.51,
+      "2": 10.16
+     },
+     "winamax": {
+      "1": 1.2,
+      "N": 6.5,
+      "2": 8.5
+     },
+     "maj_pinnacle": "2026-11-14T14:28:23Z"
     },
     "H45": {
      "prevu": "2026-11-14T16:15:00Z",
@@ -470,8 +536,50 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 3.3,
+      "ampleur": 7.2,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -9.3,
+      "ampleur": 5.9,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -10.0,
+      "ampleur": 6.0,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Norway ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -2.36,
+     "N": 1.4,
+     "2": 0.96
+    },
+    "marge": [
+     4.09,
+     3.94
+    ]
+   },
    "score": null
   },
   {
@@ -763,5 +871,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-14T13:45:13Z"
+ "maj": "2026-11-14T14:28:53Z"
 }
