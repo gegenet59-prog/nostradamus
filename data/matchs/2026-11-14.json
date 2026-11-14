@@ -34,7 +34,20 @@
     },
     "H3": {
      "prevu": "2026-11-14T11:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T11:24:04Z",
+     "retard_min": 24,
+     "pinnacle": {
+      "1": 1.72,
+      "N": 3.91,
+      "2": 5.04
+     },
+     "winamax": {
+      "1": 1.64,
+      "N": 3.6,
+      "2": 4.1
+     },
+     "maj_pinnacle": "2026-11-14T11:24:00Z"
     },
     "H45": {
      "prevu": "2026-11-14T13:15:00Z",
@@ -48,8 +61,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -7.0,
+      "ampleur": 8.2,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 5.7,
+      "ampleur": 3.8,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 14.5,
+      "ampleur": 8.9,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Kosovo gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 4.07,
+     "N": -1.34,
+     "2": -2.73
+    },
+    "marge": [
+     3.81,
+     3.56
+    ]
+   },
    "score": null
   },
   {
@@ -208,13 +261,13 @@
     "H12": {
      "prevu": "2026-11-14T07:45:00Z",
      "etat": "vide",
-     "fait_a": "2026-11-14T08:25:36Z",
-     "retard_min": 41,
+     "fait_a": "2026-11-14T11:24:04Z",
+     "retard_min": 219,
      "pinnacle": null,
      "winamax": {
-      "1": 1.54,
-      "N": 3.7,
-      "2": 4.8
+      "1": 1.5,
+      "N": 3.8,
+      "2": 5.0
      },
      "maj_pinnacle": null
     },
@@ -443,5 +496,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-14T08:25:36Z"
+ "maj": "2026-11-14T11:24:04Z"
 }
