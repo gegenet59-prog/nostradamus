@@ -51,11 +51,274 @@
     },
     "H45": {
      "prevu": "2026-11-14T13:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T13:45:13Z",
+     "retard_min": 30,
+     "pinnacle": {
+      "1": 1.85,
+      "N": 3.8,
+      "2": 4.33
+     },
+     "winamax": {
+      "1": 1.7,
+      "N": 3.55,
+      "2": 3.85
+     },
+     "maj_pinnacle": "2026-11-14T13:45:02Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-14T13:45:13Z",
+    "minutes_avant": 15,
+    "domicile": {
+     "formation": "4-1-4-1",
+     "titulaires": [
+      {
+       "id": 70532,
+       "nom": "A. Saipi",
+       "poste": "G"
+      },
+      {
+       "id": 119796,
+       "nom": "L. Kamberi",
+       "poste": "D"
+      },
+      {
+       "id": 123474,
+       "nom": "K. Hajrizi",
+       "poste": "D"
+      },
+      {
+       "id": 204137,
+       "nom": "I. Krasniqi",
+       "poste": "D"
+      },
+      {
+       "id": 435876,
+       "nom": "D. Gallapeni",
+       "poste": "D"
+      },
+      {
+       "id": 390586,
+       "nom": "L. Avdullahu",
+       "poste": "M"
+      },
+      {
+       "id": 48392,
+       "nom": "E. Zhegrova",
+       "poste": "M"
+      },
+      {
+       "id": 8586,
+       "nom": "M. Vojvoda",
+       "poste": "M"
+      },
+      {
+       "id": 135957,
+       "nom": "V. Hodža",
+       "poste": "M"
+      },
+      {
+       "id": 25324,
+       "nom": "M. Rashica",
+       "poste": "M"
+      },
+      {
+       "id": 50048,
+       "nom": "V. Muriqi",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 278810,
+       "nom": "M. Avdyli",
+       "poste": "M"
+      },
+      {
+       "id": 202501,
+       "nom": "F. Asllani",
+       "poste": "F"
+      },
+      {
+       "id": 55867,
+       "nom": "V. Bekaj",
+       "poste": "G"
+      },
+      {
+       "id": 373418,
+       "nom": "L. Emërllahu",
+       "poste": "M"
+      },
+      {
+       "id": 135520,
+       "nom": "B. Fazliji",
+       "poste": "M"
+      },
+      {
+       "id": 344258,
+       "nom": "D. Kacuri",
+       "poste": "M"
+      },
+      {
+       "id": 442519,
+       "nom": "B. Kurtulus",
+       "poste": "D"
+      },
+      {
+       "id": 616,
+       "nom": "A. Murić",
+       "poste": "G"
+      },
+      {
+       "id": 544629,
+       "nom": "R. Raci",
+       "poste": "D"
+      },
+      {
+       "id": 25413,
+       "nom": "E. Rexhbeçaj",
+       "poste": "M"
+      },
+      {
+       "id": 318546,
+       "nom": "A. Rrahmani",
+       "poste": "F"
+      },
+      {
+       "id": 278744,
+       "nom": "B. Zabërgja",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "5-4-1",
+     "titulaires": [
+      {
+       "id": 126530,
+       "nom": "Daniel Peretz",
+       "poste": "G"
+      },
+      {
+       "id": 56003,
+       "nom": "E. Dasa",
+       "poste": "D"
+      },
+      {
+       "id": 111016,
+       "nom": "R. Shlomo",
+       "poste": "D"
+      },
+      {
+       "id": 371922,
+       "nom": "N. Yehoshua",
+       "poste": "D"
+      },
+      {
+       "id": 111288,
+       "nom": "I. Nachmias",
+       "poste": "D"
+      },
+      {
+       "id": 449607,
+       "nom": "N. Stoioanov",
+       "poste": "D"
+      },
+      {
+       "id": 136138,
+       "nom": "L. Abada",
+       "poste": "M"
+      },
+      {
+       "id": 56011,
+       "nom": "Dor Peretz",
+       "poste": "M"
+      },
+      {
+       "id": 162272,
+       "nom": "E. Azoulay",
+       "poste": "M"
+      },
+      {
+       "id": 329715,
+       "nom": "O. Gloukh",
+       "poste": "M"
+      },
+      {
+       "id": 348231,
+       "nom": "I. Toklomati Giorno",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 338794,
+       "nom": "I. Feingold",
+       "poste": "D"
+      },
+      {
+       "id": 371940,
+       "nom": "Y. Levi",
+       "poste": "M"
+      },
+      {
+       "id": 111345,
+       "nom": "A. Tzur",
+       "poste": "G"
+      },
+      {
+       "id": 269532,
+       "nom": "D. Turgeman",
+       "poste": "F"
+      },
+      {
+       "id": 108018,
+       "nom": "Y. Shua",
+       "poste": "F"
+      },
+      {
+       "id": 315127,
+       "nom": "R. Revivo",
+       "poste": "D"
+      },
+      {
+       "id": 215821,
+       "nom": "G. Mizrahi",
+       "poste": "D"
+      },
+      {
+       "id": 111148,
+       "nom": "G. Kanichowsky",
+       "poste": "M"
+      },
+      {
+       "id": 111325,
+       "nom": "O. Glazer",
+       "poste": "G"
+      },
+      {
+       "id": 126974,
+       "nom": "O. Gandelman",
+       "poste": "M"
+      },
+      {
+       "id": 137521,
+       "nom": "Z. Ahmed",
+       "poste": "F"
+      },
+      {
+       "id": 576929,
+       "nom": "N. Sztejfman",
+       "poste": "D"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-14T13:45:13Z",
+    "2026-11-14T13:45:13Z"
+   ],
    "absents": {
     "releve_a": "2026-11-14T00:04:20Z",
     "domicile": [],
@@ -65,42 +328,46 @@
     "issues": {
      "1": {
       "feu": "rouge",
-      "fleche": "baisse",
-      "pct": -7.0,
-      "ampleur": 8.2,
-      "raisons": []
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 5.7,
-      "ampleur": 3.8,
+      "pct": 2.7,
+      "ampleur": 1.8,
       "raisons": []
      },
      "2": {
       "feu": "rouge",
-      "fleche": "hausse",
-      "pct": 14.5,
-      "ampleur": 8.9,
-      "raisons": []
+      "fleche": "baisse",
+      "pct": -1.6,
+      "ampleur": 1.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "1",
-    "phrase": "Le marché annonce : Kosovo gagne (1)",
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": 4.07,
-     "N": -1.34,
-     "2": -2.73
+     "1": 0.17,
+     "N": -0.6,
+     "2": 0.43
     },
     "marge": [
      3.81,
-     3.56
+     3.46
     ]
    },
    "score": null
@@ -496,5 +763,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-14T12:06:12Z"
+ "maj": "2026-11-14T13:45:13Z"
 }

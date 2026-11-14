@@ -937,5 +937,101 @@
    "265372": "I. Schmidt",
    "957": "D. Sow"
   }
+ },
+ "1111": {
+  "nom": "Kosovo",
+  "matchs": [
+   {
+    "match": 1528971,
+    "date": "2026-11-14",
+    "onze": [
+     70532,
+     119796,
+     123474,
+     204137,
+     435876,
+     390586,
+     48392,
+     8586,
+     135957,
+     25324,
+     50048
+    ],
+    "gardien": 70532
+   }
+  ],
+  "joueurs": {
+   "70532": "A. Saipi",
+   "119796": "L. Kamberi",
+   "123474": "K. Hajrizi",
+   "204137": "I. Krasniqi",
+   "435876": "D. Gallapeni",
+   "390586": "L. Avdullahu",
+   "48392": "E. Zhegrova",
+   "8586": "M. Vojvoda",
+   "135957": "V. Hodža",
+   "25324": "M. Rashica",
+   "50048": "V. Muriqi",
+   "278810": "M. Avdyli",
+   "202501": "F. Asllani",
+   "55867": "V. Bekaj",
+   "373418": "L. Emërllahu",
+   "135520": "B. Fazliji",
+   "344258": "D. Kacuri",
+   "442519": "B. Kurtulus",
+   "616": "A. Murić",
+   "544629": "R. Raci",
+   "25413": "E. Rexhbeçaj",
+   "318546": "A. Rrahmani",
+   "278744": "B. Zabërgja"
+  }
+ },
+ "1116": {
+  "nom": "Israel",
+  "matchs": [
+   {
+    "match": 1528971,
+    "date": "2026-11-14",
+    "onze": [
+     126530,
+     56003,
+     111016,
+     371922,
+     111288,
+     449607,
+     136138,
+     56011,
+     162272,
+     329715,
+     348231
+    ],
+    "gardien": 126530
+   }
+  ],
+  "joueurs": {
+   "126530": "Daniel Peretz",
+   "56003": "E. Dasa",
+   "111016": "R. Shlomo",
+   "371922": "N. Yehoshua",
+   "111288": "I. Nachmias",
+   "449607": "N. Stoioanov",
+   "136138": "L. Abada",
+   "56011": "Dor Peretz",
+   "162272": "E. Azoulay",
+   "329715": "O. Gloukh",
+   "348231": "I. Toklomati Giorno",
+   "338794": "I. Feingold",
+   "371940": "Y. Levi",
+   "111345": "A. Tzur",
+   "269532": "D. Turgeman",
+   "108018": "Y. Shua",
+   "315127": "R. Revivo",
+   "215821": "G. Mizrahi",
+   "111148": "G. Kanichowsky",
+   "111325": "O. Glazer",
+   "126974": "O. Gandelman",
+   "137521": "Z. Ahmed",
+   "576929": "N. Sztejfman"
+  }
  }
 }
