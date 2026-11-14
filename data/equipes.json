@@ -1033,5 +1033,197 @@
    "137521": "Z. Ahmed",
    "576929": "N. Sztejfman"
   }
+ },
+ "1104": {
+  "nom": "Georgia",
+  "matchs": [
+   {
+    "match": 1528973,
+    "date": "2026-11-14",
+    "onze": [
+     24760,
+     48451,
+     318053,
+     28327,
+     61224,
+     8481,
+     179935,
+     311251,
+     24674,
+     2181,
+     180496
+    ],
+    "gardien": 24760
+   }
+  ],
+  "joueurs": {
+   "24760": "G. Mamardashvili",
+   "48451": "O. Kakabadze",
+   "318053": "S. Goglichidze",
+   "28327": "L. Dvali",
+   "61224": "L. Lochoshvili",
+   "8481": "G. Chakvetadze",
+   "179935": "A. Mekvabishvili",
+   "311251": "G. Kvernadze",
+   "24674": "N. Gagnidze",
+   "2181": "G. Tsitaishvili",
+   "180496": "G. Mikautadze",
+   "371231": "I. Yegoian",
+   "24743": "Z. Davitashvili",
+   "24567": "G. Guliashvili",
+   "24641": "B. Zivzivadze",
+   "215828": "N. Lominadze",
+   "24665": "L. Gugeshashvili",
+   "278315": "G. Maisuradze",
+   "268728": "S. Sazonov",
+   "24597": "I. Azarovi",
+   "53708": "J. Tabidze",
+   "67317": "G. Moistsrapishvili",
+   "None": "N Kalichava"
+  }
+ },
+ "769": {
+  "nom": "Hungary",
+  "matchs": [
+   {
+    "match": 1528973,
+    "date": "2026-11-14",
+    "onze": [
+     28048,
+     28467,
+     1148,
+     341983,
+     206254,
+     30785,
+     1096,
+     26252,
+     28041,
+     28478,
+     7398
+    ],
+    "gardien": 28048
+   }
+  ],
+  "joueurs": {
+   "28048": "B. Tóth",
+   "28467": "A. Osváth",
+   "1148": "W. Orbán",
+   "341983": "M. Csinger",
+   "206254": "M. Kerkez",
+   "30785": "A. Schäfer",
+   "1096": "D. Szoboszlai",
+   "26252": "R. Sallai",
+   "28041": "M. Vitális",
+   "28478": "Z. Nagy",
+   "7398": "B. Varga",
+   "19806": "C. Styles",
+   "28386": "B. Gundel-Takács",
+   "342467": "Á. Pécsi",
+   "179907": "Á. Csongvai",
+   "27778": "B. Bolla",
+   "443849": "A. Markgráf",
+   "28443": "A. Szalai",
+   "325201": "G. Jurek",
+   "419517": "R.Tóth",
+   "28481": "J. Urblík",
+   "405330": "M. Pető",
+   "150783": "Á. Szendrei"
+  }
+ },
+ "1090": {
+  "nom": "Norway",
+  "matchs": [
+   {
+    "match": 1528972,
+    "date": "2026-11-14",
+    "onze": [
+     39082,
+     24845,
+     1119,
+     39254,
+     265782,
+     1934,
+     277930,
+     278133,
+     37127,
+     314511,
+     1100
+    ],
+    "gardien": 39082
+   }
+  ],
+  "joueurs": {
+   "39082": "E. Selvik",
+   "24845": "J. Ryerson",
+   "1119": "K. Ajer",
+   "39254": "T. Heggem",
+   "265782": "D. Møller Wolfe",
+   "1934": "S. Berge",
+   "277930": "T. Aasgaard",
+   "278133": "Oscar Bobb",
+   "37127": "M. Ødegaard",
+   "314511": "A. Nusa",
+   "1100": "E. Haaland",
+   "1188": "E. Botheim",
+   "39064": "P. Berg",
+   "416062": "E. Helland",
+   "39362": "M. Pedersen",
+   "39066": "F. Myhre",
+   "19172": "Ø. Nyland",
+   "39083": "O. Bjørtuft",
+   "301528": "A. Schjelderup",
+   "18967": "L. Østigård",
+   "8492": "A. Sørloth",
+   "264378": "S. Tangvik",
+   "39291": "H. Vetlesen"
+  }
+ },
+ "767": {
+  "nom": "Wales",
+  "matchs": [
+   {
+    "match": 1528972,
+    "date": "2026-11-14",
+    "onze": [
+     18885,
+     138780,
+     19321,
+     164,
+     19260,
+     2279,
+     19221,
+     19329,
+     19335,
+     129711,
+     328107
+    ],
+    "gardien": 18885
+   }
+  ],
+  "joueurs": {
+   "18885": "K. Darlow",
+   "138780": "N. Williams",
+   "19321": "J. Rodon",
+   "164": "B. Davies",
+   "19260": "J. Dasilva",
+   "2279": "E. Ampadu",
+   "19221": "H. Wilson",
+   "19329": "D. James",
+   "19335": "L. Cullen",
+   "129711": "B. Johnson",
+   "328107": "L. Koumas",
+   "383815": "Cian Ashford",
+   "18870": "D. Brooks",
+   "17551": "A. Collins",
+   "301184": "R. Colwill",
+   "None": "Joseph Duncan",
+   "17932": "M. Harris",
+   "545996": "J. Lienou",
+   "18866": "C. Mepham",
+   "19331": "C. Roberts",
+   "82034": "J. Sheehan",
+   "18146": "D. Ward",
+   "431884": "Kai Andrews"
+  }
  }
 }

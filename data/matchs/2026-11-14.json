@@ -422,11 +422,273 @@
     },
     "H45": {
      "prevu": "2026-11-14T16:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T16:38:26Z",
+     "retard_min": 23,
+     "pinnacle": {
+      "1": 3.44,
+      "N": 3.3,
+      "2": 2.29
+     },
+     "winamax": {
+      "1": 3.05,
+      "N": 3.0,
+      "2": 2.1
+     },
+     "maj_pinnacle": "2026-11-14T16:38:21Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-14T16:38:26Z",
+    "minutes_avant": 22,
+    "domicile": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 24760,
+       "nom": "G. Mamardashvili",
+       "poste": "G"
+      },
+      {
+       "id": 48451,
+       "nom": "O. Kakabadze",
+       "poste": "D"
+      },
+      {
+       "id": 318053,
+       "nom": "S. Goglichidze",
+       "poste": "D"
+      },
+      {
+       "id": 28327,
+       "nom": "L. Dvali",
+       "poste": "D"
+      },
+      {
+       "id": 61224,
+       "nom": "L. Lochoshvili",
+       "poste": "D"
+      },
+      {
+       "id": 8481,
+       "nom": "G. Chakvetadze",
+       "poste": "M"
+      },
+      {
+       "id": 179935,
+       "nom": "A. Mekvabishvili",
+       "poste": "M"
+      },
+      {
+       "id": 311251,
+       "nom": "G. Kvernadze",
+       "poste": "M"
+      },
+      {
+       "id": 24674,
+       "nom": "N. Gagnidze",
+       "poste": "M"
+      },
+      {
+       "id": 2181,
+       "nom": "G. Tsitaishvili",
+       "poste": "M"
+      },
+      {
+       "id": 180496,
+       "nom": "G. Mikautadze",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 371231,
+       "nom": "I. Yegoian",
+       "poste": "M"
+      },
+      {
+       "id": 24743,
+       "nom": "Z. Davitashvili",
+       "poste": "F"
+      },
+      {
+       "id": 24567,
+       "nom": "G. Guliashvili",
+       "poste": "F"
+      },
+      {
+       "id": 24641,
+       "nom": "B. Zivzivadze",
+       "poste": "F"
+      },
+      {
+       "id": 215828,
+       "nom": "N. Lominadze",
+       "poste": "M"
+      },
+      {
+       "id": 24665,
+       "nom": "L. Gugeshashvili",
+       "poste": "G"
+      },
+      {
+       "id": 278315,
+       "nom": "G. Maisuradze",
+       "poste": "D"
+      },
+      {
+       "id": 268728,
+       "nom": "S. Sazonov",
+       "poste": "D"
+      },
+      {
+       "id": 24597,
+       "nom": "I. Azarovi",
+       "poste": "D"
+      },
+      {
+       "id": 53708,
+       "nom": "J. Tabidze",
+       "poste": "D"
+      },
+      {
+       "id": 67317,
+       "nom": "G. Moistsrapishvili",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "N Kalichava",
+       "poste": "G"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 28048,
+       "nom": "B. Tóth",
+       "poste": "G"
+      },
+      {
+       "id": 28467,
+       "nom": "A. Osváth",
+       "poste": "D"
+      },
+      {
+       "id": 1148,
+       "nom": "W. Orbán",
+       "poste": "D"
+      },
+      {
+       "id": 341983,
+       "nom": "M. Csinger",
+       "poste": "D"
+      },
+      {
+       "id": 206254,
+       "nom": "M. Kerkez",
+       "poste": "D"
+      },
+      {
+       "id": 30785,
+       "nom": "A. Schäfer",
+       "poste": "M"
+      },
+      {
+       "id": 1096,
+       "nom": "D. Szoboszlai",
+       "poste": "M"
+      },
+      {
+       "id": 26252,
+       "nom": "R. Sallai",
+       "poste": "M"
+      },
+      {
+       "id": 28041,
+       "nom": "M. Vitális",
+       "poste": "M"
+      },
+      {
+       "id": 28478,
+       "nom": "Z. Nagy",
+       "poste": "M"
+      },
+      {
+       "id": 7398,
+       "nom": "B. Varga",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 19806,
+       "nom": "C. Styles",
+       "poste": "D"
+      },
+      {
+       "id": 28386,
+       "nom": "B. Gundel-Takács",
+       "poste": "G"
+      },
+      {
+       "id": 342467,
+       "nom": "Á. Pécsi",
+       "poste": "G"
+      },
+      {
+       "id": 179907,
+       "nom": "Á. Csongvai",
+       "poste": "M"
+      },
+      {
+       "id": 27778,
+       "nom": "B. Bolla",
+       "poste": "D"
+      },
+      {
+       "id": 443849,
+       "nom": "A. Markgráf",
+       "poste": "D"
+      },
+      {
+       "id": 28443,
+       "nom": "A. Szalai",
+       "poste": "D"
+      },
+      {
+       "id": 325201,
+       "nom": "G. Jurek",
+       "poste": "F"
+      },
+      {
+       "id": 419517,
+       "nom": "R.Tóth",
+       "poste": "M"
+      },
+      {
+       "id": 28481,
+       "nom": "J. Urblík",
+       "poste": "M"
+      },
+      {
+       "id": 405330,
+       "nom": "M. Pető",
+       "poste": "M"
+      },
+      {
+       "id": 150783,
+       "nom": "Á. Szendrei",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-14T16:38:26Z"
+   ],
    "absents": {
     "releve_a": "2026-11-14T00:04:20Z",
     "domicile": [],
@@ -437,27 +699,27 @@
      "1": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 12.9,
-      "ampleur": 9.1,
+      "pct": 13.9,
+      "ampleur": 9.8,
       "raisons": []
      },
      "N": {
       "feu": "vert",
-      "fleche": "baisse",
-      "pct": -1.8,
-      "ampleur": 1.3,
+      "fleche": "hausse",
+      "pct": 1.5,
+      "ampleur": 1.1,
       "raisons": []
      },
      "2": {
       "feu": "rouge",
       "fleche": "baisse",
-      "pct": -7.5,
-      "ampleur": 6.6,
+      "pct": -10.2,
+      "ampleur": 9.4,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -465,13 +727,13 @@
     "phrase": "Le marché annonce : Georgia ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -3.66,
-     "N": 0.58,
-     "2": 3.08
+     "1": -3.91,
+     "N": -0.44,
+     "2": 4.34
     },
     "marge": [
      3.1,
-     3.05
+     3.04
     ]
    },
    "score": null
@@ -526,11 +788,273 @@
     },
     "H45": {
      "prevu": "2026-11-14T16:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T16:38:26Z",
+     "retard_min": 23,
+     "pinnacle": {
+      "1": 1.28,
+      "N": 6.65,
+      "2": 9.75
+     },
+     "winamax": {
+      "1": 1.2,
+      "N": 6.5,
+      "2": 8.5
+     },
+     "maj_pinnacle": "2026-11-14T16:38:20Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-14T16:38:26Z",
+    "minutes_avant": 22,
+    "domicile": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 39082,
+       "nom": "E. Selvik",
+       "poste": "G"
+      },
+      {
+       "id": 24845,
+       "nom": "J. Ryerson",
+       "poste": "D"
+      },
+      {
+       "id": 1119,
+       "nom": "K. Ajer",
+       "poste": "D"
+      },
+      {
+       "id": 39254,
+       "nom": "T. Heggem",
+       "poste": "D"
+      },
+      {
+       "id": 265782,
+       "nom": "D. Møller Wolfe",
+       "poste": "D"
+      },
+      {
+       "id": 1934,
+       "nom": "S. Berge",
+       "poste": "M"
+      },
+      {
+       "id": 277930,
+       "nom": "T. Aasgaard",
+       "poste": "M"
+      },
+      {
+       "id": 278133,
+       "nom": "Oscar Bobb",
+       "poste": "M"
+      },
+      {
+       "id": 37127,
+       "nom": "M. Ødegaard",
+       "poste": "M"
+      },
+      {
+       "id": 314511,
+       "nom": "A. Nusa",
+       "poste": "M"
+      },
+      {
+       "id": 1100,
+       "nom": "E. Haaland",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 1188,
+       "nom": "E. Botheim",
+       "poste": "F"
+      },
+      {
+       "id": 39064,
+       "nom": "P. Berg",
+       "poste": "M"
+      },
+      {
+       "id": 416062,
+       "nom": "E. Helland",
+       "poste": "D"
+      },
+      {
+       "id": 39362,
+       "nom": "M. Pedersen",
+       "poste": "D"
+      },
+      {
+       "id": 39066,
+       "nom": "F. Myhre",
+       "poste": "M"
+      },
+      {
+       "id": 19172,
+       "nom": "Ø. Nyland",
+       "poste": "G"
+      },
+      {
+       "id": 39083,
+       "nom": "O. Bjørtuft",
+       "poste": "D"
+      },
+      {
+       "id": 301528,
+       "nom": "A. Schjelderup",
+       "poste": "F"
+      },
+      {
+       "id": 18967,
+       "nom": "L. Østigård",
+       "poste": "D"
+      },
+      {
+       "id": 8492,
+       "nom": "A. Sørloth",
+       "poste": "F"
+      },
+      {
+       "id": 264378,
+       "nom": "S. Tangvik",
+       "poste": "G"
+      },
+      {
+       "id": 39291,
+       "nom": "H. Vetlesen",
+       "poste": "M"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 18885,
+       "nom": "K. Darlow",
+       "poste": "G"
+      },
+      {
+       "id": 138780,
+       "nom": "N. Williams",
+       "poste": "D"
+      },
+      {
+       "id": 19321,
+       "nom": "J. Rodon",
+       "poste": "D"
+      },
+      {
+       "id": 164,
+       "nom": "B. Davies",
+       "poste": "D"
+      },
+      {
+       "id": 19260,
+       "nom": "J. Dasilva",
+       "poste": "D"
+      },
+      {
+       "id": 2279,
+       "nom": "E. Ampadu",
+       "poste": "M"
+      },
+      {
+       "id": 19221,
+       "nom": "H. Wilson",
+       "poste": "M"
+      },
+      {
+       "id": 19329,
+       "nom": "D. James",
+       "poste": "M"
+      },
+      {
+       "id": 19335,
+       "nom": "L. Cullen",
+       "poste": "M"
+      },
+      {
+       "id": 129711,
+       "nom": "B. Johnson",
+       "poste": "M"
+      },
+      {
+       "id": 328107,
+       "nom": "L. Koumas",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 383815,
+       "nom": "Cian Ashford",
+       "poste": "F"
+      },
+      {
+       "id": 18870,
+       "nom": "D. Brooks",
+       "poste": "M"
+      },
+      {
+       "id": 17551,
+       "nom": "A. Collins",
+       "poste": "F"
+      },
+      {
+       "id": 301184,
+       "nom": "R. Colwill",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Joseph Duncan",
+       "poste": "G"
+      },
+      {
+       "id": 17932,
+       "nom": "M. Harris",
+       "poste": "F"
+      },
+      {
+       "id": 545996,
+       "nom": "J. Lienou",
+       "poste": "D"
+      },
+      {
+       "id": 18866,
+       "nom": "C. Mepham",
+       "poste": "D"
+      },
+      {
+       "id": 19331,
+       "nom": "C. Roberts",
+       "poste": "D"
+      },
+      {
+       "id": 82034,
+       "nom": "J. Sheehan",
+       "poste": "M"
+      },
+      {
+       "id": 18146,
+       "nom": "D. Ward",
+       "poste": "G"
+      },
+      {
+       "id": 431884,
+       "nom": "Kai Andrews",
+       "poste": "M"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-14T16:38:26Z"
+   ],
    "absents": {
     "releve_a": "2026-11-14T00:04:20Z",
     "domicile": [],
@@ -541,8 +1065,8 @@
      "1": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 3.3,
-      "ampleur": 7.2,
+      "pct": 4.1,
+      "ampleur": 8.9,
       "raisons": [
        "petite cote : mouvement plus fort qu'il n'y paraît"
       ]
@@ -550,20 +1074,22 @@
      "N": {
       "feu": "rouge",
       "fleche": "baisse",
-      "pct": -9.3,
-      "ampleur": 5.9,
+      "pct": -7.4,
+      "ampleur": 4.6,
       "raisons": []
      },
      "2": {
       "feu": "rouge",
       "fleche": "baisse",
-      "pct": -10.0,
-      "ampleur": 6.0,
-      "raisons": []
+      "pct": -13.6,
+      "ampleur": 8.4,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -571,13 +1097,13 @@
     "phrase": "Le marché annonce : Norway ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -2.36,
-     "N": 1.4,
-     "2": 0.96
+     "1": -2.57,
+     "N": 1.16,
+     "2": 1.41
     },
     "marge": [
      4.09,
-     3.94
+     3.42
     ]
    },
    "score": null
@@ -605,7 +1131,16 @@
     },
     "H3": {
      "prevu": "2026-11-14T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T16:38:26Z",
+     "retard_min": -7,
+     "pinnacle": {
+      "1": 1.61,
+      "N": 4.01,
+      "2": 6.06
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-14T16:38:21Z"
     },
     "H45": {
      "prevu": "2026-11-14T19:00:00Z",
@@ -615,8 +1150,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.8,
+      "ampleur": 2.3,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 6.7,
+      "ampleur": 4.0,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Iceland ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.08,
+     "N": -0.01,
+     "2": -1.07
+    },
+    "marge": [
+     3.52,
+     3.55
+    ]
+   },
    "score": null
   },
   {
@@ -648,7 +1223,16 @@
     },
     "H3": {
      "prevu": "2026-11-14T16:45:00Z",
-     "etat": "attente"
+     "etat": "vide",
+     "fait_a": "2026-11-14T16:38:26Z",
+     "retard_min": -7,
+     "pinnacle": null,
+     "winamax": {
+      "1": 1.5,
+      "N": 3.8,
+      "2": 5.0
+     },
+     "maj_pinnacle": null
     },
     "H45": {
      "prevu": "2026-11-14T19:00:00Z",
@@ -699,7 +1283,20 @@
     },
     "H3": {
      "prevu": "2026-11-14T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T16:38:26Z",
+     "retard_min": -7,
+     "pinnacle": {
+      "1": 2.62,
+      "N": 2.96,
+      "2": 3.21
+     },
+     "winamax": {
+      "1": 2.35,
+      "N": 2.8,
+      "2": 2.85
+     },
+     "maj_pinnacle": "2026-11-14T16:38:21Z"
     },
     "H45": {
      "prevu": "2026-11-14T19:00:00Z",
@@ -713,8 +1310,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.5,
+      "ampleur": 1.2,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.9,
+      "ampleur": 1.4,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.56,
+     "N": 0.01,
+     "2": -0.57
+    },
+    "marge": [
+     3.12,
+     3.1
+    ]
+   },
    "score": null
   },
   {
@@ -750,7 +1387,20 @@
     },
     "H3": {
      "prevu": "2026-11-14T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T16:38:26Z",
+     "retard_min": -7,
+     "pinnacle": {
+      "1": 1.58,
+      "N": 4.42,
+      "2": 5.69
+     },
+     "winamax": {
+      "1": 1.5,
+      "N": 4.6,
+      "2": 5.0
+     },
+     "maj_pinnacle": "2026-11-14T16:38:20Z"
     },
     "H45": {
      "prevu": "2026-11-14T19:00:00Z",
@@ -764,8 +1414,50 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 2.6,
+      "ampleur": 3.4,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -4.3,
+      "ampleur": 2.9,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.7,
+      "ampleur": 1.7,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Portugal ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.48,
+     "N": 0.98,
+     "2": 0.49
+    },
+    "marge": [
+     3.67,
+     3.49
+    ]
+   },
    "score": null
   },
   {
@@ -801,7 +1493,20 @@
     },
     "H3": {
      "prevu": "2026-11-14T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T16:38:26Z",
+     "retard_min": -7,
+     "pinnacle": {
+      "1": 5.39,
+      "N": 4.24,
+      "2": 1.63
+     },
+     "winamax": {
+      "1": 4.4,
+      "N": 4.0,
+      "2": 1.54
+     },
+     "maj_pinnacle": "2026-11-14T16:38:21Z"
     },
     "H45": {
      "prevu": "2026-11-14T19:00:00Z",
@@ -815,8 +1520,50 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "violet",
+      "fleche": "hausse",
+      "pct": 28.3,
+      "ampleur": 17.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 9.0,
+      "ampleur": 5.8,
+      "raisons": []
+     },
+     "2": {
+      "feu": "violet",
+      "fleche": "baisse",
+      "pct": -12.4,
+      "ampleur": 16.1,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "2",
+    "phrase": "Le marché annonce : Poland gagne (2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -5.13,
+     "N": -2.1,
+     "2": 7.23
+    },
+    "marge": [
+     3.28,
+     3.49
+    ]
+   },
    "score": null
   },
   {
@@ -852,7 +1599,20 @@
     },
     "H3": {
      "prevu": "2026-11-14T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-14T16:38:26Z",
+     "retard_min": -7,
+     "pinnacle": {
+      "1": 1.47,
+      "N": 4.52,
+      "2": 7.43
+     },
+     "winamax": {
+      "1": 1.35,
+      "N": 4.5,
+      "2": 6.5
+     },
+     "maj_pinnacle": "2026-11-14T16:38:21Z"
     },
     "H45": {
      "prevu": "2026-11-14T19:00:00Z",
@@ -866,10 +1626,50 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.3,
+      "ampleur": 2.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.3,
+      "ampleur": 0.9,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.1,
+      "ampleur": 1.7,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.75,
+     "N": -0.33,
+     "2": -0.42
+    },
+    "marge": [
+     3.41,
+     3.61
+    ]
+   },
    "score": null
   }
  ],
- "maj": "2026-11-14T14:28:53Z"
+ "maj": "2026-11-14T16:38:26Z"
 }
