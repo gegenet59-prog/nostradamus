@@ -370,7 +370,12 @@
      3.46
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 0,
+    "exterieur": 0,
+    "issue": "N",
+    "statut": "FT"
+   }
   },
   {
    "id": "d548fa34308b91eb158670eb18e1deae",
@@ -1223,7 +1228,7 @@
     },
     "H3": {
      "prevu": "2026-11-14T16:45:00Z",
-     "etat": "vide",
+     "etat": "vide_definitif",
      "fait_a": "2026-11-14T16:38:26Z",
      "retard_min": -7,
      "pinnacle": null,
@@ -1671,5 +1676,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-14T16:38:26Z"
+ "maj": "2026-11-14T18:35:27Z"
 }
