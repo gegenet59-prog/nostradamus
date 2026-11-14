@@ -260,7 +260,7 @@
    "releves": {
     "H12": {
      "prevu": "2026-11-14T07:45:00Z",
-     "etat": "vide",
+     "etat": "vide_definitif",
      "fait_a": "2026-11-14T11:24:04Z",
      "retard_min": 219,
      "pinnacle": null,
@@ -496,5 +496,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-14T11:24:04Z"
+ "maj": "2026-11-14T12:06:12Z"
 }
