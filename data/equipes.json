@@ -2079,5 +2079,386 @@
    "650866": "P. Marinucci",
    "56104": "A. Golinucci"
   }
+ },
+ "1": {
+  "nom": "Belgium",
+  "matchs": [
+   {
+    "match": 1528983,
+    "date": "2026-11-15",
+    "onze": [
+     162511,
+     2920,
+     312964,
+     69,
+     162007,
+     629,
+     282125,
+     2926,
+     335056,
+     147859,
+     1422
+    ],
+    "gardien": 162511
+   }
+  ],
+  "joueurs": {
+   "162511": "S. Lammens",
+   "2920": "T. Castagne",
+   "312964": "N. Ngoy",
+   "69": "B. Mechele",
+   "162007": "M. De Cuyper",
+   "629": "K. De Bruyne",
+   "282125": "R. Lavia",
+   "2926": "Y. Tielemans",
+   "335056": "Diego Moreira",
+   "147859": "C. De Ketelaere",
+   "1422": "J. Doku",
+   "340153": "M. Godts",
+   "27104": "H. Cuypers",
+   "907": "R. Lukaku",
+   "25458": "D. Lukebakio",
+   "340151": "M. Penders",
+   "2120": "N. Raskin",
+   "301322": "K. Sabbe",
+   "375974": "J. Seys",
+   "204043": "A. Theate",
+   "1946": "L. Trossard",
+   "78": "H. Vanaken",
+   "1924": "M. Vandevoordt"
+  }
+ },
+ "768": {
+  "nom": "Italy",
+  "matchs": [
+   {
+    "match": 1528983,
+    "date": "2026-11-15",
+    "onze": [
+     1622,
+     342022,
+     289761,
+     31009,
+     157052,
+     30558,
+     31146,
+     876,
+     356888,
+     345808,
+     359603
+    ],
+    "gardien": 1622
+   }
+  ],
+  "joueurs": {
+   "1622": "G. Donnarumma",
+   "342022": "M. Kayode",
+   "289761": "G. Scalvini",
+   "31009": "A. Bastoni",
+   "157052": "R. Calafiori",
+   "30558": "N. Barella",
+   "31146": "S. Tonali",
+   "876": "N. Fagioli",
+   "356888": "N. Pisilli",
+   "345808": "F. Esposito",
+   "359603": "L. Koleosho",
+   "394183": "A. Romano",
+   "30544": "G. Scamacca",
+   "347395": "A. Vergara",
+   "31354": "G. Vicario",
+   "383018": "M. Palestra",
+   "410396": "M. Liberali",
+   "342019": "D. Ghilardi",
+   "331046": "I. Doumbia",
+   "31010": "F. Dimarco",
+   "359100": "A. Cissè",
+   "453906": "H. Ahanor",
+   "30417": "M. Carnesecchi"
+  }
+ },
+ "3": {
+  "nom": "Croatia",
+  "matchs": [
+   {
+    "match": 1528985,
+    "date": "2026-11-15",
+    "onze": [
+     1305,
+     125171,
+     387521,
+     1902,
+     129033,
+     754,
+     2291,
+     295026,
+     348205,
+     207,
+     182434
+    ],
+    "gardien": 1305
+   }
+  ],
+  "joueurs": {
+   "1305": "D. Livaković",
+   "125171": "J. Stanišić",
+   "387521": "L. Vušković",
+   "1902": "D. Ćaleta-Car",
+   "129033": "J. Gvardiol",
+   "754": "L. Modrić",
+   "2291": "M. Kovačić",
+   "295026": "M. Baturina",
+   "348205": "P. Sučić",
+   "207": "I. Perišić",
+   "182434": "D. Beljo",
+   "263476": "N. Galešić",
+   "340566": "Š. Hrgović",
+   "524": "D. Kotarski",
+   "1321": "L. Majer",
+   "202696": "I. Matanović",
+   "46746": "A. Budimir",
+   "2373": "J. Mišić",
+   "14268": "I. Pandur",
+   "2763": "Mario Pasalic",
+   "260865": "Marco Pasalic",
+   "14266": "I. Smolčić",
+   "375290": "M. Šotiček"
+  }
+ },
+ "770": {
+  "nom": "Czech Republic",
+  "matchs": [
+   {
+    "match": 1528985,
+    "date": "2026-11-15",
+    "onze": [
+     265826,
+     1231,
+     1236,
+     128772,
+     66284,
+     1234,
+     162194,
+     652624,
+     241,
+     271869,
+     66019
+    ],
+    "gardien": 265826
+   }
+  ],
+  "joueurs": {
+   "265826": "A. Kinský",
+   "1231": "V. Coufal",
+   "1236": "T. Vlček",
+   "128772": "D. Zima",
+   "66284": "J. Sláma",
+   "1234": "A. Král",
+   "162194": "L. Červ",
+   "652624": "I. Hopi",
+   "241": "M. Sadílek",
+   "271869": "C. Kabongo",
+   "66019": "A. Hložek",
+   "1243": "T. Souček",
+   "181824": "F. Prebsl",
+   "280305": "R. Naderi",
+   "262768": "D. Kozel",
+   "138804": "M. Kovář",
+   "180305": "M. Jurásek",
+   "128793": "D. Jurásek",
+   "269349": "L. Horníček",
+   "287565": "A. Gabriel",
+   "181786": "K. Daněk",
+   "327641": "L. Ambros"
+  }
+ },
+ "2": {
+  "nom": "France",
+  "matchs": [
+   {
+    "match": 1528982,
+    "date": "2026-11-15",
+    "onze": [
+     22221,
+     334914,
+     367636,
+     1145,
+     270509,
+     156477,
+     162266,
+     272,
+     19617,
+     278,
+     161904
+    ],
+    "gardien": 22221
+   }
+  ],
+  "joueurs": {
+   "22221": "M. Maignan",
+   "334914": "S. Kumbedi",
+   "367636": "J. Jacquet",
+   "1145": "I. Konaté",
+   "270509": "A. Diouf",
+   "156477": "R. Cherki",
+   "162266": "L. da Cunha",
+   "272": "A. Rabiot",
+   "19617": "M. Olise",
+   "278": "Kylian Mbappé",
+   "161904": "B. Barcola",
+   "2207": "E. Camavinga",
+   "161907": "M. Gusto",
+   "368030": "E. Kroupi",
+   "409216": "Senny Mayulu",
+   "276662": "P. Pagis",
+   "325346": "G. Restes",
+   "347211": "R. Risser",
+   "162267": "A. Truffert",
+   "342970": "L. Yoro",
+   "336657": "W. Zaïre-Emery"
+  }
+ },
+ "777": {
+  "nom": "Turkey",
+  "matchs": [
+   {
+    "match": 1528982,
+    "date": "2026-11-15",
+    "onze": [
+     1337,
+     22222,
+     30521,
+     61837,
+     50046,
+     50057,
+     214463,
+     1640,
+     339887,
+     291964,
+     388570
+    ],
+    "gardien": 1337
+   }
+  ],
+  "joueurs": {
+   "1337": "B. Özer",
+   "22222": "Z. Çelik",
+   "30521": "M. Demiral",
+   "61837": "A. Bardakcı",
+   "50046": "E. Topçu",
+   "50057": "E. Elmalı",
+   "214463": "İ. Yüksek",
+   "1640": "H. Çalhanoğlu",
+   "339887": "C. Uzun",
+   "291964": "A. Güler",
+   "388570": "D. Gül",
+   "134590": "O. Aydın",
+   "63274": "B. Yılmaz",
+   "47499": "E. Ünal",
+   "24807": "S. Özcan",
+   "37155": "O. Kökçü",
+   "278159": "A. Kaplan",
+   "1361": "F. Kadıoğlu",
+   "446824": "I. Fakili",
+   "62323": "M. Eskihellaç",
+   "1971": "E. Destanoğlu",
+   "454": "Y. Akgün",
+   "302863": "S. Öztaşdelen"
+  }
+ },
+ "9": {
+  "nom": "Spain",
+  "matchs": [
+   {
+    "match": 1528984,
+    "date": "2026-11-15",
+    "onze": [
+     47270,
+     295793,
+     396623,
+     622,
+     47380,
+     47315,
+     328,
+     386828,
+     47311,
+     182219,
+     47323
+    ],
+    "gardien": 47270
+   }
+  ],
+  "joueurs": {
+   "47270": "Unai Simón",
+   "295793": "Marc Pubill",
+   "396623": "Pau Cubarsí Paredes",
+   "622": "Aymeric Laporte",
+   "47380": "Marc Cucurella",
+   "47315": "Martín Zubimendi",
+   "328": "Fabián Ruiz",
+   "386828": "Lamine Yamal",
+   "47311": "Mikel Merino",
+   "182219": "Álex Baena",
+   "47323": "Mikel Oyarzabal",
+   "340626": "Fermín",
+   "336594": "Pablo Barrios",
+   "182718": "Joan García",
+   "361497": "D. Huijsen",
+   "338751": "Víctor Muñoz",
+   "133609": "Pedri",
+   "184226": "Yeremy Pino",
+   "47519": "Pedro Porro",
+   "19465": "David Raya",
+   "47341": "Marc Roca",
+   "931": "Ferran Torres",
+   "183799": "Nico Williams"
+  }
+ },
+ "10": {
+  "nom": "England",
+  "matchs": [
+   {
+    "match": 1528984,
+    "date": "2026-11-15",
+    "onze": [
+     162489,
+     19959,
+     19354,
+     158698,
+     284492,
+     138908,
+     129718,
+     2937,
+     19170,
+     184,
+     138787
+    ],
+    "gardien": 162489
+   }
+  ],
+  "joueurs": {
+   "162489": "J. Trafford",
+   "19959": "B. White",
+   "19354": "E. Konsa",
+   "158698": "J. Quansah",
+   "284492": "L. Hall",
+   "138908": "E. Anderson",
+   "129718": "J. Bellingham",
+   "2937": "D. Rice",
+   "19170": "M. Rogers",
+   "184": "H. Kane",
+   "138787": "A. Gordon",
+   "18960": "J. Steele",
+   "19235": "D. Spence",
+   "2932": "J. Pickford",
+   "452685": "R. Ngumoha",
+   "313245": "M. Lewis-Skelly",
+   "20093": "J. Hill",
+   "18746": "M. Gibbs-White",
+   "19586": "E. Eze",
+   "18766": "D. Calvert-Lewin",
+   "18961": "D. Burn",
+   "283": "T. Alexander-Arnold",
+   "326757": "J. Bellingham"
+  }
  }
 }
