@@ -1896,5 +1896,188 @@
    "None": "A. Ghazaryan",
    "280427": "G. Ranos"
   }
+ },
+ "1100": {
+  "nom": "Belarus",
+  "matchs": [
+   {
+    "match": 1528980,
+    "date": "2026-11-15",
+    "onze": [
+     325077,
+     7857,
+     2319,
+     378843,
+     7975,
+     7785,
+     7782,
+     359533,
+     8015,
+     318945,
+     216410
+    ],
+    "gardien": 325077
+   }
+  ],
+  "joueurs": {
+   "325077": "F. Lapoukhov",
+   "7857": "R. Begunov",
+   "2319": "Z. Volkov",
+   "378843": "K. Gomanov",
+   "7975": "K. Pechenin",
+   "7785": "A. Selyava",
+   "7782": "M. Ebong",
+   "359533": "A. Lukashov",
+   "8015": "A. Kontsevoy",
+   "318945": "A. Shumanskiy",
+   "216410": "G. Barkovskiy",
+   "7780": "V. Gromyko",
+   "128290": "A. Kovalev",
+   "215758": "A. Kudravets",
+   "394925": "T. Melnichenko",
+   "76315": "V. Morozov",
+   "7797": "P. Pavlyuchenko",
+   "7948": "G. Shevchenko",
+   "394924": "T. Simanenka",
+   "338771": "I. Tikhomirov",
+   "358615": "K. Vardanyan",
+   "217075": "K. Zinovich",
+   "274379": "V. Bocherov"
+  }
+ },
+ "778": {
+  "nom": "Albania",
+  "matchs": [
+   {
+    "match": 1528980,
+    "date": "2026-11-15",
+    "onze": [
+     30416,
+     317,
+     30421,
+     14329,
+     270613,
+     3700,
+     275776,
+     26936,
+     20953,
+     46725,
+     105993
+    ],
+    "gardien": 30416
+   }
+  ],
+  "joueurs": {
+   "30416": "E. Berisha",
+   "317": "E. Hysaj",
+   "30421": "B. Djimsiti",
+   "14329": "A. Ismajli",
+   "270613": "M. Mitaj",
+   "3700": "J. Shehu",
+   "275776": "K. Asllani",
+   "26936": "S. Pilios",
+   "20953": "Q. Laçi",
+   "46725": "R. Manaj",
+   "105993": "A. Hoxha",
+   "48566": "A. Ajeti",
+   "43177": "N. Aliji",
+   "3619": "K. Cake",
+   "3588": "M. Dajsinani",
+   "14655": "M. Daku",
+   "388482": "F. Fetai",
+   "335102": "L. Hasa",
+   "293318": "Y. Ismaili",
+   "48698": "T. Seferi",
+   "3737": "A. Sherri",
+   "325403": "C. Shpendi",
+   "14405": "M. Uzuni"
+  }
+ },
+ "1099": {
+  "nom": "Finland",
+  "matchs": [
+   {
+    "match": 1528981,
+    "date": "2026-11-15",
+    "onze": [
+     169291,
+     361421,
+     106759,
+     55467,
+     195870,
+     39365,
+     173539,
+     55410,
+     55319,
+     986,
+     420934
+    ],
+    "gardien": 169291
+   }
+  ],
+  "joueurs": {
+   "169291": "V. Sinisalo",
+   "361421": "J. LÃ¤hteenmÃ¤ki",
+   "106759": "V. Koski",
+   "55467": "R. Ivanov",
+   "195870": "T. Keskinen",
+   "39365": "O. Valakari",
+   "173539": "L. Walta",
+   "55410": "S. Väänänen",
+   "55319": "N. Skyttä",
+   "986": "J. Pohjanpalo",
+   "420934": "A. Svanbäck",
+   "55443": "A. Hoskonen",
+   "15906": "O. Antman",
+   "152955": "L. Bergström",
+   "53526": "R. Eremenko",
+   "55342": "D. Håkans",
+   "25299": "F. Jensen",
+   "15761": "B. Källman",
+   "301734": "R. Mahuta",
+   "963": "L. Hrádecký"
+  }
+ },
+ "1115": {
+  "nom": "San Marino",
+  "matchs": [
+   {
+    "match": 1528981,
+    "date": "2026-11-15",
+    "onze": [
+     null,
+     438714,
+     342274,
+     348295,
+     169215,
+     null,
+     361517,
+     null,
+     348254,
+     31000,
+     394189
+    ],
+    "gardien": null
+   }
+  ],
+  "joueurs": {
+   "None": "Bartolomeo Riggioni",
+   "438714": "S. Giocondi",
+   "342274": "G. Benvenuti",
+   "348295": "M. Pasolini",
+   "169215": "A. Tosi",
+   "361517": "L. Capicchioni",
+   "348254": "L. Lazzari",
+   "31000": "N. Nanni",
+   "394189": "N. Giacopetti",
+   "348294": "P. Amici",
+   "342186": "T. Benvenuti",
+   "56693": "M. De Angelis",
+   "394191": "G. Capicchioni",
+   "105701": "S. Pancotti",
+   "56108": "M. Mularoni",
+   "650866": "P. Marinucci",
+   "56104": "A. Golinucci"
+  }
  }
 }
