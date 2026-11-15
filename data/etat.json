@@ -1,12 +1,12 @@
 {
  "odds": {
   "mode": "complet",
-  "reste": 471,
-  "maj": "2026-11-15T17:01:32Z"
+  "reste": 470,
+  "maj": "2026-11-15T19:10:12Z"
  },
  "foot": {
   "jour": "2026-11-15",
-  "reste": 91
+  "reste": 86
  },
  "jours_foot": {
   "2026-11-13": {
@@ -24,7 +24,7 @@
   "2026-11-15": {
    "lien_jour": "2026-11-15",
    "lien_heure": 0,
-   "absents": "2026-11-15T16:18:29Z"
+   "absents": "2026-11-15T19:10:12Z"
   }
  },
  "alertes": [
@@ -50,5 +50,5 @@
   }
  ],
  "planning_fait_a": "2026-11-15T16:18:29Z",
- "dernier_passage_utile": "2026-11-15T17:01:32Z"
+ "dernier_passage_utile": "2026-11-15T19:10:12Z"
 }
