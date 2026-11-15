@@ -34,7 +34,20 @@
     },
     "H3": {
      "prevu": "2026-11-15T11:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T11:36:24Z",
+     "retard_min": 36,
+     "pinnacle": {
+      "1": 3.05,
+      "N": 3.56,
+      "2": 2.34
+     },
+     "winamax": {
+      "1": 2.75,
+      "N": 3.4,
+      "2": 2.15
+     },
+     "maj_pinnacle": "2026-11-15T11:36:15Z"
     },
     "H45": {
      "prevu": "2026-11-15T13:15:00Z",
@@ -48,8 +61,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -5.9,
+      "ampleur": 4.5,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.2,
+      "ampleur": 2.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.6,
+      "ampleur": 2.3,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Cyprus gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.88,
+     "N": -0.84,
+     "2": -1.05
+    },
+    "marge": [
+     3.71,
+     3.61
+    ]
+   },
    "score": null
   },
   {
@@ -85,7 +138,20 @@
     },
     "H3": {
      "prevu": "2026-11-15T11:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T11:36:24Z",
+     "retard_min": 36,
+     "pinnacle": {
+      "1": 3.56,
+      "N": 3.15,
+      "2": 2.29
+     },
+     "winamax": {
+      "1": 3.1,
+      "N": 3.0,
+      "2": 2.15
+     },
+     "maj_pinnacle": "2026-11-15T11:36:15Z"
     },
     "H45": {
      "prevu": "2026-11-15T13:15:00Z",
@@ -99,8 +165,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 11.3,
+      "ampleur": 7.8,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.3,
+      "ampleur": 0.9,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -6.1,
+      "ampleur": 5.5,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Latvia ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -3.03,
+     "N": 0.41,
+     "2": 2.62
+    },
+    "marge": [
+     3.58,
+     3.5
+    ]
+   },
    "score": null
   },
   {
@@ -406,5 +512,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-15T08:29:31Z"
+ "maj": "2026-11-15T11:36:24Z"
 }
