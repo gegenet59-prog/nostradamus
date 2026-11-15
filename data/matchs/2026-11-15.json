@@ -51,7 +51,20 @@
     },
     "H45": {
      "prevu": "2026-11-15T13:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T13:19:59Z",
+     "retard_min": 5,
+     "pinnacle": {
+      "1": 2.99,
+      "N": 3.46,
+      "2": 2.42
+     },
+     "winamax": {
+      "1": 2.65,
+      "N": 3.3,
+      "2": 2.25
+     },
+     "maj_pinnacle": "2026-11-15T13:19:47Z"
     }
    },
    "compos": null,
@@ -64,43 +77,43 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -5.9,
-      "ampleur": 4.5,
+      "pct": -7.7,
+      "ampleur": 6.0,
       "raisons": []
      },
      "N": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 3.2,
-      "ampleur": 2.2,
+      "pct": 0.3,
+      "ampleur": 0.2,
       "raisons": []
      },
      "2": {
-      "feu": "vert",
+      "feu": "orange",
       "fleche": "hausse",
-      "pct": 2.6,
-      "ampleur": 2.3,
+      "pct": 6.1,
+      "ampleur": 5.2,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "1",
-    "phrase": "Le marché annonce : Cyprus gagne (1)",
+    "pari": "1N",
+    "phrase": "Le marché annonce : Montenegro ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": 1.88,
-     "N": -0.84,
-     "2": -1.05
+     "1": 2.5,
+     "N": -0.07,
+     "2": -2.43
     },
     "marge": [
      3.71,
-     3.61
+     3.67
     ]
    },
    "score": null
@@ -155,7 +168,20 @@
     },
     "H45": {
      "prevu": "2026-11-15T13:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T13:19:59Z",
+     "retard_min": 5,
+     "pinnacle": {
+      "1": 3.22,
+      "N": 3.15,
+      "2": 2.45
+     },
+     "winamax": {
+      "1": 2.9,
+      "N": 3.1,
+      "2": 2.2
+     },
+     "maj_pinnacle": "2026-11-15T13:19:47Z"
     }
    },
    "compos": null,
@@ -170,9 +196,11 @@
      "1": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 11.3,
-      "ampleur": 7.8,
-      "raisons": []
+      "pct": 0.6,
+      "ampleur": 0.4,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
       "feu": "vert",
@@ -182,29 +210,31 @@
       "raisons": []
      },
      "2": {
-      "feu": "orange",
-      "fleche": "baisse",
-      "pct": -6.1,
-      "ampleur": 5.5,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 0.4,
+      "ampleur": 0.3,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : Latvia ne gagne pas (N2)",
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": -3.03,
-     "N": 0.41,
-     "2": 2.62
+     "1": -0.2,
+     "N": 0.37,
+     "2": -0.18
     },
     "marge": [
      3.58,
-     3.5
+     3.62
     ]
    },
    "score": null
@@ -512,5 +542,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-15T11:36:24Z"
+ "maj": "2026-11-15T13:19:59Z"
 }
