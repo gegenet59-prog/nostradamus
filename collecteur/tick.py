@@ -326,5 +326,8 @@ if __name__ == "__main__":
     from .sources import Sources
     bilan = passage(Sources())
     for ligne in bilan["journal"]: print(ligne)
+    if bilan["ecrit"]:
+        from . import stats  # ma base de stats, recalculée à chaque passage qui a changé quelque chose
+        stats.ecrire_compact("stats/base.json", stats.base())
     print(f"Passage terminé : {bilan['matchs_touches']} match(s) mis à jour." if bilan["ecrit"] else "Rien à faire.")
     sys.exit(0)

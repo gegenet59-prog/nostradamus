@@ -59,6 +59,50 @@ def historique():
             "colonnes": COLONNES, "lignes": lignes}
 
 
+def saison_de(coup_envoi):
+    a, m = int(coup_envoi[:4]), int(coup_envoi[5:7])
+    d = a if m >= 7 else a - 1
+    return f"{d}-{str(d + 1)[2:]}"
+
+
+def base():
+    """Bloc MA BASE : mes propres relevés. Départ = H-12 (cote Pinnacle), arrivée = H-45. Seuls comptent les matchs
+    terminés, avec les 3 relevés complets : ni provisoires, ni « partielles » (sans H-12), qui fausseraient les stats."""
+    cellules, comps, saisons, nb = {}, set(), set(), 0
+    matchs = []
+    for chemin in sorted(os.listdir(os.path.join(RACINE, "matchs"))):
+        if chemin.endswith(".json"):
+            matchs += (lire(f"matchs/{chemin}") or {}).get("matchs", [])
+    for m in matchs:
+        f, sc = m.get("feux"), m.get("score")
+        if not f or not sc or f.get("provisoire") or f.get("partielle") or not sc.get("issue"):
+            continue
+        r = m["releves"]
+        dep, arr = r["H12"]["pinnacle"], r["H45"]["pinnacle"]
+        p0, p1 = sans_marge([dep[i] for i in ISSUES]), sans_marge([arr[i] for i in ISSUES])
+        pari = PARIS.index((m.get("marche") or {}).get("pari") or "aucun")
+        comps.add(m["competition"]); saisons.add(saison_de(m["coup_envoi"])); nb += 1
+        for k, issue in enumerate(ISSUES):
+            fi = f["issues"][issue]
+            sens = SENS.index(fi["fleche"])
+            cle = (m["competition"], saison_de(m["coup_envoi"]), k, NIVEAUX.index(fi["feu"]), sens,
+                   tranche(dep[issue]), pari)
+            c = cellules.setdefault(cle, [0, 0, 0.0, 0.0])
+            c[0] += 1
+            c[1] += 1 if sc["issue"] == issue else 0
+            c[2] += p0[k]
+            c[3] += p1[k]
+    comps, saisons = sorted(comps), sorted(saisons)
+    lignes = [[comps.index(cp), saisons.index(sa), k, fe, sn, tr, pa, c[0], c[1], round(c[2], 3), round(c[3], 3)]
+              for (cp, sa, k, fe, sn, tr, pa), c in sorted(cellules.items())]
+    return {"maj": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "origine": "mes relevés Nostradamus",
+            "matchs": nb,
+            "explication": "un cas = une issue d'un match ; départ = cote H-12, arrivée = cote H-45 (Pinnacle)",
+            "dimensions": {"comp": comps, "saison": saisons, "issue": list(ISSUES), "feu": list(NIVEAUX), "sens": SENS,
+                           "tranche": TRANCHES, "pari": PARIS},
+            "colonnes": COLONNES, "lignes": lignes}
+
+
 def ecrire_compact(chemin, contenu):
     complet = os.path.join(RACINE, chemin)
     os.makedirs(os.path.dirname(complet), exist_ok=True)
@@ -71,6 +115,11 @@ def ecrire_compact(chemin, contenu):
 
 
 if __name__ == "__main__":
+    if "base" in sys.argv[1:]:
+        b = base()
+        ecrire_compact("stats/base.json", b)
+        print(f"stats/base.json : {b['matchs']} matchs, {sum(l[7] for l in b['lignes'])} cas")
+        sys.exit(0)
     h = historique()
     if not h["lignes"]:
         print("Aucun historique : rien écrit"); sys.exit(1)

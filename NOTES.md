@@ -11,7 +11,7 @@ Dernière mise à jour : 13 novembre 2026 (Fable). Cahier des charges : https://
 | Import de l'historique Football-Data | **Fait** : 25 720 matchs dans `data/historique/` |
 | Écrans (matchs du jour, statistiques) | **À faire** (autre modèle) |
 | Statistiques : bloc Historique | **Fait** (16/11) : `collecteur/stats.py` -> `data/stats/historique.json`, onglet Stats de `index.html` |
-| Statistiques : bloc « Ma base » | **À faire** : même calcul sur `data/matchs/` (cote de départ H-12, variations jusqu'à H-45), à brancher dans le bloc « Ma base » déjà présent mais vide |
+| Statistiques : bloc « Ma base » **Fait** : `data/stats/base.json` (même format que l'historique), recalculé par `tick.py` à chaque passage qui écrit ; lu par le bloc « Ma base » |
 | Notifications Violet | **À faire** (autre modèle) |
 
 Rien n'a été commencé côté page web : il n'y a pas encore d'`index.html`.
@@ -124,12 +124,10 @@ mois, arrêt total à 20 crédits. API-Football : 6 requêtes toujours gardées 
    Vérifier d'abord que GitHub Pages republie bien après les enregistrements du robot
    (https://gegenet59-prog.github.io/nostradamus/data/etat.json doit suivre). Sinon lire les fichiers via
    `https://raw.githubusercontent.com/gegenet59-prog/nostradamus/main/data/…`.
-3. **Statistiques, bloc « Ma base »** : le bloc Historique est fait (un cas = une issue d'un match ; filtres couleur, sens, compétition,
-   issue, phrase du marché, tranche de cote de départ, saison ; % sorti, % promis par la cote de départ, écart, marge d'erreur,
-   avertissement sous 50 cas). Il lit `data/stats/historique.json`, recalculé à chaque import de l'historique. Reste à faire
-   le même fichier pour la base propre (`data/stats/base.json`, départ = H-12, arrivée = H-45, seulement les matchs avec
-   score et `feux.provisoire` faux ; ne pas compter les variations « partielles »), puis remplir le bloc « Ma base » de
-   l'onglet Stats avec le même code (`ecranStats` / `agreger` dans `index.html`).
+3. **Statistiques** : faites (blocs Historique et Ma base, mêmes boutons et filtres, code commun dans `index.html` : `BL`, `bloc`,
+   `agreger`, `majStats`). Ma base = `python3 -m collecteur.stats base` (appelé aussi par `tick.py`) : départ = H-12, arrivée = H-45
+   (Pinnacle), matchs terminés avec score, sans feux provisoires ni « partielles ». Au 16 nov : 7 matchs / 21 cas (Ligue des nations),
+   donc avertissement « moins de 50 cas » affiché ; ne rien conclure avant plusieurs semaines de volume.
 4. **Notifications Violet**, sur le modèle de Mon bus (`mon-bus/sw.js`, `mon-bus/relais/src/alertes.js`, `index.html` fonction
    `enregistrerAlertes`) : Web Push « réveil sans contenu » envoyé par un Worker Cloudflare (Durable Object qui garde la clé VAPID
    et les abonnés) ; le téléphone réveillé va lire son message chez le Worker, et un appui ouvre l'appli. Pour Nostradamus :
