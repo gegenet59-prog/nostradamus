@@ -200,7 +200,8 @@ function majStats(c){
   el.innerHTML=`<div class="meta">${titre}</div>
 <div class="big"><div><b>${nb(r.n)}</b><span>cas</span></div><div><b>${pc(sor)}</b><span>sortis</span></div><div><b>${pc(dep)}</b><span>promis par la cote de départ</span></div></div>
 <div class="ecart"><span class="meta">Écart (sorti − promis)</span><b>${pts(sor-dep)} pts</b></div>
-<div class="meta">Promis par la cote d'arrivée : ${pc(arr)} · marge d'erreur ± ${fr(marge,1)} pts</div>
+<div class="ecart"><span class="meta">Écart vs cote d'arrivée (${pc(arr)})</span><b>${pts(sor-arr)} pts</b></div>
+<div class="meta">${Math.abs(sor-arr)>marge?"Au-delà de la marge d'erreur : l'écart est probablement réel":"Dans la marge d'erreur : le marché avait déjà tout corrigé"} · marge ± ${fr(marge,1)} pts</div>
 ${r.n<50?'<span class="flag">Moins de 50 cas : pas encore assez de volume, ne tire aucune conclusion</span>':""}`;
 }
 function selects(c,nom,etiq,liste){
