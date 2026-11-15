@@ -67,8 +67,259 @@
      "maj_pinnacle": "2026-11-15T13:19:47Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-15T14:12:39Z",
+    "minutes_avant": -13,
+    "domicile": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 370,
+       "nom": "Fabiano",
+       "poste": "G"
+      },
+      {
+       "id": 484029,
+       "nom": "A. Shikkis",
+       "poste": "D"
+      },
+      {
+       "id": 454358,
+       "nom": "L. Konomis",
+       "poste": "D"
+      },
+      {
+       "id": 2103,
+       "nom": "K. Laifis",
+       "poste": "D"
+      },
+      {
+       "id": 15008,
+       "nom": "G. Malekkides",
+       "poste": "D"
+      },
+      {
+       "id": 15289,
+       "nom": "K. Artymatas",
+       "poste": "M"
+      },
+      {
+       "id": 867,
+       "nom": "G. Kastanos",
+       "poste": "M"
+      },
+      {
+       "id": 561373,
+       "nom": "S. Georgiou",
+       "poste": "M"
+      },
+      {
+       "id": 37882,
+       "nom": "M. Edwards",
+       "poste": "F"
+      },
+      {
+       "id": 15518,
+       "nom": "I. Pittas",
+       "poste": "F"
+      },
+      {
+       "id": null,
+       "nom": "Charalambos Charalambous",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 15423,
+       "nom": "J. Mall",
+       "poste": "G"
+      },
+      {
+       "id": 15553,
+       "nom": "K. Pileas",
+       "poste": "D"
+      },
+      {
+       "id": 15411,
+       "nom": "N. Panagiotou",
+       "poste": "D"
+      },
+      {
+       "id": 343332,
+       "nom": "Zannetos Savva",
+       "poste": "F"
+      },
+      {
+       "id": 1870,
+       "nom": "C. Kyriakou",
+       "poste": "M"
+      },
+      {
+       "id": 68106,
+       "nom": "L. Loizou",
+       "poste": "F"
+      },
+      {
+       "id": 15347,
+       "nom": "I. Kosti",
+       "poste": "M"
+      },
+      {
+       "id": 328647,
+       "nom": "M. Brown",
+       "poste": "M"
+      },
+      {
+       "id": 15388,
+       "nom": "M. Tzionis",
+       "poste": "F"
+      },
+      {
+       "id": 15363,
+       "nom": "I. Pikis",
+       "poste": "F"
+      },
+      {
+       "id": 15028,
+       "nom": "A. Paraskevas",
+       "poste": "G"
+      },
+      {
+       "id": 278137,
+       "nom": "E. Antoniou",
+       "poste": "D"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 20622,
+       "nom": "D. Petković",
+       "poste": "G"
+      },
+      {
+       "id": 270143,
+       "nom": "J. Drešaj",
+       "poste": "D"
+      },
+      {
+       "id": 45800,
+       "nom": "S. Rubežić",
+       "poste": "D"
+      },
+      {
+       "id": 55872,
+       "nom": "I. Vujačić",
+       "poste": "D"
+      },
+      {
+       "id": 43109,
+       "nom": "R. Radunović",
+       "poste": "D"
+      },
+      {
+       "id": 339872,
+       "nom": "Vasilije Adžić",
+       "poste": "M"
+      },
+      {
+       "id": 14481,
+       "nom": "S. Lončar",
+       "poste": "M"
+      },
+      {
+       "id": 30864,
+       "nom": "M. Janković",
+       "poste": "M"
+      },
+      {
+       "id": 66817,
+       "nom": "N. Krstović",
+       "poste": "F"
+      },
+      {
+       "id": 121,
+       "nom": "S. Jovetić",
+       "poste": "F"
+      },
+      {
+       "id": 66761,
+       "nom": "M. Osmajić",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 394947,
+       "nom": "B. Tomašević",
+       "poste": "D"
+      },
+      {
+       "id": 304003,
+       "nom": "A. Đurić",
+       "poste": "D"
+      },
+      {
+       "id": 270153,
+       "nom": "I. Nikić",
+       "poste": "G"
+      },
+      {
+       "id": 133444,
+       "nom": "M. Vukotić",
+       "poste": "M"
+      },
+      {
+       "id": 66832,
+       "nom": "M. Brnović",
+       "poste": "M"
+      },
+      {
+       "id": 48196,
+       "nom": "S. Hakšabanović",
+       "poste": "M"
+      },
+      {
+       "id": 64342,
+       "nom": "A. Latković",
+       "poste": "M"
+      },
+      {
+       "id": 263694,
+       "nom": "D. Vuković",
+       "poste": "F"
+      },
+      {
+       "id": 293239,
+       "nom": "V. Đukanović",
+       "poste": "F"
+      },
+      {
+       "id": 66898,
+       "nom": "B. Popović",
+       "poste": "G"
+      },
+      {
+       "id": 316571,
+       "nom": "Aleksa Maraš",
+       "poste": "F"
+      },
+      {
+       "id": 66839,
+       "nom": "O. Gašević",
+       "poste": "D"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-15T14:12:39Z",
+    "2026-11-15T14:12:39Z",
+    "2026-11-15T14:12:39Z"
+   ],
    "absents": {
     "releve_a": "2026-11-15T00:40:57Z",
     "domicile": [],
@@ -184,8 +435,254 @@
      "maj_pinnacle": "2026-11-15T13:19:47Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-15T14:12:39Z",
+    "minutes_avant": -13,
+    "domicile": {
+     "formation": "5-4-1",
+     "titulaires": [
+      {
+       "id": 18380,
+       "nom": "R. Matrevics",
+       "poste": "G"
+      },
+      {
+       "id": 56041,
+       "nom": "R. Savaļnieks",
+       "poste": "D"
+      },
+      {
+       "id": 72479,
+       "nom": "D. Balodis",
+       "poste": "D"
+      },
+      {
+       "id": 56030,
+       "nom": "A. Černomordijs",
+       "poste": "D"
+      },
+      {
+       "id": 72558,
+       "nom": "O. Vientiess",
+       "poste": "D"
+      },
+      {
+       "id": 162076,
+       "nom": "D. Cirkin",
+       "poste": "D"
+      },
+      {
+       "id": 215773,
+       "nom": "E. Dašķevičs",
+       "poste": "M"
+      },
+      {
+       "id": 210185,
+       "nom": "L. Vapne",
+       "poste": "M"
+      },
+      {
+       "id": 128496,
+       "nom": "D. Zelenkovs",
+       "poste": "M"
+      },
+      {
+       "id": 37044,
+       "nom": "A. Cigaņiks",
+       "poste": "M"
+      },
+      {
+       "id": 40813,
+       "nom": "V. Gutkovskis",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 412713,
+       "nom": "M. Strods",
+       "poste": "M"
+      },
+      {
+       "id": 573039,
+       "nom": "A. Aleksanjan",
+       "poste": "M"
+      },
+      {
+       "id": 72582,
+       "nom": "E. Emsis",
+       "poste": "M"
+      },
+      {
+       "id": 343161,
+       "nom": "K. Grabovskis",
+       "poste": "M"
+      },
+      {
+       "id": 70397,
+       "nom": "R. Jurkovskis",
+       "poste": "D"
+      },
+      {
+       "id": 72446,
+       "nom": "F. Orols",
+       "poste": "G"
+      },
+      {
+       "id": 326046,
+       "nom": "D. Patijčuks",
+       "poste": "M"
+      },
+      {
+       "id": 72344,
+       "nom": "N. Puriņš",
+       "poste": "G"
+      },
+      {
+       "id": 48537,
+       "nom": "R. Uldriķis",
+       "poste": "F"
+      },
+      {
+       "id": 338992,
+       "nom": "I. Patrikejevs",
+       "poste": "M"
+      },
+      {
+       "id": 72502,
+       "nom": "M. Toņiševs",
+       "poste": "D"
+      },
+      {
+       "id": 92078,
+       "nom": "K. Čudars",
+       "poste": "M"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 575188,
+       "nom": "A. Mishiev",
+       "poste": "G"
+      },
+      {
+       "id": 428082,
+       "nom": "A. Bandikyan",
+       "poste": "D"
+      },
+      {
+       "id": 379133,
+       "nom": "G. Harutyunyan",
+       "poste": "D"
+      },
+      {
+       "id": 204038,
+       "nom": "S. Mkrtchyan",
+       "poste": "D"
+      },
+      {
+       "id": 841,
+       "nom": "N. Tiknizyan",
+       "poste": "D"
+      },
+      {
+       "id": 65393,
+       "nom": "N. Grigoryan",
+       "poste": "M"
+      },
+      {
+       "id": 342165,
+       "nom": "K. Hovhannisyan",
+       "poste": "M"
+      },
+      {
+       "id": 65451,
+       "nom": "U. Iwu",
+       "poste": "M"
+      },
+      {
+       "id": 65374,
+       "nom": "Z. Shaghoyan",
+       "poste": "M"
+      },
+      {
+       "id": 269533,
+       "nom": "A. Serobyan",
+       "poste": "F"
+      },
+      {
+       "id": 427885,
+       "nom": "A. Gharibyan",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 292353,
+       "nom": "E. Piloyan",
+       "poste": "D"
+      },
+      {
+       "id": 65477,
+       "nom": "K. Muradyan",
+       "poste": "M"
+      },
+      {
+       "id": 65344,
+       "nom": "A. Miranyan",
+       "poste": "F"
+      },
+      {
+       "id": 363365,
+       "nom": "G. Matinyan",
+       "poste": "G"
+      },
+      {
+       "id": 272457,
+       "nom": "G. Manvelyan",
+       "poste": "M"
+      },
+      {
+       "id": 390565,
+       "nom": "N. Hovhannisyan",
+       "poste": "F"
+      },
+      {
+       "id": 61266,
+       "nom": "H. Harutyunyan",
+       "poste": "M"
+      },
+      {
+       "id": 130806,
+       "nom": "E. Grigoryan",
+       "poste": "D"
+      },
+      {
+       "id": 65409,
+       "nom": "O. Čančarević",
+       "poste": "G"
+      },
+      {
+       "id": null,
+       "nom": "A. Ghazaryan",
+       "poste": "D"
+      },
+      {
+       "id": 280427,
+       "nom": "G. Ranos",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-15T14:12:39Z",
+    "2026-11-15T14:12:39Z",
+    "2026-11-15T14:12:39Z"
+   ],
    "absents": {
     "releve_a": "2026-11-15T00:40:57Z",
     "domicile": [],
@@ -272,7 +769,20 @@
     },
     "H3": {
      "prevu": "2026-11-15T14:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T14:12:39Z",
+     "retard_min": 13,
+     "pinnacle": {
+      "1": 4.6,
+      "N": 3.18,
+      "2": 1.98
+     },
+     "winamax": {
+      "1": 3.9,
+      "N": 3.1,
+      "2": 1.82
+     },
+     "maj_pinnacle": "2026-11-15T14:12:30Z"
     },
     "H45": {
      "prevu": "2026-11-15T16:15:00Z",
@@ -286,8 +796,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.9,
+      "ampleur": 0.5,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -5.6,
+      "ampleur": 4.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 4.2,
+      "ampleur": 4.2,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Albania ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.21,
+     "N": 1.76,
+     "2": -1.97
+    },
+    "marge": [
+     3.86,
+     3.69
+    ]
+   },
    "score": null
   },
   {
@@ -319,7 +869,16 @@
     },
     "H3": {
      "prevu": "2026-11-15T14:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T14:12:39Z",
+     "retard_min": 13,
+     "pinnacle": {
+      "1": 1.04,
+      "N": 17.5,
+      "2": 51.0
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-15T14:12:30Z"
     },
     "H45": {
      "prevu": "2026-11-15T16:15:00Z",
@@ -333,8 +892,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.0,
+     "N": 0.0,
+     "2": 0.0
+    },
+    "marge": [
+     3.83,
+     3.83
+    ]
+   },
    "score": null
   },
   {
@@ -542,5 +1141,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-15T13:19:59Z"
+ "maj": "2026-11-15T14:12:39Z"
 }

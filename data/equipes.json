@@ -1705,5 +1705,196 @@
    "354305": "S. Hamzić",
    "567431": "M. Deket"
   }
+ },
+ "1106": {
+  "nom": "Cyprus",
+  "matchs": [
+   {
+    "match": 1528979,
+    "date": "2026-11-15",
+    "onze": [
+     370,
+     484029,
+     454358,
+     2103,
+     15008,
+     15289,
+     867,
+     561373,
+     37882,
+     15518,
+     null
+    ],
+    "gardien": 370
+   }
+  ],
+  "joueurs": {
+   "370": "Fabiano",
+   "484029": "A. Shikkis",
+   "454358": "L. Konomis",
+   "2103": "K. Laifis",
+   "15008": "G. Malekkides",
+   "15289": "K. Artymatas",
+   "867": "G. Kastanos",
+   "561373": "S. Georgiou",
+   "37882": "M. Edwards",
+   "15518": "I. Pittas",
+   "None": "Charalambos Charalambous",
+   "15423": "J. Mall",
+   "15553": "K. Pileas",
+   "15411": "N. Panagiotou",
+   "343332": "Zannetos Savva",
+   "1870": "C. Kyriakou",
+   "68106": "L. Loizou",
+   "15347": "I. Kosti",
+   "328647": "M. Brown",
+   "15388": "M. Tzionis",
+   "15363": "I. Pikis",
+   "15028": "A. Paraskevas",
+   "278137": "E. Antoniou"
+  }
+ },
+ "1109": {
+  "nom": "Montenegro",
+  "matchs": [
+   {
+    "match": 1528979,
+    "date": "2026-11-15",
+    "onze": [
+     20622,
+     270143,
+     45800,
+     55872,
+     43109,
+     339872,
+     14481,
+     30864,
+     66817,
+     121,
+     66761
+    ],
+    "gardien": 20622
+   }
+  ],
+  "joueurs": {
+   "20622": "D. Petković",
+   "270143": "J. Drešaj",
+   "45800": "S. Rubežić",
+   "55872": "I. Vujačić",
+   "43109": "R. Radunović",
+   "339872": "Vasilije Adžić",
+   "14481": "S. Lončar",
+   "30864": "M. Janković",
+   "66817": "N. Krstović",
+   "121": "S. Jovetić",
+   "66761": "M. Osmajić",
+   "394947": "B. Tomašević",
+   "304003": "A. Đurić",
+   "270153": "I. Nikić",
+   "133444": "M. Vukotić",
+   "66832": "M. Brnović",
+   "48196": "S. Hakšabanović",
+   "64342": "A. Latković",
+   "263694": "D. Vuković",
+   "293239": "V. Đukanović",
+   "66898": "B. Popović",
+   "316571": "Aleksa Maraš",
+   "66839": "O. Gašević"
+  }
+ },
+ "1092": {
+  "nom": "Latvia",
+  "matchs": [
+   {
+    "match": 1545616,
+    "date": "2026-11-15",
+    "onze": [
+     18380,
+     56041,
+     72479,
+     56030,
+     72558,
+     162076,
+     215773,
+     210185,
+     128496,
+     37044,
+     40813
+    ],
+    "gardien": 18380
+   }
+  ],
+  "joueurs": {
+   "18380": "R. Matrevics",
+   "56041": "R. Savaļnieks",
+   "72479": "D. Balodis",
+   "56030": "A. Černomordijs",
+   "72558": "O. Vientiess",
+   "162076": "D. Cirkin",
+   "215773": "E. Dašķevičs",
+   "210185": "L. Vapne",
+   "128496": "D. Zelenkovs",
+   "37044": "A. Cigaņiks",
+   "40813": "V. Gutkovskis",
+   "412713": "M. Strods",
+   "573039": "A. Aleksanjan",
+   "72582": "E. Emsis",
+   "343161": "K. Grabovskis",
+   "70397": "R. Jurkovskis",
+   "72446": "F. Orols",
+   "326046": "D. Patijčuks",
+   "72344": "N. Puriņš",
+   "48537": "R. Uldriķis",
+   "338992": "I. Patrikejevs",
+   "72502": "M. Toņiševs",
+   "92078": "K. Čudars"
+  }
+ },
+ "1094": {
+  "nom": "Armenia",
+  "matchs": [
+   {
+    "match": 1545616,
+    "date": "2026-11-15",
+    "onze": [
+     575188,
+     428082,
+     379133,
+     204038,
+     841,
+     65393,
+     342165,
+     65451,
+     65374,
+     269533,
+     427885
+    ],
+    "gardien": 575188
+   }
+  ],
+  "joueurs": {
+   "575188": "A. Mishiev",
+   "428082": "A. Bandikyan",
+   "379133": "G. Harutyunyan",
+   "204038": "S. Mkrtchyan",
+   "841": "N. Tiknizyan",
+   "65393": "N. Grigoryan",
+   "342165": "K. Hovhannisyan",
+   "65451": "U. Iwu",
+   "65374": "Z. Shaghoyan",
+   "269533": "A. Serobyan",
+   "427885": "A. Gharibyan",
+   "292353": "E. Piloyan",
+   "65477": "K. Muradyan",
+   "65344": "A. Miranyan",
+   "363365": "G. Matinyan",
+   "272457": "G. Manvelyan",
+   "390565": "N. Hovhannisyan",
+   "61266": "H. Harutyunyan",
+   "130806": "E. Grigoryan",
+   "65409": "O. Čančarević",
+   "None": "A. Ghazaryan",
+   "280427": "G. Ranos"
+  }
  }
 }
