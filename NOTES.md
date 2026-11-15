@@ -7,7 +7,7 @@ Dernière mise à jour : 13 novembre 2026 (Fable). Cahier des charges : https://
 | Étape | État |
 | --- | --- |
 | (a) Points « À vérifier » | **Fait** (détail plus bas, preuves dans `verif/`) |
-| (b) Collecteur + base de données | **Fait.** Testé en vrai sur GitHub (passage lancé par une modification du code : OK, `data/etat.json` écrit). Le réveil programmé toutes les 5 min, lui, n'avait pas encore été observé le 13/11 à 0 h 50 (voir point 3). Premiers vrais relevés attendus le 20 novembre |
+| (b) Collecteur + base de données | **Fait.** Testé en vrai sur GitHub (passage lancé par une modification du code : OK, `data/etat.json` écrit). En service depuis le 13/11 (Ligue des nations en test pendant la trêve). Le réveil programmé de GitHub est trop lent, c'est le réveil Cloudflare qui tient les horaires (voir point 3) |
 | Import de l'historique Football-Data | **Fait** : 25 720 matchs dans `data/historique/` |
 | Écrans (matchs du jour, statistiques) | **À faire** (autre modèle) |
 | Statistiques calculées | **À faire** (autre modèle) |
@@ -27,12 +27,12 @@ Rien n'a été commencé côté page web : il n'y a pas encore d'`index.html`.
    des charges (`H12_GROUPE = False` dans `collecteur/config.py`). Conséquence assumée : les gros mois, le garde-fou sacrifiera
    des H-3. L'autre option reste disponible (`H12_GROUPE = True` : un seul H-12 par compétition et par jour, 440 crédits au pire).
    Les 20 tests passent toujours (plusieurs se déroulent encore en mode groupé, remis en place par l'un d'eux : à clarifier un jour).
-3. **Ponctualité des tâches programmées GitHub** : pas fiable à la minute (retards de 5 à 30 min documentés, parfois plus sur un
-   dépôt neuf ; la 1re tâche programmée n'était toujours pas partie 17 min après sa création : mesure en cours dans
-   `verif/ticks.json`, écrit par `.github/workflows/mesure.yml`, à supprimer une fois la mesure lue). Le collecteur est donc bâti pour
-   s'en moquer : réveil toutes les 5 min, chaque réveil rattrape tout ce qui est dû, un relevé en retard reste accepté
-   (H-45 jusqu'à 3 min du coup d'envoi) et son retard réel est noté (`retard_min`). **À contrôler après le week-end du 21-22
-   novembre** : si des H-45 ont plus de 20 min de retard ou l'état `manque`, brancher le réveil Cloudflare (voir plus bas).
+3. **Ponctualité des tâches programmées GitHub** : **mauvaise, mesurée.** Programmé toutes les 5 min, GitHub n'a réveillé la
+   tâche qu'environ une fois toutes les 53 min (entre 34 et 73 min, 30 réveils du 13 au 14/11, preuve dans `verif/ticks.json`).
+   Résultat avec GitHub seul : H-45 pris avec 14 à 30 min de retard et 13 relevés manqués les 13 et 14/11. Le réveil Cloudflare
+   (`cloudflare/worker.js`, ajouté le 14/11) a donc été branché : le 15/11, les 24 relevés sont faits et les H-45 n'ont que 3 à
+   10 min de retard. Restent des H-12 parfois très en retard le 15/11 (jusqu'à 3 h 30) : à regarder. Le collecteur rattrape
+   toujours ce qui est dû à chaque réveil et note le retard réel (`retard_min`). La mesure est terminée (`mesure.yml` supprimé).
 4. **Minutes GitHub Actions si le dépôt passe en privé** : 2 000 min/mois gratuites, or un réveil toutes les 5 min en consomme
    environ 8 600. **Le dépôt doit rester public** (illimité et gratuit). En privé il faudrait le réveil Cloudflare « intelligent »
    (uniquement quand un relevé est dû), et GitHub Pages sur dépôt privé demande de toute façon une formule payante.
