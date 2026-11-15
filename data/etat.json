@@ -5,8 +5,8 @@
   "maj": "2026-11-14T19:24:46Z"
  },
  "foot": {
-  "jour": "2026-11-14",
-  "reste": 83
+  "jour": "2026-11-15",
+  "reste": 98
  },
  "jours_foot": {
   "2026-11-13": {
@@ -19,6 +19,11 @@
    "lien_jour": "2026-11-14",
    "lien_heure": 18,
    "absents": "2026-11-14T19:24:46Z"
+  },
+  "2026-11-15": {
+   "lien_jour": "2026-11-15",
+   "lien_heure": 0,
+   "absents": "2026-11-15T00:40:57Z"
   }
  },
  "alertes": [
@@ -40,5 +45,5 @@
   }
  ],
  "planning_fait_a": "2026-11-14T20:43:53Z",
- "dernier_passage_utile": "2026-11-14T20:43:53Z"
+ "dernier_passage_utile": "2026-11-15T00:40:57Z"
 }
