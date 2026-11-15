@@ -786,7 +786,20 @@
     },
     "H45": {
      "prevu": "2026-11-15T16:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T16:18:29Z",
+     "retard_min": 3,
+     "pinnacle": {
+      "1": 4.76,
+      "N": 3.13,
+      "2": 1.97
+     },
+     "winamax": {
+      "1": 4.0,
+      "N": 3.1,
+      "2": 1.8
+     },
+     "maj_pinnacle": "2026-11-15T16:18:22Z"
     }
    },
    "compos": null,
@@ -800,28 +813,28 @@
     "issues": {
      "1": {
       "feu": "vert",
-      "fleche": "baisse",
-      "pct": -0.9,
-      "ampleur": 0.5,
+      "fleche": "hausse",
+      "pct": 2.6,
+      "ampleur": 1.6,
       "raisons": []
      },
      "N": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -5.6,
-      "ampleur": 4.2,
+      "pct": -7.1,
+      "ampleur": 5.4,
       "raisons": []
      },
      "2": {
       "feu": "orange",
       "fleche": "hausse",
-      "pct": 4.2,
-      "ampleur": 4.2,
+      "pct": 3.7,
+      "ampleur": 3.7,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -829,13 +842,13 @@
     "phrase": "Le marché annonce : Albania ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": 0.21,
-     "N": 1.76,
-     "2": -1.97
+     "1": -0.5,
+     "N": 2.23,
+     "2": -1.74
     },
     "marge": [
      3.86,
-     3.69
+     3.72
     ]
    },
    "score": null
@@ -882,7 +895,16 @@
     },
     "H45": {
      "prevu": "2026-11-15T16:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T16:18:29Z",
+     "retard_min": 3,
+     "pinnacle": {
+      "1": 1.03,
+      "N": 20.0,
+      "2": 51.0
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-15T16:18:22Z"
     }
    },
    "compos": null,
@@ -895,18 +917,23 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -1.0,
+      "ampleur": 7.2,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît",
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 14.3,
+      "ampleur": 7.3,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "2": {
       "feu": "vert",
@@ -916,8 +943,8 @@
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -925,13 +952,13 @@
     "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": 0.0,
-     "N": 0.0,
-     "2": 0.0
+     "1": 0.7,
+     "N": -0.7,
+     "2": -0.0
     },
     "marge": [
      3.83,
-     3.83
+     4.05
     ]
    },
    "score": null
@@ -1141,5 +1168,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-15T14:12:39Z"
+ "maj": "2026-11-15T16:18:29Z"
 }
