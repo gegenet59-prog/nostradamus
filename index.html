@@ -57,6 +57,26 @@ nav button.on{color:var(--txt)}nav button.on i{background:var(--txt)}
 .days button{min-height:44px;min-width:44px;background:var(--card);border-radius:12px;font-size:18px;color:var(--txt)}
 .days{display:flex;align-items:center;justify-content:space-between;gap:8px}
 .days span{font:700 15px 'Space Grotesk',sans-serif;text-align:center;flex:1}
+.blk{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:0 14px}
+.blk>summary{list-style:none;min-height:56px;display:flex;align-items:center;justify-content:space-between;font:700 17px 'Space Grotesk',sans-serif;cursor:pointer}
+.blk>summary::-webkit-details-marker{display:none}
+.blk>summary::after{content:"›";font-size:22px;color:var(--mute);transform:rotate(90deg);transition:transform .15s}
+.blk[open]>summary::after{transform:rotate(-90deg)}
+.blk .in{display:flex;flex-direction:column;gap:12px;padding-bottom:14px}
+.fb{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.fb button{min-height:64px;border-radius:14px;background:var(--cell);border:2px solid var(--c);text-align:left;padding:8px 12px;display:flex;flex-direction:column;gap:2px;font:700 16px 'Space Grotesk',sans-serif;color:var(--c)}
+.fb button small{font:500 11px Inter,sans-serif;color:var(--mute)}
+.fb button.on{background:var(--c);color:#0B0F17}.fb button.on small{color:#0B0F17}
+.fs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.fs label{min-width:0;display:flex;flex-direction:column;gap:4px;font-size:11px;color:var(--mute);font-weight:600}
+.fs select{width:100%;min-width:0;min-height:44px;border-radius:12px;background:var(--cell);border:1px solid var(--line);color:var(--txt);font:inherit;font-size:14px;padding:0 10px}
+.res{background:var(--cell);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.big{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.big div{display:flex;flex-direction:column;gap:3px}
+.big b{font:700 22px 'Space Grotesk',sans-serif}
+.big span{font-size:11px;color:var(--mute);font-weight:600}
+.ecart{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);padding-top:10px}
+.ecart b{font:700 24px 'Space Grotesk',sans-serif}
 </style>
 </head>
 <body>
@@ -147,10 +167,81 @@ ${(()=>{const L=lecture(m);return L?`<div class="phrase">Les cotes donnent : <b>
 ${m.marche&&m.marche.incoherent?'<span class="flag">Mouvement incohérent</span>':""}${sc}</div>`;
 }
 
+/* ---------- Écran Stats ---------- */
+let ST=null, stEtat="", ouvert={hist:true};
+const sel={feu:null,sens:"",comp:"",issue:"",pari:"",saison:"",tranche:""};
+const PARI_TXT={aucun:"Pas de mouvement net","1":"1 · victoire domicile","N":"N · nul","2":"2 · victoire extérieur","1N":"1N","N2":"N2","12":"12"};
+const SENS_TXT={baisse:"Baisse",hausse:"Hausse",stable:"Stable"};
+const saisonTxt=s=>"20"+s.slice(0,2)+"-"+s.slice(2);
+const nb=x=>Math.round(x).toLocaleString("fr-FR");
+const pts=(x,d=1)=>{const r=Math.round(Math.abs(x)*10**d)/10**d;return (r===0?"":x>0?"+":"−")+fr(r,d)};
+function agreger(sansFeu){
+  const idx=["comp","saison","issue","feu","sens","tranche","pari"].map(k=>[k,sel[k]]);
+  let n=0,s=0,pd=0,pa=0;
+  for(const l of ST.lignes){
+    let ok=true;
+    for(let k=0;k<7;k++){const [nom,v]=idx[k];if(nom==="feu"&&sansFeu)continue;const w=nom==="feu"?v:(v===""?null:Number(v));if(w!==null&&l[k]!==w){ok=false;break}}
+    if(ok){n+=l[7];s+=l[8];pd+=l[9];pa+=l[10]}
+  }
+  return {n,s,pd,pa};
+}
+function majStats(){
+  const D=ST.dimensions, f=sel.feu;
+  const tous=agreger(true);
+  document.querySelectorAll("#st-btn button").forEach(b=>{
+    const k=Number(b.dataset.f);b.classList.toggle("on",f===k);
+    const save=sel.feu;sel.feu=k;const a=agreger(false);sel.feu=save;
+    b.querySelector("small").textContent=NIV[D.feu[k]][0]+" · "+nb(a.n)+" cas";
+  });
+  const r=agreger(false), el=$("#st-res");
+  if(!r.n){el.innerHTML='<div class="phrase">Aucun cas pour cette sélection.</div>';return}
+  const p=r.s/r.n, sor=100*p, dep=100*r.pd/r.n, arr=100*r.pa/r.n, marge=196*Math.sqrt(p*(1-p)/r.n);
+  const titre=f===null?"Toutes les couleurs":NIV[D.feu[f]][0]+" ("+["Vert","Orange","Rouge","Violet"][f]+")";
+  el.innerHTML=`<div class="meta">${titre}</div>
+<div class="big"><div><b>${nb(r.n)}</b><span>cas</span></div><div><b>${pc(sor)}</b><span>sortis</span></div><div><b>${pc(dep)}</b><span>promis par la cote de départ</span></div></div>
+<div class="ecart"><span class="meta">Écart (sorti − promis)</span><b>${pts(sor-dep)} pts</b></div>
+<div class="meta">Promis par la cote d'arrivée : ${pc(arr)} · marge d'erreur ± ${fr(marge,1)} pts</div>
+${r.n<50?'<span class="flag">Moins de 50 cas : pas encore assez de volume</span>':""}`;
+}
+function selects(nom,etiq,liste){
+  return `<label>${etiq}<select data-s="${nom}"><option value="">Tous</option>${liste.map((t,i)=>`<option value="${i}" ${String(sel[nom])===String(i)?"selected":""}>${esc(t)}</option>`).join("")}</select></label>`;
+}
+function ecranStats(){
+  const titre='<div><h1>Statistiques</h1><div class="sub">Ce que les mouvements de cotes ont donné après coup</div></div>';
+  if(!ST){
+    app.innerHTML=titre+`<div class="msg">${stEtat==="erreur"?"Les statistiques ne sont pas disponibles pour l'instant. Réessaie dans quelques minutes.":"Chargement des statistiques…"}</div>`;
+    if(stEtat!=="charge"){stEtat="charge";get("data/stats/historique.json").then(j=>{ST=j;stEtat="";if(onglet==="stats")ecranStats()}).catch(()=>{stEtat="erreur";if(onglet==="stats")ecranStats()})}
+    return;
+  }
+  const D=ST.dimensions, total=ST.lignes.reduce((a,l)=>a+l[7],0);
+  app.innerHTML=titre+`
+<details class="blk" id="b-hist" ${ouvert.hist?"open":""}><summary>Historique</summary><div class="in">
+<div class="meta">${nb(total)} cas · ${D.comp.length} championnats · saisons ${saisonTxt(D.saison[0])} à ${saisonTxt(D.saison[D.saison.length-1])}. Cotes d'ouverture → clôture : grosse maille, à lire à part de ta base.</div>
+<div class="fb" id="st-btn">${["Vert","Orange","Rouge","Violet"].map((n,k)=>`<button data-f="${k}" style="--c:var(--${n.toLowerCase()})">${n}<small></small></button>`).join("")}</div>
+<div class="fs">
+${selects("sens","Sens de la variation",D.sens.slice(0,2).map(x=>SENS_TXT[x]))}
+${selects("comp","Compétition",D.comp.map(c=>COMP[c]||c))}
+${selects("issue","Issue",D.issue.map(i=>({"1":"1 · domicile","N":"N · nul","2":"2 · extérieur"}[i])))}
+${selects("pari","Le marché annonce",D.pari.map(p=>PARI_TXT[p]||p))}
+${selects("tranche","Cote de départ",D.tranche)}
+${selects("saison","Saison",D.saison.map(saisonTxt))}
+</div>
+<div class="res" id="st-res"></div>
+<div class="meta">Un cas = une issue (1, N ou 2) d'un match. L'écart dit si le mouvement apporte une vraie information : proche de zéro, la cote disait déjà tout.</div>
+</div></details>
+<details class="blk" id="b-base" ${ouvert.base?"open":""}><summary>Ma base</summary><div class="in"><div class="msg">Arrive à l'étape suivante : mêmes boutons et mêmes filtres, avec la cote de départ à H-12 et les variations jusqu'à H-45. Elle se remplit match après match.</div></div></details>`;
+  $("#b-hist").ontoggle=e=>{ouvert.hist=e.target.open};$("#b-base").ontoggle=e=>{ouvert.base=e.target.open};
+  document.querySelectorAll("#st-btn button").forEach(b=>b.onclick=()=>{const k=Number(b.dataset.f);sel.feu=sel.feu===k?null:k;majStats()});
+  document.querySelectorAll(".fs select").forEach(x=>x.onchange=()=>{sel[x.dataset.s]=x.value;majStats()});
+  majStats();
+}
+const pc=(x,d=1)=>fr(x,d)+" %";
+
 function dessiner(){
+  if(onglet==="stats"){ecranStats();return}
   if(onglet!=="matchs"){
-    const t=onglet==="stats"?"Statistiques":"Alertes";
-    const d=onglet==="stats"?"Cet écran arrive bientôt : les 4 boutons couleur et les pourcentages de résultats, calculés sur la base de Nostradamus.":"Cet écran arrive bientôt : une notification sur ton téléphone dès qu'un match passe en Extrême.";
+    const t="Alertes";
+    const d="Cet écran arrive bientôt : une notification sur ton téléphone dès qu'un match passe en Extrême.";
     app.innerHTML=`<div><h1>${t}</h1></div><div class="msg">${d}</div>`;return;
   }
   const comps=["Tout",...new Set(matchs.map(m=>COMP[m.competition]||m.competition))];

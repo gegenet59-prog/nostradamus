@@ -115,6 +115,8 @@ def importer():
     if par_comp:
         ecrire("historique/index.json", {"maj": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "competitions": bilan,
                                          "seuils": {"orange": C.SEUIL_ORANGE, "rouge": C.SEUIL_ROUGE, "violet": C.SEUIL_VIOLET}})
+        from . import stats
+        stats.ecrire_compact("stats/historique.json", stats.historique())      # stats de l'écran Stats, recalculées à chaque import
         racine = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         with open(os.path.join(racine, "verif", "budget.json"), "w", encoding="utf-8") as f:
             json.dump(simuler_budget(par_comp), f, ensure_ascii=False, indent=1)

@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "23 4 * * 2"
   push:
-    paths: ["collecteur/historique.py", "collecteur/config.py", "collecteur/calculs.py"]
+    paths: ["collecteur/historique.py", "collecteur/stats.py", "collecteur/config.py", "collecteur/calculs.py"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
       - run: python3 -m collecteur.historique
       - name: Ranger l'historique dans le dépôt
         run: |
-          git add data/historique verif/budget.json
+          git add data/historique data/stats verif/budget.json
           git diff --cached --quiet && exit 0
           git config user.name "Nostradamus (robot)"
           git config user.email "actions@users.noreply.github.com"
