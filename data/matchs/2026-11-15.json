@@ -119,7 +119,20 @@
    "releves": {
     "H12": {
      "prevu": "2026-11-15T05:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-15T05:28:24Z",
+     "retard_min": 28,
+     "pinnacle": {
+      "1": 4.64,
+      "N": 3.37,
+      "2": 1.9
+     },
+     "winamax": {
+      "1": 3.85,
+      "N": 3.2,
+      "2": 1.8
+     },
+     "maj_pinnacle": "2026-11-15T05:28:14Z"
     },
     "H3": {
      "prevu": "2026-11-15T14:00:00Z",
@@ -157,7 +170,12 @@
    "releves": {
     "H12": {
      "prevu": "2026-11-15T05:00:00Z",
-     "etat": "attente"
+     "etat": "vide",
+     "fait_a": "2026-11-15T05:28:24Z",
+     "retard_min": 28,
+     "pinnacle": null,
+     "winamax": null,
+     "maj_pinnacle": null
     },
     "H3": {
      "prevu": "2026-11-15T14:00:00Z",
@@ -332,5 +350,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-15T02:38:23Z"
+ "maj": "2026-11-15T05:28:24Z"
 }
