@@ -68,6 +68,12 @@ nav button.on{color:var(--txt)}nav button.on i{background:var(--txt)}
 .fb button small{font:500 11px Inter,sans-serif;color:var(--mute)}
 .fb button.on{background:var(--c);color:#0B0F17}.fb button.on small{color:#0B0F17}
 .fs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.sais{border:1px solid var(--line);border-radius:12px;background:var(--cell)}
+.sais summary{min-height:44px;display:flex;align-items:center;padding:0 12px;font-size:14px;color:var(--txt);cursor:pointer}
+.sais .ch{display:flex;flex-wrap:wrap;gap:6px;padding:0 10px 10px}
+.sais .ch button{min-height:36px;padding:0 10px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--mute);font:600 13px Inter,sans-serif}
+.sais .ch button.on{background:var(--txt);color:#0B0F17;border-color:var(--txt)}
+.sais .ch button.act{border-style:dashed;color:var(--txt)}
 .fs label{min-width:0;display:flex;flex-direction:column;gap:4px;font-size:11px;color:var(--mute);font-weight:600}
 .fs select{width:100%;min-width:0;min-height:44px;border-radius:12px;background:var(--cell);border:1px solid var(--line);color:var(--txt);font:inherit;font-size:14px;padding:0 10px}
 .res{background:var(--cell);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
@@ -168,7 +174,7 @@ ${m.marche&&m.marche.incoherent?'<span class="flag">Mouvement incohérent</span>
 }
 
 /* ---------- Écran Stats ---------- */
-const VIDE=()=>({feu:null,sens:"",comp:"",issue:"",pari:"",saison:"",tranche:""});
+const VIDE=()=>({feu:null,sens:"",comp:"",issue:"",pari:"",saison:null,tranche:""});
 const BL={hist:{url:"data/stats/historique.json",ST:null,etat:"",sel:VIDE(),nom:"Historique"},
           base:{url:"data/stats/base.json",ST:null,etat:"",sel:VIDE(),nom:"Ma base"}};
 let ouvert={hist:true};
@@ -182,7 +188,8 @@ function agreger(B,sansFeu,feuForce){
   let n=0,s=0,pd=0,pa=0;
   for(const l of B.ST.lignes){
     let ok=true;
-    for(let k=0;k<7;k++){const [nom,v]=idx[k];if(nom==="feu"&&sansFeu)continue;const w=nom==="feu"?v:(v===""?null:Number(v));if(w!==null&&l[k]!==w){ok=false;break}}
+    for(let k=0;k<7;k++){const [nom,v]=idx[k];if(nom==="feu"&&sansFeu)continue;
+      if(nom==="saison"){if(v!==null&&!v.includes(l[1])){ok=false;break}continue}const w=nom==="feu"?v:(v===""?null:Number(v));if(w!==null&&l[k]!==w){ok=false;break}}
     if(ok){n+=l[7];s+=l[8];pd+=l[9];pa+=l[10]}
   }
   return {n,s,pd,pa};
@@ -193,6 +200,9 @@ function majStats(c){
     const k=Number(b.dataset.f);b.classList.toggle("on",f===k);
     b.querySelector("small").textContent=NIV[D.feu[k]][0]+" · "+nb(agreger(B,false,k).n)+" cas";
   });
+  const ns=B.sel.saison, tot=D.saison.length;
+  document.querySelectorAll(rac+".ch button[data-i]").forEach(b=>b.classList.toggle("on",ns===null||ns.includes(Number(b.dataset.i))));
+  document.querySelector(rac+".sais summary").textContent="Saisons : "+(ns===null||ns.length===tot?"toutes ("+tot+")":ns.length===0?"aucune":ns.length===1?saisonTxt(D.saison[ns[0]]):ns.length+" sur "+tot);
   const r=agreger(B,false), el=document.querySelector(rac+".res");
   if(!r.n){el.innerHTML='<div class="phrase">Aucun cas pour cette sélection.</div>';return}
   const p=r.s/r.n, sor=100*p, dep=100*r.pd/r.n, arr=100*r.pa/r.n, marge=196*Math.sqrt(p*(1-p)/r.n);
@@ -221,8 +231,8 @@ ${selects(c,"comp","Compétition",D.comp.map(x=>COMP[x]||x))}
 ${selects(c,"issue","Issue",D.issue.map(i=>({"1":"1 · domicile","N":"N · nul","2":"2 · extérieur"}[i])))}
 ${selects(c,"pari","Le marché annonce",D.pari.map(p=>PARI_TXT[p]||p))}
 ${selects(c,"tranche","Cote de départ",D.tranche)}
-${selects(c,"saison","Saison",D.saison.map(saisonTxt))}
 </div>
+<details class="sais"><summary></summary><div class="ch"><button class="act" data-a="tout">Tout sélectionner</button><button class="act" data-a="rien">Tout désélectionner</button>${D.saison.map((x,i)=>`<button data-i="${i}">${saisonTxt(x)}</button>`).join("")}</div></details>
 <div class="res"></div>
 <div class="meta">${note}</div>
 </div></details>`;
@@ -233,6 +243,13 @@ function brancher(c){
   if(!B.ST||!bl.querySelector(".fb"))return;
   bl.querySelectorAll(".fb button").forEach(b=>b.onclick=()=>{const k=Number(b.dataset.f);B.sel.feu=B.sel.feu===k?null:k;majStats(c)});
   bl.querySelectorAll(".fs select").forEach(x=>x.onchange=()=>{B.sel[x.dataset.s]=x.value;majStats(c)});
+  bl.querySelectorAll(".ch button").forEach(b=>b.onclick=()=>{
+    const n=B.ST.dimensions.saison.length, tous=[...Array(n).keys()];
+    if(b.dataset.a==="tout")B.sel.saison=null;
+    else if(b.dataset.a==="rien")B.sel.saison=[];
+    else{const i=Number(b.dataset.i), cur=B.sel.saison===null?tous:B.sel.saison.slice();
+      const p=cur.indexOf(i);if(p>=0)cur.splice(p,1);else cur.push(i);B.sel.saison=cur.length===n?null:cur}
+    majStats(c)});
   majStats(c);
 }
 function ecranStats(){
