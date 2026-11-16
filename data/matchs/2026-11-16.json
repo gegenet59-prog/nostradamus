@@ -7,7 +7,13 @@
    "coup_envoi": "2026-11-16T15:00:00Z",
    "domicile": "Faroe Islands",
    "exterieur": "Moldova",
-   "foot": null,
+   "foot": {
+    "id": 1528987,
+    "domicile": 1098,
+    "exterieur": 1114,
+    "nom_domicile": "Faroe Islands",
+    "nom_exterieur": "Moldova"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T03:00:00Z",
@@ -24,7 +30,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -35,7 +45,13 @@
    "coup_envoi": "2026-11-16T15:00:00Z",
    "domicile": "Kazakhstan",
    "exterieur": "Slovakia",
-   "foot": null,
+   "foot": {
+    "id": 1528986,
+    "domicile": 1095,
+    "exterieur": 773,
+    "nom_domicile": "Kazakhstan",
+    "nom_exterieur": "Slovakia"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T03:00:00Z",
@@ -52,7 +68,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -63,7 +83,13 @@
    "coup_envoi": "2026-11-16T17:00:00Z",
    "domicile": "Estonia",
    "exterieur": "Bulgaria",
-   "foot": null,
+   "foot": {
+    "id": 1528988,
+    "domicile": 1101,
+    "exterieur": 1103,
+    "nom_domicile": "Estonia",
+    "nom_exterieur": "Bulgaria"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T05:00:00Z",
@@ -80,7 +106,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -91,7 +121,13 @@
    "coup_envoi": "2026-11-16T17:00:00Z",
    "domicile": "Iceland",
    "exterieur": "Luxembourg",
-   "foot": null,
+   "foot": {
+    "id": 1545617,
+    "domicile": 18,
+    "exterieur": 1102,
+    "nom_domicile": "Iceland",
+    "nom_exterieur": "Luxembourg"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T05:00:00Z",
@@ -108,7 +144,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -119,7 +159,13 @@
    "coup_envoi": "2026-11-16T17:00:00Z",
    "domicile": "Lithuania",
    "exterieur": "Liechtenstein",
-   "foot": null,
+   "foot": {
+    "id": 1528989,
+    "domicile": 1097,
+    "exterieur": 1107,
+    "nom_domicile": "Lithuania",
+    "nom_exterieur": "Liechtenstein"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T05:00:00Z",
@@ -136,7 +182,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -147,7 +197,13 @@
    "coup_envoi": "2026-11-16T19:45:00Z",
    "domicile": "Germany",
    "exterieur": "Netherlands",
-   "foot": null,
+   "foot": {
+    "id": 1528990,
+    "domicile": 25,
+    "exterieur": 1118,
+    "nom_domicile": "Germany",
+    "nom_exterieur": "Netherlands"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T07:45:00Z",
@@ -164,7 +220,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -175,7 +235,13 @@
    "coup_envoi": "2026-11-16T19:45:00Z",
    "domicile": "Gibraltar",
    "exterieur": "Malta",
-   "foot": null,
+   "foot": {
+    "id": 1545618,
+    "domicile": 1093,
+    "exterieur": 1112,
+    "nom_domicile": "Gibraltar",
+    "nom_exterieur": "Malta"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T07:45:00Z",
@@ -192,7 +258,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -203,7 +273,13 @@
    "coup_envoi": "2026-11-16T19:45:00Z",
    "domicile": "Greece",
    "exterieur": "Serbia",
-   "foot": null,
+   "foot": {
+    "id": 1528991,
+    "domicile": 1117,
+    "exterieur": 14,
+    "nom_domicile": "Greece",
+    "nom_exterieur": "Serbia"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T07:45:00Z",
@@ -220,7 +296,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -231,7 +311,13 @@
    "coup_envoi": "2026-11-16T19:45:00Z",
    "domicile": "North Macedonia",
    "exterieur": "Slovenia",
-   "foot": null,
+   "foot": {
+    "id": 1545662,
+    "domicile": 1105,
+    "exterieur": 1091,
+    "nom_domicile": "FYR Macedonia",
+    "nom_exterieur": "Slovenia"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T07:45:00Z",
@@ -248,7 +334,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -259,7 +349,13 @@
    "coup_envoi": "2026-11-16T19:45:00Z",
    "domicile": "Switzerland",
    "exterieur": "Scotland",
-   "foot": null,
+   "foot": {
+    "id": 1545652,
+    "domicile": 15,
+    "exterieur": 1108,
+    "nom_domicile": "Switzerland",
+    "nom_exterieur": "Scotland"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-16T07:45:00Z",
@@ -276,11 +372,15 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-16T00:02:29Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
   }
  ],
- "maj": "2026-11-14T08:25:36Z"
+ "maj": "2026-11-16T00:02:29Z"
 }
