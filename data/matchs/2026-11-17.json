@@ -68,7 +68,9 @@
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-17T19:12:32Z"
+   ],
    "absents": {
     "releve_a": "2026-11-17T00:34:21Z",
     "domicile": [],
@@ -189,7 +191,9 @@
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-17T19:12:32Z"
+   ],
    "absents": {
     "releve_a": "2026-11-17T00:34:21Z",
     "domicile": [],
@@ -306,7 +310,9 @@
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-17T19:12:32Z"
+   ],
    "absents": {
     "releve_a": "2026-11-17T00:34:21Z",
     "domicile": [],
@@ -427,7 +433,9 @@
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-17T19:12:32Z"
+   ],
    "absents": {
     "releve_a": "2026-11-17T00:34:21Z",
     "domicile": [],
@@ -546,7 +554,9 @@
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-17T19:12:32Z"
+   ],
    "absents": {
     "releve_a": "2026-11-17T00:34:21Z",
     "domicile": [],
@@ -667,7 +677,9 @@
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-17T19:12:32Z"
+   ],
    "absents": {
     "releve_a": "2026-11-17T00:34:21Z",
     "domicile": [],
@@ -786,7 +798,9 @@
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-17T19:12:32Z"
+   ],
    "absents": {
     "releve_a": "2026-11-17T00:34:21Z",
     "domicile": [],
@@ -907,7 +921,9 @@
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-17T19:12:32Z"
+   ],
    "absents": {
     "releve_a": "2026-11-17T00:34:21Z",
     "domicile": [],
@@ -960,5 +976,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-17T19:02:34Z"
+ "maj": "2026-11-17T19:12:32Z"
 }
