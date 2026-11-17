@@ -6,7 +6,7 @@
  },
  "foot": {
   "jour": "2026-11-17",
-  "reste": 88
+  "reste": 80
  },
  "jours_foot": {
   "2026-11-13": {
@@ -62,5 +62,5 @@
   }
  ],
  "planning_fait_a": "2026-11-17T14:29:46Z",
- "dernier_passage_utile": "2026-11-17T19:12:32Z"
+ "dernier_passage_utile": "2026-11-17T19:39:36Z"
 }
