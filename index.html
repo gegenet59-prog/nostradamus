@@ -212,8 +212,12 @@ function graphique(m){
   }
   for(let i=0;i<3;i++){
     lab[i].sort((a,b)=>a.y-b.y);
-    for(let j=1;j<lab[i].length;j++)if(lab[i][j].y-lab[i][j-1].y<14)lab[i][j].y=lab[i][j-1].y+14;
-    for(const l of lab[i])svg+=`<text x="${X[i]}" y="${l.y.toFixed(1)}" text-anchor="middle" font-size="12" font-weight="700" fill="${COUL[l.k]}" stroke="var(--card)" stroke-width="3" paint-order="stroke">${fr(l.v)}</text>`;
+    const L=lab[i];
+    for(let j=0;j<L.length;j++){
+      const proche=j>0&&L[j].y-L[j-1].y<20;
+      if(proche){const d=L[j-1].dessous?-1:1; L[j].dessous=!L[j-1].dessous; L[j].y=L[j].dessous?L[j].y+27:L[j].y}
+    }
+    for(const l of L)svg+=`<text x="${X[i]}" y="${l.y.toFixed(1)}" text-anchor="middle" font-size="12" font-weight="700" fill="${COUL[l.k]}" stroke="var(--card)" stroke-width="3" paint-order="stroke">${fr(l.v)}</text>`;
   }
   RELS.forEach(([n,t],i)=>{
     const r=R[n]||{}, h=r.etat==="fait"&&r.fait_a?heure(r.fait_a):(r.etat==="manque"||r.etat==="vide")?"manqué":r.prevu?"prévu "+heure(r.prevu):"";
