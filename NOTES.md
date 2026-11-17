@@ -7,7 +7,7 @@ Dernière mise à jour : 13 novembre 2026 (Fable). Cahier des charges : https://
 | Étape | État |
 | --- | --- |
 | (a) Points « À vérifier » | **Fait** (détail plus bas, preuves dans `verif/`) |
-| (b) Collecteur + base de données | **Fait.** Testé en vrai sur GitHub (passage lancé par une modification du code : OK, `data/etat.json` écrit). En service depuis le 13/11 (Ligue des nations en test pendant la trêve). Le réveil programmé de GitHub est trop lent, c'est le réveil Cloudflare qui tient les horaires (voir point 3) |
+| (b) Collecteur + base de données | **Fait.** Testé en vrai sur GitHub (passage lancé par une modification du code : OK, `data/etat.json` écrit). En service depuis le 13/11 (Ligue des nations en test pendant la trêve). Le réveil programmé de GitHub est trop lent ; le réveil Cloudflare reste À DÉPLOYER (voir point 3) |
 | Import de l'historique Football-Data | **Fait** : 25 720 matchs dans `data/historique/` |
 | Écrans (matchs du jour, statistiques) | **À faire** (autre modèle) |
 | Statistiques : bloc Historique | **Fait** (16/11) : `collecteur/stats.py` -> `data/stats/historique.json`, onglet Stats de `index.html` |
@@ -30,9 +30,11 @@ Rien n'a été commencé côté page web : il n'y a pas encore d'`index.html`.
    Les 20 tests passent toujours (plusieurs se déroulent encore en mode groupé, remis en place par l'un d'eux : à clarifier un jour).
 3. **Ponctualité des tâches programmées GitHub** : **mauvaise, mesurée.** Programmé toutes les 5 min, GitHub n'a réveillé la
    tâche qu'environ une fois toutes les 53 min (entre 34 et 73 min, 30 réveils du 13 au 14/11, preuve dans `verif/ticks.json`).
-   Résultat avec GitHub seul : H-45 pris avec 14 à 30 min de retard et 13 relevés manqués les 13 et 14/11. Le réveil Cloudflare
-   (`cloudflare/worker.js`, ajouté le 14/11) a donc été branché : le 15/11, les 24 relevés sont faits et les H-45 n'ont que 3 à
-   10 min de retard. Restent des H-12 parfois très en retard le 15/11 (jusqu'à 3 h 30) : à regarder. Le collecteur rattrape
+   Résultat avec GitHub seul : H-45 pris avec 14 à 30 min de retard et 13 relevés manqués les 13 et 14/11. **Le réveil Cloudflare n'est PAS en place** (vérifié le 17/11 : 0 lancement « repository_dispatch » sur les 100 derniers ;
+   `cloudflare/worker.js` est dans le dépôt mais n'a jamais été déployé). Les relevés du 15/11 étaient de la chance. Mesuré les 16 et
+   17/11 : GitHub réveille toutes les 60 à 70 min, donc H-3 et H-45 ratés ou très en retard ; lancement manuel possible en attendant
+   (REST : POST /repos/gegenet59-prog/nostradamus/actions/workflows/collecteur.yml/dispatches {"ref":"main"}). À faire par Gérard : déployer
+   le Worker (compte Cloudflare + secret GITHUB_TOKEN). H-12 parfois très en retard aussi, même cause. Le collecteur rattrape
    toujours ce qui est dû à chaque réveil et note le retard réel (`retard_min`). La mesure est terminée (`mesure.yml` supprimé).
 4. **Minutes GitHub Actions si le dépôt passe en privé** : 2 000 min/mois gratuites, or un réveil toutes les 5 min en consomme
    environ 8 600. **Le dépôt doit rester public** (illimité et gratuit). En privé il faudrait le réveil Cloudflare « intelligent »
