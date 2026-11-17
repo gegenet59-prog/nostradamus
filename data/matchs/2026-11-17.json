@@ -740,17 +740,17 @@
    "score": null
   },
   {
-   "id": "1a07e9080f042594bdb529ab932d680c",
+   "id": "955a201ba2266b8b6b0519e0265eb354",
    "competition": "NL",
    "coup_envoi": "2026-11-17T19:45:00Z",
-   "domicile": "Hungary",
-   "exterieur": "Northern Ireland",
+   "domicile": "Wales",
+   "exterieur": "Portugal",
    "foot": {
-    "id": 1528995,
-    "domicile": 769,
-    "exterieur": 771,
-    "nom_domicile": "Hungary",
-    "nom_exterieur": "Northern Ireland"
+    "id": 1528992,
+    "domicile": 767,
+    "exterieur": 27,
+    "nom_domicile": "Wales",
+    "nom_exterieur": "Portugal"
    },
    "releves": {
     "H12": {
@@ -759,14 +759,14 @@
      "fait_a": "2026-11-17T08:04:09Z",
      "retard_min": 19,
      "pinnacle": {
-      "1": 1.96,
-      "N": 3.3,
-      "2": 4.56
+      "1": 7.05,
+      "N": 5.19,
+      "2": 1.43
      },
      "winamax": {
-      "1": 1.82,
-      "N": 3.15,
-      "2": 3.8
+      "1": 5.75,
+      "N": 5.0,
+      "2": 1.34
      },
      "maj_pinnacle": "2026-11-17T08:03:47Z"
     },
@@ -776,14 +776,14 @@
      "fait_a": "2026-11-17T17:19:17Z",
      "retard_min": 34,
      "pinnacle": {
-      "1": 1.92,
-      "N": 3.33,
-      "2": 4.77
+      "1": 7.26,
+      "N": 5.52,
+      "2": 1.4
      },
      "winamax": {
-      "1": 1.76,
-      "N": 3.15,
-      "2": 4.1
+      "1": 6.0,
+      "N": 5.2,
+      "2": 1.32
      },
      "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
@@ -793,14 +793,14 @@
      "fait_a": "2026-11-17T19:02:34Z",
      "retard_min": 3,
      "pinnacle": {
-      "1": 2.02,
-      "N": 3.33,
-      "2": 4.24
+      "1": 7.2,
+      "N": 5.57,
+      "2": 1.4
      },
      "winamax": {
-      "1": 1.86,
-      "N": 3.1,
-      "2": 3.7
+      "1": 6.0,
+      "N": 5.25,
+      "2": 1.31
      },
      "maj_pinnacle": "2026-11-17T19:02:22Z"
     }
@@ -809,240 +809,245 @@
     "recue_a": "2026-11-17T19:39:36Z",
     "minutes_avant": 5,
     "domicile": {
-     "formation": "4-3-3",
+     "formation": "4-2-3-1",
      "titulaires": [
       {
-       "id": 28048,
-       "nom": "B. Tóth",
+       "id": 18146,
+       "nom": "D. Ward",
        "poste": "G"
       },
       {
-       "id": 28467,
-       "nom": "A. Osváth",
+       "id": 19331,
+       "nom": "C. Roberts",
        "poste": "D"
       },
       {
-       "id": 341983,
-       "nom": "M. Csinger",
+       "id": 19321,
+       "nom": "J. Rodon",
        "poste": "D"
       },
       {
-       "id": 443849,
-       "nom": "A. Markgráf",
+       "id": 164,
+       "nom": "B. Davies",
        "poste": "D"
       },
       {
-       "id": 206254,
-       "nom": "M. Kerkez",
+       "id": 19260,
+       "nom": "J. Dasilva",
        "poste": "D"
       },
       {
-       "id": 30785,
-       "nom": "A. Schäfer",
+       "id": 82034,
+       "nom": "J. Sheehan",
        "poste": "M"
       },
       {
-       "id": 179907,
-       "nom": "Á. Csongvai",
+       "id": 18870,
+       "nom": "D. Brooks",
        "poste": "M"
       },
       {
-       "id": 19806,
-       "nom": "C. Styles",
+       "id": 19329,
+       "nom": "D. James",
        "poste": "M"
       },
       {
-       "id": 26252,
-       "nom": "R. Sallai",
-       "poste": "F"
+       "id": 19221,
+       "nom": "H. Wilson",
+       "poste": "M"
       },
       {
-       "id": 7398,
-       "nom": "B. Varga",
-       "poste": "F"
+       "id": 18599,
+       "nom": "S. Thomas",
+       "poste": "M"
       },
       {
-       "id": 1096,
-       "nom": "D. Szoboszlai",
+       "id": 301184,
+       "nom": "R. Colwill",
        "poste": "F"
       }
      ],
      "remplacants": [
       {
-       "id": 178883,
-       "nom": "P. Baráth",
-       "poste": "M"
-      },
-      {
-       "id": 27778,
-       "nom": "B. Bolla",
-       "poste": "D"
-      },
-      {
-       "id": 28386,
-       "nom": "B. Gundel-Takács",
-       "poste": "G"
-      },
-      {
-       "id": 325201,
-       "nom": "G. Jurek",
+       "id": 383815,
+       "nom": "Cian Ashford",
        "poste": "F"
       },
       {
-       "id": 342467,
-       "nom": "Á. Pécsi",
-       "poste": "G"
-      },
-      {
-       "id": 405330,
-       "nom": "M. Pető",
+       "id": 431884,
+       "nom": "Kai Andrews",
        "poste": "M"
       },
       {
-       "id": 28443,
-       "nom": "A. Szalai",
+       "id": 104041,
+       "nom": "B. Cabango",
        "poste": "D"
       },
       {
-       "id": 150783,
-       "nom": "Á. Szendrei",
+       "id": 17551,
+       "nom": "A. Collins",
        "poste": "F"
       },
       {
-       "id": 28585,
-       "nom": "K. Szűcs",
+       "id": 19335,
+       "nom": "L. Cullen",
+       "poste": "F"
+      },
+      {
+       "id": 18885,
+       "nom": "K. Darlow",
+       "poste": "G"
+      },
+      {
+       "id": 17932,
+       "nom": "M. Harris",
+       "poste": "F"
+      },
+      {
+       "id": 129711,
+       "nom": "B. Johnson",
+       "poste": "F"
+      },
+      {
+       "id": 328107,
+       "nom": "L. Koumas",
+       "poste": "F"
+      },
+      {
+       "id": 545996,
+       "nom": "J. Lienou",
        "poste": "D"
       },
       {
-       "id": 419517,
-       "nom": "R.Tóth",
-       "poste": "M"
+       "id": 18866,
+       "nom": "C. Mepham",
+       "poste": "D"
       },
       {
-       "id": 28481,
-       "nom": "J. Urblík",
-       "poste": "M"
+       "id": null,
+       "nom": "Joseph Duncan",
+       "poste": "G"
       }
      ]
     },
     "exterieur": {
-     "formation": "3-4-2-1",
+     "formation": "4-2-3-1",
      "titulaires": [
       {
-       "id": 301285,
-       "nom": "P. Charles",
+       "id": 369,
+       "nom": "Diogo Costa",
        "poste": "G"
       },
       {
-       "id": 343209,
-       "nom": "Ruairi McConville",
+       "id": 886,
+       "nom": "Diogo Dalot",
        "poste": "D"
       },
       {
-       "id": 403232,
-       "nom": "Tom Atcheson",
+       "id": 331832,
+       "nom": "António Silva",
        "poste": "D"
       },
       {
-       "id": 44939,
-       "nom": "C. Brown",
+       "id": 336671,
+       "nom": "Renato Veiga",
        "poste": "D"
       },
       {
-       "id": 131258,
-       "nom": "T. Devlin",
+       "id": 855,
+       "nom": "João Cancelo",
+       "poste": "D"
+      },
+      {
+       "id": 335051,
+       "nom": "João Neves",
        "poste": "M"
       },
       {
-       "id": 119121,
-       "nom": "T. Hume",
+       "id": 128384,
+       "nom": "Vitinha",
        "poste": "M"
       },
       {
-       "id": 284356,
-       "nom": "S. Charles",
+       "id": 41112,
+       "nom": "Trincão",
        "poste": "M"
       },
       {
-       "id": 286458,
-       "nom": "J. Devenny",
+       "id": 1485,
+       "nom": "Bruno Fernandes",
        "poste": "M"
       },
       {
-       "id": 138814,
-       "nom": "E. Galbraith",
+       "id": 1864,
+       "nom": "Pedro Neto",
        "poste": "M"
       },
       {
-       "id": 315767,
-       "nom": "Patrick Kelly",
-       "poste": "M"
-      },
-      {
-       "id": 284267,
-       "nom": "I. Price",
+       "id": 41585,
+       "nom": "Gonçalo Ramos",
        "poste": "F"
       }
      ],
      "remplacants": [
       {
-       "id": 413034,
-       "nom": "B. Graham",
+       "id": 282126,
+       "nom": "Carlos Forbs",
        "poste": "F"
       },
       {
-       "id": 410654,
-       "nom": "E. Kenny",
-       "poste": "M"
-      },
-      {
-       "id": 20061,
-       "nom": "J. Thompson",
-       "poste": "M"
-      },
-      {
-       "id": 200116,
-       "nom": "B. Spencer",
+       "id": 265595,
+       "nom": "Gonçalo Inácio",
        "poste": "D"
       },
       {
-       "id": 20192,
-       "nom": "P. Smyth",
+       "id": 583,
+       "nom": "João Félix",
        "poste": "F"
       },
       {
-       "id": 389032,
-       "nom": "K. Morrison",
+       "id": 404097,
+       "nom": "Rodrigo Mora",
        "poste": "M"
       },
       {
-       "id": 284382,
-       "nom": "Dermot William Mee",
+       "id": 2676,
+       "nom": "Rúben Neves",
+       "poste": "M"
+      },
+      {
+       "id": 419582,
+       "nom": "Geovany Tcherno Quenda",
+       "poste": "M"
+      },
+      {
+       "id": 129791,
+       "nom": "Fábio Silva",
+       "poste": "F"
+      },
+      {
+       "id": 46672,
+       "nom": "Rui Silva",
        "poste": "G"
       },
       {
-       "id": 19242,
-       "nom": "P. McNair",
+       "id": 162595,
+       "nom": "Samuel Soares",
+       "poste": "G"
+      },
+      {
+       "id": 336585,
+       "nom": "Mateus Fernandes",
+       "poste": "M"
+      },
+      {
+       "id": 294722,
+       "nom": "Flávio Nazinho",
        "poste": "D"
       },
       {
-       "id": 344707,
-       "nom": "C. Marshall",
-       "poste": "F"
-      },
-      {
-       "id": 19715,
-       "nom": "J. Magennis",
-       "poste": "F"
-      },
-      {
-       "id": 45203,
-       "nom": "C. Hazard",
-       "poste": "G"
-      },
-      {
-       "id": 284419,
-       "nom": "M. Forbes",
+       "id": 330419,
+       "nom": "Alberto Baio",
        "poste": "D"
       }
      ]
@@ -1060,28 +1065,26 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "rouge",
-      "fleche": "hausse",
-      "pct": 3.1,
-      "ampleur": 3.0,
-      "raisons": [
-       "plus de 4 % entre H-3 et H-45"
-      ]
-     },
-     "N": {
       "feu": "vert",
       "fleche": "hausse",
-      "pct": 0.9,
-      "ampleur": 0.6,
+      "pct": 2.1,
+      "ampleur": 1.2,
+      "raisons": []
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 7.3,
+      "ampleur": 4.4,
       "raisons": []
      },
      "2": {
-      "feu": "rouge",
+      "feu": "orange",
       "fleche": "baisse",
-      "pct": -7.0,
-      "ampleur": 4.8,
+      "pct": -2.1,
+      "ampleur": 3.4,
       "raisons": [
-       "plus de 4 % entre H-3 et H-45"
+       "petite cote : mouvement plus fort qu'il n'y paraît"
       ]
      }
     },
@@ -1090,17 +1093,17 @@
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : Hungary ne gagne pas (N2)",
+    "pari": "12",
+    "phrase": "Le marché annonce : pas de match nul (12)",
     "incoherent": false,
     "deplacement": {
-     "1": -1.41,
-     "N": -0.23,
-     "2": 1.63
+     "1": -0.27,
+     "N": -1.25,
+     "2": 1.52
     },
     "marge": [
-     3.25,
-     3.12
+     3.38,
+     3.27
     ]
    },
    "score": null
@@ -1108,7 +1111,7 @@
   {
    "id": "e71a4a4fea03d00873c285c5b55a9864",
    "competition": "NL",
-   "coup_envoi": "2026-11-17T19:45:00Z",
+   "coup_envoi": "2026-11-17T19:46:00Z",
    "domicile": "Israel",
    "exterieur": "Austria",
    "foot": {
@@ -1470,375 +1473,9 @@
    "score": null
   },
   {
-   "id": "aab74efad72e8096e774c7104189ff09",
-   "competition": "NL",
-   "coup_envoi": "2026-11-17T19:45:00Z",
-   "domicile": "Poland",
-   "exterieur": "Sweden",
-   "foot": {
-    "id": 1528998,
-    "domicile": 24,
-    "exterieur": 5,
-    "nom_domicile": "Poland",
-    "nom_exterieur": "Sweden"
-   },
-   "releves": {
-    "H12": {
-     "prevu": "2026-11-17T07:45:00Z",
-     "etat": "fait",
-     "fait_a": "2026-11-17T08:04:09Z",
-     "retard_min": 19,
-     "pinnacle": {
-      "1": 2.27,
-      "N": 3.87,
-      "2": 3.02
-     },
-     "winamax": {
-      "1": 2.15,
-      "N": 3.6,
-      "2": 2.6
-     },
-     "maj_pinnacle": "2026-11-17T08:03:47Z"
-    },
-    "H3": {
-     "prevu": "2026-11-17T16:45:00Z",
-     "etat": "fait",
-     "fait_a": "2026-11-17T17:19:17Z",
-     "retard_min": 34,
-     "pinnacle": {
-      "1": 2.25,
-      "N": 3.95,
-      "2": 3.0
-     },
-     "winamax": {
-      "1": 2.05,
-      "N": 3.65,
-      "2": 2.7
-     },
-     "maj_pinnacle": "2026-11-17T17:19:16Z"
-    },
-    "H45": {
-     "prevu": "2026-11-17T19:00:00Z",
-     "etat": "fait",
-     "fait_a": "2026-11-17T19:02:34Z",
-     "retard_min": 3,
-     "pinnacle": {
-      "1": 2.32,
-      "N": 3.82,
-      "2": 2.96
-     },
-     "winamax": {
-      "1": 2.1,
-      "N": 3.6,
-      "2": 2.65
-     },
-     "maj_pinnacle": "2026-11-17T19:02:22Z"
-    }
-   },
-   "compos": {
-    "recue_a": "2026-11-17T19:39:36Z",
-    "minutes_avant": 5,
-    "domicile": {
-     "formation": "4-2-3-1",
-     "titulaires": [
-      {
-       "id": 341375,
-       "nom": "S. Abramowicz",
-       "poste": "G"
-      },
-      {
-       "id": 148448,
-       "nom": "A. Pyrka",
-       "poste": "D"
-      },
-      {
-       "id": 442546,
-       "nom": "K. Potulski",
-       "poste": "D"
-      },
-      {
-       "id": 2999,
-       "nom": "J. Bednarek",
-       "poste": "D"
-      },
-      {
-       "id": 524412,
-       "nom": "O. Kubiak",
-       "poste": "D"
-      },
-      {
-       "id": 329,
-       "nom": "P. Zieliński",
-       "poste": "M"
-      },
-      {
-       "id": 368737,
-       "nom": "W. Nowak",
-       "poste": "M"
-      },
-      {
-       "id": 429395,
-       "nom": "M. Reguła",
-       "poste": "M"
-      },
-      {
-       "id": 40403,
-       "nom": "S. Szymański",
-       "poste": "M"
-      },
-      {
-       "id": 203474,
-       "nom": "N. Zalewski",
-       "poste": "M"
-      },
-      {
-       "id": 40592,
-       "nom": "A. Benedyczak",
-       "poste": "F"
-      }
-     ],
-     "remplacants": [
-      {
-       "id": 31035,
-       "nom": "B. Drągowski",
-       "poste": "G"
-      },
-      {
-       "id": 128640,
-       "nom": "M. Kochalski",
-       "poste": "G"
-      },
-      {
-       "id": 2164,
-       "nom": "T. Kędziora",
-       "poste": "D"
-      },
-      {
-       "id": 521,
-       "nom": "R. Lewandowski",
-       "poste": "F"
-      },
-      {
-       "id": 442544,
-       "nom": "B. Mazurek",
-       "poste": "M"
-      },
-      {
-       "id": 119762,
-       "nom": "K. Piątkowski",
-       "poste": "D"
-      },
-      {
-       "id": 40533,
-       "nom": "Ł. Poręba",
-       "poste": "M"
-      },
-      {
-       "id": 40984,
-       "nom": "T. Puchacz",
-       "poste": "D"
-      },
-      {
-       "id": 40809,
-       "nom": "M. Skóraś",
-       "poste": "F"
-      },
-      {
-       "id": 182280,
-       "nom": "K. UrbaÅski",
-       "poste": "M"
-      },
-      {
-       "id": 2385,
-       "nom": "K. Świderski",
-       "poste": "F"
-      },
-      {
-       "id": 40460,
-       "nom": "M. Żukowski",
-       "poste": "F"
-      }
-     ]
-    },
-    "exterieur": {
-     "formation": "4-4-2",
-     "titulaires": [
-      {
-       "id": 193328,
-       "nom": "N. Törnqvist",
-       "poste": "G"
-      },
-      {
-       "id": 25312,
-       "nom": "F. Beijmo",
-       "poste": "D"
-      },
-      {
-       "id": 137721,
-       "nom": "G. Lagerbielke",
-       "poste": "D"
-      },
-      {
-       "id": 8486,
-       "nom": "E. Smith",
-       "poste": "D"
-      },
-      {
-       "id": 226765,
-       "nom": "E. Stroud",
-       "poste": "D"
-      },
-      {
-       "id": 47696,
-       "nom": "A. Bernhardsson",
-       "poste": "M"
-      },
-      {
-       "id": 335094,
-       "nom": "H. Larsson",
-       "poste": "M"
-      },
-      {
-       "id": 48047,
-       "nom": "J. Karlström",
-       "poste": "M"
-      },
-      {
-       "id": 383006,
-       "nom": "A. Njie",
-       "poste": "M"
-      },
-      {
-       "id": 18979,
-       "nom": "V. Gyökeres",
-       "poste": "F"
-      },
-      {
-       "id": 265820,
-       "nom": "Y. Ayari",
-       "poste": "F"
-      }
-     ],
-     "remplacants": [
-      {
-       "id": 398000,
-       "nom": "G. Antwi",
-       "poste": "D"
-      },
-      {
-       "id": 47903,
-       "nom": "H. Ekdal",
-       "poste": "D"
-      },
-      {
-       "id": 153430,
-       "nom": "A. Elanga",
-       "poste": "F"
-      },
-      {
-       "id": 47969,
-       "nom": "G. Gudmundsson",
-       "poste": "D"
-      },
-      {
-       "id": 2864,
-       "nom": "A. Isak",
-       "poste": "F"
-      },
-      {
-       "id": 158700,
-       "nom": "V. Johansson",
-       "poste": "G"
-      },
-      {
-       "id": 30435,
-       "nom": "D. Kulusevski",
-       "poste": "M"
-      },
-      {
-       "id": 889,
-       "nom": "V. Lindelöf",
-       "poste": "D"
-      },
-      {
-       "id": 226803,
-       "nom": "S. Nanasi",
-       "poste": "M"
-      },
-      {
-       "id": 198654,
-       "nom": "D. Svensson",
-       "poste": "D"
-      },
-      {
-       "id": 48033,
-       "nom": "J. Widell Zetterström",
-       "poste": "G"
-      }
-     ]
-    }
-   },
-   "compos_essais": [
-    "2026-11-17T19:12:32Z",
-    "2026-11-17T19:39:36Z"
-   ],
-   "absents": {
-    "releve_a": "2026-11-17T00:34:21Z",
-    "domicile": [],
-    "exterieur": []
-   },
-   "feux": {
-    "issues": {
-     "1": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 2.2,
-      "ampleur": 1.9,
-      "raisons": [
-       "Pinnacle et Winamax en sens opposé"
-      ]
-     },
-     "N": {
-      "feu": "vert",
-      "fleche": "baisse",
-      "pct": -1.3,
-      "ampleur": 0.9,
-      "raisons": []
-     },
-     "2": {
-      "feu": "orange",
-      "fleche": "baisse",
-      "pct": -2.0,
-      "ampleur": 1.5,
-      "raisons": [
-       "Pinnacle et Winamax en sens opposé"
-      ]
-     }
-    },
-    "base": "H12-H45",
-    "provisoire": false,
-    "partielle": false
-   },
-   "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
-    "incoherent": false,
-    "deplacement": {
-     "1": -0.95,
-     "N": 0.31,
-     "2": 0.63
-    },
-    "marge": [
-     3.01,
-     3.07
-    ]
-   },
-   "score": null
-  },
-  {
    "id": "a6c9b424fddccea76aab09880b69dd31",
    "competition": "NL",
-   "coup_envoi": "2026-11-17T19:45:00Z",
+   "coup_envoi": "2026-11-17T19:46:00Z",
    "domicile": "Republic of Ireland",
    "exterieur": "Kosovo",
    "foot": {
@@ -2197,7 +1834,7 @@
   {
    "id": "91b890f5fd20440cb272721b8a89a33d",
    "competition": "NL",
-   "coup_envoi": "2026-11-17T19:45:00Z",
+   "coup_envoi": "2026-11-17T19:46:00Z",
    "domicile": "Ukraine",
    "exterieur": "Georgia",
    "foot": {
@@ -2566,17 +2203,17 @@
    "score": null
   },
   {
-   "id": "955a201ba2266b8b6b0519e0265eb354",
+   "id": "1a07e9080f042594bdb529ab932d680c",
    "competition": "NL",
-   "coup_envoi": "2026-11-17T19:45:00Z",
-   "domicile": "Wales",
-   "exterieur": "Portugal",
+   "coup_envoi": "2026-11-17T19:48:00Z",
+   "domicile": "Hungary",
+   "exterieur": "Northern Ireland",
    "foot": {
-    "id": 1528992,
-    "domicile": 767,
-    "exterieur": 27,
-    "nom_domicile": "Wales",
-    "nom_exterieur": "Portugal"
+    "id": 1528995,
+    "domicile": 769,
+    "exterieur": 771,
+    "nom_domicile": "Hungary",
+    "nom_exterieur": "Northern Ireland"
    },
    "releves": {
     "H12": {
@@ -2585,14 +2222,14 @@
      "fait_a": "2026-11-17T08:04:09Z",
      "retard_min": 19,
      "pinnacle": {
-      "1": 7.05,
-      "N": 5.19,
-      "2": 1.43
+      "1": 1.96,
+      "N": 3.3,
+      "2": 4.56
      },
      "winamax": {
-      "1": 5.75,
-      "N": 5.0,
-      "2": 1.34
+      "1": 1.82,
+      "N": 3.15,
+      "2": 3.8
      },
      "maj_pinnacle": "2026-11-17T08:03:47Z"
     },
@@ -2602,14 +2239,14 @@
      "fait_a": "2026-11-17T17:19:17Z",
      "retard_min": 34,
      "pinnacle": {
-      "1": 7.26,
-      "N": 5.52,
-      "2": 1.4
+      "1": 1.92,
+      "N": 3.33,
+      "2": 4.77
      },
      "winamax": {
-      "1": 6.0,
-      "N": 5.2,
-      "2": 1.32
+      "1": 1.76,
+      "N": 3.15,
+      "2": 4.1
      },
      "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
@@ -2619,14 +2256,14 @@
      "fait_a": "2026-11-17T19:02:34Z",
      "retard_min": 3,
      "pinnacle": {
-      "1": 7.2,
-      "N": 5.57,
-      "2": 1.4
+      "1": 2.02,
+      "N": 3.33,
+      "2": 4.24
      },
      "winamax": {
-      "1": 6.0,
-      "N": 5.25,
-      "2": 1.31
+      "1": 1.86,
+      "N": 3.1,
+      "2": 3.7
      },
      "maj_pinnacle": "2026-11-17T19:02:22Z"
     }
@@ -2635,245 +2272,240 @@
     "recue_a": "2026-11-17T19:39:36Z",
     "minutes_avant": 5,
     "domicile": {
-     "formation": "4-2-3-1",
+     "formation": "4-3-3",
      "titulaires": [
       {
-       "id": 18146,
-       "nom": "D. Ward",
+       "id": 28048,
+       "nom": "B. Tóth",
        "poste": "G"
       },
       {
-       "id": 19331,
-       "nom": "C. Roberts",
+       "id": 28467,
+       "nom": "A. Osváth",
        "poste": "D"
       },
       {
-       "id": 19321,
-       "nom": "J. Rodon",
+       "id": 341983,
+       "nom": "M. Csinger",
        "poste": "D"
       },
       {
-       "id": 164,
-       "nom": "B. Davies",
+       "id": 443849,
+       "nom": "A. Markgráf",
        "poste": "D"
       },
       {
-       "id": 19260,
-       "nom": "J. Dasilva",
+       "id": 206254,
+       "nom": "M. Kerkez",
        "poste": "D"
       },
       {
-       "id": 82034,
-       "nom": "J. Sheehan",
+       "id": 30785,
+       "nom": "A. Schäfer",
        "poste": "M"
       },
       {
-       "id": 18870,
-       "nom": "D. Brooks",
+       "id": 179907,
+       "nom": "Á. Csongvai",
        "poste": "M"
       },
       {
-       "id": 19329,
-       "nom": "D. James",
+       "id": 19806,
+       "nom": "C. Styles",
        "poste": "M"
       },
       {
-       "id": 19221,
-       "nom": "H. Wilson",
-       "poste": "M"
+       "id": 26252,
+       "nom": "R. Sallai",
+       "poste": "F"
       },
       {
-       "id": 18599,
-       "nom": "S. Thomas",
-       "poste": "M"
+       "id": 7398,
+       "nom": "B. Varga",
+       "poste": "F"
       },
       {
-       "id": 301184,
-       "nom": "R. Colwill",
+       "id": 1096,
+       "nom": "D. Szoboszlai",
        "poste": "F"
       }
      ],
      "remplacants": [
       {
-       "id": 383815,
-       "nom": "Cian Ashford",
-       "poste": "F"
-      },
-      {
-       "id": 431884,
-       "nom": "Kai Andrews",
+       "id": 178883,
+       "nom": "P. Baráth",
        "poste": "M"
       },
       {
-       "id": 104041,
-       "nom": "B. Cabango",
+       "id": 27778,
+       "nom": "B. Bolla",
        "poste": "D"
       },
       {
-       "id": 17551,
-       "nom": "A. Collins",
-       "poste": "F"
-      },
-      {
-       "id": 19335,
-       "nom": "L. Cullen",
-       "poste": "F"
-      },
-      {
-       "id": 18885,
-       "nom": "K. Darlow",
+       "id": 28386,
+       "nom": "B. Gundel-Takács",
        "poste": "G"
       },
       {
-       "id": 17932,
-       "nom": "M. Harris",
+       "id": 325201,
+       "nom": "G. Jurek",
        "poste": "F"
       },
       {
-       "id": 129711,
-       "nom": "B. Johnson",
-       "poste": "F"
-      },
-      {
-       "id": 328107,
-       "nom": "L. Koumas",
-       "poste": "F"
-      },
-      {
-       "id": 545996,
-       "nom": "J. Lienou",
-       "poste": "D"
-      },
-      {
-       "id": 18866,
-       "nom": "C. Mepham",
-       "poste": "D"
-      },
-      {
-       "id": null,
-       "nom": "Joseph Duncan",
+       "id": 342467,
+       "nom": "Á. Pécsi",
        "poste": "G"
+      },
+      {
+       "id": 405330,
+       "nom": "M. Pető",
+       "poste": "M"
+      },
+      {
+       "id": 28443,
+       "nom": "A. Szalai",
+       "poste": "D"
+      },
+      {
+       "id": 150783,
+       "nom": "Á. Szendrei",
+       "poste": "F"
+      },
+      {
+       "id": 28585,
+       "nom": "K. Szűcs",
+       "poste": "D"
+      },
+      {
+       "id": 419517,
+       "nom": "R.Tóth",
+       "poste": "M"
+      },
+      {
+       "id": 28481,
+       "nom": "J. Urblík",
+       "poste": "M"
       }
      ]
     },
     "exterieur": {
-     "formation": "4-2-3-1",
+     "formation": "3-4-2-1",
      "titulaires": [
       {
-       "id": 369,
-       "nom": "Diogo Costa",
+       "id": 301285,
+       "nom": "P. Charles",
        "poste": "G"
       },
       {
-       "id": 886,
-       "nom": "Diogo Dalot",
+       "id": 343209,
+       "nom": "Ruairi McConville",
        "poste": "D"
       },
       {
-       "id": 331832,
-       "nom": "António Silva",
+       "id": 403232,
+       "nom": "Tom Atcheson",
        "poste": "D"
       },
       {
-       "id": 336671,
-       "nom": "Renato Veiga",
+       "id": 44939,
+       "nom": "C. Brown",
        "poste": "D"
       },
       {
-       "id": 855,
-       "nom": "João Cancelo",
-       "poste": "D"
-      },
-      {
-       "id": 335051,
-       "nom": "João Neves",
+       "id": 131258,
+       "nom": "T. Devlin",
        "poste": "M"
       },
       {
-       "id": 128384,
-       "nom": "Vitinha",
+       "id": 119121,
+       "nom": "T. Hume",
        "poste": "M"
       },
       {
-       "id": 41112,
-       "nom": "Trincão",
+       "id": 284356,
+       "nom": "S. Charles",
        "poste": "M"
       },
       {
-       "id": 1485,
-       "nom": "Bruno Fernandes",
+       "id": 286458,
+       "nom": "J. Devenny",
        "poste": "M"
       },
       {
-       "id": 1864,
-       "nom": "Pedro Neto",
+       "id": 138814,
+       "nom": "E. Galbraith",
        "poste": "M"
       },
       {
-       "id": 41585,
-       "nom": "Gonçalo Ramos",
+       "id": 315767,
+       "nom": "Patrick Kelly",
+       "poste": "M"
+      },
+      {
+       "id": 284267,
+       "nom": "I. Price",
        "poste": "F"
       }
      ],
      "remplacants": [
       {
-       "id": 282126,
-       "nom": "Carlos Forbs",
+       "id": 413034,
+       "nom": "B. Graham",
        "poste": "F"
       },
       {
-       "id": 265595,
-       "nom": "Gonçalo Inácio",
+       "id": 410654,
+       "nom": "E. Kenny",
+       "poste": "M"
+      },
+      {
+       "id": 20061,
+       "nom": "J. Thompson",
+       "poste": "M"
+      },
+      {
+       "id": 200116,
+       "nom": "B. Spencer",
        "poste": "D"
       },
       {
-       "id": 583,
-       "nom": "João Félix",
+       "id": 20192,
+       "nom": "P. Smyth",
        "poste": "F"
       },
       {
-       "id": 404097,
-       "nom": "Rodrigo Mora",
+       "id": 389032,
+       "nom": "K. Morrison",
        "poste": "M"
       },
       {
-       "id": 2676,
-       "nom": "Rúben Neves",
-       "poste": "M"
-      },
-      {
-       "id": 419582,
-       "nom": "Geovany Tcherno Quenda",
-       "poste": "M"
-      },
-      {
-       "id": 129791,
-       "nom": "Fábio Silva",
-       "poste": "F"
-      },
-      {
-       "id": 46672,
-       "nom": "Rui Silva",
+       "id": 284382,
+       "nom": "Dermot William Mee",
        "poste": "G"
       },
       {
-       "id": 162595,
-       "nom": "Samuel Soares",
-       "poste": "G"
-      },
-      {
-       "id": 336585,
-       "nom": "Mateus Fernandes",
-       "poste": "M"
-      },
-      {
-       "id": 294722,
-       "nom": "Flávio Nazinho",
+       "id": 19242,
+       "nom": "P. McNair",
        "poste": "D"
       },
       {
-       "id": 330419,
-       "nom": "Alberto Baio",
+       "id": 344707,
+       "nom": "C. Marshall",
+       "poste": "F"
+      },
+      {
+       "id": 19715,
+       "nom": "J. Magennis",
+       "poste": "F"
+      },
+      {
+       "id": 45203,
+       "nom": "C. Hazard",
+       "poste": "G"
+      },
+      {
+       "id": 284419,
+       "nom": "M. Forbes",
        "poste": "D"
       }
      ]
@@ -2891,26 +2523,28 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 2.1,
-      "ampleur": 1.2,
-      "raisons": []
-     },
-     "N": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 7.3,
-      "ampleur": 4.4,
+      "pct": 3.1,
+      "ampleur": 3.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.9,
+      "ampleur": 0.6,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -2.1,
-      "ampleur": 3.4,
+      "pct": -7.0,
+      "ampleur": 4.8,
       "raisons": [
-       "petite cote : mouvement plus fort qu'il n'y paraît"
+       "plus de 4 % entre H-3 et H-45"
       ]
      }
     },
@@ -2919,21 +2553,387 @@
     "partielle": false
    },
    "marche": {
-    "pari": "12",
-    "phrase": "Le marché annonce : pas de match nul (12)",
+    "pari": "N2",
+    "phrase": "Le marché annonce : Hungary ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -0.27,
-     "N": -1.25,
-     "2": 1.52
+     "1": -1.41,
+     "N": -0.23,
+     "2": 1.63
     },
     "marge": [
-     3.38,
-     3.27
+     3.25,
+     3.12
+    ]
+   },
+   "score": null
+  },
+  {
+   "id": "aab74efad72e8096e774c7104189ff09",
+   "competition": "NL",
+   "coup_envoi": "2026-11-17T19:48:00Z",
+   "domicile": "Poland",
+   "exterieur": "Sweden",
+   "foot": {
+    "id": 1528998,
+    "domicile": 24,
+    "exterieur": 5,
+    "nom_domicile": "Poland",
+    "nom_exterieur": "Sweden"
+   },
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-17T07:45:00Z",
+     "etat": "fait",
+     "fait_a": "2026-11-17T08:04:09Z",
+     "retard_min": 19,
+     "pinnacle": {
+      "1": 2.27,
+      "N": 3.87,
+      "2": 3.02
+     },
+     "winamax": {
+      "1": 2.15,
+      "N": 3.6,
+      "2": 2.6
+     },
+     "maj_pinnacle": "2026-11-17T08:03:47Z"
+    },
+    "H3": {
+     "prevu": "2026-11-17T16:45:00Z",
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 2.25,
+      "N": 3.95,
+      "2": 3.0
+     },
+     "winamax": {
+      "1": 2.05,
+      "N": 3.65,
+      "2": 2.7
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
+    },
+    "H45": {
+     "prevu": "2026-11-17T19:00:00Z",
+     "etat": "fait",
+     "fait_a": "2026-11-17T19:02:34Z",
+     "retard_min": 3,
+     "pinnacle": {
+      "1": 2.32,
+      "N": 3.82,
+      "2": 2.96
+     },
+     "winamax": {
+      "1": 2.1,
+      "N": 3.6,
+      "2": 2.65
+     },
+     "maj_pinnacle": "2026-11-17T19:02:22Z"
+    }
+   },
+   "compos": {
+    "recue_a": "2026-11-17T19:39:36Z",
+    "minutes_avant": 5,
+    "domicile": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 341375,
+       "nom": "S. Abramowicz",
+       "poste": "G"
+      },
+      {
+       "id": 148448,
+       "nom": "A. Pyrka",
+       "poste": "D"
+      },
+      {
+       "id": 442546,
+       "nom": "K. Potulski",
+       "poste": "D"
+      },
+      {
+       "id": 2999,
+       "nom": "J. Bednarek",
+       "poste": "D"
+      },
+      {
+       "id": 524412,
+       "nom": "O. Kubiak",
+       "poste": "D"
+      },
+      {
+       "id": 329,
+       "nom": "P. Zieliński",
+       "poste": "M"
+      },
+      {
+       "id": 368737,
+       "nom": "W. Nowak",
+       "poste": "M"
+      },
+      {
+       "id": 429395,
+       "nom": "M. Reguła",
+       "poste": "M"
+      },
+      {
+       "id": 40403,
+       "nom": "S. Szymański",
+       "poste": "M"
+      },
+      {
+       "id": 203474,
+       "nom": "N. Zalewski",
+       "poste": "M"
+      },
+      {
+       "id": 40592,
+       "nom": "A. Benedyczak",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 31035,
+       "nom": "B. Drągowski",
+       "poste": "G"
+      },
+      {
+       "id": 128640,
+       "nom": "M. Kochalski",
+       "poste": "G"
+      },
+      {
+       "id": 2164,
+       "nom": "T. Kędziora",
+       "poste": "D"
+      },
+      {
+       "id": 521,
+       "nom": "R. Lewandowski",
+       "poste": "F"
+      },
+      {
+       "id": 442544,
+       "nom": "B. Mazurek",
+       "poste": "M"
+      },
+      {
+       "id": 119762,
+       "nom": "K. Piątkowski",
+       "poste": "D"
+      },
+      {
+       "id": 40533,
+       "nom": "Ł. Poręba",
+       "poste": "M"
+      },
+      {
+       "id": 40984,
+       "nom": "T. Puchacz",
+       "poste": "D"
+      },
+      {
+       "id": 40809,
+       "nom": "M. Skóraś",
+       "poste": "F"
+      },
+      {
+       "id": 182280,
+       "nom": "K. UrbaÅski",
+       "poste": "M"
+      },
+      {
+       "id": 2385,
+       "nom": "K. Świderski",
+       "poste": "F"
+      },
+      {
+       "id": 40460,
+       "nom": "M. Żukowski",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 193328,
+       "nom": "N. Törnqvist",
+       "poste": "G"
+      },
+      {
+       "id": 25312,
+       "nom": "F. Beijmo",
+       "poste": "D"
+      },
+      {
+       "id": 137721,
+       "nom": "G. Lagerbielke",
+       "poste": "D"
+      },
+      {
+       "id": 8486,
+       "nom": "E. Smith",
+       "poste": "D"
+      },
+      {
+       "id": 226765,
+       "nom": "E. Stroud",
+       "poste": "D"
+      },
+      {
+       "id": 47696,
+       "nom": "A. Bernhardsson",
+       "poste": "M"
+      },
+      {
+       "id": 335094,
+       "nom": "H. Larsson",
+       "poste": "M"
+      },
+      {
+       "id": 48047,
+       "nom": "J. Karlström",
+       "poste": "M"
+      },
+      {
+       "id": 383006,
+       "nom": "A. Njie",
+       "poste": "M"
+      },
+      {
+       "id": 18979,
+       "nom": "V. Gyökeres",
+       "poste": "F"
+      },
+      {
+       "id": 265820,
+       "nom": "Y. Ayari",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 398000,
+       "nom": "G. Antwi",
+       "poste": "D"
+      },
+      {
+       "id": 47903,
+       "nom": "H. Ekdal",
+       "poste": "D"
+      },
+      {
+       "id": 153430,
+       "nom": "A. Elanga",
+       "poste": "F"
+      },
+      {
+       "id": 47969,
+       "nom": "G. Gudmundsson",
+       "poste": "D"
+      },
+      {
+       "id": 2864,
+       "nom": "A. Isak",
+       "poste": "F"
+      },
+      {
+       "id": 158700,
+       "nom": "V. Johansson",
+       "poste": "G"
+      },
+      {
+       "id": 30435,
+       "nom": "D. Kulusevski",
+       "poste": "M"
+      },
+      {
+       "id": 889,
+       "nom": "V. Lindelöf",
+       "poste": "D"
+      },
+      {
+       "id": 226803,
+       "nom": "S. Nanasi",
+       "poste": "M"
+      },
+      {
+       "id": 198654,
+       "nom": "D. Svensson",
+       "poste": "D"
+      },
+      {
+       "id": 48033,
+       "nom": "J. Widell Zetterström",
+       "poste": "G"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-17T19:12:32Z",
+    "2026-11-17T19:39:36Z"
+   ],
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 2.2,
+      "ampleur": 1.9,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.3,
+      "ampleur": 0.9,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -2.0,
+      "ampleur": 1.5,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     }
+    },
+    "base": "H12-H45",
+    "provisoire": false,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.95,
+     "N": 0.31,
+     "2": 0.63
+    },
+    "marge": [
+     3.01,
+     3.07
     ]
    },
    "score": null
   }
  ],
- "maj": "2026-11-17T19:39:36Z"
+ "maj": "2026-11-17T20:31:30Z"
 }
