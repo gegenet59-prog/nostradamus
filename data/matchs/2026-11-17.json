@@ -7,7 +7,13 @@
    "coup_envoi": "2026-11-17T19:45:00Z",
    "domicile": "Bosnia & Herzegovina",
    "exterieur": "Romania",
-   "foot": null,
+   "foot": {
+    "id": 1528999,
+    "domicile": 1113,
+    "exterieur": 774,
+    "nom_domicile": "Bosnia & Herzegovina",
+    "nom_exterieur": "Romania"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-17T07:45:00Z",
@@ -24,7 +30,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -35,7 +45,13 @@
    "coup_envoi": "2026-11-17T19:45:00Z",
    "domicile": "Denmark",
    "exterieur": "Norway",
-   "foot": null,
+   "foot": {
+    "id": 1528993,
+    "domicile": 21,
+    "exterieur": 1090,
+    "nom_domicile": "Denmark",
+    "nom_exterieur": "Norway"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-17T07:45:00Z",
@@ -52,7 +68,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -63,7 +83,13 @@
    "coup_envoi": "2026-11-17T19:45:00Z",
    "domicile": "Hungary",
    "exterieur": "Northern Ireland",
-   "foot": null,
+   "foot": {
+    "id": 1528995,
+    "domicile": 769,
+    "exterieur": 771,
+    "nom_domicile": "Hungary",
+    "nom_exterieur": "Northern Ireland"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-17T07:45:00Z",
@@ -80,7 +106,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -91,7 +121,13 @@
    "coup_envoi": "2026-11-17T19:45:00Z",
    "domicile": "Israel",
    "exterieur": "Austria",
-   "foot": null,
+   "foot": {
+    "id": 1528996,
+    "domicile": 1116,
+    "exterieur": 775,
+    "nom_domicile": "Israel",
+    "nom_exterieur": "Austria"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-17T07:45:00Z",
@@ -108,7 +144,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -119,7 +159,13 @@
    "coup_envoi": "2026-11-17T19:45:00Z",
    "domicile": "Poland",
    "exterieur": "Sweden",
-   "foot": null,
+   "foot": {
+    "id": 1528998,
+    "domicile": 24,
+    "exterieur": 5,
+    "nom_domicile": "Poland",
+    "nom_exterieur": "Sweden"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-17T07:45:00Z",
@@ -136,7 +182,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -147,7 +197,13 @@
    "coup_envoi": "2026-11-17T19:45:00Z",
    "domicile": "Republic of Ireland",
    "exterieur": "Kosovo",
-   "foot": null,
+   "foot": {
+    "id": 1528997,
+    "domicile": 776,
+    "exterieur": 1111,
+    "nom_domicile": "Rep. Of Ireland",
+    "nom_exterieur": "Kosovo"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-17T07:45:00Z",
@@ -164,7 +220,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -175,7 +235,13 @@
    "coup_envoi": "2026-11-17T19:45:00Z",
    "domicile": "Ukraine",
    "exterieur": "Georgia",
-   "foot": null,
+   "foot": {
+    "id": 1528994,
+    "domicile": 772,
+    "exterieur": 1104,
+    "nom_domicile": "Ukraine",
+    "nom_exterieur": "Georgia"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-17T07:45:00Z",
@@ -192,7 +258,11 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -203,7 +273,13 @@
    "coup_envoi": "2026-11-17T19:45:00Z",
    "domicile": "Wales",
    "exterieur": "Portugal",
-   "foot": null,
+   "foot": {
+    "id": 1528992,
+    "domicile": 767,
+    "exterieur": 27,
+    "nom_domicile": "Wales",
+    "nom_exterieur": "Portugal"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-17T07:45:00Z",
@@ -220,11 +296,15 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-17T00:34:21Z",
+    "domicile": [],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
   }
  ],
- "maj": "2026-11-15T10:11:03Z"
+ "maj": "2026-11-17T00:34:21Z"
 }
