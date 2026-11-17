@@ -147,3 +147,6 @@ mois, arrêt total à 20 crédits. API-Football : 6 requêtes toujours gardées 
 - Les clés restent dans les secrets du dépôt. Jamais dans le code, la page, les fichiers de `data/` ou les journaux.
 - Pour tester : `python3 -m unittest discover tests` (fausses API). `verif/essai.py` fait un essai réel pour 1 crédit.
 - Gérard n'est pas développeur et travaille surtout sur son téléphone Android : lui expliquer simplement.
+
+## Fiche match (17/11)
+- Toucher une carte dans Matchs ouvre le match seul (#m/<id>) : graphique des cotes aux relevés H-12 / H-3 / H-45 (Pinnacle plein, Winamax pointillé, 1/N/2) + tableau des relevés. Bouton « Retour aux matchs ».

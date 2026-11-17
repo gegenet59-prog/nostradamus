@@ -57,6 +57,18 @@ nav button.on{color:var(--txt)}nav button.on i{background:var(--txt)}
 .days button{min-height:44px;min-width:44px;background:var(--card);border-radius:12px;font-size:18px;color:var(--txt)}
 .days{display:flex;align-items:center;justify-content:space-between;gap:8px}
 .days span{font:700 15px 'Space Grotesk',sans-serif;text-align:center;flex:1}
+.clic{cursor:pointer}
+.clic::after{content:"Détail ›";align-self:flex-end;font-size:12px;font-weight:600;color:var(--mute)}
+.back{align-self:flex-start;min-height:44px;padding:0 14px;border-radius:12px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;color:var(--txt)}
+.graph{width:100%;height:auto;display:block}
+.leg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--soft)}
+.leg span{display:inline-flex;align-items:center;gap:6px}
+.leg i{width:16px;height:3px;border-radius:2px;display:inline-block}
+.rel{width:100%;border-collapse:collapse;font-size:13px}
+.rel th{font-size:11px;color:var(--mute);font-weight:600;text-align:left;padding:4px 0}
+.rel td{padding:8px 0;border-top:1px solid var(--line);vertical-align:top}
+.rel td small{display:block;font-size:11px;color:var(--mute);margin-top:2px}
+.rel td b{font:700 15px 'Space Grotesk',sans-serif}
 .blk{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:0 14px}
 .blk>summary{list-style:none;min-height:56px;display:flex;align-items:center;justify-content:space-between;font:700 17px 'Space Grotesk',sans-serif;cursor:pointer}
 .blk>summary::-webkit-details-marker{display:none}
@@ -173,6 +185,62 @@ ${(()=>{const L=lecture(m);return L?`<div class="phrase">Les cotes donnent : <b>
 ${m.marche&&m.marche.incoherent?'<span class="flag">Mouvement incohérent</span>':""}${sc}</div>`;
 }
 
+
+/* ---------- Écran d'un match ---------- */
+const COUL={"1":"#6CB4FF","N":"#B8BFCC","2":"#F0A5E0"};
+const RELS=[["H12","H-12"],["H3","H-3"],["H45","H-45"]];
+function graphique(m){
+  const R=m.releves||{}, W=340, H=236, X=[58,170,282], haut=30, bas=H-48;
+  const val=(n,bk,k)=>{const c=(R[n]||{})[bk];return c&&c[k]>1?c[k]:null};
+  const tous=[];
+  for(const [n] of RELS)for(const bk of["pinnacle","winamax"])for(const k of["1","N","2"]){const v=val(n,bk,k);if(v)tous.push(v)}
+  if(!tous.length)return "";
+  let lo=Math.min(...tous), hi=Math.max(...tous); const pad=Math.max(.15,(hi-lo)*.14); lo-=pad; hi+=pad;
+  const Y=v=>bas-(v-lo)/(hi-lo)*(bas-haut);
+  let svg="", lab=[[],[],[]];
+  for(const bk of["winamax","pinnacle"]){
+    for(const k of["1","N","2"]){
+      const p=RELS.map(([n],i)=>[i,val(n,bk,k)]).filter(x=>x[1]);
+      if(!p.length)continue;
+      const plein=bk==="pinnacle";
+      if(p.length>1)svg+=`<polyline points="${p.map(([i,v])=>X[i]+","+Y(v).toFixed(1)).join(" ")}" fill="none" stroke="${COUL[k]}" stroke-width="${plein?2.6:1.6}" ${plein?"":'stroke-dasharray="4 4" opacity=".75"'} stroke-linejoin="round" stroke-linecap="round"/>`;
+      for(const [i,v] of p){
+        svg+=`<circle cx="${X[i]}" cy="${Y(v).toFixed(1)}" r="${plein?4.5:3}" fill="${plein?COUL[k]:"var(--card)"}" stroke="${COUL[k]}" stroke-width="${plein?0:1.5}"/>`;
+        if(plein)lab[i].push({k,v,y:Y(v)-9});
+      }
+    }
+  }
+  for(let i=0;i<3;i++){
+    lab[i].sort((a,b)=>a.y-b.y);
+    for(let j=1;j<lab[i].length;j++)if(lab[i][j].y-lab[i][j-1].y<14)lab[i][j].y=lab[i][j-1].y+14;
+    for(const l of lab[i])svg+=`<text x="${X[i]}" y="${l.y.toFixed(1)}" text-anchor="middle" font-size="12" font-weight="700" fill="${COUL[l.k]}" stroke="var(--card)" stroke-width="3" paint-order="stroke">${fr(l.v)}</text>`;
+  }
+  RELS.forEach(([n,t],i)=>{
+    const r=R[n]||{}, h=r.etat==="fait"&&r.fait_a?heure(r.fait_a):(r.etat==="manque"||r.etat==="vide")?"manqué":r.prevu?"prévu "+heure(r.prevu):"";
+    svg+=`<text x="${X[i]}" y="${H-24}" text-anchor="middle" font-size="12" font-weight="700" fill="var(--txt)">${t}</text><text x="${X[i]}" y="${H-9}" text-anchor="middle" font-size="11" fill="var(--mute)">${h}</text>`;
+  });
+  return `<svg class="graph" viewBox="0 0 ${W} ${H}" role="img" aria-label="Évolution des cotes aux relevés H-12, H-3 et H-45">${svg}</svg>`;
+}
+function tableauReleves(m){
+  const R=m.releves||{}, ligne=([n,t])=>{
+    const r=R[n]||{}, p=r.pinnacle, w=r.winamax;
+    if(!p)return `<tr><td>${t}<small>${r.etat==="attente"?"à venir":"pas de relevé"}</small></td><td colspan="3" style="color:var(--mute)">–</td></tr>`;
+    return `<tr><td>${t}<small>${r.fait_a?heure(r.fait_a):""}</small></td>${["1","N","2"].map(k=>`<td><b>${fr(p[k])}</b>${w&&w[k]?`<small>Winamax ${fr(w[k])}</small>`:""}</td>`).join("")}</tr>`;
+  };
+  return `<table class="rel"><tr><th>Relevé</th><th>1 · Dom.</th><th>N · Nul</th><th>2 · Ext.</th></tr>${RELS.map(ligne).join("")}</table>`;
+}
+function ecranMatch(m){
+  const L=["1","N","2"].map(k=>`<span><i style="background:${COUL[k]}"></i>${k} · ${NOMISS[k]}</span>`).join("");
+  app.innerHTML=`<button class="back" id="retour">‹ Retour aux matchs</button>
+${carte(m)}
+<div class="card"><div class="teams" style="font-size:16px">Évolution des cotes</div>${graphique(m)||'<div class="wait">Pas encore de relevé pour ce match.</div>'}
+<div class="leg">${L}</div><div class="meta">Trait plein : Pinnacle · pointillé : Winamax</div></div>
+<div class="card"><div class="teams" style="font-size:16px">Détail des relevés</div>${tableauReleves(m)}</div>`;
+  $("#retour").onclick=()=>history.length>1?history.back():(location.hash="");
+  window.scrollTo(0,0);
+}
+let scrollListe=0;
+
 /* ---------- Écran Stats ---------- */
 const VIDE=()=>({feu:null,sens:"",comp:"",issue:"",pari:"",saison:null,tranche:""});
 const BL={hist:{url:"data/stats/historique.json",ST:null,etat:"",sel:VIDE(),nom:"Historique"},
@@ -267,6 +335,8 @@ const pc=(x,d=1)=>fr(x,d)+" %";
 
 function dessiner(){
   if(onglet==="stats"){ecranStats();return}
+  const mid=(location.hash.match(/^#m\/(.+)$/)||[])[1], mm=onglet==="matchs"&&mid?matchs.find(x=>x.id===mid):null;
+  if(mm){ecranMatch(mm);return}
   if(onglet!=="matchs"){
     const t="Alertes";
     const d="Cet écran arrive bientôt : une notification sur ton téléphone dès qu'un match passe en Extrême.";
@@ -279,9 +349,11 @@ function dessiner(){
   app.innerHTML=`<div><h1>Nostradamus</h1><div class="sub">Variations de cotes Pinnacle · lecture seule</div></div>
 <div class="days"><button id="prev" aria-label="Jour précédent" ${i<=0?"disabled style='opacity:.35'":""}>‹</button><span>${jour?libJour(jour):"Aucun match"}</span><button id="next" aria-label="Jour suivant" ${i>=jours.length-1?"disabled style='opacity:.35'":""}>›</button></div>
 ${comps.length>2?`<div class="row">${comps.map(c=>`<button class="chip ${c===filtre?"on":""}" data-c="${esc(c)}">${esc(c)}</button>`).join("")}</div>`:""}
-${liste.length?liste.map(carte).join(""):`<div class="msg">${nbFinis?"Tous les matchs de ce jour sont terminés : ils sont archivés pour les statistiques.":"Pas encore de match enregistré pour ce jour. Le collecteur prépare les 60 prochaines heures."}</div>`}`;
+${liste.length?liste.map(m=>carte(m).replace('<div class="card">','<div class="card clic" data-id="'+esc(m.id)+'">')).join(""):`<div class="msg">${nbFinis?"Tous les matchs de ce jour sont terminés : ils sont archivés pour les statistiques.":"Pas encore de match enregistré pour ce jour. Le collecteur prépare les 60 prochaines heures."}</div>`}`;
   $("#prev").onclick=()=>aller(i-1);$("#next").onclick=()=>aller(i+1);
   app.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{filtre=b.dataset.c;dessiner()});
+  app.querySelectorAll(".card.clic").forEach(c=>c.onclick=()=>{scrollListe=window.scrollY;location.hash="#m/"+c.dataset.id});
+  if(scrollListe){const y=scrollListe;scrollListe=0;requestAnimationFrame(()=>window.scrollTo(0,y))}
 }
 async function aller(i){if(i<0||i>=jours.length)return;jour=jours[i];await charger()}
 async function charger(){
@@ -297,7 +369,8 @@ async function init(){
     if(jour)await charger();else dessiner();
   }catch(e){app.innerHTML=`<div><h1>Nostradamus</h1></div><div class="msg">Aucun relevé n'est encore enregistré. Le collecteur remplit la base automatiquement : reviens dans quelques heures.</div>`}
 }
-for(const [id,o] of [["t-matchs","matchs"],["t-stats","stats"],["t-alertes","alertes"]])$("#"+id).onclick=()=>{onglet=o;document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.id==="t-"+o));dessiner()};
+for(const [id,o] of [["t-matchs","matchs"],["t-stats","stats"],["t-alertes","alertes"]])$("#"+id).onclick=()=>{onglet=o;if(location.hash)history.replaceState(null,"",location.pathname+location.search);document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.id==="t-"+o));dessiner()};
+window.addEventListener("hashchange",dessiner);
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 init();
 setInterval(()=>{if(onglet==="matchs"&&jour)charger()},120000);
