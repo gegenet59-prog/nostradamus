@@ -6,7 +6,7 @@
  },
  "foot": {
   "jour": "2026-11-17",
-  "reste": 97
+  "reste": 96
  },
  "jours_foot": {
   "2026-11-13": {
@@ -36,7 +36,7 @@
   "2026-11-17": {
    "lien_jour": "2026-11-17",
    "lien_heure": 0,
-   "absents": "2026-11-17T00:34:21Z"
+   "absents": "2026-11-17T18:55:54Z"
   }
  },
  "alertes": [
@@ -62,5 +62,5 @@
   }
  ],
  "planning_fait_a": "2026-11-17T14:29:46Z",
- "dernier_passage_utile": "2026-11-17T17:19:17Z"
+ "dernier_passage_utile": "2026-11-17T18:55:54Z"
 }
