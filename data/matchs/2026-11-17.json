@@ -34,7 +34,20 @@
     },
     "H3": {
      "prevu": "2026-11-17T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 2.11,
+      "N": 3.78,
+      "2": 3.43
+     },
+     "winamax": {
+      "1": 1.98,
+      "N": 3.45,
+      "2": 3.0
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
     "H45": {
      "prevu": "2026-11-17T19:00:00Z",
@@ -48,8 +61,50 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.5,
+      "ampleur": 0.4,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 1.6,
+      "ampleur": 1.1,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.0,
+      "ampleur": 1.4,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.19,
+     "N": -0.4,
+     "2": 0.58
+    },
+    "marge": [
+     3.07,
+     3.0
+    ]
+   },
    "score": null
   },
   {
@@ -85,7 +140,20 @@
     },
     "H3": {
      "prevu": "2026-11-17T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 2.61,
+      "N": 4.21,
+      "2": 2.44
+     },
+     "winamax": {
+      "1": 2.4,
+      "N": 4.1,
+      "2": 2.2
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
     "H45": {
      "prevu": "2026-11-17T19:00:00Z",
@@ -99,8 +167,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 12.0,
+      "ampleur": 9.8,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.7,
+      "ampleur": 1.7,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -12.5,
+      "ampleur": 11.3,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "2",
+    "phrase": "Le marché annonce : Norway gagne (2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -4.43,
+     "N": -0.6,
+     "2": 5.02
+    },
+    "marge": [
+     3.15,
+     3.05
+    ]
+   },
    "score": null
   },
   {
@@ -136,7 +244,20 @@
     },
     "H3": {
      "prevu": "2026-11-17T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 1.92,
+      "N": 3.33,
+      "2": 4.77
+     },
+     "winamax": {
+      "1": 1.76,
+      "N": 3.15,
+      "2": 4.1
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
     "H45": {
      "prevu": "2026-11-17T19:00:00Z",
@@ -150,8 +271,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.0,
+      "ampleur": 2.1,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.9,
+      "ampleur": 0.6,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 4.6,
+      "ampleur": 2.9,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Northern Ireland ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.12,
+     "N": -0.21,
+     "2": -0.9
+    },
+    "marge": [
+     3.25,
+     3.08
+    ]
+   },
    "score": null
   },
   {
@@ -187,7 +348,20 @@
     },
     "H3": {
      "prevu": "2026-11-17T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 4.2,
+      "N": 4.11,
+      "2": 1.81
+     },
+     "winamax": {
+      "1": 3.65,
+      "N": 3.9,
+      "2": 1.68
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
     "H45": {
      "prevu": "2026-11-17T19:00:00Z",
@@ -201,8 +375,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.4,
+      "ampleur": 1.6,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.2,
+      "ampleur": 1.5,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.2,
+      "ampleur": 2.3,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "2",
+    "phrase": "Le marché annonce : Austria gagne (2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.58,
+     "N": -0.54,
+     "2": 1.12
+    },
+    "marge": [
+     3.32,
+     3.39
+    ]
+   },
    "score": null
   },
   {
@@ -238,7 +452,20 @@
     },
     "H3": {
      "prevu": "2026-11-17T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 2.25,
+      "N": 3.95,
+      "2": 3.0
+     },
+     "winamax": {
+      "1": 2.05,
+      "N": 3.65,
+      "2": 2.7
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
     "H45": {
      "prevu": "2026-11-17T19:00:00Z",
@@ -252,8 +479,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.9,
+      "ampleur": 0.8,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.1,
+      "ampleur": 1.4,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.7,
+      "ampleur": 0.5,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.34,
+     "N": -0.53,
+     "2": 0.19
+    },
+    "marge": [
+     3.01,
+     3.09
+    ]
+   },
    "score": null
   },
   {
@@ -289,7 +556,20 @@
     },
     "H3": {
      "prevu": "2026-11-17T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 1.96,
+      "N": 3.38,
+      "2": 4.43
+     },
+     "winamax": {
+      "1": 1.84,
+      "N": 3.1,
+      "2": 3.8
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
     "H45": {
      "prevu": "2026-11-17T19:00:00Z",
@@ -303,8 +583,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -7.1,
+      "ampleur": 7.3,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.4,
+      "ampleur": 2.4,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 11.0,
+      "ampleur": 7.0,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Republic of Ireland gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 3.45,
+     "N": -1.01,
+     "2": -2.45
+    },
+    "marge": [
+     3.04,
+     3.18
+    ]
+   },
    "score": null
   },
   {
@@ -340,7 +660,20 @@
     },
     "H3": {
      "prevu": "2026-11-17T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 2.07,
+      "N": 3.3,
+      "2": 4.07
+     },
+     "winamax": {
+      "1": 1.94,
+      "N": 3.05,
+      "2": 3.55
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
     "H45": {
      "prevu": "2026-11-17T19:00:00Z",
@@ -354,8 +687,48 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -4.2,
+      "ampleur": 4.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.6,
+      "ampleur": 0.4,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 8.8,
+      "ampleur": 5.8,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Georgia ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.94,
+     "N": 0.17,
+     "2": -2.11
+    },
+    "marge": [
+     3.15,
+     3.18
+    ]
+   },
    "score": null
   },
   {
@@ -391,7 +764,20 @@
     },
     "H3": {
      "prevu": "2026-11-17T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-17T17:19:17Z",
+     "retard_min": 34,
+     "pinnacle": {
+      "1": 7.26,
+      "N": 5.52,
+      "2": 1.4
+     },
+     "winamax": {
+      "1": 6.0,
+      "N": 5.2,
+      "2": 1.32
+     },
+     "maj_pinnacle": "2026-11-17T17:19:16Z"
     },
     "H45": {
      "prevu": "2026-11-17T19:00:00Z",
@@ -405,10 +791,52 @@
     "domicile": [],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 3.0,
+      "ampleur": 1.7,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 6.4,
+      "ampleur": 3.8,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -2.1,
+      "ampleur": 3.4,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "12",
+    "phrase": "Le marché annonce : pas de match nul (12)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.39,
+     "N": -1.1,
+     "2": 1.49
+    },
+    "marge": [
+     3.38,
+     3.32
+    ]
+   },
    "score": null
   }
  ],
- "maj": "2026-11-17T08:04:09Z"
+ "maj": "2026-11-17T17:19:17Z"
 }
