@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-20",
+ "matchs": [
+  {
+   "id": "cae480fb1195f0032554a268cb80eb44",
+   "competition": "BL",
+   "coup_envoi": "2026-11-20T19:30:00Z",
+   "domicile": "Bayern Munich",
+   "exterieur": "1. FC Köln",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-20T07:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-20T16:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-20T18:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "5dcc9d2b0da87770a4f49e924275be39",
+   "competition": "L1",
+   "coup_envoi": "2026-11-20T19:45:00Z",
+   "domicile": "Troyes",
+   "exterieur": "Le Havre",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-20T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-20T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-20T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "dcee36f9b8a9989972b6d4ddde76c4c7",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-20T20:00:00Z",
+   "domicile": "Athletic Bilbao",
+   "exterieur": "Espanyol",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-20T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-20T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-20T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  }
+ ],
+ "maj": "2026-11-18T09:03:58Z"
+}
