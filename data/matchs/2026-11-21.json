@@ -1,0 +1,454 @@
+{
+ "date": "2026-11-21",
+ "matchs": [
+  {
+   "id": "6ef39b0fd8839f6e93a3de32523e9807",
+   "competition": "PL",
+   "coup_envoi": "2026-11-21T12:30:00Z",
+   "domicile": "Manchester City",
+   "exterieur": "Fulham",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T00:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T09:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T11:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "9881e56a732493272e688663b26cd37f",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-21T13:00:00Z",
+   "domicile": "Alavés",
+   "exterieur": "Deportivo La Coruña",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T01:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T10:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T12:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "9e8d72c6c27c1667be7b88416a36ca80",
+   "competition": "SA",
+   "coup_envoi": "2026-11-21T14:00:00Z",
+   "domicile": "Como",
+   "exterieur": "Cagliari",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T02:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T11:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T13:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "bf921a2780e2a25201da8a3bfece84c4",
+   "competition": "SA",
+   "coup_envoi": "2026-11-21T14:00:00Z",
+   "domicile": "Lazio",
+   "exterieur": "Lecce",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T02:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T11:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T13:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "c24cf629b4eaf0ebc4ca2c5beb73747c",
+   "competition": "BL",
+   "coup_envoi": "2026-11-21T14:30:00Z",
+   "domicile": "Bayer Leverkusen",
+   "exterieur": "SC Paderborn",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T02:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T11:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T13:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "577976c4b042018534e14db9ce579cf6",
+   "competition": "BL",
+   "coup_envoi": "2026-11-21T14:30:00Z",
+   "domicile": "Borussia Monchengladbach",
+   "exterieur": "Borussia Dortmund",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T02:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T11:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T13:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "d0128b7d64e40ca3f1ae1b288b47117a",
+   "competition": "BL",
+   "coup_envoi": "2026-11-21T14:30:00Z",
+   "domicile": "Eintracht Frankfurt",
+   "exterieur": "TSG Hoffenheim",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T02:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T11:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T13:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "c8bcd407a7b987234c72c62ec37246ef",
+   "competition": "BL",
+   "coup_envoi": "2026-11-21T14:30:00Z",
+   "domicile": "Elversberg",
+   "exterieur": "SC Freiburg",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T02:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T11:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T13:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "ca93df81e976fbe345a6175bb24e3f19",
+   "competition": "BL",
+   "coup_envoi": "2026-11-21T14:30:00Z",
+   "domicile": "Union Berlin",
+   "exterieur": "RB Leipzig",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T02:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T11:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T13:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "b8d6ab6ecc8bb356c6335d3f417d0ecf",
+   "competition": "PL",
+   "coup_envoi": "2026-11-21T15:00:00Z",
+   "domicile": "Aston Villa",
+   "exterieur": "Sunderland",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T03:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T12:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T14:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "cf68da11fa604c13fc9ef3219fad0314",
+   "competition": "PL",
+   "coup_envoi": "2026-11-21T15:00:00Z",
+   "domicile": "Bournemouth",
+   "exterieur": "Nottingham Forest",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T03:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T12:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T14:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "ac6cf70520a83c0949b4003bde53c709",
+   "competition": "PL",
+   "coup_envoi": "2026-11-21T15:00:00Z",
+   "domicile": "Chelsea",
+   "exterieur": "Leeds United",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T03:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T12:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T14:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "9f38413bdad666e2d2dfcc574dd12e66",
+   "competition": "PL",
+   "coup_envoi": "2026-11-21T15:00:00Z",
+   "domicile": "Coventry City",
+   "exterieur": "Crystal Palace",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T03:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T12:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T14:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "e67ee3a6f93bb90b8aefcf3dd204477c",
+   "competition": "PL",
+   "coup_envoi": "2026-11-21T15:00:00Z",
+   "domicile": "Tottenham Hotspur",
+   "exterieur": "Ipswich Town",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T03:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T12:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T14:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "ebe638278f4d70eaf211ad5be9795fa0",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-21T15:15:00Z",
+   "domicile": "Rayo Vallecano",
+   "exterieur": "Valencia",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T03:15:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T12:15:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T14:30:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "651c1847b5cdcc85e60a140edd2282c4",
+   "competition": "L1",
+   "coup_envoi": "2026-11-21T16:15:00Z",
+   "domicile": "Nice",
+   "exterieur": "Paris Saint Germain",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T04:15:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T13:15:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T15:30:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  }
+ ],
+ "maj": "2026-11-19T04:36:59Z"
+}
