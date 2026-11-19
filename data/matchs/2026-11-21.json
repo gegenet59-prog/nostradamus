@@ -448,7 +448,287 @@
    "feux": null,
    "marche": null,
    "score": null
+  },
+  {
+   "id": "cb513fd9869c9aa6ce506bb499bcd48b",
+   "competition": "SA",
+   "coup_envoi": "2026-11-21T17:00:00Z",
+   "domicile": "Parma",
+   "exterieur": "AS Roma",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T05:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T14:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T16:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "67846fc0359aeff2d0b6f3f8a2a674f4",
+   "competition": "BL",
+   "coup_envoi": "2026-11-21T17:30:00Z",
+   "domicile": "FC Schalke 04",
+   "exterieur": "VfB Stuttgart",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T05:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T14:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T16:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "1bb4951d418dcb641c608e085b87a1c3",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-21T17:30:00Z",
+   "domicile": "Sevilla",
+   "exterieur": "Real Betis",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T05:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T14:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T16:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "71bf9fe98c3e3be39cd1d059f8d71ae8",
+   "competition": "PL",
+   "coup_envoi": "2026-11-21T17:30:00Z",
+   "domicile": "Newcastle United",
+   "exterieur": "Arsenal",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T05:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T14:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T16:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "9130b46991ab991f808daf307f004469",
+   "competition": "L1",
+   "coup_envoi": "2026-11-21T19:45:00Z",
+   "domicile": "AS Monaco",
+   "exterieur": "Auxerre",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "d2113ca19873218496f8b2fe6c7e7c41",
+   "competition": "L1",
+   "coup_envoi": "2026-11-21T19:45:00Z",
+   "domicile": "Lille",
+   "exterieur": "Lyon",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "13ac2151b9f6893cedb7f509e64eb070",
+   "competition": "L1",
+   "coup_envoi": "2026-11-21T19:45:00Z",
+   "domicile": "RC Lens",
+   "exterieur": "Toulouse",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "4d6dd3defbbe20fa24b719f9fcdbf280",
+   "competition": "L1",
+   "coup_envoi": "2026-11-21T19:45:00Z",
+   "domicile": "Strasbourg",
+   "exterieur": "Brest",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "e59809eb38340e3bca323cef070dfd34",
+   "competition": "SA",
+   "coup_envoi": "2026-11-21T19:45:00Z",
+   "domicile": "Napoli",
+   "exterieur": "Torino",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "90af957b2f622a5cf805e60b151c54b9",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-21T20:00:00Z",
+   "domicile": "Real Madrid",
+   "exterieur": "Celta Vigo",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-21T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-21T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-21T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
   }
  ],
- "maj": "2026-11-19T04:36:59Z"
+ "maj": "2026-11-19T11:18:35Z"
 }
