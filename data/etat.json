@@ -5,16 +5,10 @@
   "maj": "2026-11-17T19:02:34Z"
  },
  "foot": {
-  "jour": "2026-11-19",
-  "reste": null
+  "jour": "2026-11-20",
+  "reste": 98
  },
  "jours_foot": {
-  "2026-11-14": {
-   "lien_jour": "2026-11-14",
-   "lien_heure": 18,
-   "absents": "2026-11-14T19:24:46Z",
-   "scores_jour": "2026-11-15"
-  },
   "2026-11-15": {
    "lien_jour": "2026-11-15",
    "lien_heure": 0,
@@ -32,6 +26,11 @@
    "lien_heure": 0,
    "absents": "2026-11-17T18:55:54Z",
    "scores_jour": "2026-11-18"
+  },
+  "2026-11-20": {
+   "lien_jour": "2026-11-20",
+   "lien_heure": 1,
+   "absents": "2026-11-20T01:01:57Z"
   }
  },
  "alertes": [
@@ -57,5 +56,5 @@
   }
  ],
  "planning_fait_a": "2026-11-19T23:59:32Z",
- "dernier_passage_utile": "2026-11-19T23:59:32Z"
+ "dernier_passage_utile": "2026-11-20T01:01:57Z"
 }

@@ -7,7 +7,13 @@
    "coup_envoi": "2026-11-20T19:30:00Z",
    "domicile": "Bayern Munich",
    "exterieur": "1. FC Köln",
-   "foot": null,
+   "foot": {
+    "id": 1575221,
+    "domicile": 157,
+    "exterieur": 192,
+    "nom_domicile": "Bayern München",
+    "nom_exterieur": "1. FC Köln"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-20T07:30:00Z",
@@ -24,7 +30,93 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-20T01:01:57Z",
+    "domicile": [
+     {
+      "id": 509,
+      "nom": "A. Davies",
+      "motif": "Hamstring Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 2489,
+      "nom": "L. Diaz",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 510,
+      "nom": "S. Gnabry",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 497,
+      "nom": "M. Neuer",
+      "motif": "Foot Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 161897,
+      "nom": "I. Saibari",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 93016,
+      "nom": "T. Dallinga",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 90641,
+      "nom": "T. Hubers",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 80497,
+      "nom": "I. Rondic",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 21587,
+      "nom": "E. Skhiri",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 287916,
+      "nom": "R. van den Berg",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -35,7 +127,13 @@
    "coup_envoi": "2026-11-20T19:45:00Z",
    "domicile": "Troyes",
    "exterieur": "Le Havre",
-   "foot": null,
+   "foot": {
+    "id": 1552827,
+    "domicile": 110,
+    "exterieur": 111,
+    "nom_domicile": "Estac Troyes",
+    "nom_exterieur": "Le Havre"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-20T07:45:00Z",
@@ -52,7 +150,85 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-20T01:01:57Z",
+    "domicile": [
+     {
+      "id": 365742,
+      "nom": "J. M. Diaz",
+      "motif": "Yellow Cards",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 670620,
+      "nom": "Y. Kone",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 961,
+      "nom": "F. Mambimbi",
+      "motif": "Achilles Tendon Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 460805,
+      "nom": "D. Mosengo",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 24012,
+      "nom": "L. Mpasi-Nzau",
+      "motif": "Achilles Tendon Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 508070,
+      "nom": "S. Nakamura",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 128342,
+      "nom": "R. Ndiaye",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162067,
+      "nom": "T. Pembele",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 513415,
+      "nom": "S. Zagadou",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -63,7 +239,13 @@
    "coup_envoi": "2026-11-20T20:00:00Z",
    "domicile": "Athletic Bilbao",
    "exterieur": "Espanyol",
-   "foot": null,
+   "foot": {
+    "id": 1570454,
+    "domicile": 531,
+    "exterieur": 540,
+    "nom_domicile": "Athletic Club",
+    "nom_exterieur": "Espanyol"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-20T08:00:00Z",
@@ -80,11 +262,65 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-20T01:01:57Z",
+    "domicile": [
+     {
+      "id": 332305,
+      "nom": "U. Egiluz",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 47291,
+      "nom": "G. Guruzeta",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 287680,
+      "nom": "M. Sannadi",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 47278,
+      "nom": "D. Vivian",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 286038,
+      "nom": "A. Calatrava",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 47396,
+      "nom": "K. Garcia",
+      "motif": "Hamstring Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
   }
  ],
- "maj": "2026-11-18T09:03:58Z"
+ "maj": "2026-11-20T01:01:57Z"
 }
