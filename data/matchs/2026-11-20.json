@@ -222,7 +222,20 @@
     },
     "H3": {
      "prevu": "2026-11-20T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-20T17:42:19Z",
+     "retard_min": 57,
+     "pinnacle": {
+      "1": 2.3,
+      "N": 3.4,
+      "2": 3.37
+     },
+     "winamax": {
+      "1": 2.1,
+      "N": 3.25,
+      "2": 3.05
+     },
+     "maj_pinnacle": "2026-11-20T17:42:10Z"
     },
     "H45": {
      "prevu": "2026-11-20T19:00:00Z",
@@ -310,8 +323,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.7,
+      "ampleur": 2.3,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.7,
+      "ampleur": 1.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.3,
+      "ampleur": 0.2,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.9,
+     "N": 0.65,
+     "2": 0.24
+    },
+    "marge": [
+     3.13,
+     2.56
+    ]
+   },
    "score": null
   },
   {
@@ -347,7 +400,20 @@
     },
     "H3": {
      "prevu": "2026-11-20T17:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-20T17:42:19Z",
+     "retard_min": 42,
+     "pinnacle": {
+      "1": 1.5,
+      "N": 4.72,
+      "2": 6.72
+     },
+     "winamax": {
+      "1": 1.4,
+      "N": 4.5,
+      "2": 6.0
+     },
+     "maj_pinnacle": "2026-11-20T17:42:12Z"
     },
     "H45": {
      "prevu": "2026-11-20T19:15:00Z",
@@ -411,10 +477,50 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.7,
+      "ampleur": 0.9,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.2,
+      "ampleur": 1.4,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 4.3,
+      "ampleur": 2.5,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.84,
+     "N": -0.31,
+     "2": -0.53
+    },
+    "marge": [
+     3.4,
+     2.73
+    ]
+   },
    "score": null
   }
  ],
- "maj": "2026-11-20T16:44:26Z"
+ "maj": "2026-11-20T17:42:19Z"
 }
