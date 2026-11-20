@@ -34,7 +34,20 @@
     },
     "H3": {
      "prevu": "2026-11-20T16:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-20T16:44:26Z",
+     "retard_min": 14,
+     "pinnacle": {
+      "1": 1.09,
+      "N": 13.06,
+      "2": 22.82
+     },
+     "winamax": {
+      "1": 1.06,
+      "N": 12.5,
+      "2": 15.0
+     },
+     "maj_pinnacle": "2026-11-20T16:44:14Z"
     },
     "H45": {
      "prevu": "2026-11-20T18:45:00Z",
@@ -130,8 +143,50 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 1.9,
+      "ampleur": 8.8,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     },
+     "N": {
+      "feu": "violet",
+      "fleche": "baisse",
+      "pct": -15.2,
+      "ampleur": 9.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -6.4,
+      "ampleur": 3.5,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Bayern Munich ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.42,
+     "N": 1.14,
+     "2": 0.28
+    },
+    "marge": [
+     4.05,
+     3.78
+    ]
+   },
    "score": null
   },
   {
@@ -361,5 +416,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-20T08:34:00Z"
+ "maj": "2026-11-20T16:44:26Z"
 }
