@@ -245,12 +245,20 @@
    "compos": null,
    "compos_essais": [],
    "absents": {
-    "releve_a": "2026-11-20T01:01:57Z",
+    "releve_a": "2026-11-20T18:40:29Z",
     "domicile": [
      {
       "id": 365742,
       "nom": "J. M. Diaz",
       "motif": "Yellow Cards",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 859,
+      "nom": "P. Gozzi",
+      "motif": "Hamstring Injury",
       "source": "blesses",
       "titulaire": false,
       "cle": null
@@ -423,7 +431,7 @@
    "compos": null,
    "compos_essais": [],
    "absents": {
-    "releve_a": "2026-11-20T01:01:57Z",
+    "releve_a": "2026-11-20T18:40:29Z",
     "domicile": [
      {
       "id": 332305,
@@ -463,6 +471,14 @@
       "id": 286038,
       "nom": "A. Calatrava",
       "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 46799,
+      "nom": "E. Exposito",
+      "motif": "Knock",
       "source": "blesses",
       "titulaire": false,
       "cle": null
@@ -522,5 +538,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-20T17:42:19Z"
+ "maj": "2026-11-20T18:40:29Z"
 }
