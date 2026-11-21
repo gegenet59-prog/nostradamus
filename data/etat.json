@@ -1,8 +1,8 @@
 {
  "odds": {
   "mode": "complet",
-  "reste": 453,
-  "maj": "2026-11-21T00:55:05Z"
+  "reste": 451,
+  "maj": "2026-11-21T02:05:41Z"
  },
  "foot": {
   "jour": "2026-11-21",
@@ -55,5 +55,5 @@
   }
  ],
  "planning_fait_a": "2026-11-21T00:55:05Z",
- "dernier_passage_utile": "2026-11-21T00:55:05Z"
+ "dernier_passage_utile": "2026-11-21T02:05:41Z"
 }
