@@ -4884,5 +4884,95 @@
    "36884": "J. de Haas",
    "328669": "K. van Oevelen"
   }
+ },
+ "84": {
+  "nom": "Nice",
+  "matchs": [
+   {
+    "match": 1552824,
+    "date": "2026-11-21",
+    "onze": [
+     20566,
+     196187,
+     3099,
+     668717,
+     25008,
+     4399,
+     20,
+     156490,
+     107,
+     200139,
+     162707
+    ],
+    "gardien": 20566
+   }
+  ],
+  "joueurs": {
+   "20566": "Y. Diouf",
+   "196187": "A. Seidu",
+   "3099": "Y. Ndayishimiye",
+   "668717": "X. Mandza Tsiendi",
+   "25008": "J. Clauss",
+   "4399": "H. Boudaoui",
+   "20": "A. Witsel",
+   "156490": "N. Nkounkou",
+   "107": "S. Diop",
+   "200139": "M. Amoura",
+   "162707": "E. Wahi",
+   "670540": "A. Camara",
+   "175171": "T. Boulhendi",
+   "504157": "D. Coulibaly",
+   "49583": "A. Abdi",
+   "20529": "G. Hein",
+   "417914": "H. Koutoune",
+   "677811": "D. Morana",
+   "22148": "N. Ngoumou",
+   "1914": "M. Sanson"
+  }
+ },
+ "85": {
+  "nom": "Paris Saint Germain",
+  "matchs": [
+   {
+    "match": 1552824,
+    "date": "2026-11-21",
+    "onze": [
+     2068,
+     9,
+     161671,
+     33,
+     263482,
+     336657,
+     335051,
+     328,
+     274300,
+     409216,
+     343027
+    ],
+    "gardien": 2068
+   }
+  ],
+  "joueurs": {
+   "2068": "M. Safonov",
+   "9": "A. Hakimi",
+   "161671": "I. Zabarnyi",
+   "33": "L. Hernández",
+   "263482": "Nuno Mendes",
+   "336657": "W. Zaïre-Emery",
+   "335051": "João Neves",
+   "328": "Fabián Ruiz",
+   "274300": "M. Akliouche",
+   "409216": "Senny Mayulu",
+   "343027": "D. Doué",
+   "162453": "L. Chevalier",
+   "257": "Marquinhos",
+   "307835": "Beraldo",
+   "16367": "W. Pacho",
+   "491087": "Pedro Fernández",
+   "128384": "Vitinha",
+   "153": "O. Dembélé",
+   "340153": "M. Godts",
+   "931": "Ferran Torres"
+  }
  }
 }

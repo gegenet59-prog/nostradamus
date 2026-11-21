@@ -6006,8 +6006,229 @@
      "maj_pinnacle": "2026-11-21T15:32:41Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T16:23:15Z",
+    "minutes_avant": -8,
+    "domicile": {
+     "formation": "3-4-2-1",
+     "titulaires": [
+      {
+       "id": 20566,
+       "nom": "Y. Diouf",
+       "poste": "G"
+      },
+      {
+       "id": 196187,
+       "nom": "A. Seidu",
+       "poste": "D"
+      },
+      {
+       "id": 3099,
+       "nom": "Y. Ndayishimiye",
+       "poste": "D"
+      },
+      {
+       "id": 668717,
+       "nom": "X. Mandza Tsiendi",
+       "poste": "D"
+      },
+      {
+       "id": 25008,
+       "nom": "J. Clauss",
+       "poste": "M"
+      },
+      {
+       "id": 4399,
+       "nom": "H. Boudaoui",
+       "poste": "M"
+      },
+      {
+       "id": 20,
+       "nom": "A. Witsel",
+       "poste": "M"
+      },
+      {
+       "id": 156490,
+       "nom": "N. Nkounkou",
+       "poste": "M"
+      },
+      {
+       "id": 107,
+       "nom": "S. Diop",
+       "poste": "M"
+      },
+      {
+       "id": 200139,
+       "nom": "M. Amoura",
+       "poste": "M"
+      },
+      {
+       "id": 162707,
+       "nom": "E. Wahi",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 670540,
+       "nom": "A. Camara",
+       "poste": "M"
+      },
+      {
+       "id": 175171,
+       "nom": "T. Boulhendi",
+       "poste": "G"
+      },
+      {
+       "id": 504157,
+       "nom": "D. Coulibaly",
+       "poste": "M"
+      },
+      {
+       "id": 49583,
+       "nom": "A. Abdi",
+       "poste": "D"
+      },
+      {
+       "id": 20529,
+       "nom": "G. Hein",
+       "poste": "M"
+      },
+      {
+       "id": 417914,
+       "nom": "H. Koutoune",
+       "poste": "D"
+      },
+      {
+       "id": 677811,
+       "nom": "D. Morana",
+       "poste": "F"
+      },
+      {
+       "id": 22148,
+       "nom": "N. Ngoumou",
+       "poste": "F"
+      },
+      {
+       "id": 1914,
+       "nom": "M. Sanson",
+       "poste": "M"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 2068,
+       "nom": "M. Safonov",
+       "poste": "G"
+      },
+      {
+       "id": 9,
+       "nom": "A. Hakimi",
+       "poste": "D"
+      },
+      {
+       "id": 161671,
+       "nom": "I. Zabarnyi",
+       "poste": "D"
+      },
+      {
+       "id": 33,
+       "nom": "L. Hernández",
+       "poste": "D"
+      },
+      {
+       "id": 263482,
+       "nom": "Nuno Mendes",
+       "poste": "D"
+      },
+      {
+       "id": 336657,
+       "nom": "W. Zaïre-Emery",
+       "poste": "M"
+      },
+      {
+       "id": 335051,
+       "nom": "João Neves",
+       "poste": "M"
+      },
+      {
+       "id": 328,
+       "nom": "Fabián Ruiz",
+       "poste": "M"
+      },
+      {
+       "id": 274300,
+       "nom": "M. Akliouche",
+       "poste": "F"
+      },
+      {
+       "id": 409216,
+       "nom": "Senny Mayulu",
+       "poste": "F"
+      },
+      {
+       "id": 343027,
+       "nom": "D. Doué",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 162453,
+       "nom": "L. Chevalier",
+       "poste": "G"
+      },
+      {
+       "id": 257,
+       "nom": "Marquinhos",
+       "poste": "D"
+      },
+      {
+       "id": 307835,
+       "nom": "Beraldo",
+       "poste": "D"
+      },
+      {
+       "id": 16367,
+       "nom": "W. Pacho",
+       "poste": "D"
+      },
+      {
+       "id": 491087,
+       "nom": "Pedro Fernández",
+       "poste": "M"
+      },
+      {
+       "id": 128384,
+       "nom": "Vitinha",
+       "poste": "M"
+      },
+      {
+       "id": 153,
+       "nom": "O. Dembélé",
+       "poste": "F"
+      },
+      {
+       "id": 340153,
+       "nom": "M. Godts",
+       "poste": "F"
+      },
+      {
+       "id": 931,
+       "nom": "Ferran Torres",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T16:23:15Z",
+    "2026-11-21T16:23:15Z",
+    "2026-11-21T16:23:15Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -6157,7 +6378,20 @@
     },
     "H45": {
      "prevu": "2026-11-21T16:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T16:23:15Z",
+     "retard_min": 8,
+     "pinnacle": {
+      "1": 12.08,
+      "N": 6.94,
+      "2": 1.24
+     },
+     "winamax": {
+      "1": 10.5,
+      "N": 6.75,
+      "2": 1.16
+     },
+     "maj_pinnacle": "2026-11-21T16:23:01Z"
     }
    },
    "compos": null,
@@ -6230,43 +6464,43 @@
      "1": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 11.5,
-      "ampleur": 6.1,
-      "raisons": []
+      "pct": 6.0,
+      "ampleur": 3.2,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "rouge",
+      "feu": "orange",
       "fleche": "hausse",
-      "pct": 7.4,
-      "ampleur": 4.3,
+      "pct": 5.5,
+      "ampleur": 3.2,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "baisse",
-      "pct": -1.6,
-      "ampleur": 3.7,
-      "raisons": [
-       "petite cote : mouvement plus fort qu'il n'y paraît"
-      ]
+      "pct": -0.8,
+      "ampleur": 1.8,
+      "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "2",
-    "phrase": "Le marché annonce : AS Roma gagne (2)",
+    "pari": "12",
+    "phrase": "Le marché annonce : pas de match nul (12)",
     "incoherent": false,
     "deplacement": {
-     "1": -0.82,
-     "N": -0.93,
-     "2": 1.75
+     "1": -0.43,
+     "N": -0.67,
+     "2": 1.1
     },
     "marge": [
      3.97,
-     3.31
+     3.33
     ]
    },
    "score": null
@@ -6784,16 +7018,8 @@
    "compos": null,
    "compos_essais": [],
    "absents": {
-    "releve_a": "2026-11-21T00:55:05Z",
+    "releve_a": "2026-11-21T16:23:15Z",
     "domicile": [
-     {
-      "id": 419035,
-      "nom": "M. Coulibaly",
-      "motif": "Suspended",
-      "source": "blesses",
-      "titulaire": false,
-      "cle": null
-     },
      {
       "id": 135775,
       "nom": "A. Fati",
@@ -6813,6 +7039,14 @@
      {
       "id": 340152,
       "nom": "S. Idumbo",
+      "motif": "Groin Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 371916,
+      "nom": "C. Mawissa",
       "motif": "Groin Injury",
       "source": "blesses",
       "titulaire": false,
@@ -7018,7 +7252,7 @@
    "compos": null,
    "compos_essais": [],
    "absents": {
-    "releve_a": "2026-11-21T00:55:05Z",
+    "releve_a": "2026-11-21T16:23:15Z",
     "domicile": [
      {
       "id": 394950,
@@ -7032,6 +7266,22 @@
       "id": 1135,
       "nom": "O. Edouard",
       "motif": "Groin Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 21635,
+      "nom": "J. Gradit",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 202951,
+      "nom": "F. Ivanovic",
+      "motif": "Concussion",
       "source": "blesses",
       "titulaire": false,
       "cle": null
@@ -7380,5 +7630,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-21T15:32:53Z"
+ "maj": "2026-11-21T16:23:15Z"
 }
