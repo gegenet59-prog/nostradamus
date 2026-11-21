@@ -3592,5 +3592,101 @@
    "386306": "César Palacios",
    "None": "Dino Kaiser"
   }
+ },
+ "542": {
+  "nom": "Alavés",
+  "matchs": [
+   {
+    "match": 1570453,
+    "date": "2026-11-21",
+    "onze": [
+     47353,
+     18740,
+     6233,
+     106759,
+     183751,
+     331369,
+     162686,
+     139001,
+     1461,
+     608,
+     47181
+    ],
+    "gardien": 47353
+   }
+  ],
+  "joueurs": {
+   "47353": "Sivera",
+   "18740": "Jonny",
+   "6233": "N. Tenaglia",
+   "106759": "V. Koski",
+   "183751": "A. Rebbach",
+   "331369": "Angel Pérez",
+   "162686": "Antonio Blanco",
+   "139001": "Pablo Ibáñez",
+   "1461": "Denis Suárez",
+   "608": "L. Boyé",
+   "47181": "Toni Martínez",
+   "6085": "C. Benavídez",
+   "143": "Carles Aleñá",
+   "297973": "Selu Diallo",
+   "760": "M. Díaz",
+   "361384": "Yusi",
+   "47309": "Guevara",
+   "330440": "Aitor Mañas",
+   "162170": "Hugo Novoa",
+   "626494": "X. Olaiz",
+   "163060": "A. Giménez",
+   "192434": "Miguel Rodríguez",
+   "311071": "N. Valentini"
+  }
+ },
+ "544": {
+  "nom": "Deportivo La Coruña",
+  "matchs": [
+   {
+    "match": 1570453,
+    "date": "2026-11-21",
+    "onze": [
+     179139,
+     47360,
+     47190,
+     319512,
+     127025,
+     161965,
+     107210,
+     329728,
+     188445,
+     295880,
+     1465
+    ],
+    "gardien": 179139
+   }
+  ],
+  "joueurs": {
+   "179139": "Leo Román",
+   "47360": "Ximo Navarro",
+   "47190": "Miguel Loureiro",
+   "319512": "L. Noubi",
+   "127025": "G. Quagliata",
+   "161965": "Mario Soriano",
+   "107210": "Riki Rodríguez",
+   "329728": "Marc Casadó",
+   "188445": "Luismi Cruz",
+   "295880": "Peke",
+   "1465": "P. Aubameyang",
+   "346865": "L. Amatucci",
+   "628615": "Noé",
+   "227": "Angeliño",
+   "47016": "Álvaro Fernández",
+   "31": "J. Giménez",
+   "354754": "Jonathan Asp Jensen",
+   "335720": "David Mella",
+   "574733": "B. Nsongo",
+   "105015": "Germán Parreño",
+   "18753": "Adama Traoré",
+   "182988": "Diego Villares",
+   "162122": "Adrià Alti"
+  }
  }
 }

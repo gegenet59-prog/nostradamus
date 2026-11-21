@@ -413,11 +413,261 @@
     },
     "H45": {
      "prevu": "2026-11-21T12:15:00Z",
-     "etat": "attente"
+     "etat": "manque"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T12:58:30Z",
+    "minutes_avant": 1,
+    "domicile": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 47353,
+       "nom": "Sivera",
+       "poste": "G"
+      },
+      {
+       "id": 18740,
+       "nom": "Jonny",
+       "poste": "D"
+      },
+      {
+       "id": 6233,
+       "nom": "N. Tenaglia",
+       "poste": "D"
+      },
+      {
+       "id": 106759,
+       "nom": "V. Koski",
+       "poste": "D"
+      },
+      {
+       "id": 183751,
+       "nom": "A. Rebbach",
+       "poste": "D"
+      },
+      {
+       "id": 331369,
+       "nom": "Angel Pérez",
+       "poste": "M"
+      },
+      {
+       "id": 162686,
+       "nom": "Antonio Blanco",
+       "poste": "M"
+      },
+      {
+       "id": 139001,
+       "nom": "Pablo Ibáñez",
+       "poste": "M"
+      },
+      {
+       "id": 1461,
+       "nom": "Denis Suárez",
+       "poste": "M"
+      },
+      {
+       "id": 608,
+       "nom": "L. Boyé",
+       "poste": "F"
+      },
+      {
+       "id": 47181,
+       "nom": "Toni Martínez",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 6085,
+       "nom": "C. Benavídez",
+       "poste": "M"
+      },
+      {
+       "id": 143,
+       "nom": "Carles Aleñá",
+       "poste": "M"
+      },
+      {
+       "id": 297973,
+       "nom": "Selu Diallo",
+       "poste": "M"
+      },
+      {
+       "id": 760,
+       "nom": "M. Díaz",
+       "poste": "F"
+      },
+      {
+       "id": 361384,
+       "nom": "Yusi",
+       "poste": "D"
+      },
+      {
+       "id": 47309,
+       "nom": "Guevara",
+       "poste": "M"
+      },
+      {
+       "id": 330440,
+       "nom": "Aitor Mañas",
+       "poste": "F"
+      },
+      {
+       "id": 162170,
+       "nom": "Hugo Novoa",
+       "poste": "F"
+      },
+      {
+       "id": 626494,
+       "nom": "X. Olaiz",
+       "poste": "D"
+      },
+      {
+       "id": 163060,
+       "nom": "A. Giménez",
+       "poste": "G"
+      },
+      {
+       "id": 192434,
+       "nom": "Miguel Rodríguez",
+       "poste": "F"
+      },
+      {
+       "id": 311071,
+       "nom": "N. Valentini",
+       "poste": "D"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 179139,
+       "nom": "Leo Román",
+       "poste": "G"
+      },
+      {
+       "id": 47360,
+       "nom": "Ximo Navarro",
+       "poste": "D"
+      },
+      {
+       "id": 47190,
+       "nom": "Miguel Loureiro",
+       "poste": "D"
+      },
+      {
+       "id": 319512,
+       "nom": "L. Noubi",
+       "poste": "D"
+      },
+      {
+       "id": 127025,
+       "nom": "G. Quagliata",
+       "poste": "D"
+      },
+      {
+       "id": 161965,
+       "nom": "Mario Soriano",
+       "poste": "M"
+      },
+      {
+       "id": 107210,
+       "nom": "Riki Rodríguez",
+       "poste": "M"
+      },
+      {
+       "id": 329728,
+       "nom": "Marc Casadó",
+       "poste": "M"
+      },
+      {
+       "id": 188445,
+       "nom": "Luismi Cruz",
+       "poste": "M"
+      },
+      {
+       "id": 295880,
+       "nom": "Peke",
+       "poste": "F"
+      },
+      {
+       "id": 1465,
+       "nom": "P. Aubameyang",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 346865,
+       "nom": "L. Amatucci",
+       "poste": "M"
+      },
+      {
+       "id": 628615,
+       "nom": "Noé",
+       "poste": "M"
+      },
+      {
+       "id": 227,
+       "nom": "Angeliño",
+       "poste": "D"
+      },
+      {
+       "id": 47016,
+       "nom": "Álvaro Fernández",
+       "poste": "G"
+      },
+      {
+       "id": 31,
+       "nom": "J. Giménez",
+       "poste": "D"
+      },
+      {
+       "id": 354754,
+       "nom": "Jonathan Asp Jensen",
+       "poste": "M"
+      },
+      {
+       "id": 335720,
+       "nom": "David Mella",
+       "poste": "F"
+      },
+      {
+       "id": 574733,
+       "nom": "B. Nsongo",
+       "poste": "F"
+      },
+      {
+       "id": 105015,
+       "nom": "Germán Parreño",
+       "poste": "G"
+      },
+      {
+       "id": 18753,
+       "nom": "Adama Traoré",
+       "poste": "F"
+      },
+      {
+       "id": 182988,
+       "nom": "Diego Villares",
+       "poste": "M"
+      },
+      {
+       "id": 162122,
+       "nom": "Adrià Alti",
+       "poste": "D"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T12:58:30Z",
+    "2026-11-21T12:58:30Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -2388,7 +2638,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T12:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:58:30Z",
+     "retard_min": 44,
+     "pinnacle": {
+      "1": 1.98,
+      "N": 3.52,
+      "2": 4.23
+     },
+     "winamax": {
+      "1": 1.86,
+      "N": 3.2,
+      "2": 3.75
+     },
+     "maj_pinnacle": "2026-11-21T12:58:22Z"
     },
     "H45": {
      "prevu": "2026-11-21T14:30:00Z",
@@ -2468,8 +2731,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.6,
+      "ampleur": 2.6,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.2,
+      "ampleur": 1.6,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.5,
+      "ampleur": 0.3,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.0,
+     "N": 0.76,
+     "2": 0.23
+    },
+    "marge": [
+     3.12,
+     2.55
+    ]
+   },
    "score": null
   },
   {
@@ -3632,5 +3935,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-21T12:04:30Z"
+ "maj": "2026-11-21T12:58:30Z"
 }
