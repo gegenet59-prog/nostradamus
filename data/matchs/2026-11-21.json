@@ -8011,11 +8011,244 @@
     },
     "H45": {
      "prevu": "2026-11-21T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T19:30:54Z",
+     "retard_min": 31,
+     "pinnacle": {
+      "1": 1.4,
+      "N": 5.18,
+      "2": 8.36
+     },
+     "winamax": {
+      "1": 1.33,
+      "N": 4.9,
+      "2": 6.75
+     },
+     "maj_pinnacle": "2026-11-21T19:30:42Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T19:30:54Z",
+    "minutes_avant": 14,
+    "domicile": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 963,
+       "nom": "L. Hrádecký",
+       "poste": "G"
+      },
+      {
+       "id": 291649,
+       "nom": "Vanderson",
+       "poste": "D"
+      },
+      {
+       "id": 428084,
+       "nom": "Sadibou Sané",
+       "poste": "D"
+      },
+      {
+       "id": 175,
+       "nom": "E. Dier",
+       "poste": "D"
+      },
+      {
+       "id": 294722,
+       "nom": "Flávio Nazinho",
+       "poste": "D"
+      },
+      {
+       "id": 374058,
+       "nom": "L. Camara",
+       "poste": "M"
+      },
+      {
+       "id": 2810,
+       "nom": "D. Zakaria",
+       "poste": "M"
+      },
+      {
+       "id": 231,
+       "nom": "J. Teze",
+       "poste": "M"
+      },
+      {
+       "id": 1101,
+       "nom": "T. Minamino",
+       "poste": "M"
+      },
+      {
+       "id": 161622,
+       "nom": "M. Abline",
+       "poste": "M"
+      },
+      {
+       "id": 386276,
+       "nom": "Paris Josua  Brunner",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 138835,
+       "nom": "F. Balogun",
+       "poste": "F"
+      },
+      {
+       "id": 621554,
+       "nom": "Ilies Belmokhtar",
+       "poste": "F"
+      },
+      {
+       "id": 543470,
+       "nom": "Pape Cabral",
+       "poste": "M"
+      },
+      {
+       "id": 419035,
+       "nom": "M. Coulibaly",
+       "poste": "M"
+      },
+      {
+       "id": 462278,
+       "nom": "M. Detourbet",
+       "poste": "F"
+      },
+      {
+       "id": 374361,
+       "nom": "E. Diop",
+       "poste": "M"
+      },
+      {
+       "id": 7313,
+       "nom": "P. Köhn",
+       "poste": "G"
+      },
+      {
+       "id": 47480,
+       "nom": "M. Salisu",
+       "poste": "D"
+      },
+      {
+       "id": 488264,
+       "nom": "I. Touré",
+       "poste": "M"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "3-4-2-1",
+     "titulaires": [
+      {
+       "id": 8657,
+       "nom": "P. Nardi",
+       "poste": "G"
+      },
+      {
+       "id": 162466,
+       "nom": "S. Diomandé",
+       "poste": "D"
+      },
+      {
+       "id": 19182,
+       "nom": "A. Tuanzebe",
+       "poste": "D"
+      },
+      {
+       "id": 402542,
+       "nom": "T. Siwe",
+       "poste": "D"
+      },
+      {
+       "id": 191240,
+       "nom": "M. Senaya",
+       "poste": "M"
+      },
+      {
+       "id": 152418,
+       "nom": "N. Ahamada",
+       "poste": "M"
+      },
+      {
+       "id": 278232,
+       "nom": "P. Ekwah",
+       "poste": "M"
+      },
+      {
+       "id": 215827,
+       "nom": "F. Oppegård",
+       "poste": "M"
+      },
+      {
+       "id": 84082,
+       "nom": "R. Faivre",
+       "poste": "M"
+      },
+      {
+       "id": 326073,
+       "nom": "R. Labeau Lascary",
+       "poste": "M"
+      },
+      {
+       "id": 137302,
+       "nom": "C. Archer",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 490095,
+       "nom": "Aristide Zossou",
+       "poste": "M"
+      },
+      {
+       "id": 193953,
+       "nom": "L. Sy",
+       "poste": "D"
+      },
+      {
+       "id": 371950,
+       "nom": "A. Piedfort",
+       "poste": "M"
+      },
+      {
+       "id": 435514,
+       "nom": "R. Mandengue",
+       "poste": "D"
+      },
+      {
+       "id": 412926,
+       "nom": "C. Makosso",
+       "poste": "D"
+      },
+      {
+       "id": 629378,
+       "nom": "L. Dioubate",
+       "poste": "M"
+      },
+      {
+       "id": 134264,
+       "nom": "M. Diop",
+       "poste": "G"
+      },
+      {
+       "id": 323625,
+       "nom": "K. Danois",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Youssef Khoudda",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T19:30:54Z",
+    "2026-11-21T19:30:54Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T16:23:15Z",
     "domicile": [
@@ -8098,29 +8331,31 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
+      "feu": "orange",
       "fleche": "baisse",
-      "pct": -1.4,
-      "ampleur": 2.1,
+      "pct": -3.4,
+      "ampleur": 5.6,
       "raisons": []
      },
      "N": {
       "feu": "orange",
       "fleche": "hausse",
-      "pct": 4.3,
-      "ampleur": 2.7,
+      "pct": 6.6,
+      "ampleur": 4.0,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "violet",
       "fleche": "hausse",
-      "pct": 6.7,
-      "ampleur": 3.8,
-      "raisons": []
+      "pct": 18.4,
+      "ampleur": 10.1,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -8128,13 +8363,13 @@
     "phrase": "Le marché annonce : AS Monaco gagne (1)",
     "incoherent": false,
     "deplacement": {
-     "1": 1.44,
-     "N": -0.68,
-     "2": -0.76
+     "1": 3.05,
+     "N": -1.04,
+     "2": -2.01
     },
     "marge": [
      3.71,
-     2.93
+     2.7
     ]
    },
    "score": null
@@ -8189,11 +8424,244 @@
     },
     "H45": {
      "prevu": "2026-11-21T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T19:30:54Z",
+     "retard_min": 31,
+     "pinnacle": {
+      "1": 2.43,
+      "N": 3.24,
+      "2": 3.29
+     },
+     "winamax": {
+      "1": 2.25,
+      "N": 3.05,
+      "2": 2.95
+     },
+     "maj_pinnacle": "2026-11-21T19:30:42Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T19:30:54Z",
+    "minutes_avant": 14,
+    "domicile": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 1337,
+       "nom": "B. Özer",
+       "poste": "G"
+      },
+      {
+       "id": 312964,
+       "nom": "N. Ngoy",
+       "poste": "D"
+      },
+      {
+       "id": 133110,
+       "nom": "T. Nianzou",
+       "poste": "D"
+      },
+      {
+       "id": 142691,
+       "nom": "Alexsandro Ribeiro",
+       "poste": "D"
+      },
+      {
+       "id": 20600,
+       "nom": "R. Perraud",
+       "poste": "D"
+      },
+      {
+       "id": 375598,
+       "nom": "N. Mukau",
+       "poste": "M"
+      },
+      {
+       "id": 409,
+       "nom": "N. Bentaleb",
+       "poste": "M"
+      },
+      {
+       "id": 2204,
+       "nom": "B. André",
+       "poste": "M"
+      },
+      {
+       "id": 129695,
+       "nom": "D. Bakwa",
+       "poste": "F"
+      },
+      {
+       "id": 67889,
+       "nom": "H. Haraldsson",
+       "poste": "F"
+      },
+      {
+       "id": 487381,
+       "nom": "S. Diaoune",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 2295,
+       "nom": "O. Giroud",
+       "poste": "F"
+      },
+      {
+       "id": 70852,
+       "nom": "O. Gill",
+       "poste": "G"
+      },
+      {
+       "id": 486136,
+       "nom": "I. Cossier",
+       "poste": "D"
+      },
+      {
+       "id": 490745,
+       "nom": "M. Goffi",
+       "poste": "D"
+      },
+      {
+       "id": 115587,
+       "nom": "M. Kjærgaard",
+       "poste": "M"
+      },
+      {
+       "id": 386287,
+       "nom": "E. Mbappé",
+       "poste": "M"
+      },
+      {
+       "id": 72155,
+       "nom": "A. Ueda",
+       "poste": "F"
+      },
+      {
+       "id": 37151,
+       "nom": "C. Verdonk",
+       "poste": "D"
+      },
+      {
+       "id": 360032,
+       "nom": "B. Önal",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 61142,
+       "nom": "D. Greif",
+       "poste": "G"
+      },
+      {
+       "id": 396380,
+       "nom": "Z. Athekame",
+       "poste": "D"
+      },
+      {
+       "id": 7147,
+       "nom": "F. Bacher",
+       "poste": "D"
+      },
+      {
+       "id": 25916,
+       "nom": "M. Niakhaté",
+       "poste": "D"
+      },
+      {
+       "id": 9700,
+       "nom": "Abner",
+       "poste": "D"
+      },
+      {
+       "id": 162189,
+       "nom": "M. Bidstrup",
+       "poste": "M"
+      },
+      {
+       "id": 80752,
+       "nom": "T. Tessmann",
+       "poste": "M"
+      },
+      {
+       "id": 519,
+       "nom": "C. Tolisso",
+       "poste": "M"
+      },
+      {
+       "id": 350856,
+       "nom": "E. Nuamah",
+       "poste": "F"
+      },
+      {
+       "id": 519664,
+       "nom": "K. Merah",
+       "poste": "F"
+      },
+      {
+       "id": 33321,
+       "nom": "Keito Nakamura",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 405237,
+       "nom": "K. Boudache",
+       "poste": "F"
+      },
+      {
+       "id": 193293,
+       "nom": "R. Kluivert",
+       "poste": "D"
+      },
+      {
+       "id": 20762,
+       "nom": "R. Descamps",
+       "poste": "G"
+      },
+      {
+       "id": 368230,
+       "nom": "J. Duranville",
+       "poste": "F"
+      },
+      {
+       "id": 409794,
+       "nom": "Alejandro Gomes Rodriguez",
+       "poste": "F"
+      },
+      {
+       "id": 497617,
+       "nom": "R. Himbert",
+       "poste": "F"
+      },
+      {
+       "id": 645969,
+       "nom": "Steeve Kango",
+       "poste": "D"
+      },
+      {
+       "id": 529,
+       "nom": "N. Tagliafico",
+       "poste": "D"
+      },
+      {
+       "id": 361352,
+       "nom": "N. Nartey",
+       "poste": "M"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T19:30:54Z",
+    "2026-11-21T19:30:54Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -8262,15 +8730,15 @@
      "1": {
       "feu": "orange",
       "fleche": "hausse",
-      "pct": 4.8,
-      "ampleur": 4.0,
+      "pct": 5.2,
+      "ampleur": 4.4,
       "raisons": []
      },
      "N": {
       "feu": "vert",
       "fleche": "baisse",
-      "pct": -2.1,
-      "ampleur": 1.5,
+      "pct": -2.4,
+      "ampleur": 1.7,
       "raisons": []
      },
      "2": {
@@ -8281,8 +8749,8 @@
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -8290,13 +8758,13 @@
     "phrase": "Le marché annonce : Lille ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -1.68,
-     "N": 0.8,
-     "2": 0.87
+     "1": -1.81,
+     "N": 0.92,
+     "2": 0.89
     },
     "marge": [
      3.08,
-     2.49
+     2.41
     ]
    },
    "score": null
@@ -8351,11 +8819,244 @@
     },
     "H45": {
      "prevu": "2026-11-21T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T19:30:54Z",
+     "retard_min": 31,
+     "pinnacle": {
+      "1": 2.19,
+      "N": 3.62,
+      "2": 3.42
+     },
+     "winamax": {
+      "1": 2.05,
+      "N": 3.45,
+      "2": 3.0
+     },
+     "maj_pinnacle": "2026-11-21T19:30:42Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T19:30:54Z",
+    "minutes_avant": 14,
+    "domicile": {
+     "formation": "3-4-2-1",
+     "titulaires": [
+      {
+       "id": 347211,
+       "nom": "R. Risser",
+       "poste": "G"
+      },
+      {
+       "id": 138,
+       "nom": "J. Todibo",
+       "poste": "D"
+      },
+      {
+       "id": 322984,
+       "nom": "S. Baidoo",
+       "poste": "D"
+      },
+      {
+       "id": 20525,
+       "nom": "M. Udol",
+       "poste": "D"
+      },
+      {
+       "id": 21568,
+       "nom": "R. Aguilar",
+       "poste": "M"
+      },
+      {
+       "id": 25634,
+       "nom": "M. Cuisance",
+       "poste": "M"
+      },
+      {
+       "id": 327599,
+       "nom": "Y. Titraoui",
+       "poste": "M"
+      },
+      {
+       "id": 237191,
+       "nom": "J. Chávez",
+       "poste": "M"
+      },
+      {
+       "id": 660571,
+       "nom": "M. Soares",
+       "poste": "M"
+      },
+      {
+       "id": 1922,
+       "nom": "F. Thauvin",
+       "poste": "M"
+      },
+      {
+       "id": 20761,
+       "nom": "F. Sotoca",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 441264,
+       "nom": "K. Antonio",
+       "poste": "D"
+      },
+      {
+       "id": 369500,
+       "nom": "I. Ganiou",
+       "poste": "D"
+      },
+      {
+       "id": 646,
+       "nom": "M. Gorgelin",
+       "poste": "G"
+      },
+      {
+       "id": 1153,
+       "nom": "A. Haidara",
+       "poste": "M"
+      },
+      {
+       "id": 2929,
+       "nom": "T. Hazard",
+       "poste": "M"
+      },
+      {
+       "id": 161620,
+       "nom": "J. Kadile",
+       "poste": "F"
+      },
+      {
+       "id": 277191,
+       "nom": "A. Sima",
+       "poste": "F"
+      },
+      {
+       "id": 44594,
+       "nom": "Saud Abdulhamid",
+       "poste": "D"
+      },
+      {
+       "id": 40809,
+       "nom": "M. Skóraś",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 325346,
+       "nom": "G. Restes",
+       "poste": "G"
+      },
+      {
+       "id": 437174,
+       "nom": "I. Diallo",
+       "poste": "D"
+      },
+      {
+       "id": 50735,
+       "nom": "M. McKenzie",
+       "poste": "D"
+      },
+      {
+       "id": 15793,
+       "nom": "R. Nicolaisen",
+       "poste": "D"
+      },
+      {
+       "id": 472266,
+       "nom": "C. Tapé",
+       "poste": "D"
+      },
+      {
+       "id": 386277,
+       "nom": "T. Jørgensen",
+       "poste": "M"
+      },
+      {
+       "id": 50956,
+       "nom": "C. Cásseres",
+       "poste": "M"
+      },
+      {
+       "id": 416901,
+       "nom": "N. Sigur",
+       "poste": "M"
+      },
+      {
+       "id": 203428,
+       "nom": "J. Russell-Rowe",
+       "poste": "M"
+      },
+      {
+       "id": 362741,
+       "nom": "S. Hidalgo",
+       "poste": "F"
+      },
+      {
+       "id": 162703,
+       "nom": "C. Tengstedt",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 514464,
+       "nom": "A. Vossah",
+       "poste": "M"
+      },
+      {
+       "id": 39115,
+       "nom": "A. Dønnum",
+       "poste": "M"
+      },
+      {
+       "id": 489903,
+       "nom": "Y. Azizi",
+       "poste": "F"
+      },
+      {
+       "id": 395762,
+       "nom": "M. Amougou",
+       "poste": "M"
+      },
+      {
+       "id": 118345,
+       "nom": "A. Francis",
+       "poste": "M"
+      },
+      {
+       "id": 489905,
+       "nom": "S. Koumbassa",
+       "poste": "D"
+      },
+      {
+       "id": 551204,
+       "nom": "M. Niflore",
+       "poste": "G"
+      },
+      {
+       "id": 508069,
+       "nom": "S. Oppong",
+       "poste": "F"
+      },
+      {
+       "id": 457025,
+       "nom": "Julián Vignolo",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T19:30:54Z",
+    "2026-11-21T19:30:54Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T16:23:15Z",
     "domicile": [
@@ -8414,43 +9115,43 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 3.8,
-      "ampleur": 3.4,
+      "pct": 2.8,
+      "ampleur": 2.6,
       "raisons": []
      },
      "N": {
       "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
+      "fleche": "baisse",
+      "pct": -1.9,
+      "ampleur": 1.3,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "baisse",
-      "pct": -3.5,
-      "ampleur": 2.5,
+      "pct": -0.6,
+      "ampleur": 0.4,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : RC Lens ne gagne pas (N2)",
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": -1.37,
-     "N": 0.17,
-     "2": 1.2
+     "1": -0.99,
+     "N": 0.66,
+     "2": 0.33
     },
     "marge": [
      3.12,
-     2.47
+     2.53
     ]
    },
    "score": null
@@ -8505,11 +9206,244 @@
     },
     "H45": {
      "prevu": "2026-11-21T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T19:30:54Z",
+     "retard_min": 31,
+     "pinnacle": {
+      "1": 2.23,
+      "N": 3.51,
+      "2": 3.43
+     },
+     "winamax": {
+      "1": 2.05,
+      "N": 3.35,
+      "2": 2.95
+     },
+     "maj_pinnacle": "2026-11-21T19:30:42Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T19:30:54Z",
+    "minutes_avant": 14,
+    "domicile": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 286616,
+       "nom": "F. Jörgensen",
+       "poste": "G"
+      },
+      {
+       "id": 398000,
+       "nom": "G. Antwi",
+       "poste": "D"
+      },
+      {
+       "id": 271542,
+       "nom": "I. Doukouré",
+       "poste": "D"
+      },
+      {
+       "id": 440147,
+       "nom": "Abdoul Karim Coulibaly",
+       "poste": "D"
+      },
+      {
+       "id": 396193,
+       "nom": "L. Høgsberg",
+       "poste": "D"
+      },
+      {
+       "id": 308678,
+       "nom": "Dário Essugo",
+       "poste": "M"
+      },
+      {
+       "id": 415431,
+       "nom": "S. El Mourabet",
+       "poste": "M"
+      },
+      {
+       "id": 369544,
+       "nom": "Gessime Yassine",
+       "poste": "M"
+      },
+      {
+       "id": 226803,
+       "nom": "S. Nanasi",
+       "poste": "M"
+      },
+      {
+       "id": 359386,
+       "nom": "M. Godo",
+       "poste": "M"
+      },
+      {
+       "id": 561010,
+       "nom": "J. Ortega",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 355256,
+       "nom": "M. Del Blanco",
+       "poste": "D"
+      },
+      {
+       "id": 339417,
+       "nom": "P. Diop",
+       "poste": "M"
+      },
+      {
+       "id": 585206,
+       "nom": "Y. Becker",
+       "poste": "D"
+      },
+      {
+       "id": 334035,
+       "nom": "S. Amo-Ameyaw",
+       "poste": "F"
+      },
+      {
+       "id": 419916,
+       "nom": "C. Harder",
+       "poste": "F"
+      },
+      {
+       "id": 329347,
+       "nom": "O. Kellyman",
+       "poste": "M"
+      },
+      {
+       "id": 400510,
+       "nom": "Diogo Sousa",
+       "poste": "M"
+      },
+      {
+       "id": 588425,
+       "nom": "Tyrese Noubissie",
+       "poste": "M"
+      },
+      {
+       "id": 374727,
+       "nom": "M. Piekutowski",
+       "poste": "G"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 39082,
+       "nom": "E. Selvik",
+       "poste": "G"
+      },
+      {
+       "id": 22247,
+       "nom": "K. Lala",
+       "poste": "D"
+      },
+      {
+       "id": 664,
+       "nom": "L. Tousart",
+       "poste": "D"
+      },
+      {
+       "id": 64255,
+       "nom": "G. Lloris",
+       "poste": "D"
+      },
+      {
+       "id": 274267,
+       "nom": "B. Locko",
+       "poste": "D"
+      },
+      {
+       "id": 128287,
+       "nom": "J. Chotard",
+       "poste": "M"
+      },
+      {
+       "id": 20558,
+       "nom": "H. Magnetti",
+       "poste": "M"
+      },
+      {
+       "id": 430816,
+       "nom": "N. Edjouma",
+       "poste": "M"
+      },
+      {
+       "id": 340078,
+       "nom": "J. Nonge Boende",
+       "poste": "M"
+      },
+      {
+       "id": 375990,
+       "nom": "P. Mboup",
+       "poste": "M"
+      },
+      {
+       "id": 22264,
+       "nom": "L. Ajorque",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 327697,
+       "nom": "G. Versini",
+       "poste": "F"
+      },
+      {
+       "id": 198389,
+       "nom": "M. Patouillet",
+       "poste": "G"
+      },
+      {
+       "id": 489911,
+       "nom": "D. N´Guessan",
+       "poste": "F"
+      },
+      {
+       "id": 554352,
+       "nom": "Ibrahim Yayiya Kante",
+       "poste": "F"
+      },
+      {
+       "id": 302915,
+       "nom": "M. Diambou",
+       "poste": "M"
+      },
+      {
+       "id": 369556,
+       "nom": "J. Bourgault",
+       "poste": "D"
+      },
+      {
+       "id": 41323,
+       "nom": "Mama Baldé",
+       "poste": "F"
+      },
+      {
+       "id": 422595,
+       "nom": "L. Zogbe",
+       "poste": "D"
+      },
+      {
+       "id": 158587,
+       "nom": "R. Cagnon",
+       "poste": "G"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T19:30:54Z",
+    "2026-11-21T19:30:54Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T12:04:30Z",
     "domicile": [
@@ -8568,43 +9502,45 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 3.2,
-      "ampleur": 2.8,
+      "pct": 0.9,
+      "ampleur": 0.8,
       "raisons": []
      },
      "N": {
       "feu": "orange",
       "fleche": "baisse",
-      "pct": -3.3,
-      "ampleur": 2.3,
+      "pct": -4.6,
+      "ampleur": 3.3,
       "raisons": []
      },
      "2": {
-      "feu": "vert",
+      "feu": "rouge",
       "fleche": "hausse",
-      "pct": 0.6,
-      "ampleur": 0.4,
-      "raisons": []
+      "pct": 5.2,
+      "ampleur": 3.6,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : Strasbourg ne gagne pas (N2)",
+    "pari": "1N",
+    "phrase": "Le marché annonce : Brest ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": -1.07,
-     "N": 1.06,
-     "2": 0.01
+     "1": -0.13,
+     "N": 1.44,
+     "2": -1.31
     },
     "marge": [
      3.1,
-     2.44
+     2.49
     ]
    },
    "score": null
@@ -8659,11 +9595,274 @@
     },
     "H45": {
      "prevu": "2026-11-21T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T19:30:54Z",
+     "retard_min": 31,
+     "pinnacle": {
+      "1": 1.57,
+      "N": 4.37,
+      "2": 6.16
+     },
+     "winamax": {
+      "1": 1.49,
+      "N": 3.9,
+      "2": 5.2
+     },
+     "maj_pinnacle": "2026-11-21T19:30:43Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T19:30:54Z",
+    "minutes_avant": 14,
+    "domicile": {
+     "formation": "3-5-1-1",
+     "titulaires": [
+      {
+       "id": 31156,
+       "nom": "V. Milinković-Savić",
+       "poste": "G"
+      },
+      {
+       "id": 37604,
+       "nom": "S. Beukema",
+       "poste": "D"
+      },
+      {
+       "id": 1314,
+       "nom": "Amir Rrahmani",
+       "poste": "D"
+      },
+      {
+       "id": 237066,
+       "nom": "Rafa Marín",
+       "poste": "D"
+      },
+      {
+       "id": 219,
+       "nom": "M. Politano",
+       "poste": "M"
+      },
+      {
+       "id": 3406,
+       "nom": "A. Zambo Anguissa",
+       "poste": "M"
+      },
+      {
+       "id": 130423,
+       "nom": "B. Gilmour",
+       "poste": "M"
+      },
+      {
+       "id": 903,
+       "nom": "S. McTominay",
+       "poste": "M"
+      },
+      {
+       "id": 862,
+       "nom": "L. Spinazzola",
+       "poste": "M"
+      },
+      {
+       "id": 347395,
+       "nom": "A. Vergara",
+       "poste": "M"
+      },
+      {
+       "id": 288006,
+       "nom": "R. Højlund",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 32172,
+       "nom": "N. Contini",
+       "poste": "G"
+      },
+      {
+       "id": 629,
+       "nom": "K. De Bruyne",
+       "poste": "M"
+      },
+      {
+       "id": 348532,
+       "nom": "C. Favasuli",
+       "poste": "D"
+      },
+      {
+       "id": 312615,
+       "nom": "Giovane",
+       "poste": "F"
+      },
+      {
+       "id": 544,
+       "nom": "N. Lang",
+       "poste": "F"
+      },
+      {
+       "id": 199089,
+       "nom": "L. Lucca",
+       "poste": "F"
+      },
+      {
+       "id": 388547,
+       "nom": "Luca Marianucci",
+       "poste": "D"
+      },
+      {
+       "id": 47254,
+       "nom": "M. Olivera",
+       "poste": "D"
+      },
+      {
+       "id": null,
+       "nom": "Milton Agustín Pereyra",
+       "poste": "F"
+      },
+      {
+       "id": 568115,
+       "nom": "D. Spinelli",
+       "poste": "G"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "3-5-2",
+     "titulaires": [
+      {
+       "id": 80296,
+       "nom": "Lucas Perri",
+       "poste": "G"
+      },
+      {
+       "id": 122468,
+       "nom": "Saúl Coco",
+       "poste": "D"
+      },
+      {
+       "id": 14329,
+       "nom": "A. Ismajli",
+       "poste": "D"
+      },
+      {
+       "id": 396637,
+       "nom": "P. Comuzzo",
+       "poste": "D"
+      },
+      {
+       "id": 303362,
+       "nom": "R. Belghali",
+       "poste": "M"
+      },
+      {
+       "id": 41892,
+       "nom": "Daniel Bragança",
+       "poste": "M"
+      },
+      {
+       "id": 30810,
+       "nom": "R. Mandragora",
+       "poste": "M"
+      },
+      {
+       "id": 343189,
+       "nom": "G. Gineitis",
+       "poste": "M"
+      },
+      {
+       "id": 471040,
+       "nom": "A. Cacciamani",
+       "poste": "M"
+      },
+      {
+       "id": 19524,
+       "nom": "C. Adams",
+       "poste": "F"
+      },
+      {
+       "id": 30414,
+       "nom": "G. Simeone",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 336573,
+       "nom": "E. İlkhan",
+       "poste": "M"
+      },
+      {
+       "id": 40405,
+       "nom": "S. Kulenović",
+       "poste": "F"
+      },
+      {
+       "id": 419871,
+       "nom": "D. Mascardi",
+       "poste": "G"
+      },
+      {
+       "id": 161859,
+       "nom": "G. Oristanio",
+       "poste": "M"
+      },
+      {
+       "id": 138417,
+       "nom": "N. Patterson",
+       "poste": "D"
+      },
+      {
+       "id": 123,
+       "nom": "P. Pellegri",
+       "poste": "F"
+      },
+      {
+       "id": 565709,
+       "nom": "L. Siviero",
+       "poste": "G"
+      },
+      {
+       "id": 842,
+       "nom": "N. Vlašić",
+       "poste": "M"
+      },
+      {
+       "id": 2495,
+       "nom": "D. Zapata",
+       "poste": "F"
+      },
+      {
+       "id": 270507,
+       "nom": "C. Casadei",
+       "poste": "M"
+      },
+      {
+       "id": 243,
+       "nom": "Z. Aboukhlal",
+       "poste": "F"
+      },
+      {
+       "id": 437093,
+       "nom": "N. Fortini",
+       "poste": "D"
+      },
+      {
+       "id": 36895,
+       "nom": "K. Fitz-Jim",
+       "poste": "M"
+      },
+      {
+       "id": 48372,
+       "nom": "E. Cömert",
+       "poste": "D"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T19:30:54Z",
+    "2026-11-21T19:30:54Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T12:04:30Z",
     "domicile": [
@@ -8738,43 +9937,47 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 3.3,
+      "ampleur": 4.4,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
       "feu": "vert",
       "fleche": "baisse",
-      "pct": -0.4,
-      "ampleur": 0.3,
+      "pct": -2.9,
+      "ampleur": 1.9,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 6.4,
-      "ampleur": 3.7,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -3.6,
+      "ampleur": 2.2,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "N2",
+    "phrase": "Le marché annonce : Napoli ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": 0.52,
-     "N": 0.27,
-     "2": -0.79
+     "1": -1.51,
+     "N": 0.82,
+     "2": 0.69
     },
     "marge": [
      3.66,
-     2.82
+     2.81
     ]
    },
    "score": null
@@ -8829,11 +10032,273 @@
     },
     "H45": {
      "prevu": "2026-11-21T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T19:30:54Z",
+     "retard_min": 16,
+     "pinnacle": {
+      "1": 1.17,
+      "N": 8.5,
+      "2": 17.5
+     },
+     "winamax": {
+      "1": 1.11,
+      "N": 8.5,
+      "2": 14.0
+     },
+     "maj_pinnacle": "2026-11-21T19:30:43Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T19:30:54Z",
+    "minutes_avant": 29,
+    "domicile": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 730,
+       "nom": "T. Courtois",
+       "poste": "G"
+      },
+      {
+       "id": 283,
+       "nom": "T. Alexander-Arnold",
+       "poste": "D"
+      },
+      {
+       "id": 361497,
+       "nom": "D. Huijsen",
+       "poste": "D"
+      },
+      {
+       "id": 1145,
+       "nom": "I. Konaté",
+       "poste": "D"
+      },
+      {
+       "id": 284300,
+       "nom": "Álvaro Fernández",
+       "poste": "D"
+      },
+      {
+       "id": 291964,
+       "nom": "A. Güler",
+       "poste": "M"
+      },
+      {
+       "id": 2207,
+       "nom": "E. Camavinga",
+       "poste": "M"
+      },
+      {
+       "id": 636,
+       "nom": "Bernardo Silva",
+       "poste": "M"
+      },
+      {
+       "id": 129718,
+       "nom": "J. Bellingham",
+       "poste": "M"
+      },
+      {
+       "id": 278,
+       "nom": "Kylian Mbappé",
+       "poste": "F"
+      },
+      {
+       "id": 513776,
+       "nom": "Y. Diomande",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 2285,
+       "nom": "A. Rüdiger",
+       "poste": "D"
+      },
+      {
+       "id": 509470,
+       "nom": "Thiago Pitarch",
+       "poste": "M"
+      },
+      {
+       "id": 1271,
+       "nom": "A. Tchouaméni",
+       "poste": "M"
+      },
+      {
+       "id": 756,
+       "nom": "F. Valverde",
+       "poste": "M"
+      },
+      {
+       "id": 762,
+       "nom": "Vinícius Júnior",
+       "poste": "F"
+      },
+      {
+       "id": 47400,
+       "nom": "A. Lunin",
+       "poste": "G"
+      },
+      {
+       "id": 47380,
+       "nom": "Marc Cucurella",
+       "poste": "D"
+      },
+      {
+       "id": 744,
+       "nom": "Brahim Díaz",
+       "poste": "M"
+      },
+      {
+       "id": 226,
+       "nom": "D. Dumfries",
+       "poste": "D"
+      },
+      {
+       "id": 372,
+       "nom": "Éder Militão",
+       "poste": "D"
+      },
+      {
+       "id": 377122,
+       "nom": "Endrick",
+       "poste": "F"
+      },
+      {
+       "id": 450497,
+       "nom": "Carlos Espí",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "3-4-3",
+     "titulaires": [
+      {
+       "id": 30765,
+       "nom": "I. Radu",
+       "poste": "G"
+      },
+      {
+       "id": 384135,
+       "nom": "Javi Rodríguez",
+       "poste": "D"
+      },
+      {
+       "id": 329722,
+       "nom": "Yoel Lago",
+       "poste": "D"
+      },
+      {
+       "id": 2278,
+       "nom": "Marcos Alonso",
+       "poste": "D"
+      },
+      {
+       "id": 157988,
+       "nom": "Sergio Carreira",
+       "poste": "M"
+      },
+      {
+       "id": 560930,
+       "nom": "H. Burcio",
+       "poste": "M"
+      },
+      {
+       "id": 162123,
+       "nom": "I. Moriba",
+       "poste": "M"
+      },
+      {
+       "id": 47566,
+       "nom": "Javi Galán",
+       "poste": "M"
+      },
+      {
+       "id": 329720,
+       "nom": "Hugo Álvarez",
+       "poste": "F"
+      },
+      {
+       "id": 320517,
+       "nom": "Pablo Durán",
+       "poste": "F"
+      },
+      {
+       "id": 269163,
+       "nom": "W. Swedberg",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 47445,
+       "nom": "Iago Aspas",
+       "poste": "F"
+      },
+      {
+       "id": 481678,
+       "nom": "Andrés Antañón",
+       "poste": "M"
+      },
+      {
+       "id": 50132,
+       "nom": "A. Bayındır",
+       "poste": "G"
+      },
+      {
+       "id": 51535,
+       "nom": "S. Cáceres",
+       "poste": "D"
+      },
+      {
+       "id": 272543,
+       "nom": "C. Driouech",
+       "poste": "F"
+      },
+      {
+       "id": 351913,
+       "nom": "J. El Abdellaoui",
+       "poste": "F"
+      },
+      {
+       "id": 437776,
+       "nom": "A. Faye",
+       "poste": "D"
+      },
+      {
+       "id": 46711,
+       "nom": "Aleix Febas",
+       "poste": "M"
+      },
+      {
+       "id": 122734,
+       "nom": "Ferran Jutglà",
+       "poste": "F"
+      },
+      {
+       "id": 182661,
+       "nom": "Álvaro Núñez",
+       "poste": "D"
+      },
+      {
+       "id": 179955,
+       "nom": "Javi Rueda",
+       "poste": "D"
+      },
+      {
+       "id": 161875,
+       "nom": "Hugo González",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T19:30:54Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -8893,28 +10358,30 @@
     "issues": {
      "1": {
       "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
+      "fleche": "hausse",
+      "pct": 0.9,
+      "ampleur": 2.6,
       "raisons": []
      },
      "N": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 0.3,
-      "ampleur": 0.2,
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -3.2,
+      "ampleur": 1.8,
       "raisons": []
      },
      "2": {
-      "feu": "vert",
+      "feu": "orange",
       "fleche": "baisse",
-      "pct": -0.2,
-      "ampleur": 0.1,
-      "raisons": []
+      "pct": -1.2,
+      "ampleur": 0.7,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -8922,17 +10389,17 @@
     "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": 0.02,
-     "N": -0.03,
-     "2": 0.01
+     "1": -0.48,
+     "N": 0.4,
+     "2": 0.08
     },
     "marge": [
      3.24,
-     3.21
+     2.95
     ]
    },
    "score": null
   }
  ],
- "maj": "2026-11-21T17:12:18Z"
+ "maj": "2026-11-21T19:30:54Z"
 }
