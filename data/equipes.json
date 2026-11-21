@@ -4974,5 +4974,376 @@
    "340153": "M. Godts",
    "931": "Ferran Torres"
   }
+ },
+ "523": {
+  "nom": "Parma",
+  "matchs": [
+   {
+    "match": 1550205,
+    "date": "2026-11-21",
+    "onze": [
+     335117,
+     30420,
+     428237,
+     322630,
+     499380,
+     48491,
+     308836,
+     91358,
+     301924,
+     286473,
+     194750
+    ],
+    "gardien": 335117
+   }
+  ],
+  "joueurs": {
+   "335117": "G. Daffara",
+   "30420": "E. Del Prato",
+   "428237": "M. Troilo",
+   "322630": "G. Fabbian",
+   "499380": "S. Britschgi",
+   "48491": "V. Sierro",
+   "308836": "M. Keita",
+   "91358": "E. Valeri",
+   "301924": "N. Elphege",
+   "286473": "F. Carboni",
+   "194750": "E. Touré",
+   "628": "Adrián Bernabé",
+   "362752": "C. Ordoñez",
+   "48193": "P. Almqvist",
+   "180762": "E. Corvi",
+   "362061": "B. Cremaschi",
+   "472572": "T. De Martis",
+   "432610": "Ousmane Diallo",
+   "21090": "Diego Carlos",
+   "292543": "M. Frigan",
+   "30392": "S. Ghidotti",
+   "595817": "Abdou Konate",
+   "483670": "S. Lontani",
+   "881": "H. Nicolussi",
+   "None": "Karlo Pajsar"
+  }
+ },
+ "497": {
+  "nom": "AS Roma",
+  "matchs": [
+   {
+    "match": 1550205,
+    "date": "2026-11-21",
+    "onze": [
+     556,
+     30425,
+     6,
+     2669,
+     598615,
+     778,
+     22147,
+     6503,
+     875,
+     404097,
+     249
+    ],
+    "gardien": 556
+   }
+  ],
+  "joueurs": {
+   "556": "M. Svilar",
+   "30425": "G. Mancini",
+   "6": "L. Balerdi",
+   "2669": "Hermoso",
+   "598615": "E. Lulli",
+   "778": "B. Cristante",
+   "22147": "M. Koné",
+   "6503": "N. Molina",
+   "875": "P. Dybala",
+   "404097": "Rodrigo Mora",
+   "249": "D. Malen",
+   "349001": "Wesley",
+   "323936": "M. Soulé",
+   "356888": "N. Pisilli",
+   "1807": "E. Ndicka",
+   "162409": "K. Koulierakis",
+   "30418": "P. Gollini",
+   "342019": "D. Ghilardi",
+   "30432": "M. de Roon",
+   "483676": "G. De Marzi",
+   "311067": "S. Castro"
+  }
+ },
+ "174": {
+  "nom": "FC Schalke 04",
+  "matchs": [
+   {
+    "match": 1575228,
+    "date": "2026-11-21",
+    "onze": [
+     1972,
+     1741,
+     81164,
+     361411,
+     90594,
+     1725,
+     280090,
+     25466,
+     137129,
+     24888,
+     125173
+    ],
+    "gardien": 1972
+   }
+  ],
+  "joueurs": {
+   "1972": "L. Karius",
+   "1741": "N. Katić",
+   "81164": "H. Kuruçay",
+   "361411": "Vitalie  Becker",
+   "90594": "J. Dina Ebimbe",
+   "1725": "D. Ljubičić",
+   "280090": "S. El-Faouzi",
+   "25466": "K. Karaman",
+   "137129": "A. Aouchiche",
+   "24888": "Hwang Hee-Chan",
+   "125173": "J. Adamu",
+   "361362": "M. Ayhan",
+   "26397": "J. Bachmann",
+   "790": "E. Džeko",
+   "266192": "A. Gantenbein",
+   "30422": "R. Gosens",
+   "24228": "B. Lasme",
+   "24893": "K. Müller",
+   "115": "M. Sylla",
+   "33142": "S. Tanaka"
+  }
+ },
+ "172": {
+  "nom": "VfB Stuttgart",
+  "matchs": [
+   {
+    "match": 1575228,
+    "date": "2026-11-21",
+    "onze": [
+     327993,
+     394734,
+     38112,
+     135883,
+     128533,
+     24854,
+     535120,
+     25342,
+     26475,
+     24798,
+     46930
+    ],
+    "gardien": 327993
+   }
+  ],
+  "joueurs": {
+   "327993": "D. Seimen",
+   "394734": "Finn Jeltsch",
+   "38112": "J. Chabot",
+   "135883": "R. Hendriks",
+   "128533": "J. Leweling",
+   "24854": "G. Prömel",
+   "535120": "Y. Spalt",
+   "25342": "M. Mittelstädt",
+   "26475": "D. Undav",
+   "24798": "C. Führich",
+   "46930": "E. Demirović",
+   "323449": "A. Al Dakhil",
+   "180731": "L. Assignon",
+   "25597": "F. Bredlow",
+   "340573": "B. El Khannouss",
+   "24963": "A. Karazor",
+   "24806": "N. Nartey",
+   "342188": "D. Pejčinović",
+   "265363": "Tiago Tomás",
+   "24868": "J. Vagnoman"
+  }
+ },
+ "536": {
+  "nom": "Sevilla",
+  "matchs": [
+   {
+    "match": 1570462,
+    "date": "2026-11-21",
+    "onze": [
+     557,
+     119742,
+     338902,
+     297311,
+     11421,
+     22254,
+     21004,
+     48471,
+     104821,
+     135749,
+     322560
+    ],
+    "gardien": 557
+   }
+  ],
+  "joueurs": {
+   "557": "O. Vlachodimos",
+   "119742": "Juan Iglesias",
+   "338902": "Andrés Castrín",
+   "297311": "Kike Salas",
+   "11421": "G. Suazo",
+   "22254": "Y. Fofana",
+   "21004": "L. Agoumé",
+   "48471": "R. Vargas",
+   "104821": "Jon Guridi",
+   "135749": "Félix Correia",
+   "322560": "L. Stassin",
+   "327536": "R. Ure",
+   "174927": "A. Sangante",
+   "185398": "Isaac",
+   "162126": "Peque Fernández",
+   "119795": "G. Kochorashvili",
+   "396475": "Fran González",
+   "39121": "C. Ejuke",
+   "386870": "Julio Díaz del Romo",
+   "41208": "Fábio Cardoso",
+   "331607": "Manu Bueno",
+   "None": "Tamiou Miguel Kpebane"
+  }
+ },
+ "543": {
+  "nom": "Real Betis",
+  "matchs": [
+   {
+    "match": 1570462,
+    "date": "2026-11-21",
+    "onze": [
+     46990,
+     1439,
+     1561,
+     195100,
+     736,
+     1697,
+     47341,
+     9971,
+     745,
+     181421,
+     47119
+    ],
+    "gardien": 46990
+   }
+  ],
+  "joueurs": {
+   "46990": "Álvaro Vallés",
+   "1439": "Héctor Bellerín",
+   "1561": "Marc Bartra",
+   "195100": "Natan",
+   "736": "Fran García",
+   "1697": "Pablo Fornals",
+   "47341": "Marc Roca",
+   "9971": "Antony",
+   "745": "Isco",
+   "181421": "A. Ezzalzouli",
+   "47119": "Aitor Ruibal",
+   "122956": "Diego Conde",
+   "136117": "Rodrigo Riquelme",
+   "300885": "N. Deossa",
+   "750": "Álvaro Fidalgo",
+   "1564": "Junior Firpo",
+   "355004": "V. Gómez",
+   "47582": "C. Hernández",
+   "47302": "Diego Llorente",
+   "1578": "G. Lo Celso",
+   "334574": "Ángel Ortiz",
+   "149551": "T. Parrott",
+   "316519": "F. Bernal"
+  }
+ },
+ "34": {
+  "nom": "Newcastle United",
+  "matchs": [
+   {
+    "match": 1557475,
+    "date": "2026-11-21",
+    "onze": [
+     269349,
+     7318,
+     163189,
+     18961,
+     284492,
+     469321,
+     328105,
+     19163,
+     1463,
+     18778,
+     315237
+    ],
+    "gardien": 269349
+   }
+  ],
+  "joueurs": {
+   "269349": "L. Horníček",
+   "7318": "A. Dedić",
+   "163189": "M. Thiaw",
+   "18961": "D. Burn",
+   "284492": "L. Hall",
+   "469321": "Sean Steur",
+   "328105": "L. Miley",
+   "19163": "J. Murphy",
+   "1463": "J. Willock",
+   "18778": "H. Barnes",
+   "315237": "W. Osula",
+   "19192": "J. Ramsey",
+   "20649": "Y. Wissa",
+   "340077": "M. Fernandez-Pardo",
+   "153430": "A. Elanga",
+   "18911": "N. Pope",
+   "158694": "T. Livramento",
+   "38734": "S. Botman",
+   "2806": "F. Schär",
+   "161933": "Nico González"
+  }
+ },
+ "42": {
+  "nom": "Arsenal",
+  "matchs": [
+   {
+    "match": 1557475,
+    "date": "2026-11-21",
+    "onze": [
+     19465,
+     38746,
+     19354,
+     22224,
+     157052,
+     10135,
+     2937,
+     136723,
+     37127,
+     19586,
+     978
+    ],
+    "gardien": 19465
+   }
+  ],
+  "joueurs": {
+   "19465": "David Raya",
+   "38746": "J. Timber",
+   "19354": "E. Konsa",
+   "22224": "Gabriel Magalhães",
+   "157052": "R. Calafiori",
+   "10135": "Bruno Guimarães",
+   "2937": "D. Rice",
+   "136723": "N. Madueke",
+   "37127": "M. Ødegaard",
+   "19586": "E. Eze",
+   "978": "K. Havertz",
+   "22090": "W. Saliba",
+   "333682": "Cristhian Mosquera",
+   "19959": "B. White",
+   "127817": "P. Hincapié",
+   "313245": "M. Lewis-Skelly",
+   "161800": "C. Tzolis",
+   "47311": "Mikel Merino",
+   "2273": "Kepa",
+   "18979": "V. Gyökeres"
+  }
  }
 }
