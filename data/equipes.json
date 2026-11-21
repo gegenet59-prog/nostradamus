@@ -3688,5 +3688,205 @@
    "182988": "Diego Villares",
    "162122": "Adrià Alti"
   }
+ },
+ "895": {
+  "nom": "Como",
+  "matchs": [
+   {
+    "match": 1550200,
+    "date": "2026-11-21",
+    "onze": [
+     8574,
+     197448,
+     386305,
+     26301,
+     309792,
+     47085,
+     162266,
+     410396,
+     31056,
+     295026,
+     26845
+    ],
+    "gardien": 8574
+   }
+  ],
+  "joueurs": {
+   "8574": "J. Butez",
+   "197448": "Yan Couto",
+   "386305": "Jacobo Ramón Naveros",
+   "26301": "M. Kempf",
+   "309792": "Kaiki",
+   "47085": "Luis Milla",
+   "162266": "L. da Cunha",
+   "410396": "M. Liberali",
+   "31056": "S. Ricci",
+   "295026": "M. Baturina",
+   "26845": "T. Douvikas",
+   "31719": "M. Vigorito",
+   "336560": "Álex Valle",
+   "14266": "I. Smolčić",
+   "18959": "Robert Sánchez",
+   "19720": "T. Chalobah",
+   "32034": "A. Dossena",
+   "31073": "E. Goldaniga",
+   "459029": "A. Lahdo",
+   "350037": "N. Paz",
+   "288699": "M. Perrone",
+   "None": "Kevin Fustini"
+  }
+ },
+ "490": {
+  "nom": "Cagliari",
+  "matchs": [
+   {
+    "match": 1550200,
+    "date": "2026-11-21",
+    "onze": [
+     30731,
+     41964,
+     30561,
+     377118,
+     321744,
+     394183,
+     468711,
+     30505,
+     134926,
+     340700,
+     626704
+    ],
+    "gardien": 30731
+   }
+  ],
+  "joueurs": {
+   "30731": "E. Caprile",
+   "41964": "Zé Pedro",
+   "30561": "A. Deiola",
+   "377118": "R. Kofler",
+   "321744": "A. Obert",
+   "394183": "A. Romano",
+   "468711": "N. Grandu",
+   "30505": "M. Adopo",
+   "134926": "D. Maldini",
+   "340700": "J. Fazzini",
+   "626704": "P. Mendy",
+   "264477": "G. Aurelio",
+   "279757": "R. Ciervo",
+   "584116": "Y. Trepy",
+   "203": "R. Gagliardini",
+   "383026": "Riyad Idrissi",
+   "188319": "Kevin Carlos",
+   "326177": "Y. Massolin",
+   "31318": "M&apos;Bala Nzola",
+   "31601": "B. Radunović",
+   "415155": "J. Rodríguez",
+   "3737": "A. Sherri",
+   "32887": "Y. Sugawara",
+   "341307": "Ivan Stoyanov Sulev",
+   "None": "Alessandro Sugamele",
+   "263699": "A. Fadera"
+  }
+ },
+ "487": {
+  "nom": "Lazio",
+  "matchs": [
+   {
+    "match": 1550202,
+    "date": "2026-11-21",
+    "onze": [
+     26644,
+     342651,
+     37117,
+     376,
+     1702,
+     31173,
+     333116,
+     38749,
+     135519,
+     31094,
+     133729
+    ],
+    "gardien": 26644
+   }
+  ],
+  "joueurs": {
+   "26644": "C. Mandas",
+   "342651": "R. Floriani Mussolini",
+   "37117": "D. Doekhi",
+   "376": "Diogo Leite",
+   "1702": "Pedraza",
+   "31173": "D. Frattesi",
+   "333116": "R. Belahyane",
+   "38749": "K. Taylor",
+   "135519": "G. Isaksen",
+   "31094": "A. Pinamonti",
+   "133729": "T. Noslin",
+   "30554": "L. Pellegrini",
+   "431413": "E. Motta",
+   "30866": "M. Lazzari",
+   "407916": "Filipe Bordon",
+   "144740": "F. Dele-Bashiru",
+   "350857": "O. Provstgaard",
+   "405241": "A. Przyborek",
+   "408625": "D. Renzetti",
+   "2799": "A. Guðmundsson",
+   "483662": "V. Farcomeni",
+   "286474": "M. Cancellieri",
+   "616198": "Ricardo Bordon",
+   "30784": "N. Rovella",
+   "1852": "D. Cataldi",
+   "436244": "F. Serra"
+  }
+ },
+ "867": {
+  "nom": "Lecce",
+  "matchs": [
+   {
+    "match": 1550202,
+    "date": "2026-11-21",
+    "onze": [
+     56459,
+     161702,
+     203219,
+     455316,
+     31543,
+     1748,
+     197779,
+     56560,
+     8643,
+     120,
+     345107
+    ],
+    "gardien": 56459
+   }
+  ],
+  "joueurs": {
+   "56459": "W. Falcone",
+   "161702": "Danilo Veiga",
+   "203219": "J. Siebert",
+   "455316": "Tiago Gabriel",
+   "31543": "A. Gallo",
+   "1748": "L. Coulibaly",
+   "197779": "M. Kaba",
+   "56560": "Y. Maleh",
+   "8643": "K. N’Dri",
+   "120": "W. Geubbels",
+   "345107": "A. Ahmed Fatah",
+   "349232": "A. Dembélé",
+   "589789": "Paco Esteban",
+   "280431": "S. Fofana",
+   "126974": "O. Gandelman",
+   "291589": "Kialonda Gaspar",
+   "387537": "Olaf Gorter",
+   "23253": "G. Jean",
+   "277862": "Joël Monteiro",
+   "19738": "C. Ndaba",
+   "334925": "O. Ngom",
+   "434081": "E. Scott",
+   "264122": "N. Štulić",
+   "31717": "M. Bleve",
+   "335071": "M. Berisha",
+   "42712": "A. Borbei"
+  }
  }
 }

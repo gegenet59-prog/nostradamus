@@ -784,11 +784,276 @@
     },
     "H45": {
      "prevu": "2026-11-21T13:15:00Z",
-     "etat": "attente"
+     "etat": "manque"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T13:57:48Z",
+    "minutes_avant": 2,
+    "domicile": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 8574,
+       "nom": "J. Butez",
+       "poste": "G"
+      },
+      {
+       "id": 197448,
+       "nom": "Yan Couto",
+       "poste": "D"
+      },
+      {
+       "id": 386305,
+       "nom": "Jacobo Ramón Naveros",
+       "poste": "D"
+      },
+      {
+       "id": 26301,
+       "nom": "M. Kempf",
+       "poste": "D"
+      },
+      {
+       "id": 309792,
+       "nom": "Kaiki",
+       "poste": "D"
+      },
+      {
+       "id": 47085,
+       "nom": "Luis Milla",
+       "poste": "M"
+      },
+      {
+       "id": 162266,
+       "nom": "L. da Cunha",
+       "poste": "M"
+      },
+      {
+       "id": 410396,
+       "nom": "M. Liberali",
+       "poste": "M"
+      },
+      {
+       "id": 31056,
+       "nom": "S. Ricci",
+       "poste": "M"
+      },
+      {
+       "id": 295026,
+       "nom": "M. Baturina",
+       "poste": "M"
+      },
+      {
+       "id": 26845,
+       "nom": "T. Douvikas",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 31719,
+       "nom": "M. Vigorito",
+       "poste": "G"
+      },
+      {
+       "id": 336560,
+       "nom": "Álex Valle",
+       "poste": "D"
+      },
+      {
+       "id": 14266,
+       "nom": "I. Smolčić",
+       "poste": "D"
+      },
+      {
+       "id": 18959,
+       "nom": "Robert Sánchez",
+       "poste": "G"
+      },
+      {
+       "id": 19720,
+       "nom": "T. Chalobah",
+       "poste": "D"
+      },
+      {
+       "id": 32034,
+       "nom": "A. Dossena",
+       "poste": "D"
+      },
+      {
+       "id": 31073,
+       "nom": "E. Goldaniga",
+       "poste": "D"
+      },
+      {
+       "id": 459029,
+       "nom": "A. Lahdo",
+       "poste": "M"
+      },
+      {
+       "id": 350037,
+       "nom": "N. Paz",
+       "poste": "M"
+      },
+      {
+       "id": 288699,
+       "nom": "M. Perrone",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Matteo Papaccioli",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Kevin Fustini",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 30731,
+       "nom": "E. Caprile",
+       "poste": "G"
+      },
+      {
+       "id": 41964,
+       "nom": "Zé Pedro",
+       "poste": "D"
+      },
+      {
+       "id": 30561,
+       "nom": "A. Deiola",
+       "poste": "D"
+      },
+      {
+       "id": 377118,
+       "nom": "R. Kofler",
+       "poste": "D"
+      },
+      {
+       "id": 321744,
+       "nom": "A. Obert",
+       "poste": "D"
+      },
+      {
+       "id": 394183,
+       "nom": "A. Romano",
+       "poste": "M"
+      },
+      {
+       "id": 468711,
+       "nom": "N. Grandu",
+       "poste": "M"
+      },
+      {
+       "id": 30505,
+       "nom": "M. Adopo",
+       "poste": "M"
+      },
+      {
+       "id": 134926,
+       "nom": "D. Maldini",
+       "poste": "M"
+      },
+      {
+       "id": 340700,
+       "nom": "J. Fazzini",
+       "poste": "M"
+      },
+      {
+       "id": 626704,
+       "nom": "P. Mendy",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 264477,
+       "nom": "G. Aurelio",
+       "poste": "D"
+      },
+      {
+       "id": 279757,
+       "nom": "R. Ciervo",
+       "poste": "F"
+      },
+      {
+       "id": 584116,
+       "nom": "Y. Trepy",
+       "poste": "F"
+      },
+      {
+       "id": 203,
+       "nom": "R. Gagliardini",
+       "poste": "M"
+      },
+      {
+       "id": 383026,
+       "nom": "Riyad Idrissi",
+       "poste": "D"
+      },
+      {
+       "id": 188319,
+       "nom": "Kevin Carlos",
+       "poste": "F"
+      },
+      {
+       "id": 326177,
+       "nom": "Y. Massolin",
+       "poste": "M"
+      },
+      {
+       "id": 31318,
+       "nom": "M&apos;Bala Nzola",
+       "poste": "F"
+      },
+      {
+       "id": 31601,
+       "nom": "B. Radunović",
+       "poste": "G"
+      },
+      {
+       "id": 415155,
+       "nom": "J. Rodríguez",
+       "poste": "D"
+      },
+      {
+       "id": 3737,
+       "nom": "A. Sherri",
+       "poste": "G"
+      },
+      {
+       "id": 32887,
+       "nom": "Y. Sugawara",
+       "poste": "D"
+      },
+      {
+       "id": 341307,
+       "nom": "Ivan Stoyanov Sulev",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Alessandro Sugamele",
+       "poste": "F"
+      },
+      {
+       "id": 263699,
+       "nom": "A. Fadera",
+       "poste": "F"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T13:57:48Z",
+    "2026-11-21T13:57:48Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -954,11 +1219,291 @@
     },
     "H45": {
      "prevu": "2026-11-21T13:15:00Z",
-     "etat": "attente"
+     "etat": "manque"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T13:57:48Z",
+    "minutes_avant": 2,
+    "domicile": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 26644,
+       "nom": "C. Mandas",
+       "poste": "G"
+      },
+      {
+       "id": 342651,
+       "nom": "R. Floriani Mussolini",
+       "poste": "D"
+      },
+      {
+       "id": 37117,
+       "nom": "D. Doekhi",
+       "poste": "D"
+      },
+      {
+       "id": 376,
+       "nom": "Diogo Leite",
+       "poste": "D"
+      },
+      {
+       "id": 1702,
+       "nom": "Pedraza",
+       "poste": "D"
+      },
+      {
+       "id": 31173,
+       "nom": "D. Frattesi",
+       "poste": "M"
+      },
+      {
+       "id": 333116,
+       "nom": "R. Belahyane",
+       "poste": "M"
+      },
+      {
+       "id": 38749,
+       "nom": "K. Taylor",
+       "poste": "M"
+      },
+      {
+       "id": 135519,
+       "nom": "G. Isaksen",
+       "poste": "F"
+      },
+      {
+       "id": 31094,
+       "nom": "A. Pinamonti",
+       "poste": "F"
+      },
+      {
+       "id": 133729,
+       "nom": "T. Noslin",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 30554,
+       "nom": "L. Pellegrini",
+       "poste": "D"
+      },
+      {
+       "id": 431413,
+       "nom": "E. Motta",
+       "poste": "G"
+      },
+      {
+       "id": 30866,
+       "nom": "M. Lazzari",
+       "poste": "M"
+      },
+      {
+       "id": 407916,
+       "nom": "Filipe Bordon",
+       "poste": "D"
+      },
+      {
+       "id": 144740,
+       "nom": "F. Dele-Bashiru",
+       "poste": "M"
+      },
+      {
+       "id": 350857,
+       "nom": "O. Provstgaard",
+       "poste": "D"
+      },
+      {
+       "id": 405241,
+       "nom": "A. Przyborek",
+       "poste": "M"
+      },
+      {
+       "id": 408625,
+       "nom": "D. Renzetti",
+       "poste": "G"
+      },
+      {
+       "id": 2799,
+       "nom": "A. Guðmundsson",
+       "poste": "F"
+      },
+      {
+       "id": 483662,
+       "nom": "V. Farcomeni",
+       "poste": "M"
+      },
+      {
+       "id": 286474,
+       "nom": "M. Cancellieri",
+       "poste": "F"
+      },
+      {
+       "id": 616198,
+       "nom": "Ricardo Bordon",
+       "poste": "D"
+      },
+      {
+       "id": 30784,
+       "nom": "N. Rovella",
+       "poste": "M"
+      },
+      {
+       "id": 1852,
+       "nom": "D. Cataldi",
+       "poste": "M"
+      },
+      {
+       "id": 436244,
+       "nom": "F. Serra",
+       "poste": "F"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-3-3",
+     "titulaires": [
+      {
+       "id": 56459,
+       "nom": "W. Falcone",
+       "poste": "G"
+      },
+      {
+       "id": 161702,
+       "nom": "Danilo Veiga",
+       "poste": "D"
+      },
+      {
+       "id": 203219,
+       "nom": "J. Siebert",
+       "poste": "D"
+      },
+      {
+       "id": 455316,
+       "nom": "Tiago Gabriel",
+       "poste": "D"
+      },
+      {
+       "id": 31543,
+       "nom": "A. Gallo",
+       "poste": "D"
+      },
+      {
+       "id": 1748,
+       "nom": "L. Coulibaly",
+       "poste": "M"
+      },
+      {
+       "id": 197779,
+       "nom": "M. Kaba",
+       "poste": "M"
+      },
+      {
+       "id": 56560,
+       "nom": "Y. Maleh",
+       "poste": "M"
+      },
+      {
+       "id": 8643,
+       "nom": "K. N’Dri",
+       "poste": "F"
+      },
+      {
+       "id": 120,
+       "nom": "W. Geubbels",
+       "poste": "F"
+      },
+      {
+       "id": 345107,
+       "nom": "A. Ahmed Fatah",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 349232,
+       "nom": "A. Dembélé",
+       "poste": "D"
+      },
+      {
+       "id": 589789,
+       "nom": "Paco Esteban",
+       "poste": "F"
+      },
+      {
+       "id": 280431,
+       "nom": "S. Fofana",
+       "poste": "M"
+      },
+      {
+       "id": 126974,
+       "nom": "O. Gandelman",
+       "poste": "M"
+      },
+      {
+       "id": 291589,
+       "nom": "Kialonda Gaspar",
+       "poste": "D"
+      },
+      {
+       "id": 387537,
+       "nom": "Olaf Gorter",
+       "poste": "M"
+      },
+      {
+       "id": 23253,
+       "nom": "G. Jean",
+       "poste": "D"
+      },
+      {
+       "id": 277862,
+       "nom": "Joël Monteiro",
+       "poste": "F"
+      },
+      {
+       "id": 19738,
+       "nom": "C. Ndaba",
+       "poste": "D"
+      },
+      {
+       "id": 334925,
+       "nom": "O. Ngom",
+       "poste": "M"
+      },
+      {
+       "id": 434081,
+       "nom": "E. Scott",
+       "poste": "D"
+      },
+      {
+       "id": 264122,
+       "nom": "N. Štulić",
+       "poste": "F"
+      },
+      {
+       "id": 31717,
+       "nom": "M. Bleve",
+       "poste": "G"
+      },
+      {
+       "id": 335071,
+       "nom": "M. Berisha",
+       "poste": "M"
+      },
+      {
+       "id": 42712,
+       "nom": "A. Borbei",
+       "poste": "G"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T13:57:48Z",
+    "2026-11-21T13:57:48Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -1118,11 +1663,26 @@
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T13:57:48Z",
+     "retard_min": 13,
+     "pinnacle": {
+      "1": 1.32,
+      "N": 6.46,
+      "2": 8.26
+     },
+     "winamax": {
+      "1": 1.22,
+      "N": 6.5,
+      "2": 7.25
+     },
+     "maj_pinnacle": "2026-11-21T13:57:41Z"
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-21T13:57:48Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -1175,8 +1735,8 @@
      "1": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 5.6,
-      "ampleur": 11.1,
+      "pct": 4.8,
+      "ampleur": 9.5,
       "raisons": [
        "petite cote : mouvement plus fort qu'il n'y paraît"
       ]
@@ -1184,20 +1744,22 @@
      "N": {
       "feu": "rouge",
       "fleche": "baisse",
-      "pct": -10.1,
-      "ampleur": 6.4,
+      "pct": -10.4,
+      "ampleur": 6.6,
       "raisons": []
      },
      "2": {
       "feu": "rouge",
       "fleche": "baisse",
-      "pct": -14.4,
-      "ampleur": 9.2,
-      "raisons": []
+      "pct": -9.8,
+      "ampleur": 6.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -1205,13 +1767,13 @@
     "phrase": "Le marché annonce : Bayer Leverkusen ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -3.47,
-     "N": 1.61,
-     "2": 1.86
+     "1": -2.9,
+     "N": 1.66,
+     "2": 1.23
     },
     "marge": [
      4.15,
-     3.38
+     3.34
     ]
    },
    "score": null
@@ -1266,11 +1828,26 @@
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T13:57:48Z",
+     "retard_min": 13,
+     "pinnacle": {
+      "1": 4.89,
+      "N": 4.32,
+      "2": 1.69
+     },
+     "winamax": {
+      "1": 4.4,
+      "N": 4.3,
+      "2": 1.55
+     },
+     "maj_pinnacle": "2026-11-21T13:57:40Z"
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-21T13:57:48Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -1346,44 +1923,48 @@
     "issues": {
      "1": {
       "feu": "rouge",
-      "fleche": "hausse",
-      "pct": 9.8,
-      "ampleur": 5.9,
-      "raisons": []
+      "fleche": "baisse",
+      "pct": -4.3,
+      "ampleur": 2.8,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 1.8,
-      "ampleur": 1.1,
-      "raisons": []
-     },
-     "2": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -2.5,
+      "pct": -4.8,
       "ampleur": 3.2,
       "raisons": [
-       "petite cote : mouvement plus fort qu'il n'y paraît"
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 4.3,
+      "ampleur": 5.2,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
       ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : Borussia Monchengladbach ne gagne pas (N2)",
+    "pari": "1N",
+    "phrase": "Le marché annonce : Borussia Dortmund ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": -1.59,
-     "N": -0.25,
-     "2": 1.85
+     "1": 0.96,
+     "N": 1.21,
+     "2": -2.17
     },
     "marge": [
      3.32,
-     2.76
+     2.77
     ]
    },
    "score": null
@@ -1438,11 +2019,26 @@
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T13:57:48Z",
+     "retard_min": 13,
+     "pinnacle": {
+      "1": 2.51,
+      "N": 3.95,
+      "2": 2.68
+     },
+     "winamax": {
+      "1": 2.25,
+      "N": 3.8,
+      "2": 2.35
+     },
+     "maj_pinnacle": "2026-11-21T13:57:41Z"
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-21T13:57:48Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -1501,43 +2097,45 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 4.0,
-      "ampleur": 3.3,
+      "pct": 1.2,
+      "ampleur": 1.0,
       "raisons": []
      },
      "N": {
       "feu": "vert",
       "fleche": "baisse",
-      "pct": -0.2,
-      "ampleur": 0.2,
+      "pct": -2.5,
+      "ampleur": 1.7,
       "raisons": []
      },
      "2": {
-      "feu": "vert",
-      "fleche": "baisse",
-      "pct": -2.7,
-      "ampleur": 2.2,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 1.9,
+      "ampleur": 1.5,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : Eintracht Frankfurt ne gagne pas (N2)",
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": -1.35,
-     "N": 0.17,
-     "2": 1.18
+     "1": -0.25,
+     "N": 0.74,
+     "2": -0.49
     },
     "marge": [
      3.04,
-     2.57
+     2.47
     ]
    },
    "score": null
@@ -1592,11 +2190,26 @@
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T13:57:48Z",
+     "retard_min": 13,
+     "pinnacle": {
+      "1": 3.7,
+      "N": 3.64,
+      "2": 2.08
+     },
+     "winamax": {
+      "1": 3.25,
+      "N": 3.4,
+      "2": 1.9
+     },
+     "maj_pinnacle": "2026-11-21T13:57:41Z"
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-21T13:57:48Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -1641,41 +2254,41 @@
      "1": {
       "feu": "vert",
       "fleche": "hausse",
-      "pct": 2.5,
-      "ampleur": 1.7,
+      "pct": 0.8,
+      "ampleur": 0.6,
       "raisons": []
      },
      "N": {
-      "feu": "vert",
+      "feu": "orange",
       "fleche": "baisse",
-      "pct": -2.4,
-      "ampleur": 1.6,
+      "pct": -3.7,
+      "ampleur": 2.6,
       "raisons": []
      },
      "2": {
       "feu": "vert",
       "fleche": "hausse",
-      "pct": 1.5,
-      "ampleur": 1.4,
+      "pct": 3.0,
+      "ampleur": 2.8,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "1N",
+    "phrase": "Le marché annonce : SC Freiburg ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": -0.45,
-     "N": 0.81,
-     "2": -0.36
+     "1": -0.05,
+     "N": 1.15,
+     "2": -1.1
     },
     "marge": [
      3.21,
-     2.48
+     2.58
     ]
    },
    "score": null
@@ -1730,11 +2343,26 @@
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T13:57:48Z",
+     "retard_min": 13,
+     "pinnacle": {
+      "1": 6.11,
+      "N": 4.9,
+      "2": 1.51
+     },
+     "winamax": {
+      "1": 5.4,
+      "N": 4.5,
+      "2": 1.39
+     },
+     "maj_pinnacle": "2026-11-21T13:57:41Z"
     }
    },
    "compos": null,
-   "compos_essais": [],
+   "compos_essais": [
+    "2026-11-21T13:57:48Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -1801,29 +2429,32 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 3.1,
-      "ampleur": 1.8,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -1.6,
+      "ampleur": 1.0,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé",
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 3.5,
-      "ampleur": 2.2,
+      "pct": 1.2,
+      "ampleur": 0.8,
       "raisons": []
      },
      "2": {
       "feu": "vert",
-      "fleche": "baisse",
-      "pct": -0.7,
-      "ampleur": 1.0,
+      "fleche": "hausse",
+      "pct": 0.7,
+      "ampleur": 0.9,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -1831,13 +2462,13 @@
     "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": -0.35,
-     "N": -0.54,
-     "2": 0.89
+     "1": 0.32,
+     "N": -0.16,
+     "2": -0.16
     },
     "marge": [
      3.43,
-     2.7
+     3.0
     ]
    },
    "score": null
@@ -2808,7 +3439,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T13:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T13:57:48Z",
+     "retard_min": 43,
+     "pinnacle": {
+      "1": 6.1,
+      "N": 5.26,
+      "2": 1.48
+     },
+     "winamax": {
+      "1": 5.4,
+      "N": 5.2,
+      "2": 1.38
+     },
+     "maj_pinnacle": "2026-11-21T13:57:44Z"
     },
     "H45": {
      "prevu": "2026-11-21T15:30:00Z",
@@ -2872,8 +3516,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.9,
+      "ampleur": 2.3,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.4,
+      "ampleur": 0.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.51,
+     "N": 0.06,
+     "2": 0.45
+    },
+    "marge": [
+     3.69,
+     2.97
+    ]
+   },
    "score": null
   },
   {
@@ -3935,5 +4619,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-21T12:58:30Z"
+ "maj": "2026-11-21T13:57:48Z"
 }

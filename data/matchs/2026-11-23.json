@@ -28,7 +28,63 @@
    "feux": null,
    "marche": null,
    "score": null
+  },
+  {
+   "id": "afae1c9d986e4ab2200dc9bd44b6b6c4",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-23T20:00:00Z",
+   "domicile": "Levante",
+   "exterieur": "Elche CF",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-23T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-23T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-23T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "aa77e2a08a1a003b0bbb62a5f8e8ae42",
+   "competition": "PL",
+   "coup_envoi": "2026-11-23T20:00:00Z",
+   "domicile": "Brentford",
+   "exterieur": "Everton",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-23T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-23T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-23T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
   }
  ],
- "maj": "2026-11-21T07:56:36Z"
+ "maj": "2026-11-21T13:57:48Z"
 }
