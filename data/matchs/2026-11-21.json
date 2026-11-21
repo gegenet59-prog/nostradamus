@@ -166,7 +166,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T10:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T10:27:33Z",
+     "retard_min": 28,
+     "pinnacle": {
+      "1": 2.36,
+      "N": 3.28,
+      "2": 3.38
+     },
+     "winamax": {
+      "1": 2.15,
+      "N": 3.15,
+      "2": 2.95
+     },
+     "maj_pinnacle": "2026-11-21T10:27:22Z"
     },
     "H45": {
      "prevu": "2026-11-21T12:15:00Z",
@@ -197,8 +210,48 @@
     ],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.9,
+      "ampleur": 0.7,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -5.2,
+      "ampleur": 3.8,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 6.3,
+      "ampleur": 4.4,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Deportivo La Coruña ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.1,
+     "N": 1.72,
+     "2": -1.63
+    },
+    "marge": [
+     3.08,
+     2.45
+    ]
+   },
    "score": null
   },
   {
@@ -2641,5 +2694,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-21T09:34:23Z"
+ "maj": "2026-11-21T10:27:33Z"
 }
