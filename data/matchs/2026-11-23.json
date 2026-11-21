@@ -1,0 +1,34 @@
+{
+ "date": "2026-11-23",
+ "matchs": [
+  {
+   "id": "99776445d5a5f4ed008f9a6d6a1495b7",
+   "competition": "SA",
+   "coup_envoi": "2026-11-23T19:45:00Z",
+   "domicile": "Monza",
+   "exterieur": "Fiorentina",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-23T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-23T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-23T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  }
+ ],
+ "maj": "2026-11-21T07:56:36Z"
+}

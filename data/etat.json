@@ -1,8 +1,8 @@
 {
  "odds": {
   "mode": "complet",
-  "reste": 443,
-  "maj": "2026-11-21T05:40:30Z"
+  "reste": 441,
+  "maj": "2026-11-21T07:56:36Z"
  },
  "foot": {
   "jour": "2026-11-21",
@@ -55,6 +55,6 @@
    "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
   }
  ],
- "planning_fait_a": "2026-11-21T00:55:05Z",
- "dernier_passage_utile": "2026-11-21T05:40:30Z"
+ "planning_fait_a": "2026-11-21T07:56:36Z",
+ "dernier_passage_utile": "2026-11-21T07:56:36Z"
 }
