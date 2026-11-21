@@ -3502,5 +3502,95 @@
    "415089": "Gabriel Moscardo",
    "286639": "Bryan Zaragoza"
   }
+ },
+ "50": {
+  "nom": "Manchester City",
+  "matchs": [
+   {
+    "match": 1557474,
+    "date": "2026-11-21",
+    "onze": [
+     1622,
+     360114,
+     567,
+     67971,
+     307123,
+     438688,
+     138908,
+     18592,
+     631,
+     1422,
+     1100
+    ],
+    "gardien": 1622
+   }
+  ],
+  "joueurs": {
+   "1622": "G. Donnarumma",
+   "360114": "A. Khusanov",
+   "567": "Rúben Dias",
+   "67971": "M. Guéhi",
+   "307123": "N. O&apos;Reilly",
+   "438688": "A. Bouaddi",
+   "138908": "E. Anderson",
+   "18592": "I. Ndiaye",
+   "631": "P. Foden",
+   "1422": "J. Doku",
+   "1100": "E. Haaland",
+   "2291": "M. Kovačić",
+   "284230": "R. Lewis",
+   "129033": "J. Gvardiol",
+   "414359": "Vitor Nunes",
+   "47296": "G. Rulli",
+   "156477": "R. Cherki",
+   "5996": "E. Fernández",
+   "425714": "Allan",
+   "568008": "F. Samba"
+  }
+ },
+ "36": {
+  "nom": "Fulham",
+  "matchs": [
+   {
+    "match": 1557474,
+    "date": "2026-11-21",
+    "onze": [
+     1438,
+     657,
+     126640,
+     152967,
+     19032,
+     1934,
+     284356,
+     278133,
+     389315,
+     1455,
+     195106
+    ],
+    "gardien": 1438
+   }
+  ],
+  "joueurs": {
+   "1438": "B. Leno",
+   "657": "K. Tete",
+   "126640": "D. Affengruber",
+   "152967": "C. Bassey",
+   "19032": "R. Sessegnon",
+   "1934": "S. Berge",
+   "284356": "S. Charles",
+   "278133": "Oscar Bobb",
+   "389315": "Joshua King",
+   "1455": "A. Iwobi",
+   "195106": "Rodrigo Muniz",
+   "336711": "Gonzalo García",
+   "2920": "T. Castagne",
+   "131": "Jorge Cuenca",
+   "19549": "A. Robinson",
+   "335094": "H. Larsson",
+   "19025": "T. Cairney",
+   "313167": "Manuel Ángel",
+   "386306": "César Palacios",
+   "None": "Dino Kaiser"
+  }
  }
 }

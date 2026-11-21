@@ -51,11 +51,243 @@
     },
     "H45": {
      "prevu": "2026-11-21T11:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 20,
+     "pinnacle": {
+      "1": 1.38,
+      "N": 5.45,
+      "2": 8.1
+     },
+     "winamax": {
+      "1": 1.3,
+      "N": 5.25,
+      "2": 7.0
+     },
+     "maj_pinnacle": "2026-11-21T12:04:25Z"
     }
    },
-   "compos": null,
-   "compos_essais": [],
+   "compos": {
+    "recue_a": "2026-11-21T12:04:30Z",
+    "minutes_avant": 25,
+    "domicile": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 1622,
+       "nom": "G. Donnarumma",
+       "poste": "G"
+      },
+      {
+       "id": 360114,
+       "nom": "A. Khusanov",
+       "poste": "D"
+      },
+      {
+       "id": 567,
+       "nom": "Rúben Dias",
+       "poste": "D"
+      },
+      {
+       "id": 67971,
+       "nom": "M. Guéhi",
+       "poste": "D"
+      },
+      {
+       "id": 307123,
+       "nom": "N. O&apos;Reilly",
+       "poste": "D"
+      },
+      {
+       "id": 438688,
+       "nom": "A. Bouaddi",
+       "poste": "M"
+      },
+      {
+       "id": 138908,
+       "nom": "E. Anderson",
+       "poste": "M"
+      },
+      {
+       "id": 18592,
+       "nom": "I. Ndiaye",
+       "poste": "M"
+      },
+      {
+       "id": 631,
+       "nom": "P. Foden",
+       "poste": "M"
+      },
+      {
+       "id": 1422,
+       "nom": "J. Doku",
+       "poste": "M"
+      },
+      {
+       "id": 1100,
+       "nom": "E. Haaland",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 2291,
+       "nom": "M. Kovačić",
+       "poste": "M"
+      },
+      {
+       "id": 284230,
+       "nom": "R. Lewis",
+       "poste": "D"
+      },
+      {
+       "id": 129033,
+       "nom": "J. Gvardiol",
+       "poste": "D"
+      },
+      {
+       "id": 414359,
+       "nom": "Vitor Nunes",
+       "poste": "D"
+      },
+      {
+       "id": 47296,
+       "nom": "G. Rulli",
+       "poste": "G"
+      },
+      {
+       "id": 156477,
+       "nom": "R. Cherki",
+       "poste": "M"
+      },
+      {
+       "id": 5996,
+       "nom": "E. Fernández",
+       "poste": "M"
+      },
+      {
+       "id": 425714,
+       "nom": "Allan",
+       "poste": "F"
+      },
+      {
+       "id": 568008,
+       "nom": "F. Samba",
+       "poste": "M"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-2-3-1",
+     "titulaires": [
+      {
+       "id": 1438,
+       "nom": "B. Leno",
+       "poste": "G"
+      },
+      {
+       "id": 657,
+       "nom": "K. Tete",
+       "poste": "D"
+      },
+      {
+       "id": 126640,
+       "nom": "D. Affengruber",
+       "poste": "D"
+      },
+      {
+       "id": 152967,
+       "nom": "C. Bassey",
+       "poste": "D"
+      },
+      {
+       "id": 19032,
+       "nom": "R. Sessegnon",
+       "poste": "D"
+      },
+      {
+       "id": 1934,
+       "nom": "S. Berge",
+       "poste": "M"
+      },
+      {
+       "id": 284356,
+       "nom": "S. Charles",
+       "poste": "M"
+      },
+      {
+       "id": 278133,
+       "nom": "Oscar Bobb",
+       "poste": "M"
+      },
+      {
+       "id": 389315,
+       "nom": "Joshua King",
+       "poste": "M"
+      },
+      {
+       "id": 1455,
+       "nom": "A. Iwobi",
+       "poste": "M"
+      },
+      {
+       "id": 195106,
+       "nom": "Rodrigo Muniz",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 336711,
+       "nom": "Gonzalo García",
+       "poste": "F"
+      },
+      {
+       "id": 2920,
+       "nom": "T. Castagne",
+       "poste": "D"
+      },
+      {
+       "id": 131,
+       "nom": "Jorge Cuenca",
+       "poste": "D"
+      },
+      {
+       "id": 19549,
+       "nom": "A. Robinson",
+       "poste": "D"
+      },
+      {
+       "id": 335094,
+       "nom": "H. Larsson",
+       "poste": "M"
+      },
+      {
+       "id": 19025,
+       "nom": "T. Cairney",
+       "poste": "M"
+      },
+      {
+       "id": 313167,
+       "nom": "Manuel Ángel",
+       "poste": "M"
+      },
+      {
+       "id": 386306,
+       "nom": "César Palacios",
+       "poste": "M"
+      },
+      {
+       "id": null,
+       "nom": "Dino Kaiser",
+       "poste": "G"
+      }
+     ]
+    }
+   },
+   "compos_essais": [
+    "2026-11-21T12:04:30Z"
+   ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
     "domicile": [
@@ -92,29 +324,27 @@
      "1": {
       "feu": "vert",
       "fleche": "baisse",
-      "pct": -0.7,
-      "ampleur": 1.2,
+      "pct": -1.4,
+      "ampleur": 2.4,
       "raisons": []
      },
      "N": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "baisse",
       "pct": -2.9,
       "ampleur": 1.8,
-      "raisons": [
-       "Pinnacle et Winamax en sens opposé"
-      ]
+      "raisons": []
      },
      "2": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 13.0,
-      "ampleur": 7.3,
+      "pct": 13.6,
+      "ampleur": 7.6,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -122,13 +352,13 @@
     "phrase": "Le marché annonce : Fulham ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": 0.89,
-     "N": 0.61,
-     "2": -1.5
+     "1": 1.08,
+     "N": 0.53,
+     "2": -1.61
     },
     "marge": [
      3.28,
-     2.7
+     3.16
     ]
    },
    "score": null
@@ -621,7 +851,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 35,
+     "pinnacle": {
+      "1": 1.33,
+      "N": 6.48,
+      "2": 7.84
+     },
+     "winamax": {
+      "1": 1.22,
+      "N": 6.5,
+      "2": 7.25
+     },
+     "maj_pinnacle": "2026-11-21T12:04:26Z"
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
@@ -677,8 +920,50 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 5.6,
+      "ampleur": 11.1,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -10.1,
+      "ampleur": 6.4,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -14.4,
+      "ampleur": 9.2,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Bayer Leverkusen ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -3.47,
+     "N": 1.61,
+     "2": 1.86
+    },
+    "marge": [
+     4.15,
+     3.38
+    ]
+   },
    "score": null
   },
   {
@@ -714,7 +999,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 35,
+     "pinnacle": {
+      "1": 5.61,
+      "N": 4.62,
+      "2": 1.58
+     },
+     "winamax": {
+      "1": 4.75,
+      "N": 4.6,
+      "2": 1.45
+     },
+     "maj_pinnacle": "2026-11-21T12:04:26Z"
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
@@ -794,8 +1092,50 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 9.8,
+      "ampleur": 5.9,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.8,
+      "ampleur": 1.1,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -2.5,
+      "ampleur": 3.2,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Borussia Monchengladbach ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.59,
+     "N": -0.25,
+     "2": 1.85
+    },
+    "marge": [
+     3.32,
+     2.76
+    ]
+   },
    "score": null
   },
   {
@@ -831,7 +1171,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 35,
+     "pinnacle": {
+      "1": 2.58,
+      "N": 4.04,
+      "2": 2.56
+     },
+     "winamax": {
+      "1": 2.25,
+      "N": 3.85,
+      "2": 2.3
+     },
+     "maj_pinnacle": "2026-11-21T12:04:26Z"
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
@@ -895,8 +1248,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 4.0,
+      "ampleur": 3.3,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.2,
+      "ampleur": 0.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.7,
+      "ampleur": 2.2,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Eintracht Frankfurt ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.35,
+     "N": 0.17,
+     "2": 1.18
+    },
+    "marge": [
+     3.04,
+     2.57
+    ]
+   },
    "score": null
   },
   {
@@ -932,7 +1325,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 35,
+     "pinnacle": {
+      "1": 3.76,
+      "N": 3.69,
+      "2": 2.05
+     },
+     "winamax": {
+      "1": 3.25,
+      "N": 3.45,
+      "2": 1.88
+     },
+     "maj_pinnacle": "2026-11-21T12:04:25Z"
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
@@ -980,8 +1386,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.5,
+      "ampleur": 1.7,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.4,
+      "ampleur": 1.6,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.5,
+      "ampleur": 1.4,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.45,
+     "N": 0.81,
+     "2": -0.36
+    },
+    "marge": [
+     3.21,
+     2.48
+    ]
+   },
    "score": null
   },
   {
@@ -1017,7 +1463,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 35,
+     "pinnacle": {
+      "1": 6.4,
+      "N": 5.01,
+      "2": 1.49
+     },
+     "winamax": {
+      "1": 5.2,
+      "N": 4.6,
+      "2": 1.39
+     },
+     "maj_pinnacle": "2026-11-21T12:04:26Z"
     },
     "H45": {
      "prevu": "2026-11-21T13:45:00Z",
@@ -1089,8 +1548,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.1,
+      "ampleur": 1.8,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.5,
+      "ampleur": 2.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.7,
+      "ampleur": 1.0,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.35,
+     "N": -0.54,
+     "2": 0.89
+    },
+    "marge": [
+     3.43,
+     2.7
+    ]
+   },
    "score": null
   },
   {
@@ -1126,7 +1625,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T12:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 5,
+     "pinnacle": {
+      "1": 1.79,
+      "N": 3.86,
+      "2": 4.8
+     },
+     "winamax": {
+      "1": 1.66,
+      "N": 3.55,
+      "2": 4.1
+     },
+     "maj_pinnacle": "2026-11-21T12:04:25Z"
     },
     "H45": {
      "prevu": "2026-11-21T14:15:00Z",
@@ -1206,8 +1718,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.6,
+      "ampleur": 0.6,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.8,
+      "ampleur": 1.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 4.6,
+      "ampleur": 2.9,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.12,
+     "N": 0.64,
+     "2": -0.76
+    },
+    "marge": [
+     3.41,
+     2.61
+    ]
+   },
    "score": null
   },
   {
@@ -1243,7 +1795,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T12:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 5,
+     "pinnacle": {
+      "1": 1.96,
+      "N": 3.57,
+      "2": 4.26
+     },
+     "winamax": {
+      "1": 1.82,
+      "N": 3.35,
+      "2": 3.75
+     },
+     "maj_pinnacle": "2026-11-21T12:04:25Z"
     },
     "H45": {
      "prevu": "2026-11-21T14:15:00Z",
@@ -1291,8 +1856,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.5,
+      "ampleur": 0.5,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.8,
+      "ampleur": 0.6,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.9,
+      "ampleur": 1.9,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.09,
+     "N": 0.41,
+     "2": -0.5
+    },
+    "marge": [
+     3.21,
+     2.51
+    ]
+   },
    "score": null
   },
   {
@@ -1328,7 +1933,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T12:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 5,
+     "pinnacle": {
+      "1": 2.07,
+      "N": 3.56,
+      "2": 3.83
+     },
+     "winamax": {
+      "1": 1.92,
+      "N": 3.3,
+      "2": 3.45
+     },
+     "maj_pinnacle": "2026-11-21T12:04:25Z"
     },
     "H45": {
      "prevu": "2026-11-21T14:15:00Z",
@@ -1392,8 +2010,50 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.5,
+      "ampleur": 3.3,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.1,
+      "ampleur": 0.8,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -2.5,
+      "ampleur": 1.7,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Chelsea ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.31,
+     "N": 0.49,
+     "2": 0.82
+    },
+    "marge": [
+     3.22,
+     2.51
+    ]
+   },
    "score": null
   },
   {
@@ -1429,7 +2089,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T12:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 5,
+     "pinnacle": {
+      "1": 2.62,
+      "N": 3.42,
+      "2": 2.86
+     },
+     "winamax": {
+      "1": 2.35,
+      "N": 3.25,
+      "2": 2.5
+     },
+     "maj_pinnacle": "2026-11-21T12:04:25Z"
     },
     "H45": {
      "prevu": "2026-11-21T14:15:00Z",
@@ -1501,8 +2174,48 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 4.8,
+      "ampleur": 3.8,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -4.5,
+      "ampleur": 3.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.7,
+      "ampleur": 0.5,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Coventry City ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.5,
+     "N": 1.48,
+     "2": 0.02
+    },
+    "marge": [
+     3.14,
+     2.37
+    ]
+   },
    "score": null
   },
   {
@@ -1538,7 +2251,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T12:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T12:04:30Z",
+     "retard_min": 5,
+     "pinnacle": {
+      "1": 1.53,
+      "N": 4.74,
+      "2": 6.16
+     },
+     "winamax": {
+      "1": 1.4,
+      "N": 4.6,
+      "2": 5.75
+     },
+     "maj_pinnacle": "2026-11-21T12:04:25Z"
     },
     "H45": {
      "prevu": "2026-11-21T14:15:00Z",
@@ -1585,8 +2311,48 @@
     ],
     "exterieur": []
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.9,
+      "ampleur": 2.6,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 5.1,
+      "ampleur": 3.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 5.1,
+      "ampleur": 3.0,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Tottenham Hotspur gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.62,
+     "N": -0.91,
+     "2": -0.7
+    },
+    "marge": [
+     3.34,
+     2.69
+    ]
+   },
    "score": null
   },
   {
@@ -1850,8 +2616,16 @@
    "compos": null,
    "compos_essais": [],
    "absents": {
-    "releve_a": "2026-11-21T00:55:05Z",
+    "releve_a": "2026-11-21T12:04:30Z",
     "domicile": [
+     {
+      "id": 576948,
+      "nom": "D. Drobnic",
+      "motif": "Foot Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
      {
       "id": 203483,
       "nom": "A. Ndiaye",
@@ -1890,6 +2664,14 @@
       "id": 162452,
       "nom": "D. Rensch",
       "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 81012,
+      "nom": "D. S. Vasquez Llach",
+      "motif": "Inactive",
       "source": "blesses",
       "titulaire": false,
       "cle": null
@@ -2052,7 +2834,7 @@
    "compos": null,
    "compos_essais": [],
    "absents": {
-    "releve_a": "2026-11-21T00:55:05Z",
+    "releve_a": "2026-11-21T12:04:30Z",
     "domicile": [
      {
       "id": 195923,
@@ -2091,6 +2873,14 @@
      {
       "id": 748,
       "nom": "D. Ceballos",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 128985,
+      "nom": "I. Losada",
       "motif": "Injury",
       "source": "blesses",
       "titulaire": false,
@@ -2565,12 +3355,36 @@
    "compos": null,
    "compos_essais": [],
    "absents": {
-    "releve_a": "2026-11-21T00:55:05Z",
+    "releve_a": "2026-11-21T12:04:30Z",
     "domicile": [
+     {
+      "id": 380939,
+      "nom": "F. Balde",
+      "motif": "Leg Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 341453,
+      "nom": "Oso",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
      {
       "id": 390742,
       "nom": "J. Panichelli",
       "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 161921,
+      "nom": "G. Reyna",
+      "motif": "Muscle Injury",
       "source": "blesses",
       "titulaire": false,
       "cle": null
@@ -2642,7 +3456,7 @@
    "compos": null,
    "compos_essais": [],
    "absents": {
-    "releve_a": "2026-11-21T00:55:05Z",
+    "releve_a": "2026-11-21T12:04:30Z",
     "domicile": [
      {
       "id": 310943,
@@ -2664,6 +3478,22 @@
       "id": 31226,
       "nom": "A. Buongiorno",
       "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 552,
+      "nom": "David Neres",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 31042,
+      "nom": "G. Di Lorenzo",
+      "motif": "Muscle Injury",
       "source": "blesses",
       "titulaire": false,
       "cle": null
@@ -2802,5 +3632,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-21T11:18:35Z"
+ "maj": "2026-11-21T12:04:30Z"
 }
