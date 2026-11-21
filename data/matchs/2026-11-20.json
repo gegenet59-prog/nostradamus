@@ -408,7 +408,12 @@
      3.78
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 1,
+    "exterieur": 1,
+    "issue": "N",
+    "statut": "FT"
+   }
   },
   {
    "id": "5dcc9d2b0da87770a4f49e924275be39",
@@ -809,7 +814,12 @@
      2.56
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 3,
+    "exterieur": 1,
+    "issue": "1",
+    "statut": "FT"
+   }
   },
   {
    "id": "dcee36f9b8a9989972b6d4ddde76c4c7",
@@ -1239,8 +1249,13 @@
      2.68
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 0,
+    "exterieur": 1,
+    "issue": "2",
+    "statut": "FT"
+   }
   }
  ],
- "maj": "2026-11-20T19:43:23Z"
+ "maj": "2026-11-21T05:40:30Z"
 }
