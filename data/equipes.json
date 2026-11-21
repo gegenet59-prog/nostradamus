@@ -4788,5 +4788,101 @@
    "19136": "J. Clarke",
    "321648": "Emersonn"
   }
+ },
+ "728": {
+  "nom": "Rayo Vallecano",
+  "matchs": [
+   {
+    "match": 1570460,
+    "date": "2026-11-21",
+    "onze": [
+     30441,
+     1703,
+     18895,
+     104795,
+     2181,
+     131546,
+     41552,
+     47285,
+     128582,
+     52,
+     122657
+    ],
+    "gardien": 30441
+   }
+  ],
+  "joueurs": {
+   "30441": "E. Audero",
+   "1703": "A. Rațiu",
+   "18895": "F. Lejeune",
+   "104795": "Mujaid Sadick",
+   "2181": "G. Tsitaishvili",
+   "131546": "Isi Palazón",
+   "41552": "P. Ciss",
+   "47285": "Unai López",
+   "128582": "Jorge de Frutos",
+   "52": "Sergio Camello",
+   "122657": "R. Nteka",
+   "314006": "J. Vertrouwd",
+   "162931": "Fran Pérez",
+   "30924": "M. Kumbulla",
+   "47543": "Álvaro García",
+   "91745": "Alemão",
+   "47329": "Adrià Pedrosa",
+   "548809": "G. Bouare",
+   "443668": "Rayane Belid",
+   "20520": "I. Balliu",
+   "156488": "Dani Cárdenas",
+   "46887": "Pedro Díaz",
+   "333292": "Pelayo Fernández"
+  }
+ },
+ "532": {
+  "nom": "Valencia",
+  "matchs": [
+   {
+    "match": 1570460,
+    "date": "2026-11-21",
+    "onze": [
+     47527,
+     283668,
+     333672,
+     181582,
+     26302,
+     1708,
+     47463,
+     2476,
+     46933,
+     315699,
+     31406
+    ],
+    "gardien": 47527
+   }
+  ],
+  "joueurs": {
+   "47527": "S. Dimitrievski",
+   "283668": "Arnau Martínez",
+   "333672": "César Tárrega",
+   "181582": "Copete",
+   "26302": "Pablo Maffeo",
+   "1708": "Dani Raba",
+   "47463": "Pepelu",
+   "2476": "G. Rodríguez",
+   "46933": "Luis Rioja",
+   "315699": "Javi Guerra",
+   "31406": "U. Sadiq",
+   "406045": "Aimar Blázquez",
+   "916": "M. Diakhaby",
+   "4458": "A. Dieng",
+   "47264": "Hugo Duro",
+   "19035": "H. Elliott",
+   "47251": "D. Foulquier",
+   "641317": "Aaron Mayol",
+   "439578": "David Otorbi",
+   "410840": "R. Sato",
+   "48465": "F. Ugrinic",
+   "36884": "J. de Haas",
+   "328669": "K. van Oevelen"
+  }
  }
 }

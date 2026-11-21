@@ -5570,9 +5570,258 @@
      "maj_pinnacle": "2026-11-21T14:50:30Z"
     }
    },
-   "compos": null,
+   "compos": {
+    "recue_a": "2026-11-21T15:32:53Z",
+    "minutes_avant": -18,
+    "domicile": {
+     "formation": "4-4-1-1",
+     "titulaires": [
+      {
+       "id": 30441,
+       "nom": "E. Audero",
+       "poste": "G"
+      },
+      {
+       "id": 1703,
+       "nom": "A. Rațiu",
+       "poste": "D"
+      },
+      {
+       "id": 18895,
+       "nom": "F. Lejeune",
+       "poste": "D"
+      },
+      {
+       "id": 104795,
+       "nom": "Mujaid Sadick",
+       "poste": "D"
+      },
+      {
+       "id": 2181,
+       "nom": "G. Tsitaishvili",
+       "poste": "D"
+      },
+      {
+       "id": 131546,
+       "nom": "Isi Palazón",
+       "poste": "M"
+      },
+      {
+       "id": 41552,
+       "nom": "P. Ciss",
+       "poste": "M"
+      },
+      {
+       "id": 47285,
+       "nom": "Unai López",
+       "poste": "M"
+      },
+      {
+       "id": 128582,
+       "nom": "Jorge de Frutos",
+       "poste": "M"
+      },
+      {
+       "id": 52,
+       "nom": "Sergio Camello",
+       "poste": "M"
+      },
+      {
+       "id": 122657,
+       "nom": "R. Nteka",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 314006,
+       "nom": "J. Vertrouwd",
+       "poste": "D"
+      },
+      {
+       "id": 162931,
+       "nom": "Fran Pérez",
+       "poste": "F"
+      },
+      {
+       "id": 30924,
+       "nom": "M. Kumbulla",
+       "poste": "D"
+      },
+      {
+       "id": 47543,
+       "nom": "Álvaro García",
+       "poste": "M"
+      },
+      {
+       "id": 91745,
+       "nom": "Alemão",
+       "poste": "F"
+      },
+      {
+       "id": 47329,
+       "nom": "Adrià Pedrosa",
+       "poste": "D"
+      },
+      {
+       "id": 548809,
+       "nom": "G. Bouare",
+       "poste": "M"
+      },
+      {
+       "id": 443668,
+       "nom": "Rayane Belid",
+       "poste": "F"
+      },
+      {
+       "id": 20520,
+       "nom": "I. Balliu",
+       "poste": "D"
+      },
+      {
+       "id": 156488,
+       "nom": "Dani Cárdenas",
+       "poste": "G"
+      },
+      {
+       "id": 46887,
+       "nom": "Pedro Díaz",
+       "poste": "M"
+      },
+      {
+       "id": 333292,
+       "nom": "Pelayo Fernández",
+       "poste": "D"
+      }
+     ]
+    },
+    "exterieur": {
+     "formation": "4-4-2",
+     "titulaires": [
+      {
+       "id": 47527,
+       "nom": "S. Dimitrievski",
+       "poste": "G"
+      },
+      {
+       "id": 283668,
+       "nom": "Arnau Martínez",
+       "poste": "D"
+      },
+      {
+       "id": 333672,
+       "nom": "César Tárrega",
+       "poste": "D"
+      },
+      {
+       "id": 181582,
+       "nom": "Copete",
+       "poste": "D"
+      },
+      {
+       "id": 26302,
+       "nom": "Pablo Maffeo",
+       "poste": "D"
+      },
+      {
+       "id": 1708,
+       "nom": "Dani Raba",
+       "poste": "M"
+      },
+      {
+       "id": 47463,
+       "nom": "Pepelu",
+       "poste": "M"
+      },
+      {
+       "id": 2476,
+       "nom": "G. Rodríguez",
+       "poste": "M"
+      },
+      {
+       "id": 46933,
+       "nom": "Luis Rioja",
+       "poste": "M"
+      },
+      {
+       "id": 315699,
+       "nom": "Javi Guerra",
+       "poste": "F"
+      },
+      {
+       "id": 31406,
+       "nom": "U. Sadiq",
+       "poste": "F"
+      }
+     ],
+     "remplacants": [
+      {
+       "id": 406045,
+       "nom": "Aimar Blázquez",
+       "poste": "F"
+      },
+      {
+       "id": 916,
+       "nom": "M. Diakhaby",
+       "poste": "D"
+      },
+      {
+       "id": 4458,
+       "nom": "A. Dieng",
+       "poste": "M"
+      },
+      {
+       "id": 47264,
+       "nom": "Hugo Duro",
+       "poste": "F"
+      },
+      {
+       "id": 19035,
+       "nom": "H. Elliott",
+       "poste": "M"
+      },
+      {
+       "id": 47251,
+       "nom": "D. Foulquier",
+       "poste": "D"
+      },
+      {
+       "id": 641317,
+       "nom": "Aaron Mayol",
+       "poste": "M"
+      },
+      {
+       "id": 439578,
+       "nom": "David Otorbi",
+       "poste": "F"
+      },
+      {
+       "id": 410840,
+       "nom": "R. Sato",
+       "poste": "M"
+      },
+      {
+       "id": 48465,
+       "nom": "F. Ugrinic",
+       "poste": "M"
+      },
+      {
+       "id": 36884,
+       "nom": "J. de Haas",
+       "poste": "D"
+      },
+      {
+       "id": 328669,
+       "nom": "K. van Oevelen",
+       "poste": "G"
+      }
+     ]
+    }
+   },
    "compos_essais": [
-    "2026-11-21T14:50:34Z"
+    "2026-11-21T14:50:34Z",
+    "2026-11-21T15:32:53Z",
+    "2026-11-21T15:32:53Z"
    ],
    "absents": {
     "releve_a": "2026-11-21T00:55:05Z",
@@ -5741,7 +5990,20 @@
     },
     "H45": {
      "prevu": "2026-11-21T15:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T15:32:53Z",
+     "retard_min": 3,
+     "pinnacle": {
+      "1": 5.88,
+      "N": 5.21,
+      "2": 1.5
+     },
+     "winamax": {
+      "1": 5.4,
+      "N": 5.2,
+      "2": 1.38
+     },
+     "maj_pinnacle": "2026-11-21T15:32:41Z"
     }
    },
    "compos": null,
@@ -5804,29 +6066,29 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 3.9,
-      "ampleur": 2.3,
+      "pct": 0.2,
+      "ampleur": 0.1,
       "raisons": []
      },
      "N": {
       "feu": "vert",
-      "fleche": "hausse",
-      "pct": 0.4,
-      "ampleur": 0.2,
+      "fleche": "baisse",
+      "pct": -0.6,
+      "ampleur": 0.4,
       "raisons": []
      },
      "2": {
       "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
+      "fleche": "hausse",
+      "pct": 1.4,
+      "ampleur": 1.9,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -5834,13 +6096,13 @@
     "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": -0.51,
-     "N": 0.06,
-     "2": 0.45
+     "1": 0.1,
+     "N": 0.25,
+     "2": -0.36
     },
     "marge": [
      3.69,
-     2.97
+     2.87
     ]
    },
    "score": null
@@ -7118,5 +7380,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-21T14:50:34Z"
+ "maj": "2026-11-21T15:32:53Z"
 }
