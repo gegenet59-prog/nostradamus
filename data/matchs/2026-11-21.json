@@ -34,7 +34,20 @@
     },
     "H3": {
      "prevu": "2026-11-21T09:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T09:34:23Z",
+     "retard_min": 4,
+     "pinnacle": {
+      "1": 1.39,
+      "N": 5.45,
+      "2": 8.06
+     },
+     "winamax": {
+      "1": 1.3,
+      "N": 5.4,
+      "2": 7.0
+     },
+     "maj_pinnacle": "2026-11-21T09:34:15Z"
     },
     "H45": {
      "prevu": "2026-11-21T11:45:00Z",
@@ -74,8 +87,50 @@
      }
     ]
    },
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.7,
+      "ampleur": 1.2,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -2.9,
+      "ampleur": 1.8,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 13.0,
+      "ampleur": 7.3,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Fulham ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.89,
+     "N": 0.61,
+     "2": -1.5
+    },
+    "marge": [
+     3.28,
+     2.7
+    ]
+   },
    "score": null
   },
   {
@@ -2586,5 +2641,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-21T08:49:12Z"
+ "maj": "2026-11-21T09:34:23Z"
 }
