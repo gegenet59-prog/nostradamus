@@ -7,11 +7,30 @@
    "coup_envoi": "2026-11-21T12:30:00Z",
    "domicile": "Manchester City",
    "exterieur": "Fulham",
-   "foot": null,
+   "foot": {
+    "id": 1557474,
+    "domicile": 50,
+    "exterieur": 36,
+    "nom_domicile": "Manchester City",
+    "nom_exterieur": "Fulham"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T00:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-21T00:55:05Z",
+     "retard_min": 25,
+     "pinnacle": {
+      "1": 1.4,
+      "N": 5.61,
+      "2": 7.13
+     },
+     "winamax": {
+      "1": 1.3,
+      "N": 5.25,
+      "2": 6.75
+     },
+     "maj_pinnacle": "2026-11-21T00:54:21Z"
     },
     "H3": {
      "prevu": "2026-11-21T09:30:00Z",
@@ -24,7 +43,37 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 19281,
+      "nom": "A. Semenyo",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 21566,
+      "nom": "B. Lecomte",
+      "motif": "Achilles Tendon Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 1161,
+      "nom": "E. Smith Rowe",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -35,7 +84,13 @@
    "coup_envoi": "2026-11-21T13:00:00Z",
    "domicile": "Alavés",
    "exterieur": "Deportivo La Coruña",
-   "foot": null,
+   "foot": {
+    "id": 1570453,
+    "domicile": 542,
+    "exterieur": 544,
+    "nom_domicile": "Alaves",
+    "nom_exterieur": "Deportivo La Coruna"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T01:00:00Z",
@@ -52,7 +107,28 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 6638,
+      "nom": "F. Garces",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 332645,
+      "nom": "M. Rodriguez",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -63,7 +139,13 @@
    "coup_envoi": "2026-11-21T14:00:00Z",
    "domicile": "Como",
    "exterieur": "Cagliari",
-   "foot": null,
+   "foot": {
+    "id": 1550200,
+    "domicile": 895,
+    "exterieur": 490,
+    "nom_domicile": "Como",
+    "nom_exterieur": "Cagliari"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T02:00:00Z",
@@ -80,7 +162,77 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 354533,
+      "nom": "J. Addai",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 400948,
+      "nom": "A. Diao",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 877,
+      "nom": "M. Kean",
+      "motif": "Leg Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 443162,
+      "nom": "J. Rodriguez",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 31734,
+      "nom": "M. Felici",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 417892,
+      "nom": "J. Liteta",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 2484,
+      "nom": "Y. Mina",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 182,
+      "nom": "H. Winks",
+      "motif": "Back Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -91,7 +243,13 @@
    "coup_envoi": "2026-11-21T14:00:00Z",
    "domicile": "Lazio",
    "exterieur": "Lecce",
-   "foot": null,
+   "foot": {
+    "id": 1550202,
+    "domicile": 487,
+    "exterieur": 867,
+    "nom_domicile": "Lazio",
+    "nom_exterieur": "Lecce"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T02:00:00Z",
@@ -108,7 +266,69 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 63934,
+      "nom": "A. Furlanetto",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 1844,
+      "nom": "A. Marusic",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 14701,
+      "nom": "J. Sutalo",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 41577,
+      "nom": "N. Tavares",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 30937,
+      "nom": "M. Zaccagni",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 46170,
+      "nom": "I. Ilic",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 6662,
+      "nom": "S. Pierotti",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -119,7 +339,13 @@
    "coup_envoi": "2026-11-21T14:30:00Z",
    "domicile": "Bayer Leverkusen",
    "exterieur": "SC Paderborn",
-   "foot": null,
+   "foot": {
+    "id": 1575222,
+    "domicile": 168,
+    "exterieur": 185,
+    "nom_domicile": "Bayer Leverkusen",
+    "nom_exterieur": "SC Paderborn 07"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T02:30:00Z",
@@ -136,7 +362,53 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 503467,
+      "nom": "K. Eichhorn",
+      "motif": "Illness",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 663,
+      "nom": "M. Terrier",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 373443,
+      "nom": "N. Awortwie-Grant",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 108640,
+      "nom": "T. Gayret",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 119173,
+      "nom": "M. Hoffmeier",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -147,7 +419,13 @@
    "coup_envoi": "2026-11-21T14:30:00Z",
    "domicile": "Borussia Monchengladbach",
    "exterieur": "Borussia Dortmund",
-   "foot": null,
+   "foot": {
+    "id": 1575226,
+    "domicile": 163,
+    "exterieur": 165,
+    "nom_domicile": "Borussia Mönchengladbach",
+    "nom_exterieur": "Borussia Dortmund"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T02:30:00Z",
@@ -164,7 +442,77 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 38114,
+      "nom": "K. Itakura",
+      "motif": "Red Card",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 26256,
+      "nom": "T. Kleindienst",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 178250,
+      "nom": "E. Leopold",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 327646,
+      "nom": "L. Ullrich",
+      "motif": "Broken collarbone",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 864,
+      "nom": "E. Can",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 478991,
+      "nom": "S. Inacio",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162410,
+      "nom": "G. Konstantelias",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 465666,
+      "nom": "J. Lerma",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -175,7 +523,13 @@
    "coup_envoi": "2026-11-21T14:30:00Z",
    "domicile": "Eintracht Frankfurt",
    "exterieur": "TSG Hoffenheim",
-   "foot": null,
+   "foot": {
+    "id": 1575223,
+    "domicile": 169,
+    "exterieur": 167,
+    "nom_domicile": "Eintracht Frankfurt",
+    "nom_exterieur": "1899 Hoffenheim"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T02:30:00Z",
@@ -192,7 +546,61 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 382492,
+      "nom": "E. Baum",
+      "motif": "Red Card",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162771,
+      "nom": "J. Ngankam",
+      "motif": "Groin Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 453903,
+      "nom": "N. De Cat",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 127631,
+      "nom": "V. Gendrey",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 278453,
+      "nom": "A. Hajdari",
+      "motif": "Foot Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162964,
+      "nom": "R. Hranac",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -203,7 +611,13 @@
    "coup_envoi": "2026-11-21T14:30:00Z",
    "domicile": "Elversberg",
    "exterieur": "SC Freiburg",
-   "foot": null,
+   "foot": {
+    "id": 1575229,
+    "domicile": 1660,
+    "exterieur": 160,
+    "nom_domicile": "SV Elversberg",
+    "nom_exterieur": "SC Freiburg"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T02:30:00Z",
@@ -220,7 +634,45 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 39331,
+      "nom": "N. Mickelson",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 177731,
+      "nom": "L. Pinckert",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 583807,
+      "nom": "L. Seifert",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 353142,
+      "nom": "B. Yilmaz",
+      "motif": "Red Card",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -231,7 +683,13 @@
    "coup_envoi": "2026-11-21T14:30:00Z",
    "domicile": "Union Berlin",
    "exterieur": "RB Leipzig",
-   "foot": null,
+   "foot": {
+    "id": 1575225,
+    "domicile": 182,
+    "exterieur": 173,
+    "nom_domicile": "Union Berlin",
+    "nom_exterieur": "RB Leipzig"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T02:30:00Z",
@@ -248,7 +706,69 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 14330,
+      "nom": "J. Juranovic",
+      "motif": "Illness",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 413294,
+      "nom": "A. Markgraf",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 270,
+      "nom": "S. Nsoki",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 1298,
+      "nom": "R. Skov",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 25406,
+      "nom": "F. Uduokhai",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 392270,
+      "nom": "M. Guiu",
+      "motif": "Hamstring Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 380978,
+      "nom": "A. Ouedraogo",
+      "motif": "Shoulder Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -259,7 +779,13 @@
    "coup_envoi": "2026-11-21T15:00:00Z",
    "domicile": "Aston Villa",
    "exterieur": "Sunderland",
-   "foot": null,
+   "foot": {
+    "id": 1557467,
+    "domicile": 66,
+    "exterieur": 746,
+    "nom_domicile": "Aston Villa",
+    "nom_exterieur": "Sunderland"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T03:00:00Z",
@@ -276,7 +802,77 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 19298,
+      "nom": "M. Cash",
+      "motif": "Concussion",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162714,
+      "nom": "A. Onana",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162012,
+      "nom": "M. Ruggeri",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 55904,
+      "nom": "D. Ballard",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 38750,
+      "nom": "B. Brobbey",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 327631,
+      "nom": "H. Diarra",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 284414,
+      "nom": "R. Mundle",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 1464,
+      "nom": "G. Xhaka",
+      "motif": "Calf Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -287,7 +883,13 @@
    "coup_envoi": "2026-11-21T15:00:00Z",
    "domicile": "Bournemouth",
    "exterieur": "Nottingham Forest",
-   "foot": null,
+   "foot": {
+    "id": 1557468,
+    "domicile": 35,
+    "exterieur": 65,
+    "nom_domicile": "Bournemouth",
+    "nom_exterieur": "Nottingham Forest"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T03:00:00Z",
@@ -304,7 +906,45 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 51051,
+      "nom": "J. Araujo",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 361485,
+      "nom": "A. Toth",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 6056,
+      "nom": "N. Dominguez",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 2298,
+      "nom": "C. Hudson-Odoi",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -315,7 +955,13 @@
    "coup_envoi": "2026-11-21T15:00:00Z",
    "domicile": "Chelsea",
    "exterieur": "Leeds United",
-   "foot": null,
+   "foot": {
+    "id": 1557470,
+    "domicile": 49,
+    "exterieur": 63,
+    "nom_domicile": "Chelsea",
+    "nom_exterieur": "Leeds"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T03:00:00Z",
@@ -332,7 +978,61 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 286894,
+      "nom": "J. Gittens",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 341642,
+      "nom": "J. Hato",
+      "motif": "Back Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 19545,
+      "nom": "R. James",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 10329,
+      "nom": "Joao Pedro",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 20995,
+      "nom": "M. Lacroix",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 313059,
+      "nom": "M. Joseph",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -343,7 +1043,13 @@
    "coup_envoi": "2026-11-21T15:00:00Z",
    "domicile": "Coventry City",
    "exterieur": "Crystal Palace",
-   "foot": null,
+   "foot": {
+    "id": 1557471,
+    "domicile": 1346,
+    "exterieur": 52,
+    "nom_domicile": "Coventry",
+    "nom_exterieur": "Crystal Palace"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T03:00:00Z",
@@ -360,7 +1066,69 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 162414,
+      "nom": "A. Amenda",
+      "motif": "Calf Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 19984,
+      "nom": "J. Eccles",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 18404,
+      "nom": "E. Mason-Clark",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 17714,
+      "nom": "L. Woolfenden",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 427,
+      "nom": "H. Wright",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 25927,
+      "nom": "J. Mateta",
+      "motif": "Red Card",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 278898,
+      "nom": "C. Riad",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -371,7 +1139,13 @@
    "coup_envoi": "2026-11-21T15:00:00Z",
    "domicile": "Tottenham Hotspur",
    "exterieur": "Ipswich Town",
-   "foot": null,
+   "foot": {
+    "id": 1557476,
+    "domicile": 47,
+    "exterieur": 57,
+    "nom_domicile": "Tottenham",
+    "nom_exterieur": "Ipswich"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T03:00:00Z",
@@ -388,7 +1162,44 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 19145,
+      "nom": "T. Adarabioyo",
+      "motif": "Calf Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 336564,
+      "nom": "W. Odobert",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162016,
+      "nom": "X. Simons",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 270510,
+      "nom": "M. Tel",
+      "motif": "Achilles Tendon Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": []
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -399,7 +1210,13 @@
    "coup_envoi": "2026-11-21T15:15:00Z",
    "domicile": "Rayo Vallecano",
    "exterieur": "Valencia",
-   "foot": null,
+   "foot": {
+    "id": 1570460,
+    "domicile": 728,
+    "exterieur": 532,
+    "nom_domicile": "Rayo Vallecano",
+    "nom_exterieur": "Valencia"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T03:15:00Z",
@@ -416,7 +1233,77 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 11379,
+      "nom": "A. Batalla",
+      "motif": "Broken calfbone",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 30924,
+      "nom": "M. Kumbulla",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 1847,
+      "nom": "Luiz Felipe",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 47109,
+      "nom": "O. Valentin",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 19352,
+      "nom": "S. Canos",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 918,
+      "nom": "J. Gaya",
+      "motif": "Red Card",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162127,
+      "nom": "D. Lopez",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162175,
+      "nom": "J. Vazquez",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -427,7 +1314,13 @@
    "coup_envoi": "2026-11-21T16:15:00Z",
    "domicile": "Nice",
    "exterieur": "Paris Saint Germain",
-   "foot": null,
+   "foot": {
+    "id": 1552824,
+    "domicile": 84,
+    "exterieur": 85,
+    "nom_domicile": "Nice",
+    "nom_exterieur": "Paris Saint Germain"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T04:15:00Z",
@@ -444,7 +1337,61 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 196343,
+      "nom": "M. Abdelmonem",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 20917,
+      "nom": "L. Abergel",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 407017,
+      "nom": "M. Bombito",
+      "motif": "Leg Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 313937,
+      "nom": "A. Mendy",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 483,
+      "nom": "K. Kvaratskhelia",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 606062,
+      "nom": "A. Longoni",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -455,7 +1402,13 @@
    "coup_envoi": "2026-11-21T17:00:00Z",
    "domicile": "Parma",
    "exterieur": "AS Roma",
-   "foot": null,
+   "foot": {
+    "id": 1550205,
+    "domicile": 523,
+    "exterieur": 497,
+    "nom_domicile": "Parma",
+    "nom_exterieur": "AS Roma"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T05:00:00Z",
@@ -472,7 +1425,53 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 203483,
+      "nom": "A. Ndiaye",
+      "motif": "Red Card",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 194905,
+      "nom": "D. Romero",
+      "motif": "Shoulder Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 6221,
+      "nom": "L. Valenti",
+      "motif": "Coach's decision",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 782,
+      "nom": "L. Pellegrini",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162452,
+      "nom": "D. Rensch",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -483,7 +1482,13 @@
    "coup_envoi": "2026-11-21T17:30:00Z",
    "domicile": "FC Schalke 04",
    "exterieur": "VfB Stuttgart",
-   "foot": null,
+   "foot": {
+    "id": 1575228,
+    "domicile": 174,
+    "exterieur": 172,
+    "nom_domicile": "FC Schalke 04",
+    "nom_exterieur": "VfB Stuttgart"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T05:30:00Z",
@@ -500,7 +1505,69 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 90977,
+      "nom": "T. Becker",
+      "motif": "Foot Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 88140,
+      "nom": "R. Schallenberg",
+      "motif": "Leg Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 2048,
+      "nom": "M. Wober",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 287927,
+      "nom": "J. Diehl",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 349344,
+      "nom": "L. Jaquez",
+      "motif": "Ribs Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 137210,
+      "nom": "A. Stiller",
+      "motif": "Groin Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 13,
+      "nom": "D. Zagadou",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -511,7 +1578,13 @@
    "coup_envoi": "2026-11-21T17:30:00Z",
    "domicile": "Sevilla",
    "exterieur": "Real Betis",
-   "foot": null,
+   "foot": {
+    "id": 1570462,
+    "domicile": 536,
+    "exterieur": 543,
+    "nom_domicile": "Sevilla",
+    "nom_exterieur": "Real Betis"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T05:30:00Z",
@@ -528,7 +1601,61 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 195923,
+      "nom": "J. A. Carmona",
+      "motif": "Broken Leg",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 119213,
+      "nom": "A. Gonzalez",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 433,
+      "nom": "Marcao",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 438263,
+      "nom": "M. Sierra",
+      "motif": "Shoulder Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 748,
+      "nom": "D. Ceballos",
+      "motif": "Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 544644,
+      "nom": "J. Morante",
+      "motif": "Hip Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -539,7 +1666,13 @@
    "coup_envoi": "2026-11-21T17:30:00Z",
    "domicile": "Newcastle United",
    "exterieur": "Arsenal",
-   "foot": null,
+   "foot": {
+    "id": 1557475,
+    "domicile": 34,
+    "exterieur": 42,
+    "nom_domicile": "Newcastle",
+    "nom_exterieur": "Arsenal"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T05:30:00Z",
@@ -556,7 +1689,53 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 329640,
+      "nom": "E. Jaouen",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 723,
+      "nom": "Joelinton",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 442044,
+      "nom": "M. Dowman",
+      "motif": "Red Card",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 1460,
+      "nom": "B. Saka",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 47315,
+      "nom": "M. Zubimendi",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -567,7 +1746,13 @@
    "coup_envoi": "2026-11-21T19:45:00Z",
    "domicile": "AS Monaco",
    "exterieur": "Auxerre",
-   "foot": null,
+   "foot": {
+    "id": 1552823,
+    "domicile": 91,
+    "exterieur": 108,
+    "nom_domicile": "Monaco",
+    "nom_exterieur": "Auxerre"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T07:45:00Z",
@@ -584,7 +1769,85 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 419035,
+      "nom": "M. Coulibaly",
+      "motif": "Suspended",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 135775,
+      "nom": "A. Fati",
+      "motif": "Hamstring Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 109,
+      "nom": "A. Golovin",
+      "motif": "Calf Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 340152,
+      "nom": "S. Idumbo",
+      "motif": "Groin Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 191189,
+      "nom": "C. Akpa",
+      "motif": "Inactive",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 30748,
+      "nom": "A. Diousse",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 193505,
+      "nom": "S. Fofana",
+      "motif": "Groin Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 19625,
+      "nom": "D. Namaso",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 115588,
+      "nom": "B. Okoh",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -595,7 +1858,13 @@
    "coup_envoi": "2026-11-21T19:45:00Z",
    "domicile": "Lille",
    "exterieur": "Lyon",
-   "foot": null,
+   "foot": {
+    "id": 1552820,
+    "domicile": 79,
+    "exterieur": 80,
+    "nom_domicile": "Lille",
+    "nom_exterieur": "Lyon"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T07:45:00Z",
@@ -612,7 +1881,69 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 306979,
+      "nom": "H. Igamane",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 379329,
+      "nom": "T. Santos",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 68,
+      "nom": "C. Mata",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 162590,
+      "nom": "T. Morton",
+      "motif": "Groin Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 86,
+      "nom": "L. Openda",
+      "motif": "Leg Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 412049,
+      "nom": "M. Ouedraogo",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 66387,
+      "nom": "P. Sulc",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -623,7 +1954,13 @@
    "coup_envoi": "2026-11-21T19:45:00Z",
    "domicile": "RC Lens",
    "exterieur": "Toulouse",
-   "foot": null,
+   "foot": {
+    "id": 1552819,
+    "domicile": 116,
+    "exterieur": 96,
+    "nom_domicile": "Lens",
+    "nom_exterieur": "Toulouse"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T07:45:00Z",
@@ -640,7 +1977,45 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 394950,
+      "nom": "A. Bulatovic",
+      "motif": "Neck Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 1135,
+      "nom": "O. Edouard",
+      "motif": "Groin Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 178708,
+      "nom": "M. Nawrocki",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 334952,
+      "nom": "R. Messali",
+      "motif": "Thigh Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -651,7 +2026,13 @@
    "coup_envoi": "2026-11-21T19:45:00Z",
    "domicile": "Strasbourg",
    "exterieur": "Brest",
-   "foot": null,
+   "foot": {
+    "id": 1552826,
+    "domicile": 95,
+    "exterieur": 106,
+    "nom_domicile": "Strasbourg",
+    "nom_exterieur": "Stade Brestois 29"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T07:45:00Z",
@@ -668,7 +2049,37 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 390742,
+      "nom": "J. Panichelli",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 20546,
+      "nom": "B. Chardonnet",
+      "motif": "Calf Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 498791,
+      "nom": "R. Le Guen",
+      "motif": "Broken Leg",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -679,7 +2090,13 @@
    "coup_envoi": "2026-11-21T19:45:00Z",
    "domicile": "Napoli",
    "exterieur": "Torino",
-   "foot": null,
+   "foot": {
+    "id": 1550204,
+    "domicile": 492,
+    "exterieur": 503,
+    "nom_domicile": "Napoli",
+    "nom_exterieur": "Torino"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T07:45:00Z",
@@ -696,7 +2113,61 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 310943,
+      "nom": "Alisson Santos",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 95,
+      "nom": "B. Badiashile",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 31226,
+      "nom": "A. Buongiorno",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 47439,
+      "nom": "S. Lobotka",
+      "motif": "Ankle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 312,
+      "nom": "A. Meret",
+      "motif": "Back Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 56266,
+      "nom": "F. Israel",
+      "motif": "Shoulder Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
@@ -707,7 +2178,13 @@
    "coup_envoi": "2026-11-21T20:00:00Z",
    "domicile": "Real Madrid",
    "exterieur": "Celta Vigo",
-   "foot": null,
+   "foot": {
+    "id": 1570461,
+    "domicile": 541,
+    "exterieur": 538,
+    "nom_domicile": "Real Madrid",
+    "nom_exterieur": "Celta Vigo"
+   },
    "releves": {
     "H12": {
      "prevu": "2026-11-21T08:00:00Z",
@@ -724,11 +2201,65 @@
    },
    "compos": null,
    "compos_essais": [],
-   "absents": null,
+   "absents": {
+    "releve_a": "2026-11-21T00:55:05Z",
+    "domicile": [
+     {
+      "id": 341640,
+      "nom": "R. Asencio",
+      "motif": "Broken Leg",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 653,
+      "nom": "F. Mendy",
+      "motif": "Hip Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 10009,
+      "nom": "Rodrygo",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ],
+    "exterieur": [
+     {
+      "id": 47348,
+      "nom": "B. Iglesias",
+      "motif": "Calf Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 333502,
+      "nom": "M. Roman",
+      "motif": "Knee Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     },
+     {
+      "id": 47988,
+      "nom": "C. Starfelt",
+      "motif": "Muscle Injury",
+      "source": "blesses",
+      "titulaire": false,
+      "cle": null
+     }
+    ]
+   },
    "feux": null,
    "marche": null,
    "score": null
   }
  ],
- "maj": "2026-11-19T11:18:35Z"
+ "maj": "2026-11-21T00:55:05Z"
 }
