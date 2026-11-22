@@ -154,7 +154,20 @@
     },
     "H45": {
      "prevu": "2026-11-22T12:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T12:53:28Z",
+     "retard_min": 38,
+     "pinnacle": {
+      "1": 1.18,
+      "N": 9.0,
+      "2": 13.5
+     },
+     "winamax": {
+      "1": 1.13,
+      "N": 8.5,
+      "2": 9.5
+     },
+     "maj_pinnacle": "2026-11-22T12:53:13Z"
     }
    },
    "compos": null,
@@ -172,36 +185,41 @@
       ]
      },
      "N": {
-      "feu": "rouge",
+      "feu": "violet",
       "fleche": "hausse",
-      "pct": 13.8,
-      "ampleur": 7.7,
-      "raisons": []
+      "pct": 22.0,
+      "ampleur": 11.9,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "2": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 8.2,
-      "ampleur": 4.3,
-      "raisons": []
+      "pct": 1.8,
+      "ampleur": 1.0,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé",
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "1",
-    "phrase": "Le marché annonce : Barcelona gagne (1)",
+    "pari": "12",
+    "phrase": "Le marché annonce : pas de match nul (12)",
     "incoherent": false,
     "deplacement": {
-     "1": 2.12,
-     "N": -1.57,
-     "2": -0.54
+     "1": 2.4,
+     "N": -2.3,
+     "2": -0.1
     },
     "marge": [
      3.74,
-     3.62
+     3.26
     ]
    },
    "score": null
@@ -705,7 +723,20 @@
     },
     "H3": {
      "prevu": "2026-11-22T12:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T12:53:28Z",
+     "retard_min": 38,
+     "pinnacle": {
+      "1": 3.36,
+      "N": 4.1,
+      "2": 2.06
+     },
+     "winamax": {
+      "1": 3.0,
+      "N": 3.75,
+      "2": 1.9
+     },
+     "maj_pinnacle": "2026-11-22T12:53:13Z"
     },
     "H45": {
      "prevu": "2026-11-22T14:30:00Z",
@@ -715,8 +746,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.5,
+      "ampleur": 1.1,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.6,
+      "ampleur": 1.7,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.5,
+      "ampleur": 1.4,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.29,
+     "N": 0.74,
+     "2": -0.45
+    },
+    "marge": [
+     3.23,
+     2.7
+    ]
+   },
    "score": null
   },
   {
@@ -1048,5 +1119,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-22T12:00:28Z"
+ "maj": "2026-11-22T12:53:28Z"
 }
