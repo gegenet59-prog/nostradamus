@@ -124,7 +124,20 @@
     },
     "H3": {
      "prevu": "2026-11-22T10:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T10:27:19Z",
+     "retard_min": 27,
+     "pinnacle": {
+      "1": 1.18,
+      "N": 8.4,
+      "2": 14.35
+     },
+     "winamax": {
+      "1": 1.13,
+      "N": 8.0,
+      "2": 10.5
+     },
+     "maj_pinnacle": "2026-11-22T10:27:18Z"
     },
     "H45": {
      "prevu": "2026-11-22T12:15:00Z",
@@ -134,8 +147,50 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -2.5,
+      "ampleur": 6.7,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 13.8,
+      "ampleur": 7.7,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 8.2,
+      "ampleur": 4.3,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Barcelona gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 2.12,
+     "N": -1.57,
+     "2": -0.54
+    },
+    "marge": [
+     3.74,
+     3.62
+    ]
+   },
    "score": null
   },
   {
@@ -713,5 +768,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-22T08:44:08Z"
+ "maj": "2026-11-22T10:27:19Z"
 }
