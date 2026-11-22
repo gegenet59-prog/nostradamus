@@ -29,10 +29,14 @@
   },
   "2026-11-22": {
    "lien_jour": "2026-11-22",
-   "lien_heure": 12
+   "lien_heure": 18
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-22T18:27:27Z",
+   "texte": "API-Football : matchs du 2026-11-22 indisponibles"
+  },
   {
    "quand": "2026-11-22T12:00:28Z",
    "texte": "API-Football : matchs du 2026-11-22 indisponibles"
@@ -71,5 +75,5 @@
   }
  ],
  "planning_fait_a": "2026-11-22T15:27:17Z",
- "dernier_passage_utile": "2026-11-22T17:06:14Z"
+ "dernier_passage_utile": "2026-11-22T18:27:27Z"
 }
