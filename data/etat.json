@@ -1,8 +1,8 @@
 {
  "odds": {
   "mode": "complet",
-  "reste": 398,
-  "maj": "2026-11-22T11:16:47Z"
+  "reste": 397,
+  "maj": "2026-11-22T12:00:28Z"
  },
  "foot": {
   "jour": "2026-11-22",
@@ -29,10 +29,14 @@
   },
   "2026-11-22": {
    "lien_jour": "2026-11-22",
-   "lien_heure": 6
+   "lien_heure": 12
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-22T12:00:28Z",
+   "texte": "API-Football : matchs du 2026-11-22 indisponibles"
+  },
   {
    "quand": "2026-11-22T06:38:11Z",
    "texte": "API-Football : matchs du 2026-11-22 indisponibles"
@@ -67,5 +71,5 @@
   }
  ],
  "planning_fait_a": "2026-11-22T08:44:08Z",
- "dernier_passage_utile": "2026-11-22T11:16:47Z"
+ "dernier_passage_utile": "2026-11-22T12:00:28Z"
 }

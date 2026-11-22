@@ -611,7 +611,20 @@
     },
     "H3": {
      "prevu": "2026-11-22T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T12:00:28Z",
+     "retard_min": 30,
+     "pinnacle": {
+      "1": 2.87,
+      "N": 3.91,
+      "2": 2.38
+     },
+     "winamax": {
+      "1": 2.5,
+      "N": 3.65,
+      "2": 2.2
+     },
+     "maj_pinnacle": "2026-11-22T12:00:09Z"
     },
     "H45": {
      "prevu": "2026-11-22T13:45:00Z",
@@ -621,8 +634,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 6.3,
+      "ampleur": 4.8,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.0,
+      "ampleur": 1.4,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.5,
+      "ampleur": 2.1,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Augsburg ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.91,
+     "N": 0.65,
+     "2": 1.26
+    },
+    "marge": [
+     3.08,
+     2.44
+    ]
+   },
    "score": null
   },
   {
@@ -995,5 +1048,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-22T11:16:47Z"
+ "maj": "2026-11-22T12:00:28Z"
 }
