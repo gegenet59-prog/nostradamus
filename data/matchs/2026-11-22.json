@@ -918,7 +918,7 @@
     },
     "H45": {
      "prevu": "2026-11-22T15:30:00Z",
-     "etat": "attente"
+     "etat": "manque"
     }
    },
    "compos": null,
@@ -1012,7 +1012,20 @@
     },
     "H45": {
      "prevu": "2026-11-22T15:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T16:13:34Z",
+     "retard_min": 29,
+     "pinnacle": {
+      "1": 1.61,
+      "N": 4.39,
+      "2": 5.55
+     },
+     "winamax": {
+      "1": 1.52,
+      "N": 4.0,
+      "2": 4.6
+     },
+     "maj_pinnacle": "2026-11-22T16:13:20Z"
     }
    },
    "compos": null,
@@ -1030,34 +1043,34 @@
      "N": {
       "feu": "vert",
       "fleche": "baisse",
-      "pct": -2.0,
-      "ampleur": 1.3,
+      "pct": -2.9,
+      "ampleur": 1.9,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "hausse",
-      "pct": 6.0,
-      "ampleur": 3.6,
+      "pct": 7.4,
+      "ampleur": 4.4,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "1N",
+    "phrase": "Le marché annonce : Hamburger SV ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": 0.38,
-     "N": 0.57,
-     "2": -0.95
+     "1": 0.39,
+     "N": 0.78,
+     "2": -1.17
     },
     "marge": [
      3.58,
-     2.93
+     2.91
     ]
    },
    "score": null
@@ -1106,7 +1119,20 @@
     },
     "H45": {
      "prevu": "2026-11-22T15:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T16:13:34Z",
+     "retard_min": 29,
+     "pinnacle": {
+      "1": 1.85,
+      "N": 4.13,
+      "2": 4.02
+     },
+     "winamax": {
+      "1": 1.74,
+      "N": 3.85,
+      "2": 3.65
+     },
+     "maj_pinnacle": "2026-11-22T16:13:03Z"
     }
    },
    "compos": null,
@@ -1115,29 +1141,31 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "hausse",
-      "pct": 4.7,
-      "ampleur": 5.2,
+      "pct": 7.6,
+      "ampleur": 8.3,
       "raisons": []
      },
      "N": {
       "feu": "orange",
       "fleche": "baisse",
-      "pct": -3.3,
-      "ampleur": 2.2,
+      "pct": -3.5,
+      "ampleur": 2.3,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -5.7,
-      "ampleur": 3.8,
-      "raisons": []
+      "pct": -11.8,
+      "ampleur": 8.5,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -1145,13 +1173,13 @@
     "phrase": "Le marché annonce : Liverpool ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -2.25,
-     "N": 0.87,
-     "2": 1.38
+     "1": -3.8,
+     "N": 0.89,
+     "2": 2.92
     },
     "marge": [
      3.43,
-     2.97
+     3.14
     ]
    },
    "score": null
@@ -1470,5 +1498,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-22T14:38:40Z"
+ "maj": "2026-11-22T16:13:34Z"
 }
