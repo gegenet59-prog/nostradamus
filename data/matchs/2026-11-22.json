@@ -1228,7 +1228,20 @@
     },
     "H45": {
      "prevu": "2026-11-22T16:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T16:17:21Z",
+     "retard_min": 2,
+     "pinnacle": {
+      "1": 1.58,
+      "N": 4.53,
+      "2": 5.56
+     },
+     "winamax": {
+      "1": 1.5,
+      "N": 4.2,
+      "2": 4.4
+     },
+     "maj_pinnacle": "2026-11-22T16:17:10Z"
     }
    },
    "compos": null,
@@ -1237,45 +1250,48 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 2.5,
-      "ampleur": 3.1,
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -1.9,
+      "ampleur": 2.4,
       "raisons": [
-       "petite cote : mouvement plus fort qu'il n'y paraît"
+       "plus de 4 % entre H-3 et H-45"
       ]
      },
      "N": {
       "feu": "vert",
       "fleche": "hausse",
-      "pct": 0.2,
-      "ampleur": 0.1,
+      "pct": 1.1,
+      "ampleur": 0.7,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
-      "fleche": "baisse",
-      "pct": -5.0,
-      "ampleur": 3.2,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 6.3,
+      "ampleur": 3.8,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé",
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : AC Milan ne gagne pas (N2)",
+    "pari": "1N",
+    "phrase": "Le marché annonce : Frosinone ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": -1.14,
-     "N": 0.07,
-     "2": 1.07
+     "1": 1.26,
+     "N": -0.2,
+     "2": -1.06
     },
     "marge": [
      3.55,
-     3.0
+     3.35
     ]
    },
    "score": null
@@ -1498,5 +1514,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-22T16:13:34Z"
+ "maj": "2026-11-22T16:17:21Z"
 }
