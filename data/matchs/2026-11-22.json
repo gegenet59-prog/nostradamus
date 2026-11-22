@@ -811,7 +811,20 @@
     },
     "H45": {
      "prevu": "2026-11-22T14:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T14:38:40Z",
+     "retard_min": 9,
+     "pinnacle": {
+      "1": 3.33,
+      "N": 4.04,
+      "2": 2.1
+     },
+     "winamax": {
+      "1": 3.0,
+      "N": 3.7,
+      "2": 1.92
+     },
+     "maj_pinnacle": "2026-11-22T14:38:18Z"
     }
    },
    "compos": null,
@@ -822,41 +835,41 @@
      "1": {
       "feu": "vert",
       "fleche": "hausse",
-      "pct": 1.5,
-      "ampleur": 1.1,
+      "pct": 0.6,
+      "ampleur": 0.4,
       "raisons": []
      },
      "N": {
-      "feu": "vert",
+      "feu": "orange",
       "fleche": "baisse",
-      "pct": -2.6,
-      "ampleur": 1.7,
+      "pct": -4.0,
+      "ampleur": 2.7,
       "raisons": []
      },
      "2": {
-      "feu": "vert",
+      "feu": "orange",
       "fleche": "hausse",
-      "pct": 1.5,
-      "ampleur": 1.4,
+      "pct": 3.4,
+      "ampleur": 3.2,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "1N",
+    "phrase": "Le marché annonce : Real Sociedad ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": -0.29,
-     "N": 0.74,
-     "2": -0.45
+     "1": 0.06,
+     "N": 1.16,
+     "2": -1.22
     },
     "marge": [
      3.23,
-     2.7
+     2.4
     ]
    },
    "score": null
@@ -1266,7 +1279,20 @@
     },
     "H3": {
      "prevu": "2026-11-22T14:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-22T14:38:40Z",
+     "retard_min": 9,
+     "pinnacle": {
+      "1": 1.85,
+      "N": 3.66,
+      "2": 4.68
+     },
+     "winamax": {
+      "1": 1.72,
+      "N": 3.4,
+      "2": 4.1
+     },
+     "maj_pinnacle": "2026-11-22T14:38:18Z"
     },
     "H45": {
      "prevu": "2026-11-22T16:45:00Z",
@@ -1276,8 +1302,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.9,
+      "ampleur": 1.8,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.31,
+     "N": 0.16,
+     "2": -0.47
+    },
+    "marge": [
+     3.35,
+     2.74
+    ]
+   },
    "score": null
   },
   {
@@ -1404,5 +1470,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-22T13:50:25Z"
+ "maj": "2026-11-22T14:38:40Z"
 }
