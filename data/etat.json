@@ -5,16 +5,10 @@
   "maj": "2026-11-21T23:50:07Z"
  },
  "foot": {
-  "jour": "2026-11-21",
-  "reste": 62
+  "jour": "2026-11-22",
+  "reste": 99
  },
  "jours_foot": {
-  "2026-11-16": {
-   "lien_jour": "2026-11-16",
-   "lien_heure": 0,
-   "absents": "2026-11-16T19:41:09Z",
-   "scores_jour": "2026-11-17"
-  },
   "2026-11-17": {
    "lien_jour": "2026-11-17",
    "lien_heure": 0,
@@ -31,9 +25,17 @@
    "lien_jour": "2026-11-21",
    "lien_heure": 0,
    "absents": "2026-11-21T19:30:54Z"
+  },
+  "2026-11-22": {
+   "lien_jour": "2026-11-22",
+   "lien_heure": 0
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-22T00:29:47Z",
+   "texte": "API-Football : matchs du 2026-11-22 indisponibles"
+  },
   {
    "quand": "2026-11-15T05:28:24Z",
    "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
@@ -56,5 +58,5 @@
   }
  ],
  "planning_fait_a": "2026-11-21T20:18:05Z",
- "dernier_passage_utile": "2026-11-21T23:50:07Z"
+ "dernier_passage_utile": "2026-11-22T00:29:47Z"
 }
