@@ -53,6 +53,19 @@ class Sources:
         self.journal.append(f"cotes {comp} : {code}, reste {self.odds_reste} crédits")
         return j if code == 200 and isinstance(j, list) else None
 
+    def scores(self, comp, jours=3):
+        """Scores des matchs terminés, y compris les coupes d'Europe. COÛT : 1 crédit. Liste ou None.
+
+        Les identifiants sont ceux des cotes : le score se recolle donc tout seul, sans rapprochement de noms.
+        jours vaut de 1 à 3 (les matchs plus anciens ne sont plus couverts)."""
+        q = urllib.parse.urlencode({"apiKey": self.cle_odds, "daysFrom": max(1, min(3, jours)), "dateFormat": "iso"})
+        code, j, h = _appel(f"{ODDS}/sports/{C.COMPETITIONS[comp]['odds']}/scores?{q}")
+        reste = _entier(h.get("x-requests-remaining"))
+        if reste is not None: self.odds_reste = reste
+        elif code == 200 and self.odds_reste is not None: self.odds_reste -= 1
+        self.journal.append(f"scores {comp} : {code}, reste {self.odds_reste} crédits")
+        return j if code == 200 and isinstance(j, list) else None
+
     # ---------- API-Football ----------
     def _foot(self, chemin, nom):
         code, j, h = _appel(f"{FOOT}/{chemin}", {"x-apisports-key": self.cle_foot})
