@@ -287,14 +287,24 @@ function majStats(c){
   document.querySelector(rac+".sais summary").textContent="Saisons : "+(ns===null||ns.length===tot?"toutes ("+tot+")":ns.length===0?"aucune":ns.length===1?saisonTxt(D.saison[ns[0]]):ns.length+" sur "+tot);
   const r=agreger(B,false), el=document.querySelector(rac+".res");
   if(!r.n){el.innerHTML='<div class="phrase">Aucun cas pour cette sélection.</div>';return}
-  const p=r.s/r.n, sor=100*p, dep=100*r.pd/r.n, arr=100*r.pa/r.n, marge=196*Math.sqrt(p*(1-p)/r.n);
+  const p=r.s/r.n, sor=100*p, dep=100*r.pd/r.n, arr=100*r.pa/r.n;
+  // Intervalle de Wilson à 95 % : il reste valable sur de petits échantillons et pour des taux proches de
+  // 0 ou 100 %, là où « ± 1,96 × écart-type » donne une marge nulle et fait passer du bruit pour un résultat.
+  const wilson=(s,n,z=1.96)=>{const q=s/n,d=1+z*z/n,c=(q+z*z/(2*n))/d,
+    m=z*Math.sqrt(q*(1-q)/n+z*z/(4*n*n))/d;return [Math.max(0,(c-m)*100),Math.min(100,(c+m)*100)]};
+  const [bas,haut]=wilson(r.s,r.n);
+  const tropPeu=r.n<30, horsIntervalle=bas>dep||haut<dep;
+  const verdict=tropPeu?"Échantillon trop petit : aucun verdict possible"
+    :horsIntervalle?`Signal : l'intervalle à 95 % exclut la probabilité promise par la cote (${bas>dep?"au-dessus":"en dessous"})`
+    :"Rien de démontré : l'intervalle à 95 % contient la probabilité promise par la cote";
   const titre=f===null?"Toutes les couleurs":NIV[D.feu[f]][0]+" ("+["Vert","Orange","Rouge","Violet"][f]+")";
   el.innerHTML=`<div class="meta">${titre}</div>
 <div class="big"><div><b>${nb(r.n)}</b><span>cas</span></div><div><b>${pc(sor)}</b><span>sortis</span></div><div><b>${pc(dep)}</b><span>promis par la cote de départ</span></div></div>
 <div class="ecart"><span class="meta">Écart (sorti − promis)</span><b>${pts(sor-dep)} pts</b></div>
+<div class="ecart"><span class="meta">Intervalle à 95 % du taux sorti</span><b>${pc(bas)} – ${pc(haut)}</b></div>
 <div class="ecart"><span class="meta">Écart vs cote d'arrivée (${pc(arr)})</span><b>${pts(sor-arr)} pts</b></div>
-<div class="meta">${Math.abs(sor-arr)>marge?"Au-delà de la marge d'erreur : l'écart est probablement réel":"Dans la marge d'erreur : le marché avait déjà tout corrigé"} · marge ± ${fr(marge,1)} pts</div>
-${r.n<50?'<span class="flag">Moins de 50 cas : pas encore assez de volume, ne tire aucune conclusion</span>':""}`;
+<div class="meta">${verdict}</div>
+${tropPeu?'<span class="flag">Moins de 30 cas : ne tire aucune conclusion</span>':""}`;
 }
 function selects(c,nom,etiq,liste){
   return `<label>${etiq}<select data-s="${nom}"><option value="">Tous</option>${liste.map((t,i)=>`<option value="${i}" ${String(BL[c].sel[nom])===String(i)?"selected":""}>${esc(t)}</option>`).join("")}</select></label>`;
@@ -340,9 +350,9 @@ function ecranStats(){
     if(!B.ST&&B.etat!=="charge"&&B.etat!=="erreur"){B.etat="charge";get(B.url).then(j=>{B.ST=j;B.etat="";if(onglet==="stats")ecranStats()}).catch(()=>{B.etat="erreur";if(onglet==="stats")ecranStats()})}}
   app.innerHTML=titre+
     bloc("hist",(t,D)=>`${nb(t)} cas · ${D.comp.length} championnats · saisons ${saisonTxt(D.saison[0])} à ${saisonTxt(D.saison[D.saison.length-1])}. Cotes d'ouverture → clôture : grosse maille, à lire à part de ta base.`,
-      "Un cas = une issue (1, N ou 2) d'un match. L'écart dit si le mouvement apporte une vraie information : proche de zéro, la cote disait déjà tout.")+
+      "Un cas = une issue (1, N ou 2) d'un match. Chaque filtre essayé augmente le risque de trouver un écart par hasard : un résultat ne vaut que s'il tient hors échantillon. Les trois issues d'un même match n'étant pas indépendantes, l'intervalle est un peu optimiste.")+
     bloc("base",(t,D)=>`${nb(t)} cas · ${nb(BL.base.ST.matchs)} matchs terminés suivis par Nostradamus (Pinnacle). Départ = cote à H-12, arrivée = cote à H-45. Seuls les matchs avec les 3 relevés comptent.`,
-      "Ta propre base : plus fine que l'historique, mais elle démarre à peine. Fie-toi au nombre de cas avant de lire l'écart.");
+      "Ta propre base : plus fine que l'historique, mais elle démarre à peine. Regarde d'abord la largeur de l'intervalle : tant qu'il est large, l'écart ne dit rien.");
   for(const c in BL)brancher(c);
 }
 const pc=(x,d=1)=>fr(x,d)+" %";
