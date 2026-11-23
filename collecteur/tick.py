@@ -20,7 +20,23 @@ TERMINE = ("FT", "AET", "PEN")
 
 
 # ------------------------------------------------------------------ 0. santé du réveil
-def sante(base, maintenant):
+def revele_attendu(matchs, maintenant):
+    """Vrai si un relevé aurait dû être déclenché maintenant.
+
+    C'est la seule condition qui rende une absence de réveil anormale : la nuit, entre la fin des matchs et les
+    premiers H-12 du matin, aucun réveil n'est attendu, et un cron parfaitement sain ne fait rien. Sans ce test,
+    le moniteur criait au loup pendant six heures chaque nuit."""
+    for m in matchs:
+        ko = instant(m["coup_envoi"])
+        if maintenant >= ko:
+            continue
+        for r in (m.get("releves") or {}).values():
+            if r.get("etat") in ("attente", "vide") and instant(r["prevu"]) <= maintenant:
+                return True
+    return False
+
+
+def sante(base, maintenant, matchs):
     """Note dans data/etat.json quand le collecteur a bien été réveillé par Cloudflare.
 
     GitHub expose GITHUB_EVENT_NAME à chaque étape du workflow : la valeur « repository_dispatch » prouve que
@@ -46,15 +62,14 @@ def sante(base, maintenant):
         return
     dernier = avant.get("dernier")
     retard = round((maintenant - instant(dernier)).total_seconds() / 60) if dernier else None
-    muet = retard is None or retard > C.REVEIL_MUET_MIN
+    muet = revele_attendu(matchs, maintenant) and (retard is None or retard > C.REVEIL_MUET_MIN)
     if avant.get("muet") == muet:                  # rien de nouveau : on n'écrit pas (sinon un commit par passage)
         return
     base.etat["reveil"] = {"dernier": dernier, "muet": muet, "verifie_a": iso(maintenant)}
     base.etat_modifie = True
     if muet:
-        base.alerte(maintenant, "Réveil Cloudflare muet : aucun lancement « repository_dispatch » depuis plus de "
-                                f"{C.REVEIL_MUET_MIN} min. Le collecteur ne tourne plus qu'au rythme lent de GitHub, "
-                                "les relevés H-45 sont en retard.")
+        base.alerte(maintenant, "Réveil Cloudflare muet : un relevé était dû et aucun lancement « repository_dispatch » "
+                                f"n'est arrivé depuis plus de {C.REVEIL_MUET_MIN} min. Les relevés H-45 sont en retard.")
 
 
 # ------------------------------------------------------------------ 0 bis. consommation de crédits
@@ -421,7 +436,7 @@ def passage(src, maintenant=None, base=None):
     touches += suivre_foot(base, src, matchs, maintenant)
     for m in {id(m): m for m in touches}.values():
         calculer(m); base.toucher(m)
-    sante(base, maintenant)
+    sante(base, maintenant, matchs)
     noter_credits(base, maintenant)
     ecrit = base.enregistrer(maintenant)
     return {"ecrit": ecrit, "matchs_touches": len({id(m) for m in touches}), "journal": src.journal}
