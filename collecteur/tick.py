@@ -41,6 +41,8 @@ def sante(base, maintenant):
             return
         base.etat["reveil"] = {"dernier": dernier, "muet": False, "verifie_a": iso(maintenant)}
         base.etat_modifie = True
+        if avant.get("muet"):                       # on sort de panne : on le note, sinon l'alerte reste seule à l'écran
+            base.alerte(maintenant, "Réveil Cloudflare rétabli : les réveils arrivent de nouveau.")
         return
     dernier = avant.get("dernier")
     retard = round((maintenant - instant(dernier)).total_seconds() / 60) if dernier else None
