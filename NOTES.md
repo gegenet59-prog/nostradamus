@@ -69,6 +69,22 @@ Vérifié : 5 cas → intervalle 23,1 – 88,2 %, verdict « échantillon trop p
 suspendu »), et les 12 dernières alertes avec leur ancienneté. Un « réveil rétabli » est désormais consigné, pour que
 l'alerte de panne ne reste pas seule à l'écran une fois le problème résolu.
 
+## Scores sans API-Football (24/11)
+
+`relever_scores()` (`tick.py`) remplace API-Football pour les scores, via **The Odds API `/scores`**. L'intérêt
+décisif : les identifiants d'événements sont ceux des cotes, donc **aucun rapprochement de noms** et les coupes
+d'Europe sont couvertes (LDC, Europa, Conference) — ce que football-data.co.uk ne fait pas.
+
+Règles : un appel par compétition et par jour (`etat.json → scores_odds`), seulement s'il reste un match terminé
+sans score, avec le garde-fou `ARRET_TOTAL`.
+
+**Coût mesuré : 2 crédits par appel** (et non 1 comme annoncé par la doc). Premier passage : 5 appels, 10 crédits,
+**42 scores récupérés**. « Ma base » passe de 34 à **72 matchs** et de 102 à **216 cas**.
+
+Ordre de grandeur à surveiller : un week-end où les 5 championnats jouent coûte 10 crédits, soit ~80 à 100 par mois,
+en plus des cotes. Si le budget devient serré, deux leviers : `jours=1` au lieu de 3 (fenêtre plus courte), ou
+basculer les 5 championnats sur football-data.co.uk (gratuit) et ne garder `/scores` que pour les coupes.
+
 ## Résultat des vérifications
 
 1. **Pinnacle et Winamax FR dans la région `eu`** : OK pour 7 compétitions sur 8 (tous les matchs ont les deux cotes).
