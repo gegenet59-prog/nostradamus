@@ -8,7 +8,7 @@
   3. API-Football: lien des matchs, blessés/suspendus, compos officielles, scores finaux (garde-fou 100 requêtes/jour)
   4. calculs     : feux, flèches, %, phrase du marché pour chaque match touché
 Il peut être relancé sans risque : un relevé déjà fait n'est jamais refait."""
-import calendar, sys
+import calendar, json, os, sys, urllib.request
 from datetime import datetime, timedelta, timezone
 from . import config as C
 from zoneinfo import ZoneInfo
@@ -17,6 +17,39 @@ from .calculs import ISSUES, calculer, cotes_valides
 from .rapprochement import rapprocher, ressemblance
 
 TERMINE = ("FT", "AET", "PEN")
+
+
+# ------------------------------------------------------------------ 0. santé du réveil
+def sante(base, maintenant):
+    """Contrôle que le réveil Cloudflare alimente bien GitHub, et le note dans data/etat.json.
+
+    Lit le dernier lancement « repository_dispatch » du dépôt (1 requête, gratuite) : c'est la seule preuve
+    fiable que le Worker réveille réellement le collecteur. N'écrit que si la situation change, pour ne pas
+    créer un commit à chaque passage. Sans GITHUB_TOKEN (tests unitaires), la fonction ne fait rien.
+    """
+    jeton, depot = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
+    if not jeton or not depot:
+        return
+    url = f"https://api.github.com/repos/{depot}/actions/runs?event=repository_dispatch&per_page=1"
+    requete = urllib.request.Request(url, headers={"Authorization": f"Bearer {jeton}",
+                                                   "Accept": "application/vnd.github+json",
+                                                   "User-Agent": "nostradamus-collecteur"})
+    try:
+        with urllib.request.urlopen(requete, timeout=15) as reponse:
+            lancements = json.load(reponse).get("workflow_runs") or []
+    except Exception:
+        return          # pas de réseau, quota, permission manquante : on ne bloque pas le passage pour ça
+    dernier = lancements[0]["created_at"] if lancements else None
+    retard = round((maintenant - instant(dernier)).total_seconds() / 60) if dernier else None
+    muet = retard is None or retard > C.REVEIL_MUET_MIN
+    avant = base.etat.get("reveil") or {}
+    if avant.get("dernier") == dernier and avant.get("muet") == muet:
+        return
+    base.etat["reveil"] = {"dernier": dernier, "retard_min": retard, "muet": muet, "verifie_a": iso(maintenant)}
+    base.etat_modifie = True
+    if muet and not avant.get("muet"):
+        base.alerte(maintenant, "Réveil Cloudflare muet : aucun lancement « repository_dispatch ». "
+                                "Le collecteur ne tourne plus qu'au rythme lent de GitHub, les relevés H-45 sont en retard.")
 
 
 # ------------------------------------------------------------------ 1. planning
@@ -318,6 +351,7 @@ def passage(src, maintenant=None, base=None):
     touches += suivre_foot(base, src, matchs, maintenant)
     for m in {id(m): m for m in touches}.values():
         calculer(m); base.toucher(m)
+    sante(base, maintenant)
     ecrit = base.enregistrer(maintenant)
     return {"ecrit": ecrit, "matchs_touches": len({id(m) for m in touches}), "journal": src.journal}
 
