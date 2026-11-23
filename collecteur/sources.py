@@ -54,7 +54,7 @@ class Sources:
         return j if code == 200 and isinstance(j, list) else None
 
     def scores(self, comp, jours=3):
-        """Scores des matchs terminés, y compris les coupes d'Europe. COÛT : 1 crédit. Liste ou None.
+        """Scores des matchs terminés, y compris les coupes d'Europe. COÛT MESURÉ : 2 crédits par appel. Liste ou None.
 
         Les identifiants sont ceux des cotes : le score se recolle donc tout seul, sans rapprochement de noms.
         jours vaut de 1 à 3 (les matchs plus anciens ne sont plus couverts)."""
