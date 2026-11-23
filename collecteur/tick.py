@@ -57,6 +57,24 @@ def sante(base, maintenant):
                                 "les relevés H-45 sont en retard.")
 
 
+# ------------------------------------------------------------------ 0 bis. consommation de crédits
+def noter_credits(base, maintenant):
+    """Garde un point de crédits par jour dans etat.json (écrasé au fil de la journée).
+
+    Sans cet historique, etat.json ne contient que le dernier stock et il est impossible de refaire le calcul
+    d'un mois. Soixante points suffisent : deux mois d'historique."""
+    reste = (base.etat.get("odds") or {}).get("reste")
+    if reste is None:
+        return
+    jours = base.etat["odds"].setdefault("jours", {})
+    jour = maintenant.strftime("%Y-%m-%d")
+    if jours.get(jour) == reste:
+        return
+    jours[jour] = reste
+    base.etat["odds"]["jours"] = dict(sorted(jours.items())[-60:])
+    base.etat_modifie = True
+
+
 # ------------------------------------------------------------------ 1. planning
 def planifier(base, src, maintenant):
     """Calendrier des 60 prochaines heures (gratuit). Crée les nouveaux matchs, suit les changements d'horaire."""
@@ -404,6 +422,7 @@ def passage(src, maintenant=None, base=None):
     for m in {id(m): m for m in touches}.values():
         calculer(m); base.toucher(m)
     sante(base, maintenant)
+    noter_credits(base, maintenant)
     ecrit = base.enregistrer(maintenant)
     return {"ecrit": ecrit, "matchs_touches": len({id(m) for m in touches}), "journal": src.journal}
 
