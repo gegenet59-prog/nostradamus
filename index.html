@@ -124,7 +124,7 @@ function bandeau(){
   const quand=m!=null?`dernier réveil il y a ${m} min`:"aucun réveil enregistré";
   return `<div class="sante">⚠️ <b>Réveil automatique muet</b> (${esc(quand)}) : les relevés H-45 sont pris en retard. Vérifie le Cron Trigger du Worker Cloudflare.</div>`;
 }
-async function chargerSante(){try{SANTE=await get("data/etat.json");if(onglet==="matchs")dessiner()}catch(e){}}
+async function chargerSante(){try{SANTE=await get("data/etat.json");if(onglet==="matchs"&&jours.length)dessiner()}catch(e){}}
 const statut=m=>{const t=Date.now()-new Date(m.coup_envoi).getTime();return t<0?"":t<115*60000?"En cours":"Terminé"};
 const heure=iso=>new Date(iso).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Paris"}).replace(":","h");
 const jourParis=d=>new Date(d).toLocaleDateString("sv-SE",{timeZone:"Europe/Paris"});
