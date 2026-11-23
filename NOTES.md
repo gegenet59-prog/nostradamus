@@ -29,10 +29,12 @@ Ce qui a été changé :
 | --- | --- |
 | `cloudflare/worker.js` | Réveil en 3 tentatives avec vérification du code HTTP (204) ; l'état `vide` relance aussi ; lecture des jours journalisée ; `?force=1` sur l'URL pour tester ; un cache indisponible ne bloque plus un réveil |
 | `wrangler.toml` (nouveau) | Déclare le Cron Trigger `* * * * *` — sans lui le Worker existe mais ne se réveille jamais |
-| `collecteur/tick.py` | `sante()` : lit le dernier lancement `repository_dispatch` et l'écrit dans `etat.json` ; alerte si muet depuis plus de 60 min |
+| `collecteur/tick.py` | `sante()` : lit `GITHUB_EVENT_NAME`, note le dernier réveil `repository_dispatch` dans `etat.json` et alerte au-delà de 60 min. Aucune permission supplémentaire : GitHub fournit déjà cette variable |
 | `collecteur/config.py` | `REVEIL_MUET_MIN = 60` |
-| `.github/workflows/collecteur.yml` | `actions: read` + `GITHUB_TOKEN` / `GITHUB_REPOSITORY` passés à l'environnement |
 | `index.html` | Bandeau rouge en haut des matchs quand `etat.json` signale `reveil.muet` |
+
+Rien à changer dans `.github/workflows/collecteur.yml` : `GITHUB_EVENT_NAME` est fourni par le runner, et le Worker
+vit dans `cloudflare/` (dossier distinct, ignoré par les tâches du collecteur).
 
 **Reste à faire (côté Gérard)** : déployer le Worker (`npx wrangler deploy`) ou vérifier que le Cron Trigger est bien
 posé dans le dashboard (`Workers → Settings → Triggers`). Ensuite, l'onglet Actions doit montrer un lancement
