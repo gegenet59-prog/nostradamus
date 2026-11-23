@@ -8,7 +8,7 @@
   3. API-Football: lien des matchs, blessés/suspendus, compos officielles, scores finaux (garde-fou 100 requêtes/jour)
   4. calculs     : feux, flèches, %, phrase du marché pour chaque match touché
 Il peut être relancé sans risque : un relevé déjà fait n'est jamais refait."""
-import calendar, json, os, sys, urllib.request
+import calendar, os, sys
 from datetime import datetime, timedelta, timezone
 from . import config as C
 from zoneinfo import ZoneInfo
@@ -21,35 +21,38 @@ TERMINE = ("FT", "AET", "PEN")
 
 # ------------------------------------------------------------------ 0. santé du réveil
 def sante(base, maintenant):
-    """Contrôle que le réveil Cloudflare alimente bien GitHub, et le note dans data/etat.json.
+    """Note dans data/etat.json quand le collecteur a bien été réveillé par Cloudflare.
 
-    Lit le dernier lancement « repository_dispatch » du dépôt (1 requête, gratuite) : c'est la seule preuve
-    fiable que le Worker réveille réellement le collecteur. N'écrit que si la situation change, pour ne pas
-    créer un commit à chaque passage. Sans GITHUB_TOKEN (tests unitaires), la fonction ne fait rien.
+    GitHub expose GITHUB_EVENT_NAME à chaque étape du workflow : la valeur « repository_dispatch » prouve que
+    le Worker a réellement réveillé le collecteur. Inutile d'interroger l'API, donc aucune permission
+    supplémentaire à accorder. Hors GitHub Actions (tests unitaires), la fonction ne fait rien.
+
+    Pour ne pas créer un commit à chaque réveil (un par minute quand tout marche), l'heure du dernier réveil
+    n'est retenue que par tranches de 15 min : largement assez précis pour un seuil de 60 min.
     """
-    jeton, depot = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
-    if not jeton or not depot:
+    evenement = os.environ.get("GITHUB_EVENT_NAME")
+    if not evenement:
         return
-    url = f"https://api.github.com/repos/{depot}/actions/runs?event=repository_dispatch&per_page=1"
-    requete = urllib.request.Request(url, headers={"Authorization": f"Bearer {jeton}",
-                                                   "Accept": "application/vnd.github+json",
-                                                   "User-Agent": "nostradamus-collecteur"})
-    try:
-        with urllib.request.urlopen(requete, timeout=15) as reponse:
-            lancements = json.load(reponse).get("workflow_runs") or []
-    except Exception:
-        return          # pas de réseau, quota, permission manquante : on ne bloque pas le passage pour ça
-    dernier = lancements[0]["created_at"] if lancements else None
+    avant = base.etat.get("reveil") or {}
+    if evenement == "repository_dispatch":          # le réveil a fonctionné
+        tranche = maintenant.replace(minute=maintenant.minute - maintenant.minute % 15, second=0, microsecond=0)
+        dernier = iso(tranche)
+        if avant.get("dernier") == dernier and avant.get("muet") is False:
+            return
+        base.etat["reveil"] = {"dernier": dernier, "muet": False, "verifie_a": iso(maintenant)}
+        base.etat_modifie = True
+        return
+    dernier = avant.get("dernier")
     retard = round((maintenant - instant(dernier)).total_seconds() / 60) if dernier else None
     muet = retard is None or retard > C.REVEIL_MUET_MIN
-    avant = base.etat.get("reveil") or {}
-    if avant.get("dernier") == dernier and avant.get("muet") == muet:
+    if avant.get("muet") == muet:                  # rien de nouveau : on n'écrit pas (sinon un commit par passage)
         return
-    base.etat["reveil"] = {"dernier": dernier, "retard_min": retard, "muet": muet, "verifie_a": iso(maintenant)}
+    base.etat["reveil"] = {"dernier": dernier, "muet": muet, "verifie_a": iso(maintenant)}
     base.etat_modifie = True
-    if muet and not avant.get("muet"):
-        base.alerte(maintenant, "Réveil Cloudflare muet : aucun lancement « repository_dispatch ». "
-                                "Le collecteur ne tourne plus qu'au rythme lent de GitHub, les relevés H-45 sont en retard.")
+    if muet:
+        base.alerte(maintenant, "Réveil Cloudflare muet : aucun lancement « repository_dispatch » depuis plus de "
+                                f"{C.REVEIL_MUET_MIN} min. Le collecteur ne tourne plus qu'au rythme lent de GitHub, "
+                                "les relevés H-45 sont en retard.")
 
 
 # ------------------------------------------------------------------ 1. planning
