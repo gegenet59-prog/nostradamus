@@ -185,6 +185,43 @@ def relever(base, src, matchs, maintenant):
     return touches
 
 
+# ------------------------------------------------------------------ 2 bis. scores (The Odds API)
+def relever_scores(base, src, maintenant):
+    """Complète le score des matchs terminés, coupes d'Europe comprises.
+
+    Passe par The Odds API, dont les identifiants d'événements sont ceux des cotes : le score se recolle tout
+    seul, sans rapprochement de noms (contrairement à API-Football). Un seul appel par compétition et par jour,
+    et seulement s'il reste un match sans score. COÛT : 1 crédit par appel.
+    """
+    touches, aujourd_hui = [], maintenant.strftime("%Y-%m-%d")
+    essais = base.etat.get("scores_odds") or {}
+    dates = [jour_paris(maintenant - timedelta(days=n)) for n in (2, 1, 0)]
+    a_remplir = {}
+    for m in base.matchs(dates):
+        if m.get("score") or m["competition"] not in C.COMPETITIONS: continue
+        if instant(m["coup_envoi"]) > maintenant - timedelta(minutes=115): continue   # pas encore fini
+        a_remplir.setdefault(m["competition"], []).append(m)
+    for comp, liste in a_remplir.items():
+        if essais.get(comp) == aujourd_hui: continue          # déjà tenté aujourd'hui : on n'insiste pas
+        if src.odds_reste is not None and src.odds_reste <= C.ARRET_TOTAL: break
+        essais[comp] = aujourd_hui; base.etat_modifie = True
+        reponse = src.scores(comp)
+        if reponse is None: continue
+        par_id = {e["id"]: e for e in reponse if e.get("completed")}
+        for m in liste:
+            e = par_id.get(m["id"])
+            if not e: continue
+            buts = {s["name"]: s["score"] for s in (e.get("scores") or [])}
+            try:
+                d, x = int(buts[e["home_team"]]), int(buts[e["away_team"]])
+            except (KeyError, TypeError, ValueError):
+                continue
+            m["score"] = {"domicile": d, "exterieur": x, "issue": "1" if d > x else "2" if x > d else "N", "statut": "FT"}
+            base.toucher(m); touches.append(m)
+    base.etat["scores_odds"] = {k: v for k, v in essais.items() if v == aujourd_hui}   # on oublie les jours passés
+    return touches
+
+
 # ------------------------------------------------------------------ 3. API-Football
 def foot_permis(src, reserve=0):
     return src.foot_reste is None or src.foot_reste > C.FOOT_RESERVE + reserve
@@ -360,6 +397,7 @@ def passage(src, maintenant=None, base=None):
     dates = [jour_paris(maintenant + timedelta(days=n)) for n in range(-2, 3)]
     matchs = base.matchs(dates)
     touches = relever(base, src, matchs, maintenant)
+    touches += relever_scores(base, src, maintenant)
     touches += suivre_foot(base, src, matchs, maintenant)
     for m in {id(m): m for m in touches}.values():
         calculer(m); base.toucher(m)
