@@ -375,8 +375,13 @@ function ecranAlertes(){
        "À vérifier : le Cron Trigger du Worker Cloudflare."])
     :carte("var(--vert)","Réveil automatique : actif",
       [r.dernier?`Dernier réveil reçu ${rel(r.dernier)}.`:"Surveillance en cours de démarrage."]);
+  const jr=(e.odds&&e.odds.jours)||{}, t=Object.keys(jr).sort().slice(-8);
+  let conso=0;
+  for(let i=1;i<t.length;i++){const d=jr[t[i-1]]-jr[t[i]];if(d>0)conso+=d}
+  const rythme=t.length>1?`${nb(conso)} crédits sur ${t.length-1} jour(s) · ~${nb(Math.round(conso/(t.length-1)*30))} par mois au rythme actuel.`:"";
   const credits=(e.odds&&e.odds.reste!=null)
     ?carte("var(--soft)","Crédits The Odds API",[`${nb(e.odds.reste)} crédits restants · mode « ${esc(e.odds.mode||"?")} »`,
+        rythme,
         e.odds.maj?`Dernier relevé de cotes ${rel(e.odds.maj)}.`:""]):"";
   const foot=(e.foot&&(e.foot.reste!=null||e.foot.suspendu))
     ?carte(e.foot.suspendu?"var(--rouge)":"var(--soft)","API-Football",[
