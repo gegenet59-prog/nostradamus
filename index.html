@@ -382,7 +382,7 @@ function ecranAlertes(){
   const credits=(e.odds&&e.odds.reste!=null)
     ?carte("var(--soft)","Crédits The Odds API",[`${nb(e.odds.reste)} crédits restants · mode « ${esc(e.odds.mode||"?")} »`,
         rythme,
-        e.odds.maj?`Dernier relevé de cotes ${rel(e.odds.maj)}.`:""]):"";
+        e.odds.maj?`Stock connu au dernier appel, ${rel(e.odds.maj)}.`:""]):"";
   const foot=(e.foot&&(e.foot.reste!=null||e.foot.suspendu))
     ?carte(e.foot.suspendu?"var(--rouge)":"var(--soft)","API-Football",[
         e.foot.suspendu?"Compte suspendu : aucun score, compo ni absent ne rentre. À réactiver sur dashboard.api-football.com.":"",
