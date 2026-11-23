@@ -191,7 +191,7 @@ def relever_scores(base, src, maintenant):
 
     Passe par The Odds API, dont les identifiants d'événements sont ceux des cotes : le score se recolle tout
     seul, sans rapprochement de noms (contrairement à API-Football). Un seul appel par compétition et par jour,
-    et seulement s'il reste un match sans score. COÛT : 1 crédit par appel.
+    et seulement s'il reste un match sans score. COÛT MESURÉ : 2 crédits par appel.
     """
     touches, aujourd_hui = [], maintenant.strftime("%Y-%m-%d")
     essais = base.etat.get("scores_odds") or {}
@@ -206,6 +206,8 @@ def relever_scores(base, src, maintenant):
         if src.odds_reste is not None and src.odds_reste <= C.ARRET_TOTAL: break
         essais[comp] = aujourd_hui; base.etat_modifie = True
         reponse = src.scores(comp)
+        if src.odds_reste is not None:                 # le stock doit être à jour, sinon le garde-fou lit une vieille valeur
+            base.etat["odds"].update({"reste": src.odds_reste, "maj": iso(maintenant)})
         if reponse is None: continue
         par_id = {e["id"]: e for e in reponse if e.get("completed")}
         for m in liste:
