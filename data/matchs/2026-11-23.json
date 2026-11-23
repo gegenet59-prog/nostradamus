@@ -28,7 +28,20 @@
     },
     "H3": {
      "prevu": "2026-11-23T16:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-23T16:45:01Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 3.97,
+      "N": 3.87,
+      "2": 1.93
+     },
+     "winamax": {
+      "1": 3.45,
+      "N": 3.55,
+      "2": 1.8
+     },
+     "maj_pinnacle": "2026-11-23T16:44:46Z"
     },
     "H45": {
      "prevu": "2026-11-23T19:00:00Z",
@@ -38,8 +51,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 6.4,
+      "ampleur": 4.3,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.0,
+      "ampleur": 0.7,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -3.0,
+      "ampleur": 3.1,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Monza ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.49,
+     "N": -0.18,
+     "2": 1.67
+    },
+    "marge": [
+     3.17,
+     2.84
+    ]
+   },
    "score": null
   },
   {
@@ -125,5 +178,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-23T08:00:56Z"
+ "maj": "2026-11-23T16:45:01Z"
 }
