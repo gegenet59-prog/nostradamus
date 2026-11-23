@@ -44,6 +44,31 @@ posé dans le dashboard (`Workers → Settings → Triggers`). Ensuite, l'onglet
 (répétée plusieurs fois par jour). Le garde-fou ou la réponse de l'API est en cause : à regarder séparément, parce que
 sans lien des matchs il n'y a ni compos, ni absents, ni scores.
 
+## Correctif du 23/11 (soir) — trois points
+
+**1. API-Football : ce n'était pas le code.** Le log du passage du 23/11 à 00h02 donne la réponse exacte :
+
+```
+matchs du 2026-11-23 : 200 {"access": "Your account is suspended, check on https://dashboard.api-football.com."}, reste 99 requêtes
+```
+
+Le compte est **suspendu** côté fournisseur (HTTP 200, quota intact : 99/100). Conséquence mesurée sur les 8 jours
+précédents : 90 matchs terminés, 73 avec un lien, **47 seulement avec un score** — donc la moitié des matchs manque à
+« Ma base ». Depuis le 22/11 vers 00h30 UTC, plus rien ne rentre. **À réactiver sur dashboard.api-football.com.**
+
+Côté code (`sources.py`, `tick.py`) : l'alerte dit maintenant *pourquoi* (`src.detail()` remonte le motif de l'API),
+et `src.suspendu()` coupe les appels de la journée au lieu de gaspiller le quota — une seule alerte explicite par jour.
+
+**2. Statistiques : intervalle de Wilson.** L'ancienne marge `±1,96 × √(p(1−p)/n)` tombait à **zéro** dès que le taux
+valait 0 % ou 100 %, ce qui faisait passer du bruit pour un résultat. L'écran affiche maintenant l'intervalle à 95 %
+en clair, compare l'écart à la **cote de départ** (et non plus à la cote d'arrivée), ne conclut plus rien sous 30 cas,
+et la note du bloc historique rappelle que chaque filtre essayé augmente le risque de faux positif.
+Vérifié : 5 cas → intervalle 23,1 – 88,2 %, verdict « échantillon trop petit ».
+
+**3. Onglet Alertes.** Il n'est plus vide : état du réveil, crédits The Odds API, API-Football (avec « compte
+suspendu »), et les 12 dernières alertes avec leur ancienneté. Un « réveil rétabli » est désormais consigné, pour que
+l'alerte de panne ne reste pas seule à l'écran une fois le problème résolu.
+
 ## Résultat des vérifications
 
 1. **Pinnacle et Winamax FR dans la région `eu`** : OK pour 7 compétitions sur 8 (tous les matchs ont les deux cotes).
