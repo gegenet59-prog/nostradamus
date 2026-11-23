@@ -2,7 +2,10 @@
  "odds": {
   "mode": "complet",
   "reste": 382,
-  "maj": "2026-11-22T19:27:01Z"
+  "maj": "2026-11-22T19:27:01Z",
+  "jours": {
+   "2026-11-23": 382
+  }
  },
  "foot": {
   "jour": "2026-11-23",
@@ -31,6 +34,10 @@
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-23T02:12:31Z",
+   "texte": "Réveil Cloudflare muet : aucun lancement « repository_dispatch » depuis plus de 60 min. Le collecteur ne tourne plus qu'au rythme lent de GitHub, les relevés H-45 sont en retard."
+  },
   {
    "quand": "2026-11-23T00:36:47Z",
    "texte": "Réveil Cloudflare muet : aucun lancement « repository_dispatch » depuis plus de 60 min. Le collecteur ne tourne plus qu'au rythme lent de GitHub, les relevés H-45 sont en retard."
@@ -81,11 +88,11 @@
   }
  ],
  "planning_fait_a": "2026-11-22T21:48:38Z",
- "dernier_passage_utile": "2026-11-23T01:42:32Z",
+ "dernier_passage_utile": "2026-11-23T02:12:31Z",
  "reveil": {
   "dernier": "2026-11-23T00:45:00Z",
-  "muet": false,
-  "verifie_a": "2026-11-23T00:52:29Z"
+  "muet": true,
+  "verifie_a": "2026-11-23T02:12:31Z"
  },
  "scores_odds": {
   "PL": "2026-11-23",
