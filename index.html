@@ -124,7 +124,12 @@ function bandeau(){
   const quand=m!=null?`dernier réveil il y a ${m} min`:"aucun réveil enregistré";
   return `<div class="sante">⚠️ <b>Réveil automatique muet</b> (${esc(quand)}) : les relevés H-45 sont pris en retard. Vérifie le Cron Trigger du Worker Cloudflare.</div>`;
 }
-async function chargerSante(){try{SANTE=await get("data/etat.json");if(onglet==="matchs"&&jours.length)dessiner()}catch(e){}}
+let santeChargee=false;
+async function chargerSante(force){
+  if(santeChargee&&!force)return;
+  santeChargee=true;
+  try{SANTE=await get("data/etat.json");if(jours.length)dessiner()}catch(e){santeChargee=false}
+}
 const statut=m=>{const t=Date.now()-new Date(m.coup_envoi).getTime();return t<0?"":t<115*60000?"En cours":"Terminé"};
 const heure=iso=>new Date(iso).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Paris"}).replace(":","h");
 const jourParis=d=>new Date(d).toLocaleDateString("sv-SE",{timeZone:"Europe/Paris"});
@@ -355,17 +360,42 @@ function ecranStats(){
       "Ta propre base : plus fine que l'historique, mais elle démarre à peine. Regarde d'abord la largeur de l'intervalle : tant qu'il est large, l'écart ne dit rien.");
   for(const c in BL)brancher(c);
 }
+/* ---------- Écran Alertes ---------- */
+function ecranAlertes(){
+  if(!SANTE)chargerSante();
+  const e=SANTE||{}, r=e.reveil||{}, al=e.alertes||[];
+  const rel=iso=>{if(!iso)return"?";const m=Math.round((Date.now()-new Date(iso).getTime())/60000);
+    return m<0?"à l'instant":m<1?"à l'instant":m<60?`il y a ${m} min`:m<2880?`il y a ${Math.round(m/60)} h`:`il y a ${Math.round(m/1440)} j`};
+  const carte=(couleur,titre,lignes)=>{const l=lignes.filter(Boolean);
+    return `<div class="card"><div class="teams" style="font-size:15px;color:${couleur}">${titre}</div>${l.map(x=>`<div class="meta">${x}</div>`).join("")}</div>`};
+  const reveil=r.muet
+    ?carte("var(--rouge)","Réveil automatique : muet",
+      [r.dernier?`Dernier réveil reçu ${rel(r.dernier)}.`:"Aucun réveil reçu depuis la mise en place de la surveillance.",
+       "Le collecteur ne tourne qu'au rythme lent de GitHub : les relevés H-45 sont pris en retard.",
+       "À vérifier : le Cron Trigger du Worker Cloudflare."])
+    :carte("var(--vert)","Réveil automatique : actif",
+      [r.dernier?`Dernier réveil reçu ${rel(r.dernier)}.`:"Surveillance en cours de démarrage."]);
+  const credits=(e.odds&&e.odds.reste!=null)
+    ?carte("var(--soft)","Crédits The Odds API",[`${nb(e.odds.reste)} crédits restants · mode « ${esc(e.odds.mode||"?")} »`,
+        e.odds.maj?`Dernier relevé de cotes ${rel(e.odds.maj)}.`:""]):"";
+  const foot=(e.foot&&(e.foot.reste!=null||e.foot.suspendu))
+    ?carte(e.foot.suspendu?"var(--rouge)":"var(--soft)","API-Football",[
+        e.foot.suspendu?"Compte suspendu : aucun score, compo ni absent ne rentre. À réactiver sur dashboard.api-football.com.":"",
+        e.foot.reste!=null?`${nb(e.foot.reste)} requêtes restantes aujourd'hui.`:""]):"";
+  const liste=al.length
+    ?`<div class="card"><div class="teams" style="font-size:15px">Dernières alertes</div>${al.slice(0,12)
+        .map(a=>`<div class="meta"><b>${rel(a.quand)}</b> · ${esc(a.texte)}</div>`).join("")}</div>`
+    :`<div class="msg">Aucune alerte enregistrée. C'est bon signe.</div>`;
+  app.innerHTML=`<div><h1>Alertes</h1><div class="sub">Santé du collecteur et pannes récentes</div></div>${reveil}${credits}${foot}${liste}
+<div class="meta">Les notifications sur téléphone arriveront plus tard.</div>`;
+}
 const pc=(x,d=1)=>fr(x,d)+" %";
 
 function dessiner(){
   if(onglet==="stats"){ecranStats();return}
   const mid=(location.hash.match(/^#m\/(.+)$/)||[])[1], mm=onglet==="matchs"&&mid?matchs.find(x=>x.id===mid):null;
   if(mm){ecranMatch(mm);return}
-  if(onglet!=="matchs"){
-    const t="Alertes";
-    const d="Cet écran arrive bientôt : une notification sur ton téléphone dès qu'un match passe en Extrême.";
-    app.innerHTML=`<div><h1>${t}</h1></div><div class="msg">${d}</div>`;return;
-  }
+  if(onglet!=="matchs"){ecranAlertes();return}
   const comps=["Tout",...new Set(matchs.map(m=>COMP[m.competition]||m.competition))];
   if(!comps.includes(filtre))filtre="Tout";
   const liste=matchs.filter(m=>filtre==="Tout"||(COMP[m.competition]||m.competition)===filtre);
@@ -399,7 +429,7 @@ for(const [id,o] of [["t-matchs","matchs"],["t-stats","stats"],["t-alertes","ale
 window.addEventListener("hashchange",dessiner);
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 init();
-setInterval(()=>{if(onglet==="matchs"&&jour)charger()},120000);
+setInterval(()=>{if(onglet==="matchs"&&jour)charger();else if(onglet==="alertes")chargerSante(true)},120000);
 </script>
 </body>
 </html>
