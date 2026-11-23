@@ -237,6 +237,11 @@ def relever_scores(base, src, maintenant):
     for comp, liste in a_remplir.items():
         if essais.get(comp) == aujourd_hui: continue          # déjà tenté aujourd'hui : on n'insiste pas
         if src.odds_reste is not None and src.odds_reste <= C.ARRET_TOTAL: break
+        # Budget serré : les scores s'arrêtent AVANT les cotes. Ce sont les relevés H-12/H-3/H-45 qui font la
+        # valeur de la base ; un score manquant se rattrape, un relevé de cote manqué est perdu pour toujours.
+        if mode_quota(src.odds_reste, maintenant) != "complet":
+            base.etat["odds"]["scores_suspendus"] = aujourd_hui; base.etat_modifie = True
+            break
         essais[comp] = aujourd_hui; base.etat_modifie = True
         reponse = src.scores(comp)
         if src.odds_reste is not None:                 # le stock doit être à jour, sinon le garde-fou lit une vieille valeur
