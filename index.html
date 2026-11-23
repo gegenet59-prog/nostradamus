@@ -120,7 +120,8 @@ const fn=n=>PAYS[n]||CLUBS[n]||n;
 // Bandeau de santé : ne s'affiche que si le réveil Cloudflare ne réveille plus GitHub (voir data/etat.json).
 function bandeau(){
   const r=SANTE&&SANTE.reveil; if(!r||!r.muet)return "";
-  const quand=r.dernier?`dernier réveil il y a ${r.retard_min} min`:"aucun réveil enregistré";
+  const m=r.dernier?Math.round((Date.now()-new Date(r.dernier).getTime())/60000):null;
+  const quand=m!=null?`dernier réveil il y a ${m} min`:"aucun réveil enregistré";
   return `<div class="sante">⚠️ <b>Réveil automatique muet</b> (${esc(quand)}) : les relevés H-45 sont pris en retard. Vérifie le Cron Trigger du Worker Cloudflare.</div>`;
 }
 async function chargerSante(){try{SANTE=await get("data/etat.json");if(onglet==="matchs")dessiner()}catch(e){}}
