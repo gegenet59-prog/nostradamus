@@ -28,6 +28,7 @@ RELEVES = {
 # Sans ça le budget réel dépasse les 500 crédits certains mois (voir NOTES.md). Mettre False pour un H-12 exact par match.
 H12_GROUPE = False
 AVANCE_TOLEREE = 12   # si un appel part de toute façon pour la compétition, un relevé dû dans les 12 min en profite
+REVEIL_MUET_MIN = 60  # au-delà de ce retard, on considère que le réveil Cloudflare ne fonctionne plus (alerte dans etat.json)
 
 # ---- Feux (cahier des charges) : ampleur de la variation entre H-12 et H-45, hausse ou baisse ----
 SEUIL_ORANGE, SEUIL_ROUGE, SEUIL_VIOLET = 3.0, 7.0, 15.0
