@@ -30,6 +30,7 @@ class Sources:
         self.cle_foot = os.environ.get("API_FOOTBALL_KEY", "")
         self.odds_reste, self.foot_reste = odds_reste, foot_reste
         self.journal = []          # ce qui a été appelé pendant ce passage (sans les clés)
+        self.erreurs = {}          # dernier message d'erreur renvoyé par l'API, par type d'appel (ex. compte suspendu)
 
     # ---------- The Odds API ----------
     def evenements(self, comp, debut, fin):
@@ -59,8 +60,26 @@ class Sources:
         if reste is not None: self.foot_reste = reste
         elif self.foot_reste is not None: self.foot_reste -= 1
         erreurs = (j or {}).get("errors")
+        if erreurs: self.erreurs[nom] = erreurs
         self.journal.append(f"{nom} : {code}{' ' + json.dumps(erreurs, ensure_ascii=False) if erreurs else ''}, reste {self.foot_reste} requêtes")
         return j.get("response") if code == 200 and j and not erreurs else None
+
+    def detail(self, nom):
+        """Le motif renvoyé par l'API pour ce type d'appel, à mettre dans une alerte.
+
+        Un simple « indisponible » ne dit rien ; ici on obtient par exemple
+        « compte suspendu » ou « quota dépassé », ce qui évite de chercher au mauvais endroit."""
+        e = self.erreurs.get(nom)
+        if not e: return ""
+        if isinstance(e, dict):
+            texte = e.get("access") or e.get("token") or e.get("requests") or json.dumps(e, ensure_ascii=False)
+        else:
+            texte = json.dumps(e, ensure_ascii=False)
+        return f" ({texte})"
+
+    def suspendu(self):
+        """Vrai si l'API signale un compte suspendu : tous les appels suivants échoueront de la même façon."""
+        return any("suspend" in json.dumps(e, ensure_ascii=False).lower() for e in self.erreurs.values())
 
     def matchs_du_jour(self, date):
         """Tous les matchs du monde pour une date UTC (AAAA-MM-JJ) : identifiants, statuts et scores. 1 requête.
