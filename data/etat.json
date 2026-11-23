@@ -5,16 +5,10 @@
   "maj": "2026-11-22T19:27:01Z"
  },
  "foot": {
-  "jour": "2026-11-22",
+  "jour": "2026-11-23",
   "reste": 99
  },
  "jours_foot": {
-  "2026-11-17": {
-   "lien_jour": "2026-11-17",
-   "lien_heure": 0,
-   "absents": "2026-11-17T18:55:54Z",
-   "scores_jour": "2026-11-18"
-  },
   "2026-11-20": {
    "lien_jour": "2026-11-20",
    "lien_heure": 1,
@@ -30,9 +24,17 @@
   "2026-11-22": {
    "lien_jour": "2026-11-22",
    "lien_heure": 18
+  },
+  "2026-11-23": {
+   "lien_jour": "2026-11-23",
+   "lien_heure": 0
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-23T00:02:13Z",
+   "texte": "API-Football : matchs du 2026-11-23 indisponibles"
+  },
   {
    "quand": "2026-11-22T18:27:27Z",
    "texte": "API-Football : matchs du 2026-11-22 indisponibles"
@@ -75,5 +77,5 @@
   }
  ],
  "planning_fait_a": "2026-11-22T21:48:38Z",
- "dernier_passage_utile": "2026-11-22T21:48:38Z"
+ "dernier_passage_utile": "2026-11-23T00:02:13Z"
 }
