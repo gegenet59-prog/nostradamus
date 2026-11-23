@@ -16,6 +16,32 @@ Dernière mise à jour : 13 novembre 2026 (Fable). Cahier des charges : https://
 
 Rien n'a été commencé côté page web : il n'y a pas encore d'`index.html`.
 
+## Correctif du réveil (23 novembre 2026)
+
+Constat mesuré sur les 100 derniers lancements du workflow Collecteur (19 → 23/11) : **0 `repository_dispatch`**, et
+26 réveils par jour au lieu de 288. Le Worker Cloudflare ne réveille donc pas GitHub, et les relevés tombent en retard.
+Mesure sur 102 matchs : retard médian **H-12 = 28 min**, **H-3 = 27 min**, **H-45 = 23 min** ; un quart des H-45 à plus
+de 30 min, et 19 H-45 jamais faits.
+
+Ce qui a été changé :
+
+| Fichier | Changement |
+| --- | --- |
+| `cloudflare/worker.js` | Réveil en 3 tentatives avec vérification du code HTTP (204) ; l'état `vide` relance aussi ; lecture des jours journalisée ; `?force=1` sur l'URL pour tester ; un cache indisponible ne bloque plus un réveil |
+| `wrangler.toml` (nouveau) | Déclare le Cron Trigger `* * * * *` — sans lui le Worker existe mais ne se réveille jamais |
+| `collecteur/tick.py` | `sante()` : lit le dernier lancement `repository_dispatch` et l'écrit dans `etat.json` ; alerte si muet depuis plus de 60 min |
+| `collecteur/config.py` | `REVEIL_MUET_MIN = 60` |
+| `.github/workflows/collecteur.yml` | `actions: read` + `GITHUB_TOKEN` / `GITHUB_REPOSITORY` passés à l'environnement |
+| `index.html` | Bandeau rouge en haut des matchs quand `etat.json` signale `reveil.muet` |
+
+**Reste à faire (côté Gérard)** : déployer le Worker (`npx wrangler deploy`) ou vérifier que le Cron Trigger est bien
+posé dans le dashboard (`Workers → Settings → Triggers`). Ensuite, l'onglet Actions doit montrer un lancement
+`repository_dispatch` par minute, et le bandeau doit disparaître de lui-même.
+
+**Autre point ouvert, non traité ici** : `etat.json` contient une longue série de `API-Football : matchs du … indisponibles`
+(répétée plusieurs fois par jour). Le garde-fou ou la réponse de l'API est en cause : à regarder séparément, parce que
+sans lien des matchs il n'y a ni compos, ni absents, ni scores.
+
 ## Résultat des vérifications
 
 1. **Pinnacle et Winamax FR dans la région `eu`** : OK pour 7 compétitions sur 8 (tous les matchs ont les deux cotes).
