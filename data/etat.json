@@ -81,10 +81,17 @@
   }
  ],
  "planning_fait_a": "2026-11-22T21:48:38Z",
- "dernier_passage_utile": "2026-11-23T00:52:29Z",
+ "dernier_passage_utile": "2026-11-23T01:42:32Z",
  "reveil": {
   "dernier": "2026-11-23T00:45:00Z",
   "muet": false,
   "verifie_a": "2026-11-23T00:52:29Z"
+ },
+ "scores_odds": {
+  "PL": "2026-11-23",
+  "LIGA": "2026-11-23",
+  "SA": "2026-11-23",
+  "BL": "2026-11-23",
+  "L1": "2026-11-23"
  }
 }
