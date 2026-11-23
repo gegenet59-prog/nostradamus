@@ -1,0 +1,17 @@
+# Réveil de Nostradamus (Cloudflare Worker).
+#
+# Déploiement :
+#   npx wrangler deploy
+#   npx wrangler secret put GITHUB_TOKEN      (une seule fois : clé GitHub « Contents : lecture et écriture »)
+#
+# Le Cron Trigger ci-dessous est indispensable : sans lui le Worker existe mais ne se réveille jamais,
+# et l'on retombe sur le rythme lent des tâches programmées GitHub (mesuré : 60 à 70 min).
+# Vérification : Cloudflare -> Workers -> Trigger Events, et `npx wrangler tail` pour voir les lignes « réveil ».
+
+name = "nostradamus-reveil"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[triggers]
+crons = ["* * * * *"]
