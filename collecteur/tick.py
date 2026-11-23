@@ -259,7 +259,14 @@ def suivre_foot(base, src, matchs, maintenant):
         base.etat_modifie = True
         fait.update({"lien_jour": aujourd_hui, "lien_heure": maintenant.hour} if quoi == "lien" else {"scores_jour": aujourd_hui})
         if reponse is None:
-            base.alerte(maintenant, f"API-Football : matchs du {date} indisponibles"); continue
+            base.alerte(maintenant, f"API-Football : matchs du {date} indisponibles{src.detail('matchs du ' + date)}")
+            if src.suspendu():          # compte bloqué côté fournisseur : inutile d'insister, tous les appels échoueraient
+                if base.etat["foot"].get("suspendu") != aujourd_hui:
+                    base.etat["foot"]["suspendu"] = aujourd_hui; base.etat_modifie = True
+                    base.alerte(maintenant, "API-Football : compte suspendu — plus aucun score, compo ni absent ne rentrera "
+                                            "tant qu'il n'est pas réactivé sur dashboard.api-football.com")
+                return touches
+            continue
         for comp, infos in C.COMPETITIONS.items():
             liens = rapprocher([m for m in du_jour if m["competition"] == comp], reponse, infos["foot"])
             for m in du_jour:
