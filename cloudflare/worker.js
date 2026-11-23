@@ -6,8 +6,8 @@
 // Il faut un secret GITHUB_TOKEN (clé GitHub limitée à ce seul dépôt, permission « Contents : lecture et écriture »).
 //
 // Diagnostic : ouvrir l'adresse du Worker dans un navigateur renvoie son état complet.
-//   …workers.dev            -> ce que le Worker voit à l'instant t (jours lus, relevé dû ou non)
-//   …workers.dev/?force=1   -> tente un réveil pour de vrai et affiche le code HTTP obtenu
+//   …workers.dev                        -> ce que le Worker voit à l'instant t (jours lus, relevé dû ou non)
+//   …workers.dev/?force=1&cle=<DEBUG_KEY> -> tente un réveil pour de vrai (secret à créer sur le Worker)
 // Un réveil réussi renvoie 204. 401/403 = jeton absent, expiré ou sans la bonne permission.
 
 const DEPOT = "gegenet59-prog/nostradamus";
@@ -128,8 +128,17 @@ export default {
     const d = await diagnostiquer(env, maintenant);
     let essai = null;
     if (url.searchParams.get("force") === "1") {
-      const journal = [];
-      essai = { statut: await reveiller(env, "manuel", journal), journal };
+      // Fermé par défaut : sans le secret DEBUG_KEY, le réveil manuel est désactivé. L'adresse du Worker est
+      // publique, et rien n'oblige à offrir à n'importe qui un bouton qui lance le collecteur.
+      const cle = url.searchParams.get("cle");
+      if (!env.DEBUG_KEY) {
+        essai = { statut: "désactivé", raison: "réveil manuel désactivé : ajoute un secret DEBUG_KEY au Worker" };
+      } else if (cle !== env.DEBUG_KEY) {
+        essai = { statut: "refusé", raison: "clé absente ou incorrecte" };
+      } else {
+        const journal = [];
+        essai = { statut: await reveiller(env, "manuel", journal), journal };
+      }
     }
     return new Response(JSON.stringify({ ...d, essai }, null, 1), {
       headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" },
