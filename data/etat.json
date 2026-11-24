@@ -1,16 +1,17 @@
 {
  "odds": {
   "mode": "complet",
-  "reste": 363,
-  "maj": "2026-11-23T19:15:01Z",
+  "reste": 357,
+  "maj": "2026-11-24T00:17:10Z",
   "jours": {
-   "2026-11-23": 363
+   "2026-11-23": 363,
+   "2026-11-24": 357
   }
  },
  "foot": {
-  "jour": "2026-11-23",
-  "reste": 99,
-  "suspendu": "2026-11-23"
+  "jour": "2026-11-24",
+  "reste": null,
+  "suspendu": "2026-11-24"
  },
  "jours_foot": {
   "2026-11-20": {
@@ -32,9 +33,21 @@
   "2026-11-23": {
    "lien_jour": "2026-11-23",
    "lien_heure": 19
+  },
+  "2026-11-24": {
+   "lien_jour": "2026-11-24",
+   "lien_heure": 0
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-24T00:17:10Z",
+   "texte": "API-Football : compte suspendu — plus aucun score, compo ni absent ne rentrera tant qu'il n'est pas réactivé sur dashboard.api-football.com"
+  },
+  {
+   "quand": "2026-11-24T00:17:10Z",
+   "texte": "API-Football : matchs du 2026-11-24 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
+  },
   {
    "quand": "2026-11-23T19:00:54Z",
    "texte": "API-Football : matchs du 2026-11-23 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
@@ -104,18 +117,16 @@
    "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
   }
  ],
- "planning_fait_a": "2026-11-23T17:41:54Z",
- "dernier_passage_utile": "2026-11-23T20:00:57Z",
+ "planning_fait_a": "2026-11-24T00:17:10Z",
+ "dernier_passage_utile": "2026-11-24T00:17:10Z",
  "reveil": {
   "dernier": "2026-11-23T20:00:00Z",
   "muet": false,
   "verifie_a": "2026-11-23T20:00:57Z"
  },
  "scores_odds": {
-  "PL": "2026-11-23",
-  "LIGA": "2026-11-23",
-  "SA": "2026-11-23",
-  "BL": "2026-11-23",
-  "L1": "2026-11-23"
+  "PL": "2026-11-24",
+  "LIGA": "2026-11-24",
+  "SA": "2026-11-24"
  }
 }
