@@ -28,7 +28,20 @@
     },
     "H3": {
      "prevu": "2026-11-24T14:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-24T14:45:58Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 1.37,
+      "N": 5.9,
+      "2": 7.07
+     },
+     "winamax": {
+      "1": 1.3,
+      "N": 5.75,
+      "2": 5.75
+     },
+     "maj_pinnacle": "2026-11-24T14:45:48Z"
     },
     "H45": {
      "prevu": "2026-11-24T17:00:00Z",
@@ -38,8 +51,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -8.1,
+      "ampleur": 13.9,
+      "raisons": []
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 11.1,
+      "ampleur": 6.6,
+      "raisons": []
+     },
+     "2": {
+      "feu": "violet",
+      "fleche": "hausse",
+      "pct": 23.2,
+      "ampleur": 13.1,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Bodø/Glimt gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 5.2,
+     "N": -1.93,
+     "2": -3.26
+    },
+    "marge": [
+     3.37,
+     4.09
+    ]
+   },
    "score": null
   },
   {
@@ -69,7 +122,20 @@
     },
     "H3": {
      "prevu": "2026-11-24T14:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-24T14:45:58Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 3.08,
+      "N": 3.78,
+      "2": 2.29
+     },
+     "winamax": {
+      "1": 2.75,
+      "N": 3.75,
+      "2": 2.05
+     },
+     "maj_pinnacle": "2026-11-24T14:45:48Z"
     },
     "H45": {
      "prevu": "2026-11-24T17:00:00Z",
@@ -79,8 +145,50 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.0,
+      "ampleur": 0.7,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.5,
+      "ampleur": 0.4,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 2.2,
+      "ampleur": 1.9,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.46,
+     "N": 0.27,
+     "2": -0.73
+    },
+    "marge": [
+     3.11,
+     2.59
+    ]
+   },
    "score": null
   },
   {
@@ -371,5 +479,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-24T08:00:00Z"
+ "maj": "2026-11-24T14:45:58Z"
 }
