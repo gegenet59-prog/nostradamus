@@ -36,10 +36,14 @@
   },
   "2026-11-24": {
    "lien_jour": "2026-11-24",
-   "lien_heure": 0
+   "lien_heure": 6
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-24T06:45:03Z",
+   "texte": "API-Football : matchs du 2026-11-24 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
+  },
   {
    "quand": "2026-11-24T00:17:10Z",
    "texte": "API-Football : compte suspendu — plus aucun score, compo ni absent ne rentrera tant qu'il n'est pas réactivé sur dashboard.api-football.com"
@@ -117,8 +121,8 @@
    "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
   }
  ],
- "planning_fait_a": "2026-11-24T00:17:10Z",
- "dernier_passage_utile": "2026-11-24T05:45:57Z",
+ "planning_fait_a": "2026-11-24T06:45:03Z",
+ "dernier_passage_utile": "2026-11-24T06:45:03Z",
  "reveil": {
   "dernier": "2026-11-24T05:45:00Z",
   "muet": false,

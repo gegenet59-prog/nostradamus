@@ -1,0 +1,482 @@
+{
+ "date": "2026-11-26",
+ "matchs": [
+  {
+   "id": "8a0dc963ce319d55751d4d07c5152600",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Ajax",
+   "exterieur": "FC Thun",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "bbab118a8c6ca33b6b0e7b5ed36fecd8",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Brighton and Hove Albion",
+   "exterieur": "Universitatea Craiova",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "cbe7d454dbea3c32de84901cced19bd4",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "FC Iberia 1999",
+   "exterieur": "Getafe",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "4f5b1a808bafc37b7c0041e947c2e536",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "FK Jablonec",
+   "exterieur": "FC Lugano",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "679c499344805de09a59a2a2535cd0c8",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "FK Kauno Žalgiris",
+   "exterieur": "Riga FC",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "c587e5656d1f38f068cba1b168462ba4",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Hearts",
+   "exterieur": "AS Monaco",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "cb6689f811b7ce08379eef028e2254a4",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "KF Egnatia",
+   "exterieur": "Lincoln Red Imps FC",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "48a49061ae356d2a8b3b3976ec21508d",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Pafos FC",
+   "exterieur": "FC Midtjylland",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "e1bfce2837ee873eec90dbefe31844ac",
+   "competition": "ECL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "SK Brann",
+   "exterieur": "AGF Aarhus",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "a18687d4f17a96a7732fb0c8673ea037",
+   "competition": "EL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Besiktas JK",
+   "exterieur": "Hapoel Be'er Sheva",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "7da3be4f6fe50a39ecdf3a8dc12966c8",
+   "competition": "EL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Celta Vigo",
+   "exterieur": "Bournemouth",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "cdf4b848361b0374c2027326bd54d8eb",
+   "competition": "EL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Dinamo Zagreb",
+   "exterieur": "Bayer Leverkusen",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "707c513bfa43b45b7813126e09ad08d8",
+   "competition": "EL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Marseille",
+   "exterieur": "PFC Levski Sofia",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "31ebd41354699af625fa3372932206f0",
+   "competition": "EL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Olympiakos Piraeus",
+   "exterieur": "AC Milan",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "5902b4703e9ddc1f573091e14107834c",
+   "competition": "EL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Salzburg",
+   "exterieur": "FC Ararat-Armenia",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "3ee2bf8a6fa6add543f64ac3e9813976",
+   "competition": "EL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Union Saint-Gilloise",
+   "exterieur": "Lech Poznań",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "38332e4cbb2b3991904b00a75dc3769d",
+   "competition": "EL",
+   "coup_envoi": "2026-11-26T17:45:00Z",
+   "domicile": "Viktoria Plzeň",
+   "exterieur": "Benfica",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-26T05:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-26T14:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-26T17:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  }
+ ],
+ "maj": "2026-11-24T06:45:03Z"
+}
