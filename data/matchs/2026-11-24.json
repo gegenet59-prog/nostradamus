@@ -226,115 +226,6 @@
    "score": null
   },
   {
-   "id": "aee4e3c225603397ab52de3d066b566b",
-   "competition": "LDC",
-   "coup_envoi": "2026-11-24T20:00:00Z",
-   "domicile": "Arsenal",
-   "exterieur": "Borussia Dortmund",
-   "foot": null,
-   "releves": {
-    "H12": {
-     "prevu": "2026-11-24T08:00:00Z",
-     "etat": "fait",
-     "fait_a": "2026-11-24T08:00:00Z",
-     "retard_min": 0,
-     "pinnacle": {
-      "1": 1.47,
-      "N": 4.73,
-      "2": 7.09
-     },
-     "winamax": {
-      "1": 1.35,
-      "N": 4.6,
-      "2": 6.5
-     },
-     "maj_pinnacle": "2026-11-24T07:59:49Z"
-    },
-    "H3": {
-     "prevu": "2026-11-24T17:00:00Z",
-     "etat": "fait",
-     "fait_a": "2026-11-24T17:00:00Z",
-     "retard_min": 0,
-     "pinnacle": {
-      "1": 1.46,
-      "N": 4.72,
-      "2": 7.0
-     },
-     "winamax": {
-      "1": 1.35,
-      "N": 4.6,
-      "2": 6.5
-     },
-     "maj_pinnacle": "2026-11-24T16:59:56Z"
-    },
-    "H45": {
-     "prevu": "2026-11-24T19:15:00Z",
-     "etat": "fait",
-     "fait_a": "2026-11-24T19:15:56Z",
-     "retard_min": 1,
-     "pinnacle": {
-      "1": 1.45,
-      "N": 4.85,
-      "2": 7.3
-     },
-     "winamax": {
-      "1": 1.35,
-      "N": 4.6,
-      "2": 6.5
-     },
-     "maj_pinnacle": "2026-11-24T19:15:34Z"
-    }
-   },
-   "compos": null,
-   "compos_essais": [],
-   "absents": null,
-   "feux": {
-    "issues": {
-     "1": {
-      "feu": "vert",
-      "fleche": "baisse",
-      "pct": -1.4,
-      "ampleur": 2.1,
-      "raisons": []
-     },
-     "N": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 2.5,
-      "ampleur": 1.6,
-      "raisons": []
-     },
-     "2": {
-      "feu": "rouge",
-      "fleche": "hausse",
-      "pct": 3.0,
-      "ampleur": 1.7,
-      "raisons": [
-       "plus de 4 % entre H-3 et H-45"
-      ]
-     }
-    },
-    "base": "H12-H45",
-    "provisoire": false,
-    "partielle": false
-   },
-   "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
-    "incoherent": false,
-    "deplacement": {
-     "1": 0.9,
-     "N": -0.51,
-     "2": -0.39
-    },
-    "marge": [
-     3.27,
-     3.28
-    ]
-   },
-   "score": null
-  },
-  {
    "id": "ba719e378ac366262013bdb51a06aa6f",
    "competition": "LDC",
    "coup_envoi": "2026-11-24T20:00:00Z",
@@ -662,9 +553,118 @@
    "score": null
   },
   {
+   "id": "aee4e3c225603397ab52de3d066b566b",
+   "competition": "LDC",
+   "coup_envoi": "2026-11-24T20:05:00Z",
+   "domicile": "Arsenal",
+   "exterieur": "Borussia Dortmund",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-24T08:00:00Z",
+     "etat": "fait",
+     "fait_a": "2026-11-24T08:00:00Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.47,
+      "N": 4.73,
+      "2": 7.09
+     },
+     "winamax": {
+      "1": 1.35,
+      "N": 4.6,
+      "2": 6.5
+     },
+     "maj_pinnacle": "2026-11-24T07:59:49Z"
+    },
+    "H3": {
+     "prevu": "2026-11-24T17:00:00Z",
+     "etat": "fait",
+     "fait_a": "2026-11-24T17:00:00Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.46,
+      "N": 4.72,
+      "2": 7.0
+     },
+     "winamax": {
+      "1": 1.35,
+      "N": 4.6,
+      "2": 6.5
+     },
+     "maj_pinnacle": "2026-11-24T16:59:56Z"
+    },
+    "H45": {
+     "prevu": "2026-11-24T19:15:00Z",
+     "etat": "fait",
+     "fait_a": "2026-11-24T19:15:56Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 1.45,
+      "N": 4.85,
+      "2": 7.3
+     },
+     "winamax": {
+      "1": 1.35,
+      "N": 4.6,
+      "2": 6.5
+     },
+     "maj_pinnacle": "2026-11-24T19:15:34Z"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.4,
+      "ampleur": 2.1,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.5,
+      "ampleur": 1.6,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 3.0,
+      "ampleur": 1.7,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     }
+    },
+    "base": "H12-H45",
+    "provisoire": false,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.9,
+     "N": -0.51,
+     "2": -0.39
+    },
+    "marge": [
+     3.27,
+     3.28
+    ]
+   },
+   "score": null
+  },
+  {
    "id": "aea973c122c91837c15e066c757c747f",
    "competition": "LDC",
-   "coup_envoi": "2026-11-24T20:00:00Z",
+   "coup_envoi": "2026-11-24T20:05:00Z",
    "domicile": "RB Leipzig",
    "exterieur": "RC Lens",
    "foot": null,
@@ -778,7 +778,7 @@
   {
    "id": "3fb5e4a792cf34a0459efcb79a11a785",
    "competition": "LDC",
-   "coup_envoi": "2026-11-24T20:00:00Z",
+   "coup_envoi": "2026-11-24T20:05:00Z",
    "domicile": "Real Madrid",
    "exterieur": "PSV Eindhoven",
    "foot": null,
@@ -887,7 +887,7 @@
   {
    "id": "8e93849b4c1ccbf1c207836d5c470150",
    "competition": "LDC",
-   "coup_envoi": "2026-11-24T20:00:00Z",
+   "coup_envoi": "2026-11-24T20:05:00Z",
    "domicile": "ŠK Slovan Bratislava",
    "exterieur": "Real Betis",
    "foot": null,
@@ -997,5 +997,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-24T19:15:56Z"
+ "maj": "2026-11-24T19:57:01Z"
 }
