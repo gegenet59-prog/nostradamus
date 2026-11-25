@@ -41,10 +41,14 @@
   },
   "2026-11-25": {
    "lien_jour": "2026-11-25",
-   "lien_heure": 0
+   "lien_heure": 7
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-25T07:06:19Z",
+   "texte": "API-Football : matchs du 2026-11-25 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
+  },
   {
    "quand": "2026-11-25T00:26:11Z",
    "texte": "API-Football : compte suspendu — plus aucun score, compo ni absent ne rentrera tant qu'il n'est pas réactivé sur dashboard.api-football.com"
@@ -143,7 +147,7 @@
   }
  ],
  "planning_fait_a": "2026-11-25T02:50:23Z",
- "dernier_passage_utile": "2026-11-25T05:45:59Z",
+ "dernier_passage_utile": "2026-11-25T07:06:19Z",
  "reveil": {
   "dernier": "2026-11-25T05:45:00Z",
   "muet": false,
