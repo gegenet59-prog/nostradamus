@@ -41,10 +41,14 @@
   },
   "2026-11-25": {
    "lien_jour": "2026-11-25",
-   "lien_heure": 7
+   "lien_heure": 14
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-25T14:12:38Z",
+   "texte": "API-Football : matchs du 2026-11-25 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
+  },
   {
    "quand": "2026-11-25T07:06:19Z",
    "texte": "API-Football : matchs du 2026-11-25 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
@@ -147,7 +151,7 @@
   }
  ],
  "planning_fait_a": "2026-11-25T09:51:50Z",
- "dernier_passage_utile": "2026-11-25T09:51:50Z",
+ "dernier_passage_utile": "2026-11-25T14:12:38Z",
  "reveil": {
   "dernier": "2026-11-25T08:00:00Z",
   "muet": false,
