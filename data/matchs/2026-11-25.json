@@ -28,7 +28,20 @@
     },
     "H3": {
      "prevu": "2026-11-25T14:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-25T14:45:01Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 29.18,
+      "N": 13.23,
+      "2": 1.07
+     },
+     "winamax": {
+      "1": 20.0,
+      "N": 14.0,
+      "2": 1.05
+     },
+     "maj_pinnacle": "2026-11-25T14:44:36Z"
     },
     "H45": {
      "prevu": "2026-11-25T17:00:00Z",
@@ -38,8 +51,52 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 9.3,
+      "ampleur": 4.7,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -5.9,
+      "ampleur": 3.3,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -0.9,
+      "ampleur": 4.7,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": -0.34,
+     "N": 0.36,
+     "2": -0.02
+    },
+    "marge": [
+     3.45,
+     4.44
+    ]
+   },
    "score": null
   },
   {
@@ -69,7 +126,20 @@
     },
     "H3": {
      "prevu": "2026-11-25T14:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-25T14:45:01Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 3.12,
+      "N": 3.75,
+      "2": 2.29
+     },
+     "winamax": {
+      "1": 2.85,
+      "N": 3.55,
+      "2": 2.05
+     },
+     "maj_pinnacle": "2026-11-25T14:44:36Z"
     },
     "H45": {
      "prevu": "2026-11-25T17:00:00Z",
@@ -79,8 +149,50 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -3.1,
+      "ampleur": 2.3,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -5.8,
+      "ampleur": 4.1,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 7.5,
+      "ampleur": 6.7,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Villarreal ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.19,
+     "N": 1.68,
+     "2": -2.87
+    },
+    "marge": [
+     3.13,
+     2.39
+    ]
+   },
    "score": null
   },
   {
@@ -371,5 +483,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-25T08:01:57Z"
+ "maj": "2026-11-25T14:45:01Z"
 }
