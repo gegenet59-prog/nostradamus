@@ -1,0 +1,146 @@
+{
+ "date": "2026-11-27",
+ "matchs": [
+  {
+   "id": "698f4a7967ead89e10205a68ceb4bda4",
+   "competition": "BL",
+   "coup_envoi": "2026-11-27T19:30:00Z",
+   "domicile": "Werder Bremen",
+   "exterieur": "Borussia Monchengladbach",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-27T07:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-27T16:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-27T18:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "02ff879cf54f6d1fec2664efee0431db",
+   "competition": "L1",
+   "coup_envoi": "2026-11-27T19:45:00Z",
+   "domicile": "Brest",
+   "exterieur": "Paris FC",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-27T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-27T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-27T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "e9a663f13e7503c0ac20a54804338b60",
+   "competition": "SA",
+   "coup_envoi": "2026-11-27T19:45:00Z",
+   "domicile": "Venezia",
+   "exterieur": "Bologna",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-27T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-27T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-27T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "80c92a163a81b69fef76530221e2edd0",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-27T20:00:00Z",
+   "domicile": "Levante",
+   "exterieur": "Real Racing Club de Santander",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-27T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-27T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-27T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "40d95e660c301c2d8a5a7a6317017b65",
+   "competition": "PL",
+   "coup_envoi": "2026-11-27T20:00:00Z",
+   "domicile": "Nottingham Forest",
+   "exterieur": "Chelsea",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-27T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-27T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-27T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  }
+ ],
+ "maj": "2026-11-25T09:51:50Z"
+}
