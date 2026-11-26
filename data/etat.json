@@ -40,10 +40,14 @@
   },
   "2026-11-26": {
    "lien_jour": "2026-11-26",
-   "lien_heure": 12
+   "lien_heure": 18
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-26T18:10:43Z",
+   "texte": "API-Football : matchs du 2026-11-26 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
+  },
   {
    "quand": "2026-11-26T12:45:03Z",
    "texte": "API-Football : matchs du 2026-11-26 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
@@ -159,14 +163,10 @@
   {
    "quand": "2026-11-14T12:06:12Z",
    "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
-  },
-  {
-   "quand": "2026-11-14T06:22:32Z",
-   "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
   }
  ],
  "planning_fait_a": "2026-11-26T17:40:56Z",
- "dernier_passage_utile": "2026-11-26T17:45:56Z",
+ "dernier_passage_utile": "2026-11-26T18:10:43Z",
  "reveil": {
   "dernier": "2026-11-26T17:45:00Z",
   "muet": false,
