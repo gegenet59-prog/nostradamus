@@ -1806,7 +1806,16 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 2.29,
+      "N": 3.66,
+      "2": 3.07
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-26T19:15:10Z"
     }
    },
    "compos": null,
@@ -1817,8 +1826,8 @@
      "1": {
       "feu": "rouge",
       "fleche": "baisse",
-      "pct": -8.1,
-      "ampleur": 7.2,
+      "pct": -11.2,
+      "ampleur": 10.4,
       "raisons": []
      },
      "N": {
@@ -1829,15 +1838,17 @@
       "raisons": []
      },
      "2": {
-      "feu": "rouge",
+      "feu": "violet",
       "fleche": "hausse",
-      "pct": 10.2,
-      "ampleur": 7.6,
-      "raisons": []
+      "pct": 15.4,
+      "ampleur": 11.4,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -1845,13 +1856,13 @@
     "phrase": "Le marché annonce : Panathinaikos FC ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": 3.52,
-     "N": -0.37,
-     "2": -3.15
+     "1": 4.97,
+     "N": -0.35,
+     "2": -4.62
     },
     "marge": [
      4.21,
-     3.65
+     3.56
     ]
    },
    "score": null
@@ -1892,7 +1903,16 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 6.87,
+      "N": 5.05,
+      "2": 1.43
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-26T19:15:10Z"
     }
    },
    "compos": null,
@@ -1909,21 +1929,21 @@
      },
      "N": {
       "feu": "vert",
-      "fleche": "hausse",
-      "pct": 2.5,
-      "ampleur": 1.5,
+      "fleche": "baisse",
+      "pct": -1.6,
+      "ampleur": 1.0,
       "raisons": []
      },
      "2": {
       "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
+      "fleche": "hausse",
+      "pct": 0.7,
+      "ampleur": 1.1,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -1931,13 +1951,13 @@
     "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": -0.09,
-     "N": -0.34,
-     "2": 0.44
+     "1": -0.13,
+     "N": 0.36,
+     "2": -0.23
     },
     "marge": [
      4.66,
-     3.99
+     4.29
     ]
    },
    "score": null
@@ -1978,7 +1998,16 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 2.44,
+      "N": 3.49,
+      "2": 2.95
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-26T19:15:10Z"
     }
    },
    "compos": null,
@@ -1989,41 +2018,41 @@
      "1": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 9.6,
-      "ampleur": 8.2,
+      "pct": 11.4,
+      "ampleur": 9.7,
       "raisons": []
      },
      "N": {
       "feu": "vert",
-      "fleche": "hausse",
-      "pct": 2.8,
-      "ampleur": 1.9,
+      "fleche": "baisse",
+      "pct": -1.1,
+      "ampleur": 0.8,
       "raisons": []
      },
      "2": {
       "feu": "rouge",
       "fleche": "baisse",
-      "pct": -12.1,
-      "ampleur": 9.8,
+      "pct": -10.9,
+      "ampleur": 8.7,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "2",
-    "phrase": "Le marché annonce : Red Star Belgrade gagne (2)",
+    "pari": "N2",
+    "phrase": "Le marché annonce : Gent ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -3.59,
-     "N": -0.59,
-     "2": 4.18
+     "1": -4.24,
+     "N": 0.49,
+     "2": 3.75
     },
     "marge": [
      4.2,
-     3.58
+     3.54
     ]
    },
    "score": null
@@ -2064,7 +2093,16 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 2.15,
+      "N": 3.68,
+      "2": 3.33
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-26T19:15:10Z"
     }
    },
    "compos": null,
@@ -2074,42 +2112,42 @@
     "issues": {
      "1": {
       "feu": "vert",
-      "fleche": "baisse",
-      "pct": -2.8,
-      "ampleur": 2.6,
+      "fleche": "hausse",
+      "pct": 0.5,
+      "ampleur": 0.4,
       "raisons": []
      },
      "N": {
       "feu": "vert",
-      "fleche": "hausse",
-      "pct": 1.9,
-      "ampleur": 1.3,
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 5.2,
-      "ampleur": 3.6,
+      "pct": 1.2,
+      "ampleur": 0.9,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "1N",
-    "phrase": "Le marché annonce : Sint Truiden ne gagne pas (1N)",
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": 1.58,
-     "N": -0.33,
-     "2": -1.26
+     "1": 0.04,
+     "N": 0.15,
+     "2": -0.19
     },
     "marge": [
      4.3,
-     3.65
+     3.72
     ]
    },
    "score": null
@@ -2150,7 +2188,16 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 9.74,
+      "N": 5.32,
+      "2": 1.33
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-26T19:15:10Z"
     }
    },
    "compos": null,
@@ -2159,45 +2206,50 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -0.1,
-      "ampleur": 0.0,
-      "raisons": []
+      "pct": -12.4,
+      "ampleur": 7.6,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -3.2,
-      "ampleur": 2.0,
-      "raisons": []
+      "pct": -9.4,
+      "ampleur": 6.1,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "2": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "hausse",
-      "pct": 1.6,
-      "ampleur": 3.2,
+      "pct": 5.6,
+      "ampleur": 10.7,
       "raisons": [
-       "petite cote : mouvement plus fort qu'il n'y paraît"
+       "petite cote : mouvement plus fort qu'il n'y paraît",
+       "plus de 4 % entre H-3 et H-45"
       ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "1N",
+    "phrase": "Le marché annonce : FC Copenhagen ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": 0.06,
-     "N": 0.65,
-     "2": -0.71
+     "1": 1.32,
+     "N": 1.87,
+     "2": -3.18
     },
     "marge": [
      5.39,
-     4.73
+     4.25
     ]
    },
    "score": null
@@ -2238,7 +2290,16 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 4.81,
+      "N": 4.29,
+      "2": 1.67
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-26T19:15:10Z"
     }
    },
    "compos": null,
@@ -2247,29 +2308,29 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "hausse",
-      "pct": 6.5,
-      "ampleur": 4.1,
+      "pct": 7.8,
+      "ampleur": 4.9,
       "raisons": []
      },
      "N": {
       "feu": "orange",
       "fleche": "hausse",
-      "pct": 6.9,
-      "ampleur": 4.4,
+      "pct": 6.2,
+      "ampleur": 4.0,
       "raisons": []
      },
      "2": {
       "feu": "orange",
       "fleche": "baisse",
-      "pct": -3.4,
-      "ampleur": 4.1,
+      "pct": -4.0,
+      "ampleur": 4.8,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -2277,13 +2338,13 @@
     "phrase": "Le marché annonce : Trabzonspor gagne (2)",
     "incoherent": false,
     "deplacement": {
-     "1": -1.13,
-     "N": -1.34,
-     "2": 2.47
+     "1": -1.43,
+     "N": -1.24,
+     "2": 2.67
     },
     "marge": [
      4.65,
-     3.72
+     3.98
     ]
    },
    "score": null
@@ -2324,7 +2385,16 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.15,
+      "N": 8.46,
+      "2": 17.81
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-26T19:15:10Z"
     }
    },
    "compos": null,
@@ -2342,20 +2412,20 @@
      "N": {
       "feu": "vert",
       "fleche": "baisse",
-      "pct": -0.5,
-      "ampleur": 0.3,
+      "pct": -1.2,
+      "ampleur": 0.7,
       "raisons": []
      },
      "2": {
       "feu": "vert",
       "fleche": "hausse",
-      "pct": 0.9,
-      "ampleur": 0.5,
+      "pct": 1.8,
+      "ampleur": 1.0,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -2363,13 +2433,13 @@
     "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": -0.12,
-     "N": 0.13,
-     "2": -0.01
+     "1": -0.15,
+     "N": 0.21,
+     "2": -0.06
     },
     "marge": [
      5.12,
-     4.36
+     4.39
     ]
    },
    "score": null
@@ -2410,7 +2480,16 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 2.0,
+      "N": 3.71,
+      "2": 3.74
+     },
+     "winamax": null,
+     "maj_pinnacle": "2026-11-26T19:15:10Z"
     }
    },
    "compos": null,
@@ -2420,44 +2499,48 @@
     "issues": {
      "1": {
       "feu": "rouge",
-      "fleche": "baisse",
-      "pct": -6.4,
-      "ampleur": 7.2,
+      "fleche": "hausse",
+      "pct": 6.4,
+      "ampleur": 6.3,
       "raisons": [
-       "petite cote : mouvement plus fort qu'il n'y paraît"
+       "plus de 4 % entre H-3 et H-45"
       ]
      },
      "N": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 0.2,
-      "ampleur": 0.2,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -7.9,
+      "ampleur": 5.7,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "2": {
-      "feu": "violet",
-      "fleche": "hausse",
-      "pct": 17.5,
-      "ampleur": 11.1,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -1.1,
+      "ampleur": 0.7,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "1N",
-    "phrase": "Le marché annonce : FC Twente Enschede ne gagne pas (1N)",
+    "pari": "N2",
+    "phrase": "Le marché annonce : SC Freiburg ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": 3.66,
-     "N": 0.02,
-     "2": -3.69
+     "1": -2.7,
+     "N": 2.24,
+     "2": 0.46
     },
     "marge": [
      4.46,
-     4.09
+     3.69
     ]
    },
    "score": null
@@ -2506,7 +2589,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.95,
+      "N": 4.07,
+      "2": 3.64
+     },
+     "winamax": {
+      "1": 1.86,
+      "N": 3.8,
+      "2": 3.15
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -2515,45 +2611,47 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 6.8,
-      "ampleur": 6.3,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -4.9,
+      "ampleur": 5.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "orange",
-      "fleche": "baisse",
-      "pct": -1.2,
-      "ampleur": 0.8,
-      "raisons": [
-       "Pinnacle et Winamax en sens opposé"
-      ]
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.7,
+      "ampleur": 0.5,
+      "raisons": []
      },
      "2": {
       "feu": "rouge",
-      "fleche": "baisse",
-      "pct": -8.3,
-      "ampleur": 6.4,
-      "raisons": []
+      "fleche": "hausse",
+      "pct": 7.7,
+      "ampleur": 5.3,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : Crystal Palace ne gagne pas (N2)",
+    "pari": "1N",
+    "phrase": "Le marché annonce : Real Sociedad ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": -2.97,
-     "N": 0.33,
-     "2": 2.63
+     "1": 2.33,
+     "N": -0.22,
+     "2": -2.1
     },
     "marge": [
      3.12,
-     2.98
+     3.32
     ]
    },
    "score": null
@@ -2602,7 +2700,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.38,
+      "N": 5.61,
+      "2": 7.63
+     },
+     "winamax": {
+      "1": 1.3,
+      "N": 5.2,
+      "2": 6.25
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -2620,20 +2731,20 @@
      "N": {
       "feu": "vert",
       "fleche": "hausse",
-      "pct": 2.2,
-      "ampleur": 1.3,
+      "pct": 2.9,
+      "ampleur": 1.8,
       "raisons": []
      },
      "2": {
       "feu": "vert",
-      "fleche": "hausse",
-      "pct": 0.1,
-      "ampleur": 0.1,
+      "fleche": "baisse",
+      "pct": -0.7,
+      "ampleur": 0.4,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -2641,13 +2752,13 @@
     "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": 0.13,
-     "N": -0.22,
-     "2": 0.1
+     "1": 0.14,
+     "N": -0.34,
+     "2": 0.2
     },
     "marge": [
      4.36,
-     3.42
+     3.4
     ]
    },
    "score": null
@@ -2696,7 +2807,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.2,
+      "N": 7.56,
+      "2": 15.38
+     },
+     "winamax": {
+      "1": 1.15,
+      "N": 6.75,
+      "2": 10.5
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -2707,43 +2831,47 @@
      "1": {
       "feu": "orange",
       "fleche": "hausse",
-      "pct": 1.7,
-      "ampleur": 4.7,
+      "pct": 2.6,
+      "ampleur": 6.9,
       "raisons": [
        "petite cote : mouvement plus fort qu'il n'y paraît"
       ]
      },
      "N": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -4.7,
-      "ampleur": 2.8,
-      "raisons": []
+      "pct": -9.0,
+      "ampleur": 5.5,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "2": {
-      "feu": "orange",
-      "fleche": "baisse",
-      "pct": -4.8,
-      "ampleur": 2.7,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 0.9,
+      "ampleur": 0.5,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "N2",
+    "phrase": "Le marché annonce : Juventus ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -0.98,
-     "N": 0.63,
-     "2": 0.35
+     "1": -1.28,
+     "N": 1.27,
+     "2": 0.01
     },
     "marge": [
      4.06,
-     3.55
+     3.06
     ]
    },
    "score": null
@@ -2792,7 +2920,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.27,
+      "N": 6.53,
+      "2": 10.99
+     },
+     "winamax": {
+      "1": 1.21,
+      "N": 6.5,
+      "2": 8.0
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -2801,45 +2942,50 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
-      "fleche": "baisse",
-      "pct": -1.7,
-      "ampleur": 4.3,
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 5.0,
+      "ampleur": 11.5,
       "raisons": [
-       "petite cote : mouvement plus fort qu'il n'y paraît"
+       "petite cote : mouvement plus fort qu'il n'y paraît",
+       "plus de 4 % entre H-3 et H-45"
       ]
      },
      "N": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 6.3,
-      "ampleur": 3.6,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -12.5,
+      "ampleur": 8.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "2": {
-      "feu": "violet",
-      "fleche": "hausse",
-      "pct": 19.9,
-      "ampleur": 10.2,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -13.6,
+      "ampleur": 8.3,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "1",
-    "phrase": "Le marché annonce : Lyon gagne (1)",
+    "pari": "N2",
+    "phrase": "Le marché annonce : Lyon ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": 1.89,
-     "N": -0.68,
-     "2": -1.21
+     "1": -3.2,
+     "N": 1.95,
+     "2": 1.26
     },
     "marge": [
      3.91,
-     3.2
+     3.15
     ]
    },
    "score": null
@@ -2888,7 +3034,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 3.14,
+      "N": 3.98,
+      "2": 2.17
+     },
+     "winamax": {
+      "1": 2.8,
+      "N": 3.9,
+      "2": 2.0
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -2905,23 +3064,21 @@
      },
      "N": {
       "feu": "vert",
-      "fleche": "hausse",
-      "pct": 1.2,
-      "ampleur": 0.8,
+      "fleche": "baisse",
+      "pct": -0.5,
+      "ampleur": 0.3,
       "raisons": []
      },
      "2": {
       "feu": "orange",
       "fleche": "hausse",
-      "pct": 3.4,
-      "ampleur": 3.1,
-      "raisons": [
-       "Pinnacle et Winamax en sens opposé"
-      ]
+      "pct": 4.3,
+      "ampleur": 4.0,
+      "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -2930,12 +3087,12 @@
     "incoherent": false,
     "deplacement": {
      "1": 1.27,
-     "N": -0.11,
-     "2": -1.16
+     "N": 0.31,
+     "2": -1.58
     },
     "marge": [
      3.85,
-     3.05
+     3.06
     ]
    },
    "score": null
@@ -2984,7 +3141,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 4.89,
+      "N": 3.83,
+      "2": 1.76
+     },
+     "winamax": {
+      "1": 4.2,
+      "N": 3.7,
+      "2": 1.68
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -2993,43 +3163,47 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
+      "feu": "rouge",
       "fleche": "hausse",
-      "pct": 2.0,
-      "ampleur": 1.3,
-      "raisons": []
+      "pct": 10.9,
+      "ampleur": 6.7,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
       "feu": "vert",
-      "fleche": "hausse",
-      "pct": 0.3,
-      "ampleur": 0.2,
+      "fleche": "baisse",
+      "pct": -1.0,
+      "ampleur": 0.7,
       "raisons": []
      },
      "2": {
-      "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
-      "raisons": []
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -2.8,
+      "ampleur": 3.1,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "N2",
+    "phrase": "Le marché annonce : OFI Crete ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": -0.33,
-     "N": 0.06,
-     "2": 0.27
+     "1": -2.07,
+     "N": 0.35,
+     "2": 1.72
     },
     "marge": [
      3.76,
-     3.24
+     3.38
     ]
    },
    "score": null
@@ -3078,7 +3252,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 2.7,
+      "N": 3.49,
+      "2": 2.68
+     },
+     "winamax": {
+      "1": 2.45,
+      "N": 3.35,
+      "2": 2.45
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -3087,29 +3274,35 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -4.0,
-      "ampleur": 3.1,
-      "raisons": []
+      "pct": -10.0,
+      "ampleur": 8.3,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 0.6,
-      "ampleur": 0.4,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -3.9,
+      "ampleur": 2.7,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "2": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "hausse",
-      "pct": 4.3,
-      "ampleur": 3.6,
-      "raisons": []
+      "pct": 14.5,
+      "ampleur": 11.7,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -3117,13 +3310,13 @@
     "phrase": "Le marché annonce : AZ Alkmaar ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": 1.51,
-     "N": -0.01,
-     "2": -1.49
+     "1": 3.79,
+     "N": 1.23,
+     "2": -5.02
     },
     "marge": [
      3.62,
-     3.1
+     3.0
     ]
    },
    "score": null
@@ -3172,7 +3365,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.28,
+      "N": 6.0,
+      "2": 11.71
+     },
+     "winamax": {
+      "1": 1.2,
+      "N": 5.5,
+      "2": 10.0
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -3181,45 +3387,51 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 2.4,
+      "ampleur": 5.0,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît",
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 3.4,
-      "ampleur": 2.0,
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -4.0,
+      "ampleur": 2.4,
       "raisons": [
-       "Pinnacle et Winamax en sens opposé"
+       "plus de 4 % entre H-3 et H-45"
       ]
      },
      "2": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 6.4,
-      "ampleur": 3.4,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -2.3,
+      "ampleur": 1.2,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé",
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "N2",
+    "phrase": "Le marché annonce : Sunderland ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": 0.76,
-     "N": -0.35,
-     "2": -0.41
+     "1": -1.06,
+     "N": 0.8,
+     "2": 0.26
     },
     "marge": [
      4.35,
-     3.32
+     3.33
     ]
    },
    "score": null
@@ -3268,7 +3480,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.28,
+      "N": 6.6,
+      "2": 9.52
+     },
+     "winamax": {
+      "1": 1.24,
+      "N": 5.8,
+      "2": 7.25
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -3277,29 +3502,31 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
+      "feu": "orange",
       "fleche": "baisse",
-      "pct": -1.5,
-      "ampleur": 2.9,
+      "pct": -3.0,
+      "ampleur": 6.0,
       "raisons": []
      },
      "N": {
       "feu": "rouge",
       "fleche": "hausse",
-      "pct": 7.6,
-      "ampleur": 4.4,
+      "pct": 9.3,
+      "ampleur": 5.4,
       "raisons": []
      },
      "2": {
-      "feu": "rouge",
+      "feu": "violet",
       "fleche": "hausse",
-      "pct": 8.7,
-      "ampleur": 4.8,
-      "raisons": []
+      "pct": 15.1,
+      "ampleur": 8.2,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -3307,13 +3534,13 @@
     "phrase": "Le marché annonce : TSG Hoffenheim gagne (1)",
     "incoherent": false,
     "deplacement": {
-     "1": 1.81,
-     "N": -0.98,
-     "2": -0.83
+     "1": 2.72,
+     "N": -1.26,
+     "2": -1.46
     },
     "marge": [
      4.41,
-     3.43
+     3.78
     ]
    },
    "score": null
@@ -3362,7 +3589,20 @@
     },
     "H45": {
      "prevu": "2026-11-26T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-26T19:15:25Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 4.57,
+      "N": 4.37,
+      "2": 1.71
+     },
+     "winamax": {
+      "1": 4.0,
+      "N": 4.3,
+      "2": 1.56
+     },
+     "maj_pinnacle": "2026-11-26T19:15:00Z"
     }
    },
    "compos": null,
@@ -3371,49 +3611,53 @@
    "feux": {
     "issues": {
      "1": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -7.5,
+      "ampleur": 5.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
+     },
+     "N": {
       "feu": "orange",
-      "fleche": "hausse",
-      "pct": 1.2,
-      "ampleur": 0.8,
+      "fleche": "baisse",
+      "pct": -1.8,
+      "ampleur": 1.2,
       "raisons": [
        "Pinnacle et Winamax en sens opposé"
       ]
      },
-     "N": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 2.2,
-      "ampleur": 1.4,
-      "raisons": []
-     },
      "2": {
-      "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 4.9,
+      "ampleur": 5.8,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "1N",
+    "phrase": "Le marché annonce : Celtic ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": -0.1,
-     "N": -0.32,
-     "2": 0.42
+     "1": 1.74,
+     "N": 0.57,
+     "2": -2.31
     },
     "marge": [
      4.06,
-     3.33
+     3.24
     ]
    },
    "score": null
   }
  ],
- "maj": "2026-11-26T17:00:57Z"
+ "maj": "2026-11-26T19:15:25Z"
 }
