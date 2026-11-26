@@ -1,26 +1,21 @@
 {
  "odds": {
   "mode": "complet",
-  "reste": 343,
-  "maj": "2026-11-25T19:15:59Z",
+  "reste": 341,
+  "maj": "2026-11-26T00:14:38Z",
   "jours": {
    "2026-11-23": 363,
    "2026-11-24": 350,
-   "2026-11-25": 343
+   "2026-11-25": 343,
+   "2026-11-26": 341
   }
  },
  "foot": {
-  "jour": "2026-11-25",
+  "jour": "2026-11-26",
   "reste": null,
-  "suspendu": "2026-11-25"
+  "suspendu": "2026-11-26"
  },
  "jours_foot": {
-  "2026-11-20": {
-   "lien_jour": "2026-11-20",
-   "lien_heure": 1,
-   "absents": "2026-11-20T18:40:29Z",
-   "scores_jour": "2026-11-21"
-  },
   "2026-11-21": {
    "lien_jour": "2026-11-21",
    "lien_heure": 0,
@@ -42,9 +37,21 @@
   "2026-11-25": {
    "lien_jour": "2026-11-25",
    "lien_heure": 20
+  },
+  "2026-11-26": {
+   "lien_jour": "2026-11-26",
+   "lien_heure": 0
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-26T00:14:38Z",
+   "texte": "API-Football : compte suspendu — plus aucun score, compo ni absent ne rentrera tant qu'il n'est pas réactivé sur dashboard.api-football.com"
+  },
+  {
+   "quand": "2026-11-26T00:14:38Z",
+   "texte": "API-Football : matchs du 2026-11-26 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
+  },
   {
    "quand": "2026-11-25T20:00:57Z",
    "texte": "API-Football : matchs du 2026-11-25 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
@@ -155,13 +162,13 @@
   }
  ],
  "planning_fait_a": "2026-11-25T22:25:24Z",
- "dernier_passage_utile": "2026-11-25T22:25:24Z",
+ "dernier_passage_utile": "2026-11-26T00:14:38Z",
  "reveil": {
   "dernier": "2026-11-25T20:00:00Z",
   "muet": false,
   "verifie_a": "2026-11-25T20:00:57Z"
  },
  "scores_odds": {
-  "LDC": "2026-11-25"
+  "LDC": "2026-11-26"
  }
 }

@@ -112,7 +112,12 @@
      3.37
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 1,
+    "exterieur": 4,
+    "issue": "2",
+    "statut": "FT"
+   }
   },
   {
    "id": "a7c87fac9e9cbcfc02ad0e0b29ca89e2",
@@ -223,7 +228,12 @@
      2.45
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 0,
+    "exterieur": 1,
+    "issue": "2",
+    "statut": "FT"
+   }
   },
   {
    "id": "b1af6789fe6db7aab18a2945ce56f035",
@@ -334,7 +344,12 @@
      3.13
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 2,
+    "exterieur": 0,
+    "issue": "1",
+    "statut": "FT"
+   }
   },
   {
    "id": "99459b90f3e732106e09585bf94b36b4",
@@ -441,7 +456,12 @@
      3.02
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 0,
+    "exterieur": 3,
+    "issue": "2",
+    "statut": "FT"
+   }
   },
   {
    "id": "e7e64568f6af00d395a3fdfc27de8ae3",
@@ -552,7 +572,12 @@
      3.06
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 2,
+    "exterieur": 0,
+    "issue": "1",
+    "statut": "FT"
+   }
   },
   {
    "id": "0ee2cfddf20153779cd2cc3e1f1f879f",
@@ -659,7 +684,12 @@
      2.88
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 2,
+    "exterieur": 1,
+    "issue": "1",
+    "statut": "FT"
+   }
   },
   {
    "id": "14007bc0605bce3bd164b132254ba24c",
@@ -768,7 +798,12 @@
      3.19
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 2,
+    "exterieur": 2,
+    "issue": "N",
+    "statut": "FT"
+   }
   },
   {
    "id": "49c66d76bc4085e63a181179cc47ef4d",
@@ -879,7 +914,12 @@
      2.49
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 0,
+    "exterieur": 1,
+    "issue": "2",
+    "statut": "FT"
+   }
   },
   {
    "id": "01a61442fe04f8751b62eb251f234079",
@@ -990,8 +1030,13 @@
      2.43
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 2,
+    "exterieur": 2,
+    "issue": "N",
+    "statut": "FT"
+   }
   }
  ],
- "maj": "2026-11-25T19:15:59Z"
+ "maj": "2026-11-26T00:14:38Z"
 }
