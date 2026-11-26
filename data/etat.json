@@ -166,11 +166,11 @@
   }
  ],
  "planning_fait_a": "2026-11-26T17:40:56Z",
- "dernier_passage_utile": "2026-11-26T19:15:25Z",
+ "dernier_passage_utile": "2026-11-26T19:15:54Z",
  "reveil": {
-  "dernier": "2026-11-26T19:00:00Z",
+  "dernier": "2026-11-26T19:15:00Z",
   "muet": false,
-  "verifie_a": "2026-11-26T19:01:00Z"
+  "verifie_a": "2026-11-26T19:15:54Z"
  },
  "scores_odds": {
   "LDC": "2026-11-26"
