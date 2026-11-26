@@ -280,7 +280,287 @@
    "feux": null,
    "marche": null,
    "score": null
+  },
+  {
+   "id": "aec86b479e922f437ba228b9a9d74da1",
+   "competition": "SA",
+   "coup_envoi": "2026-11-28T17:00:00Z",
+   "domicile": "Torino",
+   "exterieur": "Lazio",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T05:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T14:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T16:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "5d838190a8f5932d7fcfbcc26bacdd9c",
+   "competition": "BL",
+   "coup_envoi": "2026-11-28T17:30:00Z",
+   "domicile": "VfB Stuttgart",
+   "exterieur": "Eintracht Frankfurt",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T05:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T14:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T16:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "40236ab976955345ebd1edb72abf6b22",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-28T17:30:00Z",
+   "domicile": "Elche CF",
+   "exterieur": "Atlético Madrid",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T05:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T14:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T16:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "9d23f6ad21946dd258869ebc22236cf0",
+   "competition": "PL",
+   "coup_envoi": "2026-11-28T17:30:00Z",
+   "domicile": "Ipswich Town",
+   "exterieur": "Aston Villa",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T05:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T14:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T16:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "f96c1137c9d3f7e2e691275a2988fa1d",
+   "competition": "L1",
+   "coup_envoi": "2026-11-28T19:45:00Z",
+   "domicile": "Le Havre",
+   "exterieur": "Strasbourg",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "aaa86a483888836242da663a46957894",
+   "competition": "L1",
+   "coup_envoi": "2026-11-28T19:45:00Z",
+   "domicile": "Le Mans FC",
+   "exterieur": "Lille",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "e9a1243fbfbc6f58d0e0522eb07ea9a1",
+   "competition": "L1",
+   "coup_envoi": "2026-11-28T19:45:00Z",
+   "domicile": "Nice",
+   "exterieur": "Troyes",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "12002f6f804a122db48271ff05be03c0",
+   "competition": "L1",
+   "coup_envoi": "2026-11-28T19:45:00Z",
+   "domicile": "Paris Saint Germain",
+   "exterieur": "Lorient",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "f128c19fa7af43e30dbe3c373e7bc27e",
+   "competition": "SA",
+   "coup_envoi": "2026-11-28T19:45:00Z",
+   "domicile": "Inter Milan",
+   "exterieur": "Genoa",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "c99772cba1418e72f2eded26e4afeb59",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-28T20:00:00Z",
+   "domicile": "Real Madrid",
+   "exterieur": "Alavés",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-28T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-28T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
   }
  ],
- "maj": "2026-11-26T04:50:29Z"
+ "maj": "2026-11-26T11:37:13Z"
 }
