@@ -45,7 +45,20 @@
     },
     "H45": {
      "prevu": "2026-11-27T18:45:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-27T18:45:57Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 1.78,
+      "N": 4.18,
+      "2": 4.37
+     },
+     "winamax": {
+      "1": 1.64,
+      "N": 4.0,
+      "2": 3.85
+     },
+     "maj_pinnacle": "2026-11-27T18:45:48Z"
     }
    },
    "compos": null,
@@ -54,43 +67,49 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "vert",
-      "fleche": "baisse",
-      "pct": -1.2,
-      "ampleur": 1.4,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 4.1,
+      "ampleur": 4.6,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 1.6,
-      "ampleur": 1.0,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -3.0,
+      "ampleur": 2.0,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "2": {
-      "feu": "vert",
-      "fleche": "hausse",
-      "pct": 2.2,
-      "ampleur": 1.4,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -5.0,
+      "ampleur": 3.3,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": null,
-    "phrase": "Le marché annonce : pas de mouvement net",
+    "pari": "N2",
+    "phrase": "Le marché annonce : Werder Bremen ne gagne pas (N2)",
     "incoherent": false,
     "deplacement": {
-     "1": 0.75,
-     "N": -0.33,
-     "2": -0.42
+     "1": -1.99,
+     "N": 0.8,
+     "2": 1.2
     },
     "marge": [
      3.42,
-     3.28
+     2.99
     ]
    },
    "score": null
@@ -474,5 +493,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-27T17:01:00Z"
+ "maj": "2026-11-27T18:45:57Z"
 }
