@@ -112,7 +112,12 @@
      2.99
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 3,
+    "exterieur": 3,
+    "issue": "N",
+    "statut": "FT"
+   }
   },
   {
    "id": "02ff879cf54f6d1fec2664efee0431db",
@@ -224,7 +229,12 @@
      2.51
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 1,
+    "exterieur": 0,
+    "issue": "1",
+    "statut": "FT"
+   }
   },
   {
    "id": "e9a663f13e7503c0ac20a54804338b60",
@@ -331,7 +341,12 @@
      2.56
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 0,
+    "exterieur": 0,
+    "issue": "N",
+    "statut": "FT"
+   }
   },
   {
    "id": "80c92a163a81b69fef76530221e2edd0",
@@ -438,7 +453,12 @@
      2.85
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 1,
+    "exterieur": 3,
+    "issue": "2",
+    "statut": "FT"
+   }
   },
   {
    "id": "40d95e660c301c2d8a5a7a6317017b65",
@@ -545,8 +565,13 @@
      2.71
     ]
    },
-   "score": null
+   "score": {
+    "domicile": 3,
+    "exterieur": 2,
+    "issue": "1",
+    "statut": "FT"
+   }
   }
  ],
- "maj": "2026-11-27T19:15:59Z"
+ "maj": "2026-11-27T22:53:48Z"
 }
