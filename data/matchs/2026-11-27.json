@@ -377,7 +377,20 @@
     },
     "H45": {
      "prevu": "2026-11-27T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-27T19:15:59Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 2.05,
+      "N": 4.0,
+      "2": 3.44
+     },
+     "winamax": {
+      "1": 1.92,
+      "N": 3.8,
+      "2": 3.1
+     },
+     "maj_pinnacle": "2026-11-27T19:15:19Z"
     }
    },
    "compos": null,
@@ -387,44 +400,42 @@
     "issues": {
      "1": {
       "feu": "vert",
-      "fleche": "baisse",
-      "pct": -1.5,
-      "ampleur": 1.4,
+      "fleche": "hausse",
+      "pct": 1.0,
+      "ampleur": 0.9,
       "raisons": []
      },
      "N": {
       "feu": "orange",
       "fleche": "baisse",
-      "pct": -1.7,
-      "ampleur": 1.1,
-      "raisons": [
-       "Pinnacle et Winamax en sens opposé"
-      ]
+      "pct": -3.1,
+      "ampleur": 2.1,
+      "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 5.6,
-      "ampleur": 3.9,
+      "pct": 1.8,
+      "ampleur": 1.2,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "1N",
-    "phrase": "Le marché annonce : Real Racing Club de Santander ne gagne pas (1N)",
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": 0.91,
-     "N": 0.5,
-     "2": -1.42
+     "1": -0.37,
+     "N": 0.81,
+     "2": -0.44
     },
     "marge": [
      3.06,
-     2.64
+     2.85
     ]
    },
    "score": null
@@ -473,7 +484,20 @@
     },
     "H45": {
      "prevu": "2026-11-27T19:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-27T19:15:59Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 2.47,
+      "N": 3.62,
+      "2": 2.89
+     },
+     "winamax": {
+      "1": 2.25,
+      "N": 3.4,
+      "2": 2.6
+     },
+     "maj_pinnacle": "2026-11-27T19:15:44Z"
     }
    },
    "compos": null,
@@ -489,40 +513,40 @@
       "raisons": []
      },
      "N": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "hausse",
-      "pct": 3.6,
-      "ampleur": 2.5,
+      "pct": 7.4,
+      "ampleur": 5.1,
       "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 4.5,
-      "ampleur": 3.4,
+      "pct": 0.7,
+      "ampleur": 0.5,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "1",
-    "phrase": "Le marché annonce : Nottingham Forest gagne (1)",
+    "pari": "12",
+    "phrase": "Le marché annonce : pas de match nul (12)",
     "incoherent": false,
     "deplacement": {
-     "1": 2.07,
-     "N": -0.81,
-     "2": -1.26
+     "1": 1.98,
+     "N": -1.88,
+     "2": -0.1
     },
     "marge": [
      3.13,
-     2.47
+     2.71
     ]
    },
    "score": null
   }
  ],
- "maj": "2026-11-27T19:00:57Z"
+ "maj": "2026-11-27T19:15:59Z"
 }
