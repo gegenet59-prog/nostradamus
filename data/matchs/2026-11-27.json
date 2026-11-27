@@ -310,7 +310,20 @@
     },
     "H3": {
      "prevu": "2026-11-27T17:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-27T17:01:00Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 2.0,
+      "N": 4.06,
+      "2": 3.57
+     },
+     "winamax": {
+      "1": 1.86,
+      "N": 3.85,
+      "2": 3.15
+     },
+     "maj_pinnacle": "2026-11-27T17:00:36Z"
     },
     "H45": {
      "prevu": "2026-11-27T19:15:00Z",
@@ -320,8 +333,50 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.5,
+      "ampleur": 1.4,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -1.7,
+      "ampleur": 1.1,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 5.6,
+      "ampleur": 3.9,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Real Racing Club de Santander ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.91,
+     "N": 0.5,
+     "2": -1.42
+    },
+    "marge": [
+     3.06,
+     2.64
+    ]
+   },
    "score": null
   },
   {
@@ -351,7 +406,20 @@
     },
     "H3": {
      "prevu": "2026-11-27T17:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-27T17:01:00Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 2.47,
+      "N": 3.49,
+      "2": 3.0
+     },
+     "winamax": {
+      "1": 2.25,
+      "N": 3.3,
+      "2": 2.7
+     },
+     "maj_pinnacle": "2026-11-27T17:00:02Z"
     },
     "H45": {
      "prevu": "2026-11-27T19:15:00Z",
@@ -361,10 +429,50 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -4.6,
+      "ampleur": 3.9,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.6,
+      "ampleur": 2.5,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 4.5,
+      "ampleur": 3.4,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Nottingham Forest gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 2.07,
+     "N": -0.81,
+     "2": -1.26
+    },
+    "marge": [
+     3.13,
+     2.47
+    ]
+   },
    "score": null
   }
  ],
- "maj": "2026-11-27T16:45:56Z"
+ "maj": "2026-11-27T17:01:00Z"
 }
