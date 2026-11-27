@@ -476,7 +476,91 @@
    "feux": null,
    "marche": null,
    "score": null
+  },
+  {
+   "id": "ca8aa566e27e1d05b47e8151b2066f9a",
+   "competition": "L1",
+   "coup_envoi": "2026-11-29T19:45:00Z",
+   "domicile": "Lyon",
+   "exterieur": "AS Monaco",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-29T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-29T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-29T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "3876ad367184af2f8fc04a544fc894aa",
+   "competition": "SA",
+   "coup_envoi": "2026-11-29T19:45:00Z",
+   "domicile": "Como",
+   "exterieur": "Juventus",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-29T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-29T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-29T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "f892ea6d5eca105c36ca9468b12857f2",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-29T20:00:00Z",
+   "domicile": "Real Sociedad",
+   "exterieur": "Sevilla",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-29T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-29T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-29T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
   }
  ],
- "maj": "2026-11-27T07:29:55Z"
+ "maj": "2026-11-27T14:30:02Z"
 }
