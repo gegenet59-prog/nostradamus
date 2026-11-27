@@ -1,0 +1,62 @@
+{
+ "date": "2026-11-29",
+ "matchs": [
+  {
+   "id": "d3d47b94324eb7cde85bd93993437d1c",
+   "competition": "SA",
+   "coup_envoi": "2026-11-29T11:30:00Z",
+   "domicile": "Udinese",
+   "exterieur": "Fiorentina",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-28T23:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-29T08:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-29T10:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "f45e9062c2f755b977c98d496c22697b",
+   "competition": "PL",
+   "coup_envoi": "2026-11-29T12:00:00Z",
+   "domicile": "Everton",
+   "exterieur": "Liverpool",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-29T00:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-29T09:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-29T11:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  }
+ ],
+ "maj": "2026-11-27T00:19:00Z"
+}

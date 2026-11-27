@@ -1,27 +1,22 @@
 {
  "odds": {
   "mode": "complet",
-  "reste": 327,
-  "maj": "2026-11-26T19:40:54Z",
+  "reste": 323,
+  "maj": "2026-11-27T00:19:00Z",
   "jours": {
    "2026-11-23": 363,
    "2026-11-24": 350,
    "2026-11-25": 343,
-   "2026-11-26": 327
+   "2026-11-26": 327,
+   "2026-11-27": 323
   }
  },
  "foot": {
-  "jour": "2026-11-26",
+  "jour": "2026-11-27",
   "reste": null,
-  "suspendu": "2026-11-26"
+  "suspendu": "2026-11-27"
  },
  "jours_foot": {
-  "2026-11-21": {
-   "lien_jour": "2026-11-21",
-   "lien_heure": 0,
-   "absents": "2026-11-21T19:30:54Z",
-   "scores_jour": "2026-11-22"
-  },
   "2026-11-22": {
    "lien_jour": "2026-11-22",
    "lien_heure": 18
@@ -41,9 +36,21 @@
   "2026-11-26": {
    "lien_jour": "2026-11-26",
    "lien_heure": 18
+  },
+  "2026-11-27": {
+   "lien_jour": "2026-11-27",
+   "lien_heure": 0
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-27T00:19:00Z",
+   "texte": "API-Football : compte suspendu — plus aucun score, compo ni absent ne rentrera tant qu'il n'est pas réactivé sur dashboard.api-football.com"
+  },
+  {
+   "quand": "2026-11-27T00:19:00Z",
+   "texte": "API-Football : matchs du 2026-11-27 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
+  },
   {
    "quand": "2026-11-26T18:10:43Z",
    "texte": "API-Football : matchs du 2026-11-26 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
@@ -155,26 +162,17 @@
   {
    "quand": "2026-11-15T05:28:24Z",
    "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
-  },
-  {
-   "quand": "2026-11-14T18:35:27Z",
-   "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
-  },
-  {
-   "quand": "2026-11-14T12:06:12Z",
-   "texte": "API-Football : match(s) non retrouvé(s) le 2026-11-14 : Austria - Iceland"
   }
  ],
- "planning_fait_a": "2026-11-26T17:40:56Z",
- "dernier_passage_utile": "2026-11-26T20:00:56Z",
+ "planning_fait_a": "2026-11-27T00:19:00Z",
+ "dernier_passage_utile": "2026-11-27T00:19:00Z",
  "reveil": {
   "dernier": "2026-11-26T20:00:00Z",
   "muet": false,
   "verifie_a": "2026-11-26T20:00:56Z"
  },
  "scores_odds": {
-  "LDC": "2026-11-26",
-  "ECL": "2026-11-26",
-  "EL": "2026-11-26"
+  "ECL": "2026-11-27",
+  "EL": "2026-11-27"
  }
 }
