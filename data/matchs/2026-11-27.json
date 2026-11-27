@@ -158,7 +158,20 @@
     },
     "H45": {
      "prevu": "2026-11-27T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-27T19:00:57Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 3.41,
+      "N": 3.48,
+      "2": 2.25
+     },
+     "winamax": {
+      "1": 3.1,
+      "N": 3.25,
+      "2": 2.05
+     },
+     "maj_pinnacle": "2026-11-27T19:00:33Z"
     }
    },
    "compos": null,
@@ -167,43 +180,48 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
-      "fleche": "hausse",
-      "pct": 4.3,
-      "ampleur": 2.9,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -2.3,
+      "ampleur": 1.6,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      },
      "N": {
       "feu": "vert",
       "fleche": "hausse",
-      "pct": 2.1,
-      "ampleur": 1.4,
+      "pct": 2.4,
+      "ampleur": 1.6,
       "raisons": []
      },
      "2": {
-      "feu": "vert",
-      "fleche": "baisse",
-      "pct": -2.7,
-      "ampleur": 2.5,
-      "raisons": []
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 1.4,
+      "ampleur": 1.2,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé",
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
-    "pari": "N2",
-    "phrase": "Le marché annonce : Brest ne gagne pas (N2)",
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": -1.01,
-     "N": -0.43,
-     "2": 1.44
+     "1": 0.82,
+     "N": -0.49,
+     "2": -0.33
     },
     "marge": [
      3.11,
-     2.59
+     2.51
     ]
    },
    "score": null
@@ -252,7 +270,20 @@
     },
     "H45": {
      "prevu": "2026-11-27T19:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-27T19:00:57Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 3.11,
+      "N": 3.16,
+      "2": 2.58
+     },
+     "winamax": {
+      "1": 2.7,
+      "N": 3.05,
+      "2": 2.35
+     },
+     "maj_pinnacle": "2026-11-27T19:00:28Z"
     }
    },
    "compos": null,
@@ -263,27 +294,27 @@
      "1": {
       "feu": "orange",
       "fleche": "baisse",
-      "pct": -3.1,
-      "ampleur": 2.3,
+      "pct": -3.7,
+      "ampleur": 2.8,
       "raisons": []
      },
      "N": {
       "feu": "vert",
-      "fleche": "hausse",
-      "pct": 0.9,
+      "fleche": "baisse",
+      "pct": -0.9,
       "ampleur": 0.7,
       "raisons": []
      },
      "2": {
       "feu": "orange",
       "fleche": "hausse",
-      "pct": 3.3,
-      "ampleur": 2.7,
+      "pct": 5.3,
+      "ampleur": 4.3,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -291,13 +322,13 @@
     "phrase": "Le marché annonce : Bologna ne gagne pas (1N)",
     "incoherent": false,
     "deplacement": {
-     "1": 1.14,
-     "N": -0.11,
-     "2": -1.03
+     "1": 1.33,
+     "N": 0.46,
+     "2": -1.79
     },
     "marge": [
      3.12,
-     2.53
+     2.56
     ]
    },
    "score": null
@@ -493,5 +524,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-27T18:45:57Z"
+ "maj": "2026-11-27T19:00:57Z"
 }
