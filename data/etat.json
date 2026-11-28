@@ -165,12 +165,12 @@
    "texte": "API-Football : matchs du 2026-11-22 indisponibles"
   }
  ],
- "planning_fait_a": "2026-11-27T22:53:48Z",
- "dernier_passage_utile": "2026-11-28T04:16:58Z",
+ "planning_fait_a": "2026-11-28T04:59:54Z",
+ "dernier_passage_utile": "2026-11-28T04:59:54Z",
  "reveil": {
-  "dernier": "2026-11-28T04:15:00Z",
+  "dernier": "2026-11-28T04:45:00Z",
   "muet": false,
-  "verifie_a": "2026-11-28T04:16:58Z"
+  "verifie_a": "2026-11-28T04:59:54Z"
  },
  "scores_odds": {}
 }
