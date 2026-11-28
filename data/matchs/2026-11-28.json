@@ -596,7 +596,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T12:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T12:00:55Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 1.51,
+      "N": 4.49,
+      "2": 6.87
+     },
+     "winamax": {
+      "1": 1.42,
+      "N": 4.2,
+      "2": 5.8
+     },
+     "maj_pinnacle": "2026-11-28T12:00:50Z"
     },
     "H45": {
      "prevu": "2026-11-28T14:15:00Z",
@@ -606,8 +619,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -2.6,
+      "ampleur": 1.7,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 6.2,
+      "ampleur": 3.6,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.2,
+     "N": 0.63,
+     "2": -0.83
+    },
+    "marge": [
+     3.37,
+     3.05
+    ]
+   },
    "score": null
   },
   {
@@ -637,7 +690,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T12:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T12:00:55Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 2.36,
+      "N": 3.8,
+      "2": 2.96
+     },
+     "winamax": {
+      "1": 2.15,
+      "N": 3.55,
+      "2": 2.65
+     },
+     "maj_pinnacle": "2026-11-28T12:00:50Z"
     },
     "H45": {
      "prevu": "2026-11-28T14:15:00Z",
@@ -647,8 +713,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.1,
+      "ampleur": 2.6,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.5,
+      "ampleur": 0.4,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.7,
+      "ampleur": 1.2,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "N2",
+    "phrase": "Le marché annonce : Manchester United ne gagne pas (N2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.02,
+     "N": 0.28,
+     "2": 0.74
+    },
+    "marge": [
+     3.07,
+     2.47
+    ]
+   },
    "score": null
   },
   {
@@ -1144,5 +1250,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-28T11:30:02Z"
+ "maj": "2026-11-28T12:00:55Z"
 }
