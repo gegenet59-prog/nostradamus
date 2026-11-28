@@ -40,10 +40,14 @@
   },
   "2026-11-28": {
    "lien_jour": "2026-11-28",
-   "lien_heure": 7
+   "lien_heure": 13
   }
  },
  "alertes": [
+  {
+   "quand": "2026-11-28T13:00:58Z",
+   "texte": "API-Football : matchs du 2026-11-28 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
+  },
   {
    "quand": "2026-11-28T07:44:57Z",
    "texte": "API-Football : matchs du 2026-11-28 indisponibles (Your account is suspended, check on https://dashboard.api-football.com.)"
@@ -159,18 +163,14 @@
   {
    "quand": "2026-11-23T00:36:47Z",
    "texte": "Réveil Cloudflare muet : aucun lancement « repository_dispatch » depuis plus de 60 min. Le collecteur ne tourne plus qu'au rythme lent de GitHub, les relevés H-45 sont en retard."
-  },
-  {
-   "quand": "2026-11-23T00:02:13Z",
-   "texte": "API-Football : matchs du 2026-11-23 indisponibles"
   }
  ],
  "planning_fait_a": "2026-11-28T10:59:55Z",
- "dernier_passage_utile": "2026-11-28T12:45:59Z",
+ "dernier_passage_utile": "2026-11-28T13:00:58Z",
  "reveil": {
-  "dernier": "2026-11-28T12:45:00Z",
+  "dernier": "2026-11-28T13:00:00Z",
   "muet": false,
-  "verifie_a": "2026-11-28T12:45:59Z"
+  "verifie_a": "2026-11-28T13:00:58Z"
  },
  "scores_odds": {}
 }
