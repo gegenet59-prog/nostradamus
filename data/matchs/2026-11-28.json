@@ -152,7 +152,20 @@
     },
     "H45": {
      "prevu": "2026-11-28T13:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T13:15:53Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 1.42,
+      "N": 5.4,
+      "2": 7.15
+     },
+     "winamax": {
+      "1": 1.34,
+      "N": 4.9,
+      "2": 5.9
+     },
+     "maj_pinnacle": "2026-11-28T13:15:23Z"
     }
    },
    "compos": null,
@@ -161,29 +174,33 @@
    "feux": {
     "issues": {
      "1": {
-      "feu": "orange",
+      "feu": "rouge",
       "fleche": "baisse",
-      "pct": -4.0,
-      "ampleur": 6.1,
-      "raisons": []
+      "pct": -5.3,
+      "ampleur": 8.4,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
      },
      "N": {
       "feu": "orange",
       "fleche": "hausse",
-      "pct": 3.7,
-      "ampleur": 2.2,
+      "pct": 4.9,
+      "ampleur": 2.9,
       "raisons": []
      },
      "2": {
       "feu": "violet",
       "fleche": "hausse",
-      "pct": 16.8,
-      "ampleur": 9.7,
-      "raisons": []
+      "pct": 25.4,
+      "ampleur": 14.3,
+      "raisons": [
+       "plus de 4 % entre H-3 et H-45"
+      ]
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -191,13 +208,13 @@
     "phrase": "Le marché annonce : Frosinone gagne (1)",
     "incoherent": false,
     "deplacement": {
-     "1": 2.97,
-     "N": -0.59,
-     "2": -2.38
+     "1": 4.09,
+     "N": -0.75,
+     "2": -3.34
     },
     "marge": [
      3.63,
-     3.19
+     2.93
     ]
    },
    "score": null
@@ -889,7 +906,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T13:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T13:15:53Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 4.92,
+      "N": 4.08,
+      "2": 1.72
+     },
+     "winamax": {
+      "1": 4.3,
+      "N": 3.8,
+      "2": 1.6
+     },
+     "maj_pinnacle": "2026-11-28T13:15:29Z"
     },
     "H45": {
      "prevu": "2026-11-28T15:30:00Z",
@@ -899,8 +929,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.6,
+      "ampleur": 0.4,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.0,
+      "ampleur": 0.6,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.2,
+      "ampleur": 1.4,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.18,
+     "N": 0.3,
+     "2": -0.49
+    },
+    "marge": [
+     3.3,
+     2.97
+    ]
+   },
    "score": null
   },
   {
@@ -1314,5 +1384,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-28T12:15:57Z"
+ "maj": "2026-11-28T13:15:53Z"
 }
