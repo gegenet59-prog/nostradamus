@@ -218,7 +218,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T11:30:02Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 2.03,
+      "N": 3.85,
+      "2": 3.66
+     },
+     "winamax": {
+      "1": 1.92,
+      "N": 3.6,
+      "2": 3.15
+     },
+     "maj_pinnacle": "2026-11-28T11:29:52Z"
     },
     "H45": {
      "prevu": "2026-11-28T13:45:00Z",
@@ -228,8 +241,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.0,
+      "ampleur": 0.9,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 0.5,
+      "ampleur": 0.3,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.7,
+      "ampleur": 2.5,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.77,
+     "N": 0.03,
+     "2": -0.8
+    },
+    "marge": [
+     3.22,
+     2.56
+    ]
+   },
    "score": null
   },
   {
@@ -259,7 +312,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T11:30:02Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 1.49,
+      "N": 4.94,
+      "2": 6.39
+     },
+     "winamax": {
+      "1": 1.39,
+      "N": 4.7,
+      "2": 5.5
+     },
+     "maj_pinnacle": "2026-11-28T11:29:52Z"
     },
     "H45": {
      "prevu": "2026-11-28T13:45:00Z",
@@ -269,8 +335,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 1.9,
+      "ampleur": 1.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -0.2,
+      "ampleur": 0.1,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.22,
+     "N": -0.3,
+     "2": 0.08
+    },
+    "marge": [
+     3.36,
+     3.01
+    ]
+   },
    "score": null
   },
   {
@@ -300,7 +406,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T11:30:02Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 8.04,
+      "N": 6.08,
+      "2": 1.35
+     },
+     "winamax": {
+      "1": 6.75,
+      "N": 5.5,
+      "2": 1.27
+     },
+     "maj_pinnacle": "2026-11-28T11:29:52Z"
     },
     "H45": {
      "prevu": "2026-11-28T13:45:00Z",
@@ -310,8 +429,50 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -8.7,
+      "ampleur": 5.3,
+      "raisons": []
+     },
+     "N": {
+      "feu": "rouge",
+      "fleche": "baisse",
+      "pct": -9.4,
+      "ampleur": 6.0,
+      "raisons": []
+     },
+     "2": {
+      "feu": "rouge",
+      "fleche": "hausse",
+      "pct": 5.5,
+      "ampleur": 10.3,
+      "raisons": [
+       "petite cote : mouvement plus fort qu'il n'y paraît"
+      ]
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Bayern Munich ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 1.21,
+     "N": 1.7,
+     "2": -2.9
+    },
+    "marge": [
+     4.38,
+     2.96
+    ]
+   },
    "score": null
   },
   {
@@ -341,7 +502,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T11:30:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T11:30:02Z",
+     "retard_min": 0,
+     "pinnacle": {
+      "1": 2.77,
+      "N": 3.51,
+      "2": 2.64
+     },
+     "winamax": {
+      "1": 2.4,
+      "N": 3.45,
+      "2": 2.4
+     },
+     "maj_pinnacle": "2026-11-28T11:29:52Z"
     },
     "H45": {
      "prevu": "2026-11-28T13:45:00Z",
@@ -351,8 +525,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 5.3,
+      "ampleur": 4.1,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.6,
+      "ampleur": 1.8,
+      "raisons": []
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -5.7,
+      "ampleur": 4.7,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "2",
+    "phrase": "Le marché annonce : FC Schalke 04 gagne (2)",
+    "incoherent": false,
+    "deplacement": {
+     "1": -1.69,
+     "N": -0.59,
+     "2": 2.28
+    },
+    "marge": [
+     2.98,
+     2.47
+    ]
+   },
    "score": null
   },
   {
@@ -930,5 +1144,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-28T11:00:56Z"
+ "maj": "2026-11-28T11:30:02Z"
 }
