@@ -45,7 +45,20 @@
     },
     "H45": {
      "prevu": "2026-11-28T12:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T12:15:57Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 1.65,
+      "N": 4.3,
+      "2": 5.25
+     },
+     "winamax": {
+      "1": 1.54,
+      "N": 4.0,
+      "2": 4.6
+     },
+     "maj_pinnacle": "2026-11-28T12:15:45Z"
     }
    },
    "compos": null,
@@ -55,30 +68,28 @@
     "issues": {
      "1": {
       "feu": "vert",
-      "fleche": "stable",
-      "pct": 0.0,
-      "ampleur": 0.0,
+      "fleche": "hausse",
+      "pct": 1.2,
+      "ampleur": 1.5,
       "raisons": []
      },
      "N": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "baisse",
-      "pct": -1.6,
-      "ampleur": 1.1,
-      "raisons": [
-       "Pinnacle et Winamax en sens opposé"
-      ]
+      "pct": -1.1,
+      "ampleur": 0.7,
+      "raisons": []
      },
      "2": {
-      "feu": "orange",
+      "feu": "vert",
       "fleche": "hausse",
-      "pct": 4.4,
-      "ampleur": 2.7,
+      "pct": 0.6,
+      "ampleur": 0.4,
       "raisons": []
      }
     },
-    "base": "H12-H3",
-    "provisoire": true,
+    "base": "H12-H45",
+    "provisoire": false,
     "partielle": false
    },
    "marche": {
@@ -86,13 +97,13 @@
     "phrase": "Le marché annonce : pas de mouvement net",
     "incoherent": false,
     "deplacement": {
-     "1": 0.25,
-     "N": 0.46,
-     "2": -0.71
+     "1": -0.39,
+     "N": 0.39,
+     "2": -0.0
     },
     "marge": [
      3.5,
-     3.06
+     2.91
     ]
    },
    "score": null
@@ -784,7 +795,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T12:15:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T12:15:57Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 4.77,
+      "N": 3.89,
+      "2": 1.78
+     },
+     "winamax": {
+      "1": 4.2,
+      "N": 3.65,
+      "2": 1.64
+     },
+     "maj_pinnacle": "2026-11-28T12:15:45Z"
     },
     "H45": {
      "prevu": "2026-11-28T14:30:00Z",
@@ -794,8 +818,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -3.4,
+      "ampleur": 2.2,
+      "raisons": []
+     },
+     "N": {
+      "feu": "vert",
+      "fleche": "baisse",
+      "pct": -1.0,
+      "ampleur": 0.7,
+      "raisons": []
+     },
+     "2": {
+      "feu": "vert",
+      "fleche": "hausse",
+      "pct": 2.3,
+      "ampleur": 2.6,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1N",
+    "phrase": "Le marché annonce : Athletic Bilbao ne gagne pas (1N)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.76,
+     "N": 0.33,
+     "2": -1.09
+    },
+    "marge": [
+     3.16,
+     2.85
+    ]
+   },
    "score": null
   },
   {
@@ -1250,5 +1314,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-28T12:00:55Z"
+ "maj": "2026-11-28T12:15:57Z"
 }
