@@ -28,7 +28,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T10:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T10:00:54Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 1.63,
+      "N": 4.28,
+      "2": 5.45
+     },
+     "winamax": {
+      "1": 1.52,
+      "N": 4.25,
+      "2": 4.9
+     },
+     "maj_pinnacle": "2026-11-28T10:00:26Z"
     },
     "H45": {
      "prevu": "2026-11-28T12:15:00Z",
@@ -38,8 +51,50 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "vert",
+      "fleche": "stable",
+      "pct": 0.0,
+      "ampleur": 0.0,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -1.6,
+      "ampleur": 1.1,
+      "raisons": [
+       "Pinnacle et Winamax en sens opposé"
+      ]
+     },
+     "2": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 4.4,
+      "ampleur": 2.7,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": null,
+    "phrase": "Le marché annonce : pas de mouvement net",
+    "incoherent": false,
+    "deplacement": {
+     "1": 0.25,
+     "N": 0.46,
+     "2": -0.71
+    },
+    "marge": [
+     3.5,
+     3.06
+    ]
+   },
    "score": null
   },
   {
@@ -822,5 +877,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-28T08:00:54Z"
+ "maj": "2026-11-28T10:00:54Z"
 }
