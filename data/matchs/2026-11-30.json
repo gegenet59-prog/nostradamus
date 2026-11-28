@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-30",
+ "matchs": [
+  {
+   "id": "f1d2a6064d1452074570bbc656d36a20",
+   "competition": "SA",
+   "coup_envoi": "2026-11-30T17:30:00Z",
+   "domicile": "Lecce",
+   "exterieur": "Atalanta BC",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-30T05:30:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-30T14:30:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-30T16:45:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "3d57da6bdb20b65145bc2479ee5f2ae7",
+   "competition": "SA",
+   "coup_envoi": "2026-11-30T19:45:00Z",
+   "domicile": "Cagliari",
+   "exterieur": "AC Milan",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-30T07:45:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-30T16:45:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-30T19:00:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  },
+  {
+   "id": "b648a7246af1d3a839b0fcd212849a7c",
+   "competition": "LIGA",
+   "coup_envoi": "2026-11-30T20:00:00Z",
+   "domicile": "Espanyol",
+   "exterieur": "Getafe",
+   "foot": null,
+   "releves": {
+    "H12": {
+     "prevu": "2026-11-30T08:00:00Z",
+     "etat": "attente"
+    },
+    "H3": {
+     "prevu": "2026-11-30T17:00:00Z",
+     "etat": "attente"
+    },
+    "H45": {
+     "prevu": "2026-11-30T19:15:00Z",
+     "etat": "attente"
+    }
+   },
+   "compos": null,
+   "compos_essais": [],
+   "absents": null,
+   "feux": null,
+   "marche": null,
+   "score": null
+  }
+ ],
+ "maj": "2026-11-28T10:59:55Z"
+}
