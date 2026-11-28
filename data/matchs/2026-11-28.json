@@ -124,7 +124,20 @@
     },
     "H3": {
      "prevu": "2026-11-28T11:00:00Z",
-     "etat": "attente"
+     "etat": "fait",
+     "fait_a": "2026-11-28T11:00:56Z",
+     "retard_min": 1,
+     "pinnacle": {
+      "1": 1.44,
+      "N": 5.34,
+      "2": 6.66
+     },
+     "winamax": {
+      "1": 1.36,
+      "N": 4.9,
+      "2": 5.7
+     },
+     "maj_pinnacle": "2026-11-28T11:00:26Z"
     },
     "H45": {
      "prevu": "2026-11-28T13:15:00Z",
@@ -134,8 +147,48 @@
    "compos": null,
    "compos_essais": [],
    "absents": null,
-   "feux": null,
-   "marche": null,
+   "feux": {
+    "issues": {
+     "1": {
+      "feu": "orange",
+      "fleche": "baisse",
+      "pct": -4.0,
+      "ampleur": 6.1,
+      "raisons": []
+     },
+     "N": {
+      "feu": "orange",
+      "fleche": "hausse",
+      "pct": 3.7,
+      "ampleur": 2.2,
+      "raisons": []
+     },
+     "2": {
+      "feu": "violet",
+      "fleche": "hausse",
+      "pct": 16.8,
+      "ampleur": 9.7,
+      "raisons": []
+     }
+    },
+    "base": "H12-H3",
+    "provisoire": true,
+    "partielle": false
+   },
+   "marche": {
+    "pari": "1",
+    "phrase": "Le marché annonce : Frosinone gagne (1)",
+    "incoherent": false,
+    "deplacement": {
+     "1": 2.97,
+     "N": -0.59,
+     "2": -2.38
+    },
+    "marge": [
+     3.63,
+     3.19
+    ]
+   },
    "score": null
   },
   {
@@ -877,5 +930,5 @@
    "score": null
   }
  ],
- "maj": "2026-11-28T10:00:54Z"
+ "maj": "2026-11-28T11:00:56Z"
 }
